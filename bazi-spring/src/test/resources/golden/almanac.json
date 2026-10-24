@@ -1,0 +1,2315 @@
+{
+ "meta": {
+  "source": "C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools",
+  "generated": "2026-10-19T09:40:18.404Z",
+  "fixtures": 53,
+  "description": "Almanac day info rendered by the original Timing.js via the real luxon build"
+ },
+ "results": [
+  {
+   "time": "2019-01-01T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "zi"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-01-01T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "open",
+    "constellation": "room",
+    "yellowBlack": "heavenPunishment",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "11 - Open",
+     "donggong": "x",
+     "constellation": "13 - Room",
+     "yellowBlackBelt": "3 - Heavenly Punishment",
+     "moon": "25",
+     "zhirun": "Yang 1",
+     "chaibu": "Yang 1"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-01-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "month": {
+     "stem": "yi",
+     "branch": "chou"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "zi"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-01-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "close",
+    "constellation": "wing",
+    "yellowBlack": "heavenPunishment",
+    "m3k": null,
+    "y3k": "calamity",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "12 - Close",
+     "donggong": "x",
+     "constellation": "27 - Wing",
+     "yellowBlackBelt": "3 - Heavenly Punishment",
+     "moon": "10",
+     "zhirun": "Yang 2",
+     "chaibu": "Yang 2"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-02-05T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "bing",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "you"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-02-05T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "danger",
+    "constellation": "beak",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": "calamity",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "8 - Danger",
+     "donggong": "x",
+     "constellation": "20 - Beak",
+     "yellowBlackBelt": "10 - Black Tortoise",
+     "moon": "1",
+     "zhirun": "Yang 9",
+     "chaibu": "Yang 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-02-28T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "bing",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "bing",
+     "branch": "shen"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-02-28T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "astride",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": "robbery",
+    "bigDisaster": true,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "x",
+     "constellation": "15 - Astride",
+     "yellowBlackBelt": "9 - Heavenly Jail",
+     "moon": "24",
+     "zhirun": "Yang 9",
+     "chaibu": "Yang 9"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-03-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "ding",
+     "branch": "mao"
+    },
+    "day": {
+     "stem": "xin",
+     "branch": "hai"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-03-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "success",
+    "constellation": "neck",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "9 - Success",
+     "donggong": "***",
+     "constellation": "2 - Neck",
+     "yellowBlackBelt": "10 - Black Tortoise",
+     "moon": "10",
+     "zhirun": "Yang 1",
+     "chaibu": "Yang 1"
+    },
+    "dongGongNum": "★★★"
+   }
+  },
+  {
+   "time": "2019-04-05T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "chen"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "shen"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-04-05T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "ghost",
+    "yellowBlack": "goldLock",
+    "m3k": null,
+    "y3k": "robbery",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "5 - Stable",
+     "donggong": "***",
+     "constellation": "23 - Ghost",
+     "yellowBlackBelt": "5 - Golden Lock",
+     "moon": "1",
+     "zhirun": "Yang 9",
+     "chaibu": "Yang 1"
+    },
+    "dongGongNum": "★★★"
+   }
+  },
+  {
+   "time": "2019-05-01T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "chen"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-05-01T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "orion",
+    "yellowBlack": "whiteTiger",
+    "m3k": null,
+    "y3k": "annual",
+    "bigDisaster": true,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "x",
+     "constellation": "21 - Orion",
+     "yellowBlackBelt": "7 - White Tiger",
+     "moon": "27",
+     "zhirun": "Yang 5",
+     "chaibu": "Yang 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-05-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "ji",
+     "branch": "si"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "zi"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-05-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "danger",
+    "constellation": "basket",
+    "yellowBlack": "whiteTiger",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "8 - Danger",
+     "donggong": "x",
+     "constellation": "7 - Basket",
+     "yellowBlackBelt": "7 - White Tiger",
+     "moon": "12",
+     "zhirun": "Yang 4",
+     "chaibu": "Yang 4"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-06-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "wei"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-06-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "remove",
+    "constellation": "weaving",
+    "yellowBlack": "grapplingHook",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "2 - Remove",
+     "donggong": "*",
+     "constellation": "10 - Weaving Maiden",
+     "yellowBlackBelt": "12 - Grappling Hook",
+     "moon": "13",
+     "zhirun": "Yang 6",
+     "chaibu": "Yang 6"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2019-07-01T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-01T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "initiate",
+    "constellation": "bow",
+    "yellowBlack": "redPhoenix",
+    "m3k": "robbery",
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "6 - Initiate",
+     "donggong": "*",
+     "constellation": "26 - Bow",
+     "yellowBlackBelt": "4 - Red Phoenix",
+     "moon": "29",
+     "zhirun": "Yin 3",
+     "chaibu": "Yin 3"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2019-07-02T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-02T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "wing",
+    "yellowBlack": "goldLock",
+    "m3k": "calamity",
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "x",
+     "constellation": "27 - Wing",
+     "yellowBlackBelt": "5 - Golden Lock",
+     "moon": "1",
+     "zhirun": "Yin 3",
+     "chaibu": "Yin 3"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-03T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "xin",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-03T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "danger",
+    "constellation": "carriage",
+    "yellowBlack": "preciousLight",
+    "m3k": "annual",
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "8 - Danger",
+     "donggong": "x",
+     "constellation": "28 - Carriage",
+     "yellowBlackBelt": "6 - Precious Light",
+     "moon": "2",
+     "zhirun": "Yin 3",
+     "chaibu": "Yin 3"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-04T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "yin"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-04T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "success",
+    "constellation": "horn",
+    "yellowBlack": "whiteTiger",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "9 - Success",
+     "donggong": "**",
+     "constellation": "1 - Horn",
+     "yellowBlackBelt": "7 - White Tiger",
+     "moon": "3",
+     "zhirun": "Yin 3",
+     "chaibu": "Yin 3"
+    },
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2019-07-05T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "mao"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-05T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "receive",
+    "constellation": "neck",
+    "yellowBlack": "jadeHall",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": true,
+    "other": {
+     "officer": "10 - Receive",
+     "donggong": "x",
+     "constellation": "2 - Neck",
+     "yellowBlackBelt": "8 - Jade Hall",
+     "moon": "4",
+     "zhirun": "Yin 3",
+     "chaibu": "Yin 3"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-06T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "jia",
+     "branch": "chen"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-06T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "open",
+    "constellation": "foundation",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "11 - Open",
+     "donggong": "x",
+     "constellation": "3 - Foundation",
+     "yellowBlackBelt": "9 - Heavenly Jail",
+     "moon": "5",
+     "zhirun": "Yin 6",
+     "chaibu": "Yin 6"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-07T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "yi",
+     "branch": "si"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-07T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "close",
+    "constellation": "house",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": true,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "12 - Close",
+     "donggong": "**",
+     "constellation": "4 - House",
+     "yellowBlackBelt": "10 - Black Tortoise",
+     "moon": "6",
+     "zhirun": "Yin 6",
+     "chaibu": "Yin 6"
+    },
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2019-07-08T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "bing",
+     "branch": "wu"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-08T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "close",
+    "constellation": "heart",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "12 - Close",
+     "donggong": "*",
+     "constellation": "5 - Heart",
+     "yellowBlackBelt": "9 - Heavenly Jail",
+     "moon": "7",
+     "zhirun": "Yin 6",
+     "chaibu": "Yin 5"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2019-07-09T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "ding",
+     "branch": "wei"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-09T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "establish",
+    "constellation": "tail",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "1 - Establish",
+     "donggong": "x",
+     "constellation": "6 - Tail",
+     "yellowBlackBelt": "10 - Black Tortoise",
+     "moon": "8",
+     "zhirun": "Yin 6",
+     "chaibu": "Yin 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-10T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "shen"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-10T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "remove",
+    "constellation": "basket",
+    "yellowBlack": "lifeGovernor",
+    "m3k": "robbery",
+    "y3k": "robbery",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "2 - Remove",
+     "donggong": "**",
+     "constellation": "7 - Basket",
+     "yellowBlackBelt": "11 - Life Governor",
+     "moon": "9",
+     "zhirun": "Yin 6",
+     "chaibu": "Yin 5"
+    },
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2019-07-11T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "ji",
+     "branch": "you"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-11T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "full",
+    "constellation": "dipper",
+    "yellowBlack": "grapplingHook",
+    "m3k": "calamity",
+    "y3k": "calamity",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "3 - Full",
+     "donggong": "x",
+     "constellation": "8 - Dipper",
+     "yellowBlackBelt": "12 - Grappling Hook",
+     "moon": "10",
+     "zhirun": "Yin 8",
+     "chaibu": "Yin 8"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-12T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "geng",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-12T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "balance",
+    "constellation": "ox",
+    "yellowBlack": "greenDragon",
+    "m3k": "annual",
+    "y3k": "annual",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": true,
+    "other": {
+     "officer": "4 - Balance",
+     "donggong": "x",
+     "constellation": "9 - Ox",
+     "yellowBlackBelt": "1 - Green Dragon",
+     "moon": "11",
+     "zhirun": "Yin 8",
+     "chaibu": "Yin 8"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-07-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-07-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "danger",
+    "yellowBlack": "redPhoenix",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "xx",
+     "constellation": "12 - Danger",
+     "yellowBlackBelt": "4 - Red Phoenix",
+     "moon": "14",
+     "zhirun": "Yin 8",
+     "chaibu": "Yin 8"
+    },
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2019-07-15T23:30:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "zi"
+    }
+   },
+   "infoTime": "2019-07-15T23:30:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "danger",
+    "yellowBlack": "redPhoenix",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "xx",
+     "constellation": "12 - Danger",
+     "yellowBlackBelt": "4 - Red Phoenix",
+     "moon": "14",
+     "zhirun": "Yin 8",
+     "chaibu": "Yin 8"
+    },
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2019-07-15T23:30:00+08:00",
+   "lateZi": true,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "jia",
+     "branch": "yin"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "zi"
+    }
+   },
+   "infoTime": "2019-07-15T23:30:00.000+08:00",
+   "dayInfo": {
+    "officer": "danger",
+    "constellation": "danger",
+    "yellowBlack": "goldLock",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "xx",
+     "constellation": "12 - Danger",
+     "yellowBlackBelt": "4 - Red Phoenix",
+     "moon": "14",
+     "zhirun": "Yin 8",
+     "chaibu": "Yin 8"
+    },
+    "dongGongNum": "★★★"
+   }
+  },
+  {
+   "time": "2019-08-01T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "geng",
+     "branch": "wu"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-08-01T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "close",
+    "constellation": "horn",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "12 - Close",
+     "donggong": "*",
+     "constellation": "1 - Horn",
+     "yellowBlackBelt": "9 - Heavenly Jail",
+     "moon": "1",
+     "zhirun": "Yin 1",
+     "chaibu": "Yin 1"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2019-09-13T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "gui",
+     "branch": "you"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-09-13T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "mound",
+    "yellowBlack": "grapplingHook",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "5 - Stable",
+     "donggong": "*",
+     "constellation": "16 - Mound",
+     "yellowBlackBelt": "12 - Grappling Hook",
+     "moon": "15",
+     "zhirun": "Yin 9",
+     "chaibu": "Yin 9"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2019-10-07T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "gui",
+     "branch": "you"
+    },
+    "day": {
+     "stem": "ding",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-10-07T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "danger",
+    "yellowBlack": "grapplingHook",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "5 - Stable",
+     "donggong": "*",
+     "constellation": "12 - Danger",
+     "yellowBlackBelt": "12 - Grappling Hook",
+     "moon": "9",
+     "zhirun": "Yin 4",
+     "chaibu": "Yin 4"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2019-11-11T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "yi",
+     "branch": "hai"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "zi"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-11-11T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "remove",
+    "constellation": "net",
+    "yellowBlack": "whiteTiger",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "2 - Remove",
+     "donggong": "x",
+     "constellation": "19 - Net",
+     "yellowBlackBelt": "7 - White Tiger",
+     "moon": "15",
+     "zhirun": "Yin 6",
+     "chaibu": "Yin 6"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-12-21T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "bing",
+     "branch": "zi"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "chen"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2019-12-21T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "foundation",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "5 - Stable",
+     "donggong": "**",
+     "constellation": "3 - Foundation",
+     "yellowBlackBelt": "9 - Heavenly Jail",
+     "moon": "25",
+     "zhirun": "Yin 1",
+     "chaibu": "Yin 1"
+    },
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2020-01-01T00:30:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "bing",
+     "branch": "zi"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "mao"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "zi"
+    }
+   },
+   "infoTime": "2020-01-01T00:30:00.000+08:00",
+   "dayInfo": {
+    "officer": "balance",
+    "constellation": "wall",
+    "yellowBlack": "jadeHall",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "4 - Balance",
+     "donggong": "x",
+     "constellation": "14 - Wall",
+     "yellowBlackBelt": "8 - Jade Hall",
+     "moon": "7",
+     "zhirun": "Yang 7",
+     "chaibu": "Yang 7"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-01-25T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "ding",
+     "branch": "chou"
+    },
+    "day": {
+     "stem": "ding",
+     "branch": "mao"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-01-25T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "full",
+    "constellation": "weaving",
+    "yellowBlack": "preciousLight",
+    "m3k": "calamity",
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "3 - Full",
+     "donggong": "x",
+     "constellation": "10 - Weaving Maiden",
+     "yellowBlackBelt": "6 - Precious Light",
+     "moon": "1",
+     "zhirun": "Yang 3",
+     "chaibu": "Yang 3"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-02-12T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "yi",
+     "branch": "you"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-02-12T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "danger",
+    "constellation": "carriage",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "8 - Danger",
+     "donggong": "x",
+     "constellation": "28 - Carriage",
+     "yellowBlackBelt": "10 - Black Tortoise",
+     "moon": "19",
+     "zhirun": "Yang 5",
+     "chaibu": "Yang 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-02-13T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "bing",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-02-13T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "success",
+    "constellation": "horn",
+    "yellowBlack": "lifeGovernor",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "9 - Success",
+     "donggong": "x",
+     "constellation": "1 - Horn",
+     "yellowBlackBelt": "11 - Life Governor",
+     "moon": "20",
+     "zhirun": "Yang 5",
+     "chaibu": "Yang 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-02-23T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "bing",
+     "branch": "shen"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-02-23T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "void",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "x",
+     "constellation": "11 - Void",
+     "yellowBlackBelt": "9 - Heavenly Jail",
+     "moon": "1",
+     "zhirun": "Yang 9",
+     "chaibu": "Yang 9"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-02-25T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-02-25T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "success",
+    "constellation": "room",
+    "yellowBlack": "lifeGovernor",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": true,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "9 - Success",
+     "donggong": "xx",
+     "constellation": "13 - Room",
+     "yellowBlackBelt": "11 - Life Governor",
+     "moon": "3",
+     "zhirun": "Yang 9",
+     "chaibu": "Yang 9"
+    },
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2020-03-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "ji",
+     "branch": "mao"
+    },
+    "day": {
+     "stem": "ding",
+     "branch": "si"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-03-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "full",
+    "constellation": "house",
+    "yellowBlack": "redPhoenix",
+    "m3k": null,
+    "y3k": "robbery",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "3 - Full",
+     "donggong": "*",
+     "constellation": "4 - House",
+     "yellowBlackBelt": "4 - Red Phoenix",
+     "moon": "22",
+     "zhirun": "Yang 7",
+     "chaibu": "Yang 7"
+    },
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2020-05-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "si"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "wu"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-05-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "remove",
+    "constellation": "ox",
+    "yellowBlack": "greenDragon",
+    "m3k": null,
+    "y3k": "calamity",
+    "bigDisaster": null,
+    "yearBreaker": true,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "2 - Remove",
+     "donggong": "x",
+     "constellation": "9 - Ox",
+     "yellowBlackBelt": "1 - Green Dragon",
+     "moon": "23",
+     "zhirun": "Yang 1",
+     "chaibu": "Yang 1"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-06-21T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "ren",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "yi",
+     "branch": "wei"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-06-21T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "remove",
+    "constellation": "pleiades",
+    "yellowBlack": "grapplingHook",
+    "m3k": null,
+    "y3k": "annual",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "2 - Remove",
+     "donggong": "x",
+     "constellation": "18 - Pleiades",
+     "yellowBlackBelt": "12 - Grappling Hook",
+     "moon": "1",
+     "zhirun": "Yin 9",
+     "chaibu": "Yin 9"
+    },
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2020-07-15T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "gui",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "ji",
+     "branch": "wei"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-07-15T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "establish",
+    "constellation": "wall",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": "annual",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "1 - Establish",
+     "donggong": "x",
+     "constellation": "14 - Wall",
+     "yellowBlackBelt": "10 - Black Tortoise",
+     "moon": "25",
+     "zhirun": "Yin 5",
+     "chaibu": "Yin 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-08-19T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "shen"
+    },
+    "day": {
+     "stem": "jia",
+     "branch": "wu"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-08-19T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "open",
+    "constellation": "orion",
+    "yellowBlack": "whiteTiger",
+    "m3k": "calamity",
+    "y3k": "calamity",
+    "bigDisaster": null,
+    "yearBreaker": true,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "11 - Open",
+     "donggong": "**",
+     "constellation": "21 - Orion",
+     "yellowBlackBelt": "7 - White Tiger",
+     "moon": "1",
+     "zhirun": "Yin 1",
+     "chaibu": "Yin 2"
+    },
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2020-08-20T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "shen"
+    },
+    "day": {
+     "stem": "yi",
+     "branch": "wei"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-08-20T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "close",
+    "constellation": "well",
+    "yellowBlack": "jadeHall",
+    "m3k": "annual",
+    "y3k": "annual",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2020-10-01T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "yi",
+     "branch": "you"
+    },
+    "day": {
+     "stem": "ding",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "bing",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2020-10-01T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "dipper",
+    "yellowBlack": "grapplingHook",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "★"
+   }
+  },
+  {
+   "time": "2021-02-12T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "xin",
+     "branch": "chou"
+    },
+    "month": {
+     "stem": "geng",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "xin",
+     "branch": "mao"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2021-02-12T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "remove",
+    "constellation": "neck",
+    "yellowBlack": "redPhoenix",
+    "m3k": null,
+    "y3k": "calamity",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2021-06-17T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "xin",
+     "branch": "chou"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "bing",
+     "branch": "shen"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2021-06-17T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "full",
+    "constellation": "astride",
+    "yellowBlack": "greenDragon",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": true,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2021-06-19T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "xin",
+     "branch": "chou"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "wu"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2021-06-19T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "stomach",
+    "yellowBlack": "heavenPunishment",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": true,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "★★★"
+   }
+  },
+  {
+   "time": "2022-12-11T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ren",
+     "branch": "yin"
+    },
+    "month": {
+     "stem": "ren",
+     "branch": "zi"
+    },
+    "day": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "wu",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2022-12-11T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "open",
+    "constellation": "star",
+    "yellowBlack": "heavenPunishment",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": true,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2023-03-03T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "gui",
+     "branch": "mao"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "geng",
+     "branch": "shen"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2023-03-03T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "ghost",
+    "yellowBlack": "heavenJail",
+    "m3k": null,
+    "y3k": "robbery",
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2018-09-09T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "you"
+    },
+    "day": {
+     "stem": "jia",
+     "branch": "chen"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2018-09-09T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "danger",
+    "constellation": "void",
+    "yellowBlack": "heavenPunishment",
+    "m3k": "annual",
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": true,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2018-03-03T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "wu",
+     "branch": "xu"
+    },
+    "month": {
+     "stem": "jia",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "jia",
+     "branch": "wu"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2018-03-03T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "stable",
+    "constellation": "stomach",
+    "yellowBlack": "whiteTiger",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "★★"
+   }
+  },
+  {
+   "time": "2017-07-07T12:00:00+08:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ding",
+     "branch": "you"
+    },
+    "month": {
+     "stem": "ding",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "yi",
+     "branch": "wei"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "wu"
+    }
+   },
+   "infoTime": "2017-07-07T12:00:00.000+08:00",
+   "dayInfo": {
+    "officer": "establish",
+    "constellation": "neck",
+    "yellowBlack": "blackTortoise",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": null,
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2019-07-15T23:30:00-05:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "xin",
+     "branch": "wei"
+    },
+    "day": {
+     "stem": "gui",
+     "branch": "chou"
+    },
+    "hour": {
+     "stem": "jia",
+     "branch": "zi"
+    }
+   },
+   "infoTime": "2019-07-15T23:30:00.000-05:00",
+   "dayInfo": {
+    "officer": "destruction",
+    "constellation": "danger",
+    "yellowBlack": "redPhoenix",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": true,
+    "monthDestructor": false,
+    "other": {
+     "officer": "7 - Destruction",
+     "donggong": "xx",
+     "constellation": "12 - Danger",
+     "yellowBlackBelt": "4 - Red Phoenix",
+     "moon": "14",
+     "zhirun": "Yin 8",
+     "chaibu": "Yin 8"
+    },
+    "dongGongNum": "✕✕"
+   }
+  },
+  {
+   "time": "2020-02-13T23:00:00-05:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "geng",
+     "branch": "zi"
+    },
+    "month": {
+     "stem": "wu",
+     "branch": "yin"
+    },
+    "day": {
+     "stem": "bing",
+     "branch": "xu"
+    },
+    "hour": {
+     "stem": "geng",
+     "branch": "zi"
+    }
+   },
+   "infoTime": "2020-02-13T23:00:00.000-05:00",
+   "dayInfo": {
+    "officer": "success",
+    "constellation": "horn",
+    "yellowBlack": "lifeGovernor",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "9 - Success",
+     "donggong": "x",
+     "constellation": "1 - Horn",
+     "yellowBlackBelt": "11 - Life Governor",
+     "moon": "20",
+     "zhirun": "Yang 5",
+     "chaibu": "Yang 5"
+    },
+    "dongGongNum": "✕"
+   }
+  },
+  {
+   "time": "2019-12-31T23:30:00+11:00",
+   "lateZi": false,
+   "hourUnknown": false,
+   "pillars": {
+    "year": {
+     "stem": "ji",
+     "branch": "hai"
+    },
+    "month": {
+     "stem": "bing",
+     "branch": "zi"
+    },
+    "day": {
+     "stem": "ren",
+     "branch": "yin"
+    },
+    "hour": {
+     "stem": "ren",
+     "branch": "zi"
+    }
+   },
+   "infoTime": "2019-12-31T23:30:00.000+11:00",
+   "dayInfo": {
+    "officer": "full",
+    "constellation": "room",
+    "yellowBlack": "whiteTiger",
+    "m3k": null,
+    "y3k": null,
+    "bigDisaster": null,
+    "yearBreaker": false,
+    "monthBreaker": false,
+    "monthDestructor": false,
+    "other": {
+     "officer": "3 - Full",
+     "donggong": "***",
+     "constellation": "13 - Room",
+     "yellowBlackBelt": "7 - White Tiger",
+     "moon": "6",
+     "zhirun": "Yang 7",
+     "chaibu": "Yang 7"
+    },
+    "dongGongNum": "★★★"
+   }
+  }
+ ]
+}

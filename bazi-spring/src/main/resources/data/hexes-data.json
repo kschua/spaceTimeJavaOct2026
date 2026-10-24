@@ -1,0 +1,1441 @@
+{
+ "horary": {
+  "stems": [
+   "zhen",
+   "xun",
+   "li",
+   "li",
+   "gen",
+   "kun",
+   "qian",
+   "dui",
+   "kan",
+   "kan"
+  ],
+  "branches": [
+   "kan",
+   "gen",
+   "zhen",
+   "xun",
+   "kun",
+   "li",
+   "li",
+   "kun",
+   "qian",
+   "dui",
+   "gen",
+   "kan"
+  ]
+ },
+ "horaryTable": {
+  "gui-si": "000111",
+  "ding-chou": "000011",
+  "bing-xu": "000101",
+  "ji-mao": "000001",
+  "ji-si": "000110",
+  "ji-hai": "000010",
+  "ji-chou": "000100",
+  "ji-wei": "000000",
+  "wu-shen": "010110",
+  "gui-chou": "100011",
+  "wu-wu": "100101",
+  "wu-yin": "100001",
+  "wu-chen": "100110",
+  "wu-zi": "100010",
+  "wu-xu": "100100",
+  "ji-you": "100000",
+  "ren-shen": "010111",
+  "ren-chen": "010011",
+  "ren-wu": "010101",
+  "ren-yin": "010001",
+  "ren-zi": "010010",
+  "ren-xu": "010100",
+  "gui-wei": "010000",
+  "xin-you": "011011",
+  "gui-mao": "110011",
+  "bing-zi": "110101",
+  "yi-mao": "110001",
+  "geng-chen": "111110",
+  "yi-hai": "110010",
+  "jia-xu": "110100",
+  "jia-chen": "001110",
+  "yi-si": "001111",
+  "yi-you": "001011",
+  "jia-wu": "001101",
+  "jia-yin": "001001",
+  "jia-zi": "001010",
+  "ding-hai": "001100",
+  "yi-wei": "001000",
+  "ding-si": "101111",
+  "ding-you": "101011",
+  "bing-wu": "101101",
+  "ding-mao": "101001",
+  "bing-chen": "101110",
+  "gui-hai": "101010",
+  "ding-wei": "101100",
+  "bing-yin": "101000",
+  "xin-hai": "011111",
+  "xin-si": "011101",
+  "xin-mao": "011001",
+  "jia-shen": "011110",
+  "yi-chou": "011010",
+  "xin-chou": "011100",
+  "xin-wei": "011000",
+  "geng-shen": "111111",
+  "geng-xu": "111100",
+  "geng-wu": "111101",
+  "geng-yin": "111001",
+  "geng-zi": "111010",
+  "bing-shen": "111000"
+ },
+ "order": [
+  {
+   "englishName": "initiating",
+   "English Name 2": "heaven",
+   "element": "metal",
+   "number": 1,
+   "chineseShort": "乾",
+   "chineseLong": "乾为天",
+   "stem": "jia",
+   "branch": "wu",
+   "pillar": "jia-wu",
+   "guaQi": 9,
+   "guaYun": 1,
+   "group": "qian",
+   "hexagram": "䷀",
+   "binary": "111111",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "responding",
+   "English Name 2": "earth",
+   "element": "earth",
+   "number": 2,
+   "chineseShort": "坤",
+   "chineseLong": "坤为地",
+   "stem": "jia",
+   "branch": "zi",
+   "pillar": "jia-zi",
+   "guaQi": 1,
+   "guaYun": 1,
+   "group": "kun",
+   "hexagram": "䷁",
+   "binary": "000000",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "beginning",
+   "English Name 2": "beginning",
+   "element": "water",
+   "number": 3,
+   "chineseShort": "屯",
+   "chineseLong": "水雷屯",
+   "stem": "wu",
+   "branch": "zi",
+   "pillar": "wu-zi",
+   "guaQi": 7,
+   "guaYun": 4,
+   "group": "zhen",
+   "hexagram": "䷂",
+   "binary": "010001",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "childhood",
+   "English Name 2": "bliss",
+   "element": "fire",
+   "number": 4,
+   "chineseShort": "蒙",
+   "chineseLong": "山水蒙",
+   "stem": "geng",
+   "branch": "shen",
+   "pillar": "geng-shen",
+   "guaQi": 6,
+   "guaYun": 2,
+   "group": "kan",
+   "hexagram": "䷃",
+   "binary": "100010",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "needing",
+   "English Name 2": "waiting",
+   "element": "earth",
+   "number": 5,
+   "chineseShort": "需",
+   "chineseLong": "水天需",
+   "stem": "yi",
+   "branch": "si",
+   "pillar": "yi-si",
+   "guaQi": 7,
+   "guaYun": 3,
+   "group": "qian",
+   "hexagram": "䷄",
+   "binary": "010111",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "contention",
+   "English Name 2": "litigation",
+   "element": "fire",
+   "number": 6,
+   "chineseShort": "讼",
+   "chineseLong": "天水讼",
+   "stem": "xin",
+   "branch": "wei",
+   "pillar": "xin-wei",
+   "guaQi": 9,
+   "guaYun": 3,
+   "group": "kan",
+   "hexagram": "䷅",
+   "binary": "111010",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "multitude",
+   "English Name 2": "officer",
+   "element": "water",
+   "number": 7,
+   "chineseShort": "师",
+   "chineseLong": "地水师",
+   "stem": "ren",
+   "branch": "shen",
+   "pillar": "ren-shen",
+   "guaQi": 1,
+   "guaYun": 7,
+   "group": "kan",
+   "hexagram": "䷆",
+   "binary": "000010",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "union",
+   "English Name 2": "alliance",
+   "element": "earth",
+   "number": 8,
+   "chineseShort": "比",
+   "chineseLong": "水地比",
+   "stem": "xin",
+   "branch": "hai",
+   "pillar": "xin-hai",
+   "guaQi": 7,
+   "guaYun": 7,
+   "group": "kun",
+   "hexagram": "䷇",
+   "binary": "010000",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "little accumulation",
+   "English Name 2": "small livestock",
+   "element": "wood",
+   "number": 9,
+   "chineseShort": "小畜",
+   "chineseLong": "风天小畜",
+   "stem": "ding",
+   "branch": "si",
+   "pillar": "ding-si",
+   "guaQi": 2,
+   "guaYun": 8,
+   "group": "qian",
+   "hexagram": "䷈",
+   "binary": "110111",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "fulfillment",
+   "English Name 2": "tread",
+   "element": "earth",
+   "number": 10,
+   "chineseShort": "履",
+   "chineseLong": "天泽履",
+   "stem": "wu",
+   "branch": "chen",
+   "pillar": "wu-chen",
+   "guaQi": 9,
+   "guaYun": 6,
+   "group": "dui",
+   "hexagram": "䷉",
+   "binary": "111011",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "advance",
+   "English Name 2": "unity",
+   "element": "earth",
+   "number": 11,
+   "chineseShort": "泰",
+   "chineseLong": "地天泰",
+   "stem": "geng",
+   "branch": "chen",
+   "pillar": "geng-chen",
+   "guaQi": 1,
+   "guaYun": 9,
+   "group": "qian",
+   "hexagram": "䷊",
+   "binary": "000111",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "hindrance",
+   "English Name 2": "stagnation",
+   "element": "metal",
+   "number": 12,
+   "chineseShort": "否",
+   "chineseLong": "天地否",
+   "stem": "geng",
+   "branch": "xu",
+   "pillar": "geng-xu",
+   "guaQi": 9,
+   "guaYun": 9,
+   "group": "kun",
+   "hexagram": "䷋",
+   "binary": "111000",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "seeking harmony",
+   "English Name 2": "fellowship",
+   "element": "fire",
+   "number": 13,
+   "chineseShort": "同人",
+   "chineseLong": "天火同人",
+   "stem": "ren",
+   "branch": "yin",
+   "pillar": "ren-yin",
+   "guaQi": 9,
+   "guaYun": 7,
+   "group": "li",
+   "hexagram": "䷌",
+   "binary": "111101",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "great harvest",
+   "English Name 2": "great reward",
+   "element": "metal",
+   "number": 14,
+   "chineseShort": "大有",
+   "chineseLong": "火天大有",
+   "stem": "xin",
+   "branch": "si",
+   "pillar": "xin-si",
+   "guaQi": 3,
+   "guaYun": 7,
+   "group": "qian",
+   "hexagram": "䷍",
+   "binary": "101111",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "humbleness",
+   "English Name 2": "humility",
+   "element": "metal",
+   "number": 15,
+   "chineseShort": "谦",
+   "chineseLong": "地山谦",
+   "stem": "wu",
+   "branch": "xu",
+   "pillar": "wu-xu",
+   "guaQi": 1,
+   "guaYun": 6,
+   "group": "gen",
+   "hexagram": "䷎",
+   "binary": "000100",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "delight",
+   "English Name 2": "delight",
+   "element": "wood",
+   "number": 16,
+   "chineseShort": "豫",
+   "chineseLong": "雷地豫",
+   "stem": "ding",
+   "branch": "hai",
+   "pillar": "ding-hai",
+   "guaQi": 8,
+   "guaYun": 8,
+   "group": "kun",
+   "hexagram": "䷏",
+   "binary": "001000",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "following",
+   "English Name 2": "following",
+   "element": "wood",
+   "number": 17,
+   "chineseShort": "随",
+   "chineseLong": "泽雷随",
+   "stem": "ding",
+   "branch": "chou",
+   "pillar": "ding-chou",
+   "guaQi": 4,
+   "guaYun": 7,
+   "group": "zhen",
+   "hexagram": "䷐",
+   "binary": "011001",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "remedying",
+   "English Name 2": "poison",
+   "element": "wood",
+   "number": 18,
+   "chineseShort": "蛊",
+   "chineseLong": "山风蛊",
+   "stem": "ding",
+   "branch": "wei",
+   "pillar": "ding-wei",
+   "guaQi": 6,
+   "guaYun": 7,
+   "group": "xun",
+   "hexagram": "䷑",
+   "binary": "100110",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "approaching",
+   "English Name 2": "arriving",
+   "element": "earth",
+   "number": 19,
+   "chineseShort": "临",
+   "chineseLong": "地泽临",
+   "stem": "yi",
+   "branch": "mao",
+   "pillar": "yi-mao",
+   "guaQi": 1,
+   "guaYun": 4,
+   "group": "dui",
+   "hexagram": "䷒",
+   "binary": "000011",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "watching",
+   "English Name 2": "observation",
+   "element": "metal",
+   "number": 20,
+   "chineseShort": "观",
+   "chineseLong": "风地观",
+   "stem": "ji",
+   "branch": "hai",
+   "pillar": "ji-hai",
+   "guaQi": 2,
+   "guaYun": 2,
+   "group": "kun",
+   "hexagram": "䷓",
+   "binary": "110000",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "eradicating",
+   "English Name 2": "biting",
+   "element": "wood",
+   "number": 21,
+   "chineseShort": "噬嗑",
+   "chineseLong": "火雷噬嗑",
+   "stem": "yi",
+   "branch": "chou",
+   "pillar": "yi-chou",
+   "guaQi": 3,
+   "guaYun": 6,
+   "group": "zhen",
+   "hexagram": "䷔",
+   "binary": "101001",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "adorning",
+   "English Name 2": "beauty",
+   "element": "earth",
+   "number": 22,
+   "chineseShort": "贲",
+   "chineseLong": "山火贲",
+   "stem": "gui",
+   "branch": "chou",
+   "pillar": "gui-chou",
+   "guaQi": 6,
+   "guaYun": 8,
+   "group": "li",
+   "hexagram": "䷕",
+   "binary": "100101",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "falling away",
+   "English Name 2": "peel",
+   "element": "metal",
+   "number": 23,
+   "chineseShort": "剥",
+   "chineseLong": "山地剥",
+   "stem": "gui",
+   "branch": "hai",
+   "pillar": "gui-hai",
+   "guaQi": 6,
+   "guaYun": 6,
+   "group": "kun",
+   "hexagram": "䷖",
+   "binary": "100000",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "turning back",
+   "English Name 2": "returning",
+   "element": "earth",
+   "number": 24,
+   "chineseShort": "复",
+   "chineseLong": "地雷复",
+   "stem": "jia",
+   "branch": "zi",
+   "pillar": "jia-zi",
+   "guaQi": 1,
+   "guaYun": 8,
+   "group": "zhen",
+   "hexagram": "䷗",
+   "binary": "000001",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "without falsehood",
+   "English Name 2": "without wrongdoing",
+   "element": "wood",
+   "number": 25,
+   "chineseShort": "无妄",
+   "chineseLong": "天雷无妄",
+   "stem": "ji",
+   "branch": "chou",
+   "pillar": "ji-chou",
+   "guaQi": 9,
+   "guaYun": 2,
+   "group": "zhen",
+   "hexagram": "䷘",
+   "binary": "111001",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "great accumulation",
+   "English Name 2": "big livestock",
+   "element": "earth",
+   "number": 26,
+   "chineseShort": "大畜",
+   "chineseLong": "山天大畜",
+   "stem": "ren",
+   "branch": "chen",
+   "pillar": "ren-chen",
+   "guaQi": 6,
+   "guaYun": 4,
+   "group": "qian",
+   "hexagram": "䷙",
+   "binary": "100111",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "nourishing",
+   "English Name 2": "nourish",
+   "element": "wood",
+   "number": 27,
+   "chineseShort": "颐",
+   "chineseLong": "山雷颐",
+   "stem": "bing",
+   "branch": "zi",
+   "pillar": "bing-zi",
+   "guaQi": 6,
+   "guaYun": 3,
+   "group": "zhen",
+   "hexagram": "䷚",
+   "binary": "100001",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "great exceeding",
+   "English Name 2": "great exceeding",
+   "element": "wood",
+   "number": 28,
+   "chineseShort": "大过",
+   "chineseLong": "泽风大过",
+   "stem": "bing",
+   "branch": "wu",
+   "pillar": "bing-wu",
+   "guaQi": 4,
+   "guaYun": 3,
+   "group": "xun",
+   "hexagram": "䷛",
+   "binary": "011110",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "darkness",
+   "English Name 2": "water",
+   "element": "water",
+   "number": 29,
+   "chineseShort": "坎",
+   "chineseLong": "坎为水",
+   "stem": "geng",
+   "branch": "shen",
+   "pillar": "geng-shen",
+   "guaQi": 7,
+   "guaYun": 1,
+   "group": "kan",
+   "hexagram": "䷜",
+   "binary": "010010",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "brightness",
+   "English Name 2": "fire",
+   "element": "fire",
+   "number": 30,
+   "chineseShort": "离",
+   "chineseLong": "离为火",
+   "stem": "geng",
+   "branch": "yin",
+   "pillar": "geng-yin",
+   "guaQi": 3,
+   "guaYun": 1,
+   "group": "li",
+   "hexagram": "䷝",
+   "binary": "101101",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "mutual influence",
+   "English Name 2": "influence",
+   "element": "metal",
+   "number": 31,
+   "chineseShort": "咸",
+   "chineseLong": "泽山咸",
+   "stem": "ding",
+   "branch": "you",
+   "pillar": "ding-you",
+   "guaQi": 4,
+   "guaYun": 9,
+   "group": "gen",
+   "hexagram": "䷞",
+   "binary": "011100",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "long lasting",
+   "English Name 2": "consistency",
+   "element": "wood",
+   "number": 32,
+   "chineseShort": "恒",
+   "chineseLong": "雷风恒",
+   "stem": "geng",
+   "branch": "wu",
+   "pillar": "geng-wu",
+   "guaQi": 8,
+   "guaYun": 9,
+   "group": "xun",
+   "hexagram": "䷟",
+   "binary": "001110",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "retreat",
+   "English Name 2": "retreat",
+   "element": "metal",
+   "number": 33,
+   "chineseShort": "遯",
+   "chineseLong": "天山遯",
+   "stem": "yi",
+   "branch": "you",
+   "pillar": "yi-you",
+   "guaQi": 9,
+   "guaYun": 4,
+   "group": "gen",
+   "hexagram": "䷠",
+   "binary": "111100",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "great strength",
+   "English Name 2": "great strength",
+   "element": "earth",
+   "number": 34,
+   "chineseShort": "大壮",
+   "chineseLong": "雷天大壮",
+   "stem": "ji",
+   "branch": "si",
+   "pillar": "ji-si",
+   "guaQi": 8,
+   "guaYun": 2,
+   "group": "qian",
+   "hexagram": "䷡",
+   "binary": "001111",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "proceeding forward",
+   "English Name 2": "advancement",
+   "element": "metal",
+   "number": 35,
+   "chineseShort": "晋",
+   "chineseLong": "火地晋",
+   "stem": "yi",
+   "branch": "hai",
+   "pillar": "yi-hai",
+   "guaQi": 3,
+   "guaYun": 3,
+   "group": "kun",
+   "hexagram": "䷢",
+   "binary": "101000",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "brilliance injured",
+   "English Name 2": "dimming light",
+   "element": "water",
+   "number": 36,
+   "chineseShort": "明夷",
+   "chineseLong": "地火明夷",
+   "stem": "xin",
+   "branch": "chou",
+   "pillar": "xin-chou",
+   "guaQi": 1,
+   "guaYun": 3,
+   "group": "li",
+   "hexagram": "䷣",
+   "binary": "000101",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "household",
+   "English Name 2": "family",
+   "element": "wood",
+   "number": 37,
+   "chineseShort": "家人",
+   "chineseLong": "风火家人",
+   "stem": "bing",
+   "branch": "yin",
+   "pillar": "bing-yin",
+   "guaQi": 2,
+   "guaYun": 4,
+   "group": "li",
+   "hexagram": "䷤",
+   "binary": "110101",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "diversity",
+   "English Name 2": "opposition",
+   "element": "earth",
+   "number": 38,
+   "chineseShort": "睽",
+   "chineseLong": "火泽睽",
+   "stem": "jia",
+   "branch": "chen",
+   "pillar": "jia-chen",
+   "guaQi": 3,
+   "guaYun": 2,
+   "group": "dui",
+   "hexagram": "䷥",
+   "binary": "101011",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "hardship",
+   "English Name 2": "obstruction",
+   "element": "metal",
+   "number": 39,
+   "chineseShort": "蹇",
+   "chineseLong": "水山蹇",
+   "stem": "jia",
+   "branch": "xu",
+   "pillar": "jia-xu",
+   "guaQi": 7,
+   "guaYun": 2,
+   "group": "gen",
+   "hexagram": "䷦",
+   "binary": "010100",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "relief",
+   "English Name 2": "relief",
+   "element": "wood",
+   "number": 40,
+   "chineseShort": "解",
+   "chineseLong": "雷水解",
+   "stem": "bing",
+   "branch": "shen",
+   "pillar": "bing-shen",
+   "guaQi": 8,
+   "guaYun": 4,
+   "group": "kan",
+   "hexagram": "䷧",
+   "binary": "001010",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "decreasing",
+   "English Name 2": "decreasing",
+   "element": "earth",
+   "number": 41,
+   "chineseShort": "损",
+   "chineseLong": "山泽损",
+   "stem": "ding",
+   "branch": "mao",
+   "pillar": "ding-mao",
+   "guaQi": 6,
+   "guaYun": 9,
+   "group": "dui",
+   "hexagram": "䷨",
+   "binary": "100011",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "increasing",
+   "English Name 2": "increasing",
+   "element": "wood",
+   "number": 42,
+   "chineseShort": "益",
+   "chineseLong": "风雷益",
+   "stem": "geng",
+   "branch": "zi",
+   "pillar": "geng-zi",
+   "guaQi": 2,
+   "guaYun": 9,
+   "group": "zhen",
+   "hexagram": "䷩",
+   "binary": "110001",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "eliminating",
+   "English Name 2": "eliminating",
+   "element": "earth",
+   "number": 43,
+   "chineseShort": "夬",
+   "chineseLong": "风天夬",
+   "stem": "gui",
+   "branch": "si",
+   "pillar": "gui-si",
+   "guaQi": 4,
+   "guaYun": 6,
+   "group": "qian",
+   "hexagram": "䷪",
+   "binary": "011111",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "encountering",
+   "English Name 2": "meeting",
+   "element": "metal",
+   "number": 44,
+   "chineseShort": "姤",
+   "chineseLong": "天风姤",
+   "stem": "jia",
+   "branch": "wu",
+   "pillar": "jia-wu",
+   "guaQi": 9,
+   "guaYun": 8,
+   "group": "xun",
+   "hexagram": "䷫",
+   "binary": "111110",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "bringing together",
+   "English Name 2": "gathering",
+   "element": "metal",
+   "number": 45,
+   "chineseShort": "萃",
+   "chineseLong": "泽地萃",
+   "stem": "ren",
+   "branch": "xu",
+   "pillar": "ren-xu",
+   "guaQi": 4,
+   "guaYun": 4,
+   "group": "kun",
+   "hexagram": "䷬",
+   "binary": "011000",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "growing upward",
+   "English Name 2": "rising",
+   "element": "wood",
+   "number": 46,
+   "chineseShort": "升",
+   "chineseLong": "地风升",
+   "stem": "ji",
+   "branch": "wei",
+   "pillar": "ji-wei",
+   "guaQi": 1,
+   "guaYun": 2,
+   "group": "xun",
+   "hexagram": "䷭",
+   "binary": "000110",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "exhausting",
+   "English Name 2": "trap",
+   "element": "metal",
+   "number": 47,
+   "chineseShort": "困",
+   "chineseLong": "泽水困",
+   "stem": "gui",
+   "branch": "wei",
+   "pillar": "gui-wei",
+   "guaQi": 4,
+   "guaYun": 8,
+   "group": "kan",
+   "hexagram": "䷮",
+   "binary": "011010",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "replenishing",
+   "English Name 2": "well",
+   "element": "wood",
+   "number": 48,
+   "chineseShort": "井",
+   "chineseLong": "水风井",
+   "stem": "yi",
+   "branch": "wei",
+   "pillar": "yi-wei",
+   "guaQi": 7,
+   "guaYun": 6,
+   "group": "xun",
+   "hexagram": "䷯",
+   "binary": "010110",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "abolishing the old",
+   "English Name 2": "reform",
+   "element": "water",
+   "number": 49,
+   "chineseShort": "革",
+   "chineseLong": "泽火革",
+   "stem": "geng",
+   "branch": "yin",
+   "pillar": "geng-yin",
+   "guaQi": 4,
+   "guaYun": 2,
+   "group": "li",
+   "hexagram": "䷝",
+   "binary": "011101",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "establishing the new",
+   "English Name 2": "the cauldron",
+   "element": "fire",
+   "number": 50,
+   "chineseShort": "鼎",
+   "chineseLong": "火风鼎",
+   "stem": "wu",
+   "branch": "wu",
+   "pillar": "wu-wu",
+   "guaQi": 3,
+   "guaYun": 4,
+   "group": "xun",
+   "hexagram": "䷱",
+   "binary": "101110",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "taking action",
+   "English Name 2": "thunder",
+   "element": "wood",
+   "number": 51,
+   "chineseShort": "震",
+   "chineseLong": "震为雷",
+   "stem": "ren",
+   "branch": "zi",
+   "pillar": "ren-zi",
+   "guaQi": 8,
+   "guaYun": 1,
+   "group": "zhen",
+   "hexagram": "䷲",
+   "binary": "001001",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "keeping still",
+   "English Name 2": "mountain",
+   "element": "earth",
+   "number": 52,
+   "chineseShort": "艮",
+   "chineseLong": "艮为山",
+   "stem": "bing",
+   "branch": "xu",
+   "pillar": "bing-xu",
+   "guaQi": 6,
+   "guaYun": 1,
+   "group": "gen",
+   "hexagram": "䷳",
+   "binary": "100100",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "developing gradually",
+   "English Name 2": "gradual progress",
+   "element": "earth",
+   "number": 53,
+   "chineseShort": "渐",
+   "chineseLong": "风山渐",
+   "stem": "gui",
+   "branch": "you",
+   "pillar": "gui-you",
+   "guaQi": 2,
+   "guaYun": 7,
+   "group": "gen",
+   "hexagram": "䷴",
+   "binary": "110100",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "marrying maiden",
+   "English Name 2": "marrying maiden",
+   "element": "metal",
+   "number": 54,
+   "chineseShort": "归妹",
+   "chineseLong": "雷泽归妹",
+   "stem": "gui",
+   "branch": "mao",
+   "pillar": "gui-mao",
+   "guaQi": 8,
+   "guaYun": 7,
+   "group": "dui",
+   "hexagram": "䷵",
+   "binary": "001011",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "abundance",
+   "English Name 2": "abundance",
+   "element": "water",
+   "number": 55,
+   "chineseShort": "丰",
+   "chineseLong": "雷火丰",
+   "stem": "wu",
+   "branch": "yin",
+   "pillar": "wu-yin",
+   "guaQi": 8,
+   "guaYun": 6,
+   "group": "li",
+   "hexagram": "䷶",
+   "binary": "001101",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "travelling",
+   "English Name 2": "travelling",
+   "element": "fire",
+   "number": 56,
+   "chineseShort": "旅",
+   "chineseLong": "火山旅",
+   "stem": "ji",
+   "branch": "you",
+   "pillar": "ji-you",
+   "guaQi": 3,
+   "guaYun": 8,
+   "group": "gen",
+   "hexagram": "䷷",
+   "binary": "101100",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "proceeding humbly",
+   "English Name 2": "wind",
+   "element": "wood",
+   "number": 57,
+   "chineseShort": "巽",
+   "chineseLong": "巽为风",
+   "stem": "ren",
+   "branch": "wu",
+   "pillar": "ren-wu",
+   "guaQi": 2,
+   "guaYun": 1,
+   "group": "xun",
+   "hexagram": "䷸",
+   "binary": "110110",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "joyful",
+   "English Name 2": "marsh",
+   "element": "metal",
+   "number": 58,
+   "chineseShort": "兑",
+   "chineseLong": "兑为泽",
+   "stem": "bing",
+   "branch": "chen",
+   "pillar": "bing-chen",
+   "guaQi": 4,
+   "guaYun": 1,
+   "group": "dui",
+   "hexagram": "䷹",
+   "binary": "011011",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "dispersing",
+   "English Name 2": "dispersing",
+   "element": "fire",
+   "number": 59,
+   "chineseShort": "涣",
+   "chineseLong": "风水涣",
+   "stem": "wu",
+   "branch": "shen",
+   "pillar": "wu-shen",
+   "guaQi": 2,
+   "guaYun": 6,
+   "group": "kan",
+   "hexagram": "䷺",
+   "binary": "110010",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "restricting",
+   "English Name 2": "regulate",
+   "element": "water",
+   "number": 60,
+   "chineseShort": "节",
+   "chineseLong": "水泽节",
+   "stem": "ji",
+   "branch": "mao",
+   "pillar": "ji-mao",
+   "guaQi": 7,
+   "guaYun": 8,
+   "group": "dui",
+   "hexagram": "䷻",
+   "binary": "010011",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "innermost sincerity",
+   "English Name 2": "sincerity",
+   "element": "earth",
+   "number": 61,
+   "chineseShort": "中孚",
+   "chineseLong": "风泽中孚",
+   "stem": "xin",
+   "branch": "mao",
+   "pillar": "xin-mao",
+   "guaQi": 2,
+   "guaYun": 3,
+   "group": "dui",
+   "hexagram": "䷼",
+   "binary": "110011",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "little exceeding",
+   "English Name 2": "lesser exceeding",
+   "element": "metal",
+   "number": 62,
+   "chineseShort": "小过",
+   "chineseLong": "雷山小过",
+   "stem": "xin",
+   "branch": "you",
+   "pillar": "xin-you",
+   "guaQi": 8,
+   "guaYun": 3,
+   "group": "gen",
+   "hexagram": "䷽",
+   "binary": "001100",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "already fullfilled",
+   "English Name 2": "accomplished",
+   "element": "water",
+   "number": 63,
+   "chineseShort": "既济",
+   "chineseLong": "水火既济",
+   "stem": "jia",
+   "branch": "yin",
+   "pillar": "jia-yin",
+   "guaQi": 7,
+   "guaYun": 9,
+   "group": "li",
+   "hexagram": "䷾",
+   "binary": "010101",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "not yet fulfilled",
+   "English Name 2": "not yet accomplished",
+   "element": "fire",
+   "number": 64,
+   "chineseShort": "未济",
+   "chineseLong": "水火未济",
+   "stem": "jia",
+   "branch": "shen",
+   "pillar": "jia-shen",
+   "guaQi": 3,
+   "guaYun": 9,
+   "group": "kan",
+   "hexagram": "䷿",
+   "binary": "101010",
+   "subjectLine": 3
+  }
+ ],
+ "pillars": {
+  "jia": {
+   "wu": [
+    1,
+    44
+   ],
+   "chen": [
+    38
+   ],
+   "yin": [
+    63
+   ],
+   "zi": [
+    2,
+    24
+   ],
+   "xu": [
+    39
+   ],
+   "shen": [
+    64
+   ]
+  },
+  "yi": {
+   "wei": [
+    48
+   ],
+   "si": [
+    5
+   ],
+   "mao": [
+    19
+   ],
+   "chou": [
+    21
+   ],
+   "hai": [
+    35
+   ],
+   "you": [
+    33
+   ]
+  },
+  "bing": {
+   "shen": [
+    40
+   ],
+   "wu": [
+    28
+   ],
+   "chen": [
+    58
+   ],
+   "yin": [
+    37
+   ],
+   "zi": [
+    27
+   ],
+   "xu": [
+    52
+   ]
+  },
+  "ding": {
+   "you": [
+    31
+   ],
+   "wei": [
+    18
+   ],
+   "si": [
+    9
+   ],
+   "mao": [
+    41
+   ],
+   "chou": [
+    17
+   ],
+   "hai": [
+    16
+   ]
+  },
+  "wu": {
+   "xu": [
+    15
+   ],
+   "shen": [
+    59
+   ],
+   "wu": [
+    50
+   ],
+   "chen": [
+    10
+   ],
+   "yin": [
+    55
+   ],
+   "zi": [
+    3
+   ]
+  },
+  "ji": {
+   "hai": [
+    20
+   ],
+   "you": [
+    56
+   ],
+   "wei": [
+    46
+   ],
+   "si": [
+    34
+   ],
+   "mao": [
+    60
+   ],
+   "chou": [
+    25
+   ]
+  },
+  "geng": {
+   "zi": [
+    42
+   ],
+   "xu": [
+    12
+   ],
+   "shen": [
+    4,
+    29
+   ],
+   "wu": [
+    32
+   ],
+   "chen": [
+    11
+   ],
+   "yin": [
+    30,
+    49
+   ]
+  },
+  "xin": {
+   "chou": [
+    36
+   ],
+   "hai": [
+    8
+   ],
+   "you": [
+    62
+   ],
+   "wei": [
+    6
+   ],
+   "si": [
+    14
+   ],
+   "mao": [
+    61
+   ]
+  },
+  "ren": {
+   "yin": [
+    13
+   ],
+   "zi": [
+    51
+   ],
+   "xu": [
+    45
+   ],
+   "shen": [
+    7
+   ],
+   "wu": [
+    57
+   ],
+   "chen": [
+    26
+   ]
+  },
+  "gui": {
+   "mao": [
+    54
+   ],
+   "chou": [
+    22
+   ],
+   "hai": [
+    23
+   ],
+   "you": [
+    53
+   ],
+   "wei": [
+    47
+   ],
+   "si": [
+    43
+   ]
+  }
+ },
+ "animalOrder": [
+  "dragon",
+  "bird",
+  "worm",
+  "snake",
+  "tiger",
+  "tortoise"
+ ],
+ "stemAnimalMap": {
+  "jia": "dragon",
+  "yi": "dragon",
+  "bing": "bird",
+  "ding": "bird",
+  "wu": "worm",
+  "ji": "snake",
+  "geng": "tiger",
+  "xin": "tiger",
+  "ren": "tortoise",
+  "gui": "tortoise"
+ },
+ "hexagramStartBranches": {
+  "qian": [
+   "zi",
+   "wu"
+  ],
+  "zhen": [
+   "zi",
+   "wu"
+  ],
+  "kan": [
+   "yin",
+   "shen"
+  ],
+  "gen": [
+   "chen",
+   "xu"
+  ],
+  "dui": [
+   "si",
+   "hai"
+  ],
+  "li": [
+   "mao",
+   "you"
+  ],
+  "xun": [
+   "chou",
+   "wei"
+  ],
+  "kun": [
+   "wei",
+   "chou"
+  ]
+ }
+}

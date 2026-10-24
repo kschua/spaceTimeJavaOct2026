@@ -1,0 +1,12208 @@
+{
+ "meta": {
+  "source": "C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools",
+  "generated": "2026-10-19T09:52:45.504Z",
+  "description": "Feng Shui goldens rendered by the original RN WindWater.js functions"
+ },
+ "tables": {
+  "mountains": {
+   "N2": {
+    "sector": "N2",
+    "direction": "N",
+    "pinyin": "zi",
+    "chinese": "子",
+    "element": "water",
+    "type": "branch",
+    "palace": "kan"
+   },
+   "N3": {
+    "sector": "N3",
+    "direction": "N",
+    "pinyin": "gui",
+    "chinese": "癸",
+    "element": "water",
+    "type": "stem",
+    "palace": "kan"
+   },
+   "NE1": {
+    "sector": "NE1",
+    "direction": "NE",
+    "pinyin": "chou",
+    "chinese": "丑",
+    "element": "earth",
+    "type": "branch",
+    "palace": "gen"
+   },
+   "NE2": {
+    "sector": "NE2",
+    "direction": "NE",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "type": "trigram",
+    "palace": "gen"
+   },
+   "NE3": {
+    "sector": "NE3",
+    "direction": "NE",
+    "pinyin": "yin",
+    "chinese": "寅",
+    "element": "wood",
+    "type": "branch",
+    "palace": "gen"
+   },
+   "E1": {
+    "sector": "E1",
+    "direction": "E",
+    "pinyin": "jia",
+    "chinese": "甲",
+    "element": "wood",
+    "type": "stem",
+    "palace": "zhen"
+   },
+   "E2": {
+    "sector": "E2",
+    "direction": "E",
+    "pinyin": "mao",
+    "chinese": "卯",
+    "element": "wood",
+    "type": "branch",
+    "palace": "zhen"
+   },
+   "E3": {
+    "sector": "E3",
+    "direction": "E",
+    "pinyin": "yi",
+    "chinese": "乙",
+    "element": "wood",
+    "type": "stem",
+    "palace": "zhen"
+   },
+   "SE1": {
+    "sector": "SE1",
+    "direction": "SE",
+    "pinyin": "chen",
+    "chinese": "辰",
+    "element": "earth",
+    "type": "branch",
+    "palace": "xun"
+   },
+   "SE2": {
+    "sector": "SE2",
+    "direction": "SE",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "type": "trigram",
+    "palace": "xun"
+   },
+   "SE3": {
+    "sector": "SE3",
+    "direction": "SE",
+    "pinyin": "si",
+    "chinese": "巳",
+    "element": "fire",
+    "type": "branch",
+    "palace": "xun"
+   },
+   "S1": {
+    "sector": "S1",
+    "direction": "S",
+    "pinyin": "bing",
+    "chinese": "丙",
+    "element": "fire",
+    "type": "stem",
+    "palace": "li"
+   },
+   "S2": {
+    "sector": "S2",
+    "direction": "S",
+    "pinyin": "wu",
+    "chinese": "午",
+    "element": "fire",
+    "type": "branch",
+    "palace": "li"
+   },
+   "S3": {
+    "sector": "S3",
+    "direction": "S",
+    "pinyin": "ding",
+    "chinese": "丁",
+    "element": "fire",
+    "type": "stem",
+    "palace": "li"
+   },
+   "SW1": {
+    "sector": "SW1",
+    "direction": "SW",
+    "pinyin": "wei",
+    "chinese": "未",
+    "element": "earth",
+    "type": "branch",
+    "palace": "kun"
+   },
+   "SW2": {
+    "sector": "SW2",
+    "direction": "SW",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "type": "trigram",
+    "palace": "kun"
+   },
+   "SW3": {
+    "sector": "SW3",
+    "direction": "SW",
+    "pinyin": "shen",
+    "chinese": "申",
+    "element": "metal",
+    "type": "branch",
+    "palace": "kun"
+   },
+   "W1": {
+    "sector": "W1",
+    "direction": "W",
+    "pinyin": "geng",
+    "chinese": "庚",
+    "element": "metal",
+    "type": "stem",
+    "palace": "dui"
+   },
+   "W2": {
+    "sector": "W2",
+    "direction": "W",
+    "pinyin": "you",
+    "chinese": "酉",
+    "element": "metal",
+    "type": "branch",
+    "palace": "dui"
+   },
+   "W3": {
+    "sector": "W3",
+    "direction": "W",
+    "pinyin": "xin",
+    "chinese": "辛",
+    "element": "metal",
+    "type": "stem",
+    "palace": "dui"
+   },
+   "NW1": {
+    "sector": "NW1",
+    "direction": "NW",
+    "pinyin": "xu",
+    "chinese": "戌",
+    "element": "earth",
+    "type": "branch",
+    "palace": "qian"
+   },
+   "NW2": {
+    "sector": "NW2",
+    "direction": "NW",
+    "pinyin": "qian",
+    "chinese": "乾",
+    "element": "metal",
+    "type": "trigram",
+    "palace": "qian"
+   },
+   "NW3": {
+    "sector": "NW3",
+    "direction": "NW",
+    "pinyin": "hai",
+    "chinese": "亥",
+    "element": "water",
+    "type": "branch",
+    "palace": "qian"
+   },
+   "N1": {
+    "sector": "N1",
+    "direction": "N",
+    "pinyin": "ren",
+    "chinese": "壬",
+    "element": "water",
+    "type": "stem",
+    "palace": "kan"
+   }
+  },
+  "twentyFourMountainAttributes": {
+   "N1": {
+    "chinese": "壬",
+    "pinyin": "ren",
+    "internalBodyPart": "cyst",
+    "externalBodyPart": "sclera",
+    "directNeedleElement": "water",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "wood",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "water"
+   },
+   "N2": {
+    "chinese": "子",
+    "pinyin": "zi",
+    "internalBodyPart": "blood, sperm, fluids",
+    "externalBodyPart": "ears",
+    "directNeedleElement": "water",
+    "threeHarmonyElement": "water",
+    "threeDdirectionElement": "water",
+    "majorXuanKongElement": "metal",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "water"
+   },
+   "N3": {
+    "chinese": "寅",
+    "pinyin": "yin",
+    "internalBodyPart": "bones",
+    "externalBodyPart": "chest, front",
+    "directNeedleElement": "wood",
+    "threeHarmonyElement": "wood",
+    "threeDdirectionElement": "fire",
+    "majorXuanKongElement": "metal",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "water",
+    "doubleMountainElement": "fire"
+   },
+   "NE1": {
+    "chinese": "丑",
+    "pinyin": "chou",
+    "internalBodyPart": "stomach, spleen, abdomen",
+    "externalBodyPart": "armpit",
+    "directNeedleElement": "earth",
+    "threeHarmonyElement": "water",
+    "threeDdirectionElement": "metal",
+    "majorXuanKongElement": "fire",
+    "minorXuanKongElement": "earth",
+    "centerNeedleElement": "metal",
+    "doubleMountainElement": "metal"
+   },
+   "NE2": {
+    "chinese": "艮",
+    "pinyin": "gen",
+    "internalBodyPart": "ligaments, tendons",
+    "externalBodyPart": "back, nose",
+    "directNeedleElement": "earth",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "wood",
+    "centerNeedleElement": "wood",
+    "doubleMountainElement": "fire"
+   },
+   "E1": {
+    "chinese": "甲",
+    "pinyin": "jia",
+    "internalBodyPart": "teardrops",
+    "externalBodyPart": "skeletal frame",
+    "directNeedleElement": "wood",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "fire",
+    "minorXuanKongElement": "wood",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "wood"
+   },
+   "E2": {
+    "chinese": "卯",
+    "pinyin": "mao",
+    "internalBodyPart": "liver",
+    "externalBodyPart": "foot",
+    "directNeedleElement": "wood",
+    "threeHarmonyElement": "wood",
+    "threeDdirectionElement": "wood",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "metal",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "wood"
+   },
+   "E3": {
+    "chinese": "乙",
+    "pinyin": "yi",
+    "internalBodyPart": "teeth",
+    "externalBodyPart": "neck",
+    "directNeedleElement": "wood",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "metal",
+    "minorXuanKongElement": "fire",
+    "centerNeedleElement": "earth",
+    "doubleMountainElement": "water"
+   },
+   "SE1": {
+    "chinese": "辰",
+    "pinyin": "chen",
+    "internalBodyPart": "urine, waste fluids",
+    "externalBodyPart": "upper area of back",
+    "directNeedleElement": "earth",
+    "threeHarmonyElement": "wood",
+    "threeDdirectionElement": "water",
+    "majorXuanKongElement": "metal",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "metal",
+    "doubleMountainElement": "water"
+   },
+   "SE2": {
+    "chinese": "巽",
+    "pinyin": "xun",
+    "internalBodyPart": "gallbladder",
+    "externalBodyPart": "hands",
+    "directNeedleElement": "wood",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "wood",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "wood",
+    "doubleMountainElement": "metal"
+   },
+   "SE3": {
+    "chinese": "巳",
+    "pinyin": "si",
+    "internalBodyPart": "teeth",
+    "externalBodyPart": "face",
+    "directNeedleElement": "fire",
+    "threeHarmonyElement": "fire",
+    "threeDdirectionElement": "metal",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "water",
+    "doubleMountainElement": "metal"
+   },
+   "S1": {
+    "chinese": "丙",
+    "pinyin": "bing",
+    "internalBodyPart": "liver",
+    "externalBodyPart": "eyes",
+    "directNeedleElement": "fire",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "metal",
+    "minorXuanKongElement": "fire",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "fire"
+   },
+   "S2": {
+    "chinese": "午",
+    "pinyin": "wu",
+    "internalBodyPart": "heart",
+    "externalBodyPart": "eyes",
+    "directNeedleElement": "fire",
+    "threeHarmonyElement": "fire",
+    "threeDdirectionElement": "fire",
+    "majorXuanKongElement": "wood",
+    "minorXuanKongElement": "metal",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "fire"
+   },
+   "S3": {
+    "chinese": "丁",
+    "pinyin": "ding",
+    "internalBodyPart": "tongue",
+    "externalBodyPart": "lips",
+    "directNeedleElement": "fire",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "fire",
+    "centerNeedleElement": "earth",
+    "doubleMountainElement": "wood"
+   },
+   "SW1": {
+    "chinese": "未",
+    "pinyin": "wei",
+    "internalBodyPart": "spleen",
+    "externalBodyPart": "armpit",
+    "directNeedleElement": "earth",
+    "threeHarmonyElement": "fire",
+    "threeDdirectionElement": "wood",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "earth",
+    "centerNeedleElement": "metal",
+    "doubleMountainElement": "wood"
+   },
+   "SW2": {
+    "chinese": "坤",
+    "pinyin": "kun",
+    "internalBodyPart": "diaphragm",
+    "externalBodyPart": "abdomen (upper)",
+    "directNeedleElement": "earth",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "fire",
+    "minorXuanKongElement": "metal",
+    "centerNeedleElement": "wood",
+    "doubleMountainElement": "water"
+   },
+   "SW3": {
+    "chinese": "申",
+    "pinyin": "shen",
+    "internalBodyPart": "lungs",
+    "externalBodyPart": "abdomen (lower)",
+    "directNeedleElement": "metal",
+    "threeHarmonyElement": "metal",
+    "threeDdirectionElement": "water",
+    "majorXuanKongElement": "wood",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "water",
+    "doubleMountainElement": "water"
+   },
+   "W1": {
+    "chinese": "庚",
+    "pinyin": "geng",
+    "internalBodyPart": "lungs",
+    "externalBodyPart": "nose",
+    "directNeedleElement": "metal",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "earth",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "metal"
+   },
+   "W2": {
+    "chinese": "酉",
+    "pinyin": "you",
+    "internalBodyPart": "lungs",
+    "externalBodyPart": "mouth",
+    "directNeedleElement": "metal",
+    "threeHarmonyElement": "metal",
+    "threeDdirectionElement": "metal",
+    "majorXuanKongElement": "fire",
+    "minorXuanKongElement": "fire",
+    "centerNeedleElement": "fire",
+    "doubleMountainElement": "metal"
+   },
+   "W3": {
+    "chinese": "辛",
+    "pinyin": "xin",
+    "internalBodyPart": "lungs",
+    "externalBodyPart": "butt",
+    "directNeedleElement": "metal",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "wood",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "earth",
+    "doubleMountainElement": "fire"
+   },
+   "NW1": {
+    "chinese": "戌",
+    "pinyin": "xu",
+    "internalBodyPart": "sweat, fluids from skin",
+    "externalBodyPart": "chest, middle back",
+    "directNeedleElement": "earth",
+    "threeHarmonyElement": "metal",
+    "threeDdirectionElement": "fire",
+    "majorXuanKongElement": "woodo",
+    "minorXuanKongElement": "earth",
+    "centerNeedleElement": "metal",
+    "doubleMountainElement": "fire"
+   },
+   "NW2": {
+    "chinese": "乾",
+    "pinyin": "qian",
+    "internalBodyPart": "brian",
+    "externalBodyPart": "head",
+    "directNeedleElement": "metal",
+    "threeHarmonyElement": "-",
+    "threeDdirectionElement": "-",
+    "majorXuanKongElement": "metal",
+    "minorXuanKongElement": "metall",
+    "centerNeedleElement": "wood",
+    "doubleMountainElement": "wood"
+   },
+   "NW3": {
+    "chinese": "亥",
+    "pinyin": "hai",
+    "internalBodyPart": "nerves",
+    "externalBodyPart": "head",
+    "directNeedleElement": "water",
+    "threeHarmonyElement": "water",
+    "threeDdirectionElement": "wood",
+    "majorXuanKongElement": "water",
+    "minorXuanKongElement": "water",
+    "centerNeedleElement": "water",
+    "doubleMountainElement": "wood"
+   }
+  },
+  "guas": {
+   "kan": {
+    "eightMansions": {
+     "shengQi": "SE",
+     "tianYi": "E",
+     "yanNian": "S",
+     "fuWei": "N",
+     "huoHai": "W",
+     "wuGui": "NE",
+     "liuSha": "NW",
+     "jueMing": "SW"
+    }
+   },
+   "kun": {
+    "eightMansions": {
+     "shengQi": "NE",
+     "tianYi": "W",
+     "yanNian": "NW",
+     "fuWei": "SW",
+     "huoHai": "E",
+     "wuGui": "SE",
+     "liuSha": "S",
+     "jueMing": "N"
+    }
+   },
+   "zhen": {
+    "eightMansions": {
+     "shengQi": "S",
+     "tianYi": "N",
+     "yanNian": "SE",
+     "fuWei": "E",
+     "huoHai": "SW",
+     "wuGui": "NW",
+     "liuSha": "NE",
+     "jueMing": "W"
+    }
+   },
+   "xun": {
+    "eightMansions": {
+     "shengQi": "N",
+     "tianYi": "S",
+     "yanNian": "E",
+     "fuWei": "SE",
+     "huoHai": "NW",
+     "wuGui": "SW",
+     "liuSha": "W",
+     "jueMing": "NE"
+    }
+   },
+   "qian": {
+    "eightMansions": {
+     "shengQi": "W",
+     "tianYi": "NE",
+     "yanNian": "SW",
+     "fuWei": "NW",
+     "huoHai": "SE",
+     "wuGui": "E",
+     "liuSha": "N",
+     "jueMing": "S"
+    }
+   },
+   "dui": {
+    "eightMansions": {
+     "shengQi": "NW",
+     "tianYi": "SW",
+     "yanNian": "NE",
+     "fuWei": "W",
+     "huoHai": "N",
+     "wuGui": "S",
+     "liuSha": "SE",
+     "jueMing": "E"
+    }
+   },
+   "gen": {
+    "eightMansions": {
+     "shengQi": "SW",
+     "tianYi": "NW",
+     "yanNian": "W",
+     "fuWei": "NE",
+     "huoHai": "S",
+     "wuGui": "N",
+     "liuSha": "E",
+     "jueMing": "SE"
+    }
+   },
+   "li": {
+    "eightMansions": {
+     "shengQi": "E",
+     "tianYi": "SE",
+     "yanNian": "N",
+     "fuWei": "S",
+     "huoHai": "NE",
+     "wuGui": "W",
+     "liuSha": "SW",
+     "jueMing": "NW"
+    }
+   }
+  },
+  "flyingStars": {
+   "1": {
+    "nickname": "Greedy Wolf",
+    "concept": "Nobility",
+    "chinese": "貪狼",
+    "pinyin": "Tan Lang",
+    "element": "water",
+    "keywords": "Honor, charisma, intelligence, movement, change, opportunities, helpful mentors",
+    "color": "white",
+    "palace": "kan",
+    "direction": "N",
+    "person": "mid-age male, middle son",
+    "body": "kidney, bladder, reproductive system, lymphatic system, ears",
+    "positive": "fortune, fame, scholar, health, wisdom, philosophy",
+    "negative": "diabetes, ear problems, sexual disease, affairs, divorce, conflicts"
+   },
+   "2": {
+    "nickname": "Huge Door",
+    "concept": "Illness",
+    "chinese": "巨们",
+    "pinyin": "Ju Men",
+    "element": "earth",
+    "keywords": "Disease, poor health, long term assets, real estate",
+    "color": "black",
+    "palace": "kun",
+    "direction": "SW",
+    "person": "mother, grandmother, older females",
+    "body": "stomach, spleen, pancrease",
+    "positive": "fertility, health, development of real estate",
+    "negative": "stomach problems, miscarriage, mishaps, accidents, tragedies"
+   },
+   "3": {
+    "nickname": "Rewards",
+    "concept": "Conflict",
+    "chinese": "禄存",
+    "pinyin": "Lu Cun",
+    "element": "wood",
+    "keywords": "willpower, persistence, high risk, improvement, physical activity, speed",
+    "color": "jade / green",
+    "palace": "zhen",
+    "direction": "E",
+    "person": "oldest son, husband",
+    "body": "liver, gallbladder, limbs",
+    "positive": "ambition, success, legacy, fame",
+    "negative": "limb injury, liver disease, lawsuits, theft"
+   },
+   "4": {
+    "nickname": "Literary Arts",
+    "concept": "Learning",
+    "chinese": "文曲",
+    "pinyin": "Wen Qu",
+    "element": "wood",
+    "keywords": "academics, education, beauty, creativity, ideas",
+    "color": "green",
+    "palace": "xun",
+    "direction": "SE",
+    "person": "oldest daughter, wife",
+    "body": "liver, gallbladder, thigh, breast, chest",
+    "positive": "education, responsibility, reputation, romance, wisdom, knowledge",
+    "negative": "breast problems, asthma, cheating, affairs, unethical behavior, lack of morality"
+   },
+   "5": {
+    "nickname": "Chastity",
+    "concept": "Disaster",
+    "chinese": "廉贞",
+    "pinyin": "Lian Zhen",
+    "element": "earth",
+    "keywords": "violence, risk, hostility, recklessness",
+    "color": "yellow",
+    "palace": "center",
+    "direction": "–",
+    "person": "–",
+    "body": "–",
+    "positive": "success, leadership, wealth, domination, power",
+    "negative": "decay, disaster, death"
+   },
+   "6": {
+    "nickname": "Military Arts",
+    "concept": "Power",
+    "chinese": "武曲",
+    "pinyin": "Wu Qu",
+    "element": "metal",
+    "keywords": "execution, career, authority, influence, leadership, accomplishment",
+    "color": "white",
+    "palace": "qian",
+    "direction": "NW",
+    "person": "father, grandfather, elderly males",
+    "body": "lungs, large intestine, bones",
+    "positive": "dignity, perserverance, leadership, reputation, power",
+    "negative": "head injury, lung disease, intestine disease, bone fractures, solitary, stubborn, accidents, conflicts"
+   },
+   "7": {
+    "nickname": "Broken Soldier",
+    "concept": "Communication",
+    "chinese": "破軍",
+    "pinyin": "Po Jun",
+    "element": "metal",
+    "keywords": "networking, meeting people, speaking, selling",
+    "color": "red",
+    "palace": "dui",
+    "direction": "W",
+    "person": "youngest daughter, young ladies, young girls",
+    "body": "jaw, teeth, mouth, upper respiratory system",
+    "positive": "bliss, content, wealth, happiness, satisfaction",
+    "negative": "mouth disease, tooth problems, gossip, rumors, cheating, theft, burglary"
+   },
+   "8": {
+    "nickname": "Left Assistant",
+    "concept": "Wealth",
+    "chinese": "左輔",
+    "pinyin": "Zuo Fu",
+    "element": "earth",
+    "keywords": "fortune, finance, stability, accomplishments",
+    "color": "white",
+    "palace": "gen",
+    "direction": "NE",
+    "person": "youngest son, young boys, young men",
+    "body": "fingers, toes, nose, back",
+    "positive": "wealth, nobility, open to exchange energy",
+    "negative": "appendages injury, back pain, disloyalty, immediate loss"
+   },
+   "9": {
+    "nickname": "Right Assistant",
+    "concept": "Prosperity",
+    "chinese": "右弼",
+    "pinyin": "You Bi",
+    "element": "fire",
+    "keywords": "inspiration, imagination, happiness, vibrancy, energy, positivity, passion",
+    "color": "purple",
+    "palace": "li",
+    "direction": "S",
+    "person": "middle aged females, middle daughter",
+    "body": "heart, blood, tongue, eye, small intestines",
+    "positive": "extreme success, career promotion, celebration, marriages",
+    "negative": "eye disease, blood cancer, blindness, fire, sexual affairs, ignorance"
+   }
+  },
+  "flyingStarCombinations": {
+   "1 + 1": "fortune, fame, health, wisdom, clarity, scholar",
+   "1 + 2": "conflicts in household, female partner gains power, stomach problems",
+   "1 + 3": "supports wealth, fame, popularity, travel, immigration",
+   "1 + 4": "enhanced academics and education, relationships and romance improves",
+   "1 + 5": "illness related to sexual transmission, hearing may be impaired",
+   "1 + 6": "career advancement, gain power in workplace, added stress and emotional pressure",
+   "1 + 7": "possible short term relationship flings",
+   "1 + 8": "benefits in wealth and health",
+   "1 + 9": "positive effects may includle joyous activities and success with school. Negative effects may include health deterioration and loss of wealth",
+   "2 + 2": "beneficial for unexpected wealth (with good external forms). Wealth and fitness decrease (if too much earth)",
+   "2 + 3": "arguments, squabbles, and possible lawsuits",
+   "2 + 4": "difficulty sleeping, stress and anxiety (when with negative external forms)",
+   "2 + 5": "bodily harm, accidents, physical injuries",
+   "2 + 6": "increase in wealth and prosperity for career",
+   "2 + 7": "benefit to finance and assets, solitude and loneliness, stomach problems",
+   "2 + 8": "financial benefits, asset increase, possible minor health deterioration",
+   "2 + 9": "psychological disorders, impulsive decision making, stress and anxiety (with negative external forms)",
+   "3 + 3": "frustrated, angry, violent, volatile",
+   "3 + 4": "mental trauma, stress and anxiety, sleepless nights",
+   "3 + 5": "impulsive decision making, irrational thinking, recklessness",
+   "3 + 6": "eldest son may face many changes and volatility",
+   "3 + 7": "possible accidents, theft, petty problems, possible injuries to arms and legs, bickering and gossip",
+   "3 + 8": "young children may bump into things, minor cuts and injuries",
+   "3 + 9": "fortune and popularity will increase, positive energy to household",
+   "4 + 4": "information, studies, knowledge, learning, progress",
+   "4 + 5": "possible serious illness",
+   "4 + 6": "conflicts and legal problems, trouble with others",
+   "4 + 7": "couples may argue and differ in energy, possible injuries, minor legal troubles (with negative external forms)",
+   "4 + 8": "emotionally volatile, psychologically detached, shyness and isolation",
+   "4 + 9": "writing, creativity increased. possible fire accidents",
+   "5 + 5": "accidents, injuries, disasters, anger, bad temper",
+   "5 + 6": "injuries to the head, brain and upper area of body",
+   "5 + 7": "problems with the mouth, tongue, teeth, and throat",
+   "5 + 8": "body injuries affecting mainly the abdomen, chest, upper limbs",
+   "5 + 9": "mental fluctuations, emotional anguish, unstable thinking",
+   "6 + 6": "influence, authority, aggressive conflict, two powerful forces",
+   "6 + 7": "conflicts and arguments among members of the home",
+   "6 + 8": "high achievement for fame, success, and wealth",
+   "6 + 9": "indication of power being challenged, authority being disregarded",
+   "7 + 7": "positive relationships, public image improvement, networking and meeting others",
+   "7 + 8": "relationships and romance will blossom, wealth will increase",
+   "7 + 9": "possible fire problems, short term romantic relationship is a possibility",
+   "8 + 8": "wealth doubles, but retrieval becomes slower than usual",
+   "8 + 9": "happy times and joyful moments at home, positive energy all around",
+   "9 + 9": "spiritual clarity, manifesting desires, pursuit of enlightenment, creativity"
+  },
+  "eightMansions": {
+   "shengQi": {
+    "$dict_noun": [
+     "Vitality",
+     "Acceleration",
+     "Ascension"
+    ],
+    "name": "Growth",
+    "nickname": "Life Generating",
+    "chinese": "生氣",
+    "pinyin": "Sheng Qi",
+    "element": "wood",
+    "auspiciousness": "Most auspicious",
+    "palaceTimeliness": "Zhen, Xun, Kan, Li",
+    "yearMonthTimeliness": "Hai, Mao, Wei"
+   },
+   "tianYi": {
+    "$dict_noun": [
+     "Construction",
+     "Circulation",
+     "Status Quo"
+    ],
+    "name": "Recovery",
+    "nickname": "Heaven Doctor",
+    "pinyin": "Tian Yi",
+    "chinese": "天醫",
+    "element": "earth",
+    "auspiciousness": "2nd most auspicious",
+    "palaceTimeliness": "Qian, Dui, Kun, Li",
+    "yearMonthTimeliness": "Chou, Chen, Wei, Xu"
+   },
+   "yanNian": {
+    "$dict_noun": [
+     "Extension",
+     "Longevity",
+     "Order"
+    ],
+    "name": "Longevity",
+    "nickname": "Longevity",
+    "pinyin": "Yan Nian",
+    "chinese": "延年",
+    "element": "metal",
+    "auspiciousness": "3rd most auspicious",
+    "palaceTimeliness": "Qian, Dui, Kun, Gen",
+    "yearMonthTimeliness": "Geng, Xin, Si, You, Chou"
+   },
+   "fuWei": {
+    "$dict_noun": [
+     "Solidity",
+     "Contentment",
+     "Stability"
+    ],
+    "name": "Stability",
+    "nickname": "Stability",
+    "pinyin": "Fu Wei",
+    "chinese": "伏位",
+    "element": "wood",
+    "auspiciousness": "4th most auspicious",
+    "palaceTimeliness": "Li, Kan, Zhen, Xun",
+    "yearMonthTimeliness": "Hai, Mao, Wei"
+   },
+   "huoHai": {
+    "$dict_noun": [
+     "Congestion",
+     "Erosion",
+     "Scatter"
+    ],
+    "name": "Obstruction",
+    "nickname": "Mishaps",
+    "pinyin": "Huo Hai",
+    "chinese": "禍害",
+    "element": "earth",
+    "auspiciousness": "inauspicious",
+    "yearMonthTimeliness": "Wu, Ji, Chou, Chen, Wei, Xu"
+   },
+   "wuGui": {
+    "$dict_noun": [
+     "Attack",
+     "Chaos",
+     "Expansion"
+    ],
+    "name": "Volatility",
+    "nickname": "Five Ghosts",
+    "pinyin": "Wu Gui",
+    "chinese": "五鬼",
+    "element": "fire",
+    "auspiciousness": "inauspicious",
+    "yearMonthTimeliness": "Yin, Wu, Xu"
+   },
+   "liuSha": {
+    "$dict_noun": [
+     "Confusion",
+     "Decline",
+     "Disarray"
+    ],
+    "name": "Disorder",
+    "nickname": "Six Killings",
+    "pinyin": "Liu Sha",
+    "chinese": "六煞",
+    "element": "water",
+    "auspiciousness": "inauspicious",
+    "yearMonthTimeliness": "Shen, Zi, Chen"
+   },
+   "jueMing": {
+    "$dict_noun": [
+     "Deceleration",
+     "Reversal",
+     "Destruction"
+    ],
+    "name": "Decay",
+    "nickname": "Life Threatening",
+    "pinyin": "Jue Ming",
+    "chinese": "絕命",
+    "element": "metal",
+    "auspiciousness": "inauspicious",
+    "yearMonthTimeliness": "Si, You, Chen"
+   }
+  },
+  "getEightMansionNaJia": {
+   "1": {
+    "SE2": "shengQi",
+    "W3": "shengQi",
+    "E2": "tianYi",
+    "NW3": "tianYi",
+    "SW1": "tianYi",
+    "W1": "tianYi",
+    "S2": "yanNian",
+    "NE3": "yanNian",
+    "N1": "yanNian",
+    "NW1": "yanNian",
+    "N2": "fuWei",
+    "N3": "fuWei",
+    "SE1": "fuWei",
+    "SW3": "fuWei",
+    "W2": "huoHai",
+    "NE1": "huoHai",
+    "SE3": "huoHai",
+    "S3": "huoHai",
+    "NE2": "wuGui",
+    "S1": "wuGui",
+    "NW2": "liuSha",
+    "E1": "liuSha",
+    "SW2": "jueMing",
+    "E3": "jueMing"
+   },
+   "2": {
+    "NE2": "shengQi",
+    "S1": "shengQi",
+    "W2": "tianYi",
+    "NE1": "tianYi",
+    "SE3": "tianYi",
+    "S3": "tianYi",
+    "NW2": "yanNian",
+    "E1": "yanNian",
+    "SW2": "fuWei",
+    "E3": "fuWei",
+    "E2": "huoHai",
+    "NW3": "huoHai",
+    "SW1": "huoHai",
+    "W1": "huoHai",
+    "SE2": "wuGui",
+    "W3": "wuGui",
+    "S2": "liuSha",
+    "NE3": "liuSha",
+    "N1": "liuSha",
+    "NW1": "liuSha",
+    "N2": "jueMing",
+    "N3": "jueMing",
+    "SE1": "jueMing",
+    "SW3": "jueMing"
+   },
+   "3": {
+    "S2": "shengQi",
+    "NE3": "shengQi",
+    "N1": "shengQi",
+    "NW1": "shengQi",
+    "N2": "tianYi",
+    "N3": "tianYi",
+    "SE1": "tianYi",
+    "SW3": "tianYi",
+    "SE2": "yanNian",
+    "W3": "yanNian",
+    "E2": "fuWei",
+    "NW3": "fuWei",
+    "SW1": "fuWei",
+    "W1": "fuWei",
+    "SW2": "huoHai",
+    "E3": "huoHai",
+    "NW2": "wuGui",
+    "E1": "wuGui",
+    "NE2": "liuSha",
+    "S1": "liuSha",
+    "W2": "jueMing",
+    "NE1": "jueMing",
+    "SE3": "jueMing",
+    "S3": "jueMing"
+   },
+   "4": {
+    "N2": "shengQi",
+    "N3": "shengQi",
+    "SE1": "shengQi",
+    "SW3": "shengQi",
+    "S2": "tianYi",
+    "NE3": "tianYi",
+    "N1": "tianYi",
+    "NW1": "tianYi",
+    "E2": "yanNian",
+    "NW3": "yanNian",
+    "SW1": "yanNian",
+    "W1": "yanNian",
+    "SE2": "fuWei",
+    "W3": "fuWei",
+    "NW2": "huoHai",
+    "E1": "huoHai",
+    "SW2": "wuGui",
+    "E3": "wuGui",
+    "W2": "liuSha",
+    "NE1": "liuSha",
+    "SE3": "liuSha",
+    "S3": "liuSha",
+    "NE2": "jueMing",
+    "S1": "jueMing"
+   },
+   "6": {
+    "W2": "shengQi",
+    "NE1": "shengQi",
+    "SE3": "shengQi",
+    "S3": "shengQi",
+    "NE2": "tianYi",
+    "S1": "tianYi",
+    "SW2": "yanNian",
+    "E3": "yanNian",
+    "NW2": "fuWei",
+    "E1": "fuWei",
+    "SE2": "huoHai",
+    "W3": "huoHai",
+    "E2": "wuGui",
+    "NW3": "wuGui",
+    "SW1": "wuGui",
+    "W1": "wuGui",
+    "N2": "liuSha",
+    "N3": "liuSha",
+    "SE1": "liuSha",
+    "SW3": "liuSha",
+    "S2": "jueMing",
+    "NE3": "jueMing",
+    "N1": "jueMing",
+    "NW1": "jueMing"
+   },
+   "7": {
+    "NW2": "shengQi",
+    "E1": "shengQi",
+    "SW2": "tianYi",
+    "E3": "tianYi",
+    "NE2": "yanNian",
+    "S1": "yanNian",
+    "W2": "fuWei",
+    "NE1": "fuWei",
+    "SE3": "fuWei",
+    "S3": "fuWei",
+    "N2": "huoHai",
+    "N3": "huoHai",
+    "SE1": "huoHai",
+    "SW3": "huoHai",
+    "S2": "wuGui",
+    "NE3": "wuGui",
+    "N1": "wuGui",
+    "NW1": "wuGui",
+    "SE2": "liuSha",
+    "W3": "liuSha",
+    "E2": "jueMing",
+    "NW3": "jueMing",
+    "SW1": "jueMing",
+    "W1": "jueMing"
+   },
+   "8": {
+    "SW2": "shengQi",
+    "E3": "shengQi",
+    "NW2": "tianYi",
+    "E1": "tianYi",
+    "W2": "yanNian",
+    "NE1": "yanNian",
+    "SE3": "yanNian",
+    "S3": "yanNian",
+    "NE2": "fuWei",
+    "S1": "fuWei",
+    "S2": "huoHai",
+    "NE3": "huoHai",
+    "N1": "huoHai",
+    "NW1": "huoHai",
+    "N2": "wuGui",
+    "N3": "wuGui",
+    "SE1": "wuGui",
+    "SW3": "wuGui",
+    "E2": "liuSha",
+    "NW3": "liuSha",
+    "SW1": "liuSha",
+    "W1": "liuSha",
+    "SE2": "jueMing",
+    "W3": "jueMing"
+   },
+   "9": {
+    "E2": "shengQi",
+    "NW3": "shengQi",
+    "SW1": "shengQi",
+    "W1": "shengQi",
+    "SE2": "tianYi",
+    "W3": "tianYi",
+    "N2": "yanNian",
+    "N3": "yanNian",
+    "SE1": "yanNian",
+    "SW3": "yanNian",
+    "S2": "fuWei",
+    "NE3": "fuWei",
+    "N1": "fuWei",
+    "NW1": "fuWei",
+    "NE2": "huoHai",
+    "S1": "huoHai",
+    "W2": "wuGui",
+    "NE1": "wuGui",
+    "SE3": "wuGui",
+    "S3": "wuGui",
+    "SW2": "liuSha",
+    "E3": "liuSha",
+    "NW2": "jueMing",
+    "E1": "jueMing"
+   }
+  },
+  "xuanKongNumberRingInner": [
+   [
+    "xun",
+    2
+   ],
+   [
+    "kan",
+    7
+   ],
+   [
+    "gen",
+    6
+   ],
+   [
+    "kun",
+    1
+   ],
+   [
+    "zhen",
+    8
+   ],
+   [
+    "li",
+    3
+   ],
+   [
+    "dui",
+    4
+   ],
+   [
+    "qian",
+    9
+   ]
+  ],
+  "xuanKongNumberRingOuter": [
+   [
+    "zhen",
+    8
+   ],
+   [
+    "li",
+    3
+   ],
+   [
+    "dui",
+    4
+   ],
+   [
+    "qian",
+    9
+   ],
+   [
+    "xun",
+    2
+   ],
+   [
+    "kan",
+    7
+   ],
+   [
+    "gen",
+    6
+   ],
+   [
+    "kun",
+    1
+   ]
+  ],
+  "xuanKongHexagramInner": [
+   "110111",
+   "110011",
+   "110101",
+   "110001",
+   "110110",
+   "110010",
+   "110100",
+   "110000",
+   "010111",
+   "010011",
+   "010101",
+   "010001",
+   "010110",
+   "010010",
+   "010100",
+   "010000",
+   "100111",
+   "100011",
+   "100101",
+   "100001",
+   "100110",
+   "100010",
+   "100100",
+   "100000",
+   "000111",
+   "000011",
+   "000101",
+   "000001",
+   "000110",
+   "000010",
+   "000100",
+   "000000",
+   "001000",
+   "001100",
+   "001010",
+   "001110",
+   "001001",
+   "001101",
+   "001011",
+   "001111",
+   "101000",
+   "101100",
+   "101010",
+   "101110",
+   "101001",
+   "101101",
+   "101011",
+   "101111",
+   "011000",
+   "011100",
+   "011010",
+   "011110",
+   "011001",
+   "011101",
+   "011011",
+   "011111",
+   "111000",
+   "111100",
+   "111010",
+   "111110",
+   "111001",
+   "111101",
+   "111011",
+   "111111"
+  ],
+  "xuanKongHexagramOuter": [
+   "000001",
+   "100001",
+   "010001",
+   "110001",
+   "001001",
+   "101001",
+   "011001",
+   "111001",
+   "000101",
+   "100101",
+   "010101",
+   "110101",
+   "001101",
+   "101101",
+   "011101",
+   "111101",
+   "000011",
+   "100011",
+   "010011",
+   "110011",
+   "001011",
+   "101011",
+   "011011",
+   "111011",
+   "000111",
+   "100111",
+   "010111",
+   "110111",
+   "001111",
+   "101111",
+   "011111",
+   "111111",
+   "111110",
+   "011110",
+   "101110",
+   "001110",
+   "110110",
+   "010110",
+   "100110",
+   "000110",
+   "111010",
+   "011010",
+   "101010",
+   "001010",
+   "110010",
+   "010010",
+   "100010",
+   "000010",
+   "111100",
+   "011100",
+   "101100",
+   "001100",
+   "110100",
+   "010100",
+   "100100",
+   "000100",
+   "111000",
+   "011000",
+   "101000",
+   "001000",
+   "110000",
+   "010000",
+   "100000",
+   "000000"
+  ],
+  "piercingMountain72Dragons": [
+   [
+    "bing",
+    "zi"
+   ],
+   [
+    "wu",
+    "zi"
+   ],
+   [
+    "geng",
+    "zi"
+   ],
+   [
+    "ren",
+    "zi"
+   ],
+   null,
+   [
+    "yi",
+    "chou"
+   ],
+   [
+    "ding",
+    "chou"
+   ],
+   [
+    "ji",
+    "chou"
+   ],
+   [
+    "xin",
+    "chou"
+   ],
+   [
+    "gui",
+    "chou"
+   ],
+   null,
+   [
+    "bing",
+    "yin"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "geng",
+    "yin"
+   ],
+   [
+    "ren",
+    "yin"
+   ],
+   [
+    "jia",
+    "yin"
+   ],
+   null,
+   [
+    "ding",
+    "mao"
+   ],
+   [
+    "ji",
+    "mao"
+   ],
+   [
+    "xin",
+    "mao"
+   ],
+   [
+    "gui",
+    "mao"
+   ],
+   [
+    "yi",
+    "mao"
+   ],
+   null,
+   [
+    "wu",
+    "chen"
+   ],
+   [
+    "geng",
+    "chen"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "jia",
+    "chen"
+   ],
+   [
+    "bing",
+    "chen"
+   ],
+   null,
+   [
+    "ji",
+    "si"
+   ],
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "gui",
+    "si"
+   ],
+   [
+    "yi",
+    "si"
+   ],
+   [
+    "ding",
+    "si"
+   ],
+   null,
+   [
+    "geng",
+    "wu"
+   ],
+   [
+    "ren",
+    "wu"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "wu",
+    "wu"
+   ],
+   null,
+   [
+    "xin",
+    "wei"
+   ],
+   [
+    "gui",
+    "wei"
+   ],
+   [
+    "yi",
+    "wei"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "ji",
+    "wei"
+   ],
+   null,
+   [
+    "ren",
+    "shen"
+   ],
+   [
+    "jia",
+    "shen"
+   ],
+   [
+    "bing",
+    "shen"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "geng",
+    "shen"
+   ],
+   null,
+   [
+    "gui",
+    "you"
+   ],
+   [
+    "yi",
+    "you"
+   ],
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "ji",
+    "you"
+   ],
+   [
+    "xin",
+    "you"
+   ],
+   null,
+   [
+    "jia",
+    "xu"
+   ],
+   [
+    "bing",
+    "xu"
+   ],
+   [
+    "wu",
+    "xu"
+   ],
+   [
+    "geng",
+    "xu"
+   ],
+   [
+    "ren",
+    "xu"
+   ],
+   null,
+   [
+    "yi",
+    "hai"
+   ],
+   [
+    "ding",
+    "hai"
+   ],
+   [
+    "ji",
+    "hai"
+   ],
+   [
+    "xin",
+    "hai"
+   ],
+   [
+    "gui",
+    "hai"
+   ],
+   null,
+   [
+    "jia",
+    "zi"
+   ]
+  ],
+  "earthPenetrating60Dragons": [
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "bing",
+    "zi"
+   ],
+   [
+    "wu",
+    "zi"
+   ],
+   [
+    "geng",
+    "zi"
+   ],
+   [
+    "ren",
+    "zi"
+   ],
+   [
+    "yi",
+    "chou"
+   ],
+   [
+    "ding",
+    "chou"
+   ],
+   [
+    "ji",
+    "chou"
+   ],
+   [
+    "xin",
+    "chou"
+   ],
+   [
+    "gui",
+    "chou"
+   ],
+   [
+    "bing",
+    "yin"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "geng",
+    "yin"
+   ],
+   [
+    "ren",
+    "yin"
+   ],
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "ding",
+    "mao"
+   ],
+   [
+    "ji",
+    "mao"
+   ],
+   [
+    "xin",
+    "mao"
+   ],
+   [
+    "gui",
+    "mao"
+   ],
+   [
+    "yi",
+    "mao"
+   ],
+   [
+    "wu",
+    "chen"
+   ],
+   [
+    "geng",
+    "chen"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "jia",
+    "chen"
+   ],
+   [
+    "bing",
+    "chen"
+   ],
+   [
+    "ji",
+    "si"
+   ],
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "gui",
+    "si"
+   ],
+   [
+    "yi",
+    "si"
+   ],
+   [
+    "ding",
+    "si"
+   ],
+   [
+    "geng",
+    "wu"
+   ],
+   [
+    "ren",
+    "wu"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "wu",
+    "wu"
+   ],
+   [
+    "xin",
+    "wei"
+   ],
+   [
+    "gui",
+    "wei"
+   ],
+   [
+    "yi",
+    "wei"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "ji",
+    "wei"
+   ],
+   [
+    "ren",
+    "shen"
+   ],
+   [
+    "jia",
+    "shen"
+   ],
+   [
+    "bing",
+    "shen"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "geng",
+    "shen"
+   ],
+   [
+    "gui",
+    "you"
+   ],
+   [
+    "yi",
+    "you"
+   ],
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "ji",
+    "you"
+   ],
+   [
+    "xin",
+    "you"
+   ],
+   [
+    "jia",
+    "xu"
+   ],
+   [
+    "bing",
+    "xu"
+   ],
+   [
+    "wu",
+    "xu"
+   ],
+   [
+    "geng",
+    "xu"
+   ],
+   [
+    "ren",
+    "xu"
+   ],
+   [
+    "yi",
+    "hai"
+   ],
+   [
+    "ding",
+    "hai"
+   ],
+   [
+    "ji",
+    "hai"
+   ],
+   [
+    "xin",
+    "hai"
+   ],
+   [
+    "gui",
+    "hai"
+   ]
+  ],
+  "equalDivision60Dragons": [
+   [
+    "3亥7壬",
+    "3 Pig 7 Ren"
+   ],
+   [
+    "正壬",
+    "Direct Ren"
+   ],
+   [
+    "5壬子",
+    "5 Ren Rat"
+   ],
+   [
+    "正子",
+    "Direct Rat"
+   ],
+   [
+    "7子3癸",
+    "7 Rat 3 Gui"
+   ],
+   [
+    "3子7癸",
+    "3 Rat 7 Gui"
+   ],
+   [
+    "正癸",
+    "Direct Gui"
+   ],
+   [
+    "5癸丑",
+    "5 Gui Ox"
+   ],
+   [
+    "正丑",
+    "Direct Ox"
+   ],
+   [
+    "7丑3艮",
+    "7 Ox 3 Gen"
+   ],
+   [
+    "3丑7艮",
+    "3 Ox 7 Gen"
+   ],
+   [
+    "正艮",
+    "Direct Gen"
+   ],
+   [
+    "5艮寅",
+    "5 Gen Tiger"
+   ],
+   [
+    "正寅",
+    "Direct Tiger"
+   ],
+   [
+    "7寅3甲",
+    "7 Tiger 3 Jia"
+   ],
+   [
+    "3寅7甲",
+    "3 Tiger 7 Jia"
+   ],
+   [
+    "正甲",
+    "Direct Jia"
+   ],
+   [
+    "5甲卯",
+    "5 Jia Rabbit"
+   ],
+   [
+    "正卯",
+    "Direct Rabbit"
+   ],
+   [
+    "7卯3乙",
+    "7 Rabbit 3 Yi"
+   ],
+   [
+    "3卯7乙",
+    "3 Rabbit 7 Yi"
+   ],
+   [
+    "正乙",
+    "Direct Yi"
+   ],
+   [
+    "5乙辰",
+    "5 Yi Dragon"
+   ],
+   [
+    "正辰",
+    "Direct Dragon"
+   ],
+   [
+    "7辰3巽",
+    "7 Dragon 3 Xun"
+   ],
+   [
+    "3辰7巽",
+    "3 Dragon 7 Xun"
+   ],
+   [
+    "正巽",
+    "Direct Xun"
+   ],
+   [
+    "5巽巳",
+    "5 Xun Snake"
+   ],
+   [
+    "5巽巳",
+    "5 Xun Snake"
+   ],
+   [
+    "7巳3丙",
+    "7 Snake 3 Bing"
+   ],
+   [
+    "3巳7丙",
+    "3 Snake 7 Bing"
+   ],
+   [
+    "正丙",
+    "Direct Bing"
+   ],
+   [
+    "5丙午",
+    "5 Bing Horse"
+   ],
+   [
+    "正午",
+    "Direct Horse"
+   ],
+   [
+    "7午3丁",
+    "7 Horse 3 Ding"
+   ],
+   [
+    "3午7丁",
+    "3 Horse 7 Ding"
+   ],
+   [
+    "正丁",
+    "Direct Ding"
+   ],
+   [
+    "5丁未",
+    "5 Ding Goat"
+   ],
+   [
+    "正未",
+    "Direct Goat"
+   ],
+   [
+    "7未3坤",
+    "7 Goat 3 Kun"
+   ],
+   [
+    "3未7坤",
+    "3 Goat 7 Kun"
+   ],
+   [
+    "正坤",
+    "Direct Kun"
+   ],
+   [
+    "5坤申",
+    "5 Kun Monkey"
+   ],
+   [
+    "正申",
+    "Direct Monkey"
+   ],
+   [
+    "7申3庚",
+    "7 Monkey 3 Geng"
+   ],
+   [
+    "3申7庚",
+    "3 Monkey 7 Geng"
+   ],
+   [
+    "正庚",
+    "Direct Geng"
+   ],
+   [
+    "5庚酉",
+    "5 Geng Rooster"
+   ],
+   [
+    "正酉",
+    "Direct Rooster"
+   ],
+   [
+    "7酉3辛",
+    "7 Rooster 3 Xin"
+   ],
+   [
+    "3酉7辛",
+    "3 Rooster 7 Xin"
+   ],
+   [
+    "正辛",
+    "Direct Xin"
+   ],
+   [
+    "5辛戌",
+    "5 Xin Dog"
+   ],
+   [
+    "正戌",
+    "Direct Dog"
+   ],
+   [
+    "7戌3乾",
+    "7 Dog 3 Qian"
+   ],
+   [
+    "3戌7乾",
+    "3 Dog 7 Qian"
+   ],
+   [
+    "正乾",
+    "Direct Qian"
+   ],
+   [
+    "5乾亥",
+    "5 Qian Pig"
+   ],
+   [
+    "正亥",
+    "Direct Pig"
+   ],
+   [
+    "7亥3壬",
+    "7 Pig 3 Ren"
+   ]
+  ],
+  "threeAuspiciousSixElegance": [
+   7,
+   7,
+   6,
+   1,
+   4,
+   3,
+   5,
+   8,
+   7,
+   2,
+   6,
+   1,
+   4,
+   6,
+   5,
+   8,
+   7,
+   5,
+   6,
+   2,
+   4,
+   3,
+   5,
+   4
+  ],
+  "qiMenFengShuiMap": {
+   "1": {
+    "N2": {
+     "N": 4,
+     "NE": 2,
+     "E": 6,
+     "SE": 7,
+     "S": 1,
+     "SW": 5,
+     "W": 3,
+     "NW": 9
+    },
+    "N1": {
+     "N": 4,
+     "NE": 2,
+     "E": 6,
+     "SE": 7,
+     "S": 1,
+     "SW": 5,
+     "W": 3,
+     "NW": 9
+    },
+    "NE1": {
+     "N": 4,
+     "NE": 2,
+     "E": 6,
+     "SE": 7,
+     "S": 1,
+     "SW": 5,
+     "W": 3,
+     "NW": 9
+    },
+    "N3": {
+     "N": 4,
+     "NE": 2,
+     "E": 6,
+     "SE": 7,
+     "S": 1,
+     "SW": 5,
+     "W": 3,
+     "NW": 9
+    },
+    "NE3": {
+     "N": 54,
+     "NE": 52,
+     "E": 56,
+     "SE": 57,
+     "S": 51,
+     "SW": 55,
+     "W": 53,
+     "NW": 59
+    },
+    "NE2": {
+     "N": 54,
+     "NE": 52,
+     "E": 56,
+     "SE": 57,
+     "S": 51,
+     "SW": 55,
+     "W": 53,
+     "NW": 59
+    },
+    "NW3": {
+     "N": 54,
+     "NE": 52,
+     "E": 56,
+     "SE": 57,
+     "S": 51,
+     "SW": 55,
+     "W": 53,
+     "NW": 59
+    },
+    "NW2": {
+     "N": 54,
+     "NE": 52,
+     "E": 56,
+     "SE": 57,
+     "S": 51,
+     "SW": 55,
+     "W": 53,
+     "NW": 59
+    },
+    "E2": {
+     "N": 14,
+     "NE": 12,
+     "E": 16,
+     "SE": 17,
+     "S": 11,
+     "SW": 15,
+     "W": 13,
+     "NW": 19
+    },
+    "E1": {
+     "N": 14,
+     "NE": 12,
+     "E": 16,
+     "SE": 17,
+     "S": 11,
+     "SW": 15,
+     "W": 13,
+     "NW": 19
+    },
+    "NW1": {
+     "N": 14,
+     "NE": 12,
+     "E": 16,
+     "SE": 17,
+     "S": 11,
+     "SW": 15,
+     "W": 13,
+     "NW": 19
+    },
+    "W3": {
+     "N": 14,
+     "NE": 12,
+     "E": 16,
+     "SE": 17,
+     "S": 11,
+     "SW": 15,
+     "W": 13,
+     "NW": 19
+    },
+    "SE1": {
+     "N": 44,
+     "NE": 42,
+     "E": 46,
+     "SE": 47,
+     "S": 41,
+     "SW": 45,
+     "W": 43,
+     "NW": 49
+    },
+    "E3": {
+     "N": 44,
+     "NE": 42,
+     "E": 46,
+     "SE": 47,
+     "S": 41,
+     "SW": 45,
+     "W": 43,
+     "NW": 49
+    },
+    "W2": {
+     "N": 44,
+     "NE": 42,
+     "E": 46,
+     "SE": 47,
+     "S": 41,
+     "SW": 45,
+     "W": 43,
+     "NW": 49
+    },
+    "W1": {
+     "N": 44,
+     "NE": 42,
+     "E": 46,
+     "SE": 47,
+     "S": 41,
+     "SW": 45,
+     "W": 43,
+     "NW": 49
+    },
+    "SE3": {
+     "N": 24,
+     "NE": 22,
+     "E": 26,
+     "SE": 27,
+     "S": 21,
+     "SW": 25,
+     "W": 23,
+     "NW": 29
+    },
+    "SE2": {
+     "N": 24,
+     "NE": 22,
+     "E": 26,
+     "SE": 27,
+     "S": 21,
+     "SW": 25,
+     "W": 23,
+     "NW": 29
+    },
+    "SW3": {
+     "N": 24,
+     "NE": 22,
+     "E": 26,
+     "SE": 27,
+     "S": 21,
+     "SW": 25,
+     "W": 23,
+     "NW": 29
+    },
+    "SW2": {
+     "N": 24,
+     "NE": 22,
+     "E": 26,
+     "SE": 27,
+     "S": 21,
+     "SW": 25,
+     "W": 23,
+     "NW": 29
+    },
+    "S2": {
+     "N": 34,
+     "NE": 32,
+     "E": 36,
+     "SE": 37,
+     "S": 31,
+     "SW": 35,
+     "W": 33,
+     "NW": 39
+    },
+    "S1": {
+     "N": 34,
+     "NE": 32,
+     "E": 36,
+     "SE": 37,
+     "S": 31,
+     "SW": 35,
+     "W": 33,
+     "NW": 39
+    },
+    "SW1": {
+     "N": 34,
+     "NE": 32,
+     "E": 36,
+     "SE": 37,
+     "S": 31,
+     "SW": 35,
+     "W": 33,
+     "NW": 39
+    },
+    "S3": {
+     "N": 34,
+     "NE": 32,
+     "E": 36,
+     "SE": 37,
+     "S": 31,
+     "SW": 35,
+     "W": 33,
+     "NW": 39
+    }
+   },
+   "2": {
+    "N2": {
+     "N": 1,
+     "NE": 3,
+     "E": 5,
+     "SE": 6,
+     "S": 2,
+     "SW": 4,
+     "W": 9,
+     "NW": 8
+    },
+    "N1": {
+     "N": 1,
+     "NE": 3,
+     "E": 5,
+     "SE": 6,
+     "S": 2,
+     "SW": 4,
+     "W": 9,
+     "NW": 8
+    },
+    "NE": {
+     "N": 1,
+     "NE": 3,
+     "E": 5,
+     "SE": 6,
+     "S": 2,
+     "SW": 4,
+     "W": 9,
+     "NW": 8
+    },
+    "N3": {
+     "N": 1,
+     "NE": 3,
+     "E": 5,
+     "SE": 6,
+     "S": 2,
+     "SW": 4,
+     "W": 9,
+     "NW": 8
+    },
+    "NE3": {
+     "N": 51,
+     "NE": 53,
+     "E": 55,
+     "SE": 56,
+     "S": 52,
+     "SW": 54,
+     "W": 59,
+     "NW": 58
+    },
+    "NE2": {
+     "N": 51,
+     "NE": 53,
+     "E": 55,
+     "SE": 56,
+     "S": 52,
+     "SW": 54,
+     "W": 59,
+     "NW": 58
+    },
+    "NW3": {
+     "N": 51,
+     "NE": 53,
+     "E": 55,
+     "SE": 56,
+     "S": 52,
+     "SW": 54,
+     "W": 59,
+     "NW": 58
+    },
+    "NW2": {
+     "N": 51,
+     "NE": 53,
+     "E": 55,
+     "SE": 56,
+     "S": 52,
+     "SW": 54,
+     "W": 59,
+     "NW": 58
+    },
+    "E2": {
+     "N": 11,
+     "NE": 13,
+     "E": 15,
+     "SE": 16,
+     "S": 12,
+     "SW": 14,
+     "W": 19,
+     "NW": 18
+    },
+    "E1": {
+     "N": 11,
+     "NE": 13,
+     "E": 15,
+     "SE": 16,
+     "S": 12,
+     "SW": 14,
+     "W": 19,
+     "NW": 18
+    },
+    "NW1": {
+     "N": 11,
+     "NE": 13,
+     "E": 15,
+     "SE": 16,
+     "S": 12,
+     "SW": 14,
+     "W": 19,
+     "NW": 18
+    },
+    "W3": {
+     "N": 11,
+     "NE": 13,
+     "E": 15,
+     "SE": 16,
+     "S": 12,
+     "SW": 14,
+     "W": 19,
+     "NW": 18
+    },
+    "SE1": {
+     "N": 41,
+     "NE": 43,
+     "E": 45,
+     "SE": 46,
+     "S": 42,
+     "SW": 44,
+     "W": 49,
+     "NW": 48
+    },
+    "E3": {
+     "N": 41,
+     "NE": 43,
+     "E": 45,
+     "SE": 46,
+     "S": 42,
+     "SW": 44,
+     "W": 49,
+     "NW": 48
+    },
+    "W2": {
+     "N": 41,
+     "NE": 43,
+     "E": 45,
+     "SE": 46,
+     "S": 42,
+     "SW": 44,
+     "W": 49,
+     "NW": 48
+    },
+    "W1": {
+     "N": 41,
+     "NE": 43,
+     "E": 45,
+     "SE": 46,
+     "S": 42,
+     "SW": 44,
+     "W": 49,
+     "NW": 48
+    },
+    "SE3": {
+     "N": 21,
+     "NE": 23,
+     "E": 25,
+     "SE": 26,
+     "S": 22,
+     "SW": 24,
+     "W": 29,
+     "NW": 28
+    },
+    "SE2": {
+     "N": 21,
+     "NE": 23,
+     "E": 25,
+     "SE": 26,
+     "S": 22,
+     "SW": 24,
+     "W": 29,
+     "NW": 28
+    },
+    "SW3": {
+     "N": 21,
+     "NE": 23,
+     "E": 25,
+     "SE": 26,
+     "S": 22,
+     "SW": 24,
+     "W": 29,
+     "NW": 28
+    },
+    "SW2": {
+     "N": 21,
+     "NE": 23,
+     "E": 25,
+     "SE": 26,
+     "S": 22,
+     "SW": 24,
+     "W": 29,
+     "NW": 28
+    },
+    "S2": {
+     "N": 31,
+     "NE": 33,
+     "E": 35,
+     "SE": 36,
+     "S": 32,
+     "SW": 34,
+     "W": 39,
+     "NW": 38
+    },
+    "S1": {
+     "N": 31,
+     "NE": 33,
+     "E": 35,
+     "SE": 36,
+     "S": 32,
+     "SW": 34,
+     "W": 39,
+     "NW": 38
+    },
+    "SW1": {
+     "N": 31,
+     "NE": 33,
+     "E": 35,
+     "SE": 36,
+     "S": 32,
+     "SW": 34,
+     "W": 39,
+     "NW": 38
+    },
+    "S3": {
+     "N": 31,
+     "NE": 33,
+     "E": 35,
+     "SE": 36,
+     "S": 32,
+     "SW": 34,
+     "W": 39,
+     "NW": 38
+    }
+   },
+   "3": {
+    "N2": {
+     "N": 2,
+     "NE": 9,
+     "E": 4,
+     "SE": 5,
+     "S": 3,
+     "SW": 1,
+     "W": 8,
+     "NW": 7
+    },
+    "N1": {
+     "N": 2,
+     "NE": 9,
+     "E": 4,
+     "SE": 5,
+     "S": 3,
+     "SW": 1,
+     "W": 8,
+     "NW": 7
+    },
+    "NE1": {
+     "N": 2,
+     "NE": 9,
+     "E": 4,
+     "SE": 5,
+     "S": 3,
+     "SW": 1,
+     "W": 8,
+     "NW": 7
+    },
+    "N3": {
+     "N": 2,
+     "NE": 9,
+     "E": 4,
+     "SE": 5,
+     "S": 3,
+     "SW": 1,
+     "W": 8,
+     "NW": 7
+    },
+    "NE3": {
+     "N": 52,
+     "NE": 59,
+     "E": 54,
+     "SE": 55,
+     "S": 53,
+     "SW": 51,
+     "W": 58,
+     "NW": 57
+    },
+    "NE2": {
+     "N": 52,
+     "NE": 59,
+     "E": 54,
+     "SE": 55,
+     "S": 53,
+     "SW": 51,
+     "W": 58,
+     "NW": 57
+    },
+    "NW3": {
+     "N": 52,
+     "NE": 59,
+     "E": 54,
+     "SE": 55,
+     "S": 53,
+     "SW": 51,
+     "W": 58,
+     "NW": 57
+    },
+    "NW2": {
+     "N": 52,
+     "NE": 59,
+     "E": 54,
+     "SE": 55,
+     "S": 53,
+     "SW": 51,
+     "W": 58,
+     "NW": 57
+    },
+    "E2": {
+     "N": 12,
+     "NE": 19,
+     "E": 14,
+     "SE": 15,
+     "S": 13,
+     "SW": 11,
+     "W": 18,
+     "NW": 17
+    },
+    "E1": {
+     "N": 12,
+     "NE": 19,
+     "E": 14,
+     "SE": 15,
+     "S": 13,
+     "SW": 11,
+     "W": 18,
+     "NW": 17
+    },
+    "NW1": {
+     "N": 12,
+     "NE": 19,
+     "E": 14,
+     "SE": 15,
+     "S": 13,
+     "SW": 11,
+     "W": 18,
+     "NW": 17
+    },
+    "W3": {
+     "N": 12,
+     "NE": 19,
+     "E": 14,
+     "SE": 15,
+     "S": 13,
+     "SW": 11,
+     "W": 18,
+     "NW": 17
+    },
+    "SE1": {
+     "N": 42,
+     "NE": 49,
+     "E": 44,
+     "SE": 45,
+     "S": 43,
+     "SW": 41,
+     "W": 48,
+     "NW": 47
+    },
+    "E3": {
+     "N": 42,
+     "NE": 49,
+     "E": 44,
+     "SE": 45,
+     "S": 43,
+     "SW": 41,
+     "W": 48,
+     "NW": 47
+    },
+    "W2": {
+     "N": 42,
+     "NE": 49,
+     "E": 44,
+     "SE": 45,
+     "S": 43,
+     "SW": 41,
+     "W": 48,
+     "NW": 47
+    },
+    "W1": {
+     "N": 42,
+     "NE": 49,
+     "E": 44,
+     "SE": 45,
+     "S": 43,
+     "SW": 41,
+     "W": 48,
+     "NW": 47
+    },
+    "SE3": {
+     "N": 22,
+     "NE": 29,
+     "E": 24,
+     "SE": 25,
+     "S": 23,
+     "SW": 21,
+     "W": 28,
+     "NW": 27
+    },
+    "SE2": {
+     "N": 22,
+     "NE": 29,
+     "E": 24,
+     "SE": 25,
+     "S": 23,
+     "SW": 21,
+     "W": 28,
+     "NW": 27
+    },
+    "SW3": {
+     "N": 22,
+     "NE": 29,
+     "E": 24,
+     "SE": 25,
+     "S": 23,
+     "SW": 21,
+     "W": 28,
+     "NW": 27
+    },
+    "SW2": {
+     "N": 22,
+     "NE": 29,
+     "E": 24,
+     "SE": 25,
+     "S": 23,
+     "SW": 21,
+     "W": 28,
+     "NW": 27
+    },
+    "S2": {
+     "N": 32,
+     "NE": 39,
+     "E": 34,
+     "SE": 35,
+     "S": 33,
+     "SW": 31,
+     "W": 38,
+     "NW": 37
+    },
+    "S1": {
+     "N": 32,
+     "NE": 39,
+     "E": 34,
+     "SE": 35,
+     "S": 33,
+     "SW": 31,
+     "W": 38,
+     "NW": 37
+    },
+    "SW1": {
+     "N": 32,
+     "NE": 39,
+     "E": 34,
+     "SE": 35,
+     "S": 33,
+     "SW": 31,
+     "W": 38,
+     "NW": 37
+    },
+    "S3": {
+     "N": 32,
+     "NE": 39,
+     "E": 34,
+     "SE": 35,
+     "S": 33,
+     "SW": 31,
+     "W": 38,
+     "NW": 37
+    }
+   },
+   "4": {
+    "N2": {
+     "N": 3,
+     "NE": 8,
+     "E": 1,
+     "SE": 4,
+     "S": 9,
+     "SW": 2,
+     "W": 7,
+     "NW": 6
+    },
+    "N1": {
+     "N": 3,
+     "NE": 8,
+     "E": 1,
+     "SE": 4,
+     "S": 9,
+     "SW": 2,
+     "W": 7,
+     "NW": 6
+    },
+    "NE1": {
+     "N": 3,
+     "NE": 8,
+     "E": 1,
+     "SE": 4,
+     "S": 9,
+     "SW": 2,
+     "W": 7,
+     "NW": 6
+    },
+    "N3": {
+     "N": 3,
+     "NE": 8,
+     "E": 1,
+     "SE": 4,
+     "S": 9,
+     "SW": 2,
+     "W": 7,
+     "NW": 6
+    },
+    "NE3": {
+     "N": 53,
+     "NE": 58,
+     "E": 51,
+     "SE": 54,
+     "S": 59,
+     "SW": 52,
+     "W": 57,
+     "NW": 56
+    },
+    "NE2": {
+     "N": 53,
+     "NE": 58,
+     "E": 51,
+     "SE": 54,
+     "S": 59,
+     "SW": 52,
+     "W": 57,
+     "NW": 56
+    },
+    "NW3": {
+     "N": 53,
+     "NE": 58,
+     "E": 51,
+     "SE": 54,
+     "S": 59,
+     "SW": 52,
+     "W": 57,
+     "NW": 56
+    },
+    "NW2": {
+     "N": 53,
+     "NE": 58,
+     "E": 51,
+     "SE": 54,
+     "S": 59,
+     "SW": 52,
+     "W": 57,
+     "NW": 56
+    },
+    "E2": {
+     "N": 13,
+     "NE": 18,
+     "E": 11,
+     "SE": 14,
+     "S": 19,
+     "SW": 12,
+     "W": 17,
+     "NW": 16
+    },
+    "E1": {
+     "N": 13,
+     "NE": 18,
+     "E": 11,
+     "SE": 14,
+     "S": 19,
+     "SW": 12,
+     "W": 17,
+     "NW": 16
+    },
+    "NW1": {
+     "N": 13,
+     "NE": 18,
+     "E": 11,
+     "SE": 14,
+     "S": 19,
+     "SW": 12,
+     "W": 17,
+     "NW": 16
+    },
+    "W3": {
+     "N": 13,
+     "NE": 18,
+     "E": 11,
+     "SE": 14,
+     "S": 19,
+     "SW": 12,
+     "W": 17,
+     "NW": 16
+    },
+    "SE1": {
+     "N": 43,
+     "NE": 48,
+     "E": 41,
+     "SE": 44,
+     "S": 49,
+     "SW": 42,
+     "W": 47,
+     "NW": 46
+    },
+    "E3": {
+     "N": 43,
+     "NE": 48,
+     "E": 41,
+     "SE": 44,
+     "S": 49,
+     "SW": 42,
+     "W": 47,
+     "NW": 46
+    },
+    "W2": {
+     "N": 43,
+     "NE": 48,
+     "E": 41,
+     "SE": 44,
+     "S": 49,
+     "SW": 42,
+     "W": 47,
+     "NW": 46
+    },
+    "W1": {
+     "N": 43,
+     "NE": 48,
+     "E": 41,
+     "SE": 44,
+     "S": 49,
+     "SW": 42,
+     "W": 47,
+     "NW": 46
+    },
+    "SE3": {
+     "N": 23,
+     "NE": 28,
+     "E": 21,
+     "SE": 24,
+     "S": 29,
+     "SW": 22,
+     "W": 27,
+     "NW": 26
+    },
+    "SE2": {
+     "N": 23,
+     "NE": 28,
+     "E": 21,
+     "SE": 24,
+     "S": 29,
+     "SW": 22,
+     "W": 27,
+     "NW": 26
+    },
+    "SW3": {
+     "N": 23,
+     "NE": 28,
+     "E": 21,
+     "SE": 24,
+     "S": 29,
+     "SW": 22,
+     "W": 27,
+     "NW": 26
+    },
+    "SW2": {
+     "N": 23,
+     "NE": 28,
+     "E": 21,
+     "SE": 24,
+     "S": 29,
+     "SW": 22,
+     "W": 27,
+     "NW": 26
+    },
+    "S2": {
+     "N": 33,
+     "NE": 38,
+     "E": 31,
+     "SE": 34,
+     "S": 39,
+     "SW": 32,
+     "W": 37,
+     "NW": 36
+    },
+    "S1": {
+     "N": 33,
+     "NE": 38,
+     "E": 31,
+     "SE": 34,
+     "S": 39,
+     "SW": 32,
+     "W": 37,
+     "NW": 36
+    },
+    "SW1": {
+     "N": 33,
+     "NE": 38,
+     "E": 31,
+     "SE": 34,
+     "S": 39,
+     "SW": 32,
+     "W": 37,
+     "NW": 36
+    },
+    "S3": {
+     "N": 33,
+     "NE": 38,
+     "E": 31,
+     "SE": 34,
+     "S": 39,
+     "SW": 32,
+     "W": 37,
+     "NW": 36
+    }
+   },
+   "5": {
+    "N2": {
+     "N": 9,
+     "NE": 7,
+     "E": 2,
+     "SE": 1,
+     "S": 8,
+     "SW": 3,
+     "W": 6,
+     "NW": 5
+    },
+    "N1": {
+     "N": 9,
+     "NE": 7,
+     "E": 2,
+     "SE": 1,
+     "S": 8,
+     "SW": 3,
+     "W": 6,
+     "NW": 5
+    },
+    "NE1": {
+     "N": 9,
+     "NE": 7,
+     "E": 2,
+     "SE": 1,
+     "S": 8,
+     "SW": 3,
+     "W": 6,
+     "NW": 5
+    },
+    "N3": {
+     "N": 9,
+     "NE": 7,
+     "E": 2,
+     "SE": 1,
+     "S": 8,
+     "SW": 3,
+     "W": 6,
+     "NW": 5
+    },
+    "NE3": {
+     "N": 59,
+     "NE": 57,
+     "E": 52,
+     "SE": 51,
+     "S": 58,
+     "SW": 53,
+     "W": 56,
+     "NW": 55
+    },
+    "NE2": {
+     "N": 59,
+     "NE": 57,
+     "E": 52,
+     "SE": 51,
+     "S": 58,
+     "SW": 53,
+     "W": 56,
+     "NW": 55
+    },
+    "NW3": {
+     "N": 59,
+     "NE": 57,
+     "E": 52,
+     "SE": 51,
+     "S": 58,
+     "SW": 53,
+     "W": 56,
+     "NW": 55
+    },
+    "NW2": {
+     "N": 59,
+     "NE": 57,
+     "E": 52,
+     "SE": 51,
+     "S": 58,
+     "SW": 53,
+     "W": 56,
+     "NW": 55
+    },
+    "E2": {
+     "N": 19,
+     "NE": 17,
+     "E": 12,
+     "SE": 11,
+     "S": 18,
+     "SW": 13,
+     "W": 16,
+     "NW": 15
+    },
+    "E1": {
+     "N": 19,
+     "NE": 17,
+     "E": 12,
+     "SE": 11,
+     "S": 18,
+     "SW": 13,
+     "W": 16,
+     "NW": 15
+    },
+    "NW1": {
+     "N": 19,
+     "NE": 17,
+     "E": 12,
+     "SE": 11,
+     "S": 18,
+     "SW": 13,
+     "W": 16,
+     "NW": 15
+    },
+    "W3": {
+     "N": 19,
+     "NE": 17,
+     "E": 12,
+     "SE": 11,
+     "S": 18,
+     "SW": 13,
+     "W": 16,
+     "NW": 15
+    },
+    "SE1": {
+     "N": 49,
+     "NE": 47,
+     "E": 42,
+     "SE": 41,
+     "S": 48,
+     "SW": 43,
+     "W": 46,
+     "NW": 45
+    },
+    "E3": {
+     "N": 49,
+     "NE": 47,
+     "E": 42,
+     "SE": 41,
+     "S": 48,
+     "SW": 43,
+     "W": 46,
+     "NW": 45
+    },
+    "W2": {
+     "N": 49,
+     "NE": 47,
+     "E": 42,
+     "SE": 41,
+     "S": 48,
+     "SW": 43,
+     "W": 46,
+     "NW": 45
+    },
+    "W1": {
+     "N": 49,
+     "NE": 47,
+     "E": 42,
+     "SE": 41,
+     "S": 48,
+     "SW": 43,
+     "W": 46,
+     "NW": 45
+    },
+    "SE3": {
+     "N": 29,
+     "NE": 27,
+     "E": 22,
+     "SE": 21,
+     "S": 28,
+     "SW": 23,
+     "W": 26,
+     "NW": 25
+    },
+    "SE2": {
+     "N": 29,
+     "NE": 27,
+     "E": 22,
+     "SE": 21,
+     "S": 28,
+     "SW": 23,
+     "W": 26,
+     "NW": 25
+    },
+    "SW3": {
+     "N": 29,
+     "NE": 27,
+     "E": 22,
+     "SE": 21,
+     "S": 28,
+     "SW": 23,
+     "W": 26,
+     "NW": 25
+    },
+    "SW2": {
+     "N": 29,
+     "NE": 27,
+     "E": 22,
+     "SE": 21,
+     "S": 28,
+     "SW": 23,
+     "W": 26,
+     "NW": 25
+    },
+    "S2": {
+     "N": 39,
+     "NE": 37,
+     "E": 32,
+     "SE": 31,
+     "S": 38,
+     "SW": 33,
+     "W": 36,
+     "NW": 35
+    },
+    "S1": {
+     "N": 39,
+     "NE": 37,
+     "E": 32,
+     "SE": 31,
+     "S": 38,
+     "SW": 33,
+     "W": 36,
+     "NW": 35
+    },
+    "SW1": {
+     "N": 39,
+     "NE": 37,
+     "E": 32,
+     "SE": 31,
+     "S": 38,
+     "SW": 33,
+     "W": 36,
+     "NW": 35
+    },
+    "S3": {
+     "N": 39,
+     "NE": 37,
+     "E": 32,
+     "SE": 31,
+     "S": 38,
+     "SW": 33,
+     "W": 36,
+     "NW": 35
+    }
+   },
+   "6": {
+    "N2": {
+     "N": 8,
+     "NE": 6,
+     "E": 3,
+     "SE": 2,
+     "S": 7,
+     "SW": 9,
+     "W": 5,
+     "NW": 4
+    },
+    "N1": {
+     "N": 8,
+     "NE": 6,
+     "E": 3,
+     "SE": 2,
+     "S": 7,
+     "SW": 9,
+     "W": 5,
+     "NW": 4
+    },
+    "NE1": {
+     "N": 8,
+     "NE": 6,
+     "E": 3,
+     "SE": 2,
+     "S": 7,
+     "SW": 9,
+     "W": 5,
+     "NW": 4
+    },
+    "N3": {
+     "N": 8,
+     "NE": 6,
+     "E": 3,
+     "SE": 2,
+     "S": 7,
+     "SW": 9,
+     "W": 5,
+     "NW": 4
+    },
+    "NE3": {
+     "N": 58,
+     "NE": 56,
+     "E": 53,
+     "SE": 52,
+     "S": 57,
+     "SW": 59,
+     "W": 55,
+     "NW": 54
+    },
+    "NE2": {
+     "N": 58,
+     "NE": 56,
+     "E": 53,
+     "SE": 52,
+     "S": 57,
+     "SW": 59,
+     "W": 55,
+     "NW": 54
+    },
+    "NW3": {
+     "N": 58,
+     "NE": 56,
+     "E": 53,
+     "SE": 52,
+     "S": 57,
+     "SW": 59,
+     "W": 55,
+     "NW": 54
+    },
+    "NW2": {
+     "N": 58,
+     "NE": 56,
+     "E": 53,
+     "SE": 52,
+     "S": 57,
+     "SW": 59,
+     "W": 55,
+     "NW": 54
+    },
+    "E2": {
+     "N": 18,
+     "NE": 16,
+     "E": 13,
+     "SE": 12,
+     "S": 17,
+     "SW": 19,
+     "W": 15,
+     "NW": 14
+    },
+    "E1": {
+     "N": 18,
+     "NE": 16,
+     "E": 13,
+     "SE": 12,
+     "S": 17,
+     "SW": 19,
+     "W": 15,
+     "NW": 14
+    },
+    "NW1": {
+     "N": 18,
+     "NE": 16,
+     "E": 13,
+     "SE": 12,
+     "S": 17,
+     "SW": 19,
+     "W": 15,
+     "NW": 14
+    },
+    "W3": {
+     "N": 18,
+     "NE": 16,
+     "E": 13,
+     "SE": 12,
+     "S": 17,
+     "SW": 19,
+     "W": 15,
+     "NW": 14
+    },
+    "SE1": {
+     "N": 48,
+     "NE": 46,
+     "E": 43,
+     "SE": 42,
+     "S": 47,
+     "SW": 49,
+     "W": 45,
+     "NW": 44
+    },
+    "E3": {
+     "N": 48,
+     "NE": 46,
+     "E": 43,
+     "SE": 42,
+     "S": 47,
+     "SW": 49,
+     "W": 45,
+     "NW": 44
+    },
+    "W2": {
+     "N": 48,
+     "NE": 46,
+     "E": 43,
+     "SE": 42,
+     "S": 47,
+     "SW": 49,
+     "W": 45,
+     "NW": 44
+    },
+    "W1": {
+     "N": 48,
+     "NE": 46,
+     "E": 43,
+     "SE": 42,
+     "S": 47,
+     "SW": 49,
+     "W": 45,
+     "NW": 44
+    },
+    "SE3": {
+     "N": 28,
+     "NE": 26,
+     "E": 23,
+     "SE": 22,
+     "S": 27,
+     "SW": 29,
+     "W": 25,
+     "NW": 24
+    },
+    "SE2": {
+     "N": 28,
+     "NE": 26,
+     "E": 23,
+     "SE": 22,
+     "S": 27,
+     "SW": 29,
+     "W": 25,
+     "NW": 24
+    },
+    "SW3": {
+     "N": 28,
+     "NE": 26,
+     "E": 23,
+     "SE": 22,
+     "S": 27,
+     "SW": 29,
+     "W": 25,
+     "NW": 24
+    },
+    "SW2": {
+     "N": 28,
+     "NE": 26,
+     "E": 23,
+     "SE": 22,
+     "S": 27,
+     "SW": 29,
+     "W": 25,
+     "NW": 24
+    },
+    "S2": {
+     "N": 38,
+     "NE": 36,
+     "E": 33,
+     "SE": 32,
+     "S": 37,
+     "SW": 39,
+     "W": 35,
+     "NW": 34
+    },
+    "S1": {
+     "N": 38,
+     "NE": 36,
+     "E": 33,
+     "SE": 32,
+     "S": 37,
+     "SW": 39,
+     "W": 35,
+     "NW": 34
+    },
+    "SW1": {
+     "N": 38,
+     "NE": 36,
+     "E": 33,
+     "SE": 32,
+     "S": 37,
+     "SW": 39,
+     "W": 35,
+     "NW": 34
+    },
+    "S3": {
+     "N": 38,
+     "NE": 36,
+     "E": 33,
+     "SE": 32,
+     "S": 37,
+     "SW": 39,
+     "W": 35,
+     "NW": 34
+    }
+   },
+   "7": {
+    "N2": {
+     "N": 7,
+     "NE": 5,
+     "E": 9,
+     "SE": 3,
+     "S": 6,
+     "SW": 8,
+     "W": 4,
+     "NW": 1
+    },
+    "N1": {
+     "N": 7,
+     "NE": 5,
+     "E": 9,
+     "SE": 3,
+     "S": 6,
+     "SW": 8,
+     "W": 4,
+     "NW": 1
+    },
+    "NE1": {
+     "N": 7,
+     "NE": 5,
+     "E": 9,
+     "SE": 3,
+     "S": 6,
+     "SW": 8,
+     "W": 4,
+     "NW": 1
+    },
+    "N3": {
+     "N": 7,
+     "NE": 5,
+     "E": 9,
+     "SE": 3,
+     "S": 6,
+     "SW": 8,
+     "W": 4,
+     "NW": 1
+    },
+    "NE3": {
+     "N": 57,
+     "NE": 55,
+     "E": 59,
+     "SE": 53,
+     "S": 56,
+     "SW": 58,
+     "W": 54,
+     "NW": 51
+    },
+    "NE2": {
+     "N": 57,
+     "NE": 55,
+     "E": 59,
+     "SE": 53,
+     "S": 56,
+     "SW": 58,
+     "W": 54,
+     "NW": 51
+    },
+    "NW3": {
+     "N": 57,
+     "NE": 55,
+     "E": 59,
+     "SE": 53,
+     "S": 56,
+     "SW": 58,
+     "W": 54,
+     "NW": 51
+    },
+    "NW2": {
+     "N": 57,
+     "NE": 55,
+     "E": 59,
+     "SE": 53,
+     "S": 56,
+     "SW": 58,
+     "W": 54,
+     "NW": 51
+    },
+    "E2": {
+     "N": 17,
+     "NE": 15,
+     "E": 19,
+     "SE": 13,
+     "S": 16,
+     "SW": 18,
+     "W": 14,
+     "NW": 11
+    },
+    "E1": {
+     "N": 17,
+     "NE": 15,
+     "E": 19,
+     "SE": 13,
+     "S": 16,
+     "SW": 18,
+     "W": 14,
+     "NW": 11
+    },
+    "NW1": {
+     "N": 17,
+     "NE": 15,
+     "E": 19,
+     "SE": 13,
+     "S": 16,
+     "SW": 18,
+     "W": 14,
+     "NW": 11
+    },
+    "W3": {
+     "N": 17,
+     "NE": 15,
+     "E": 19,
+     "SE": 13,
+     "S": 16,
+     "SW": 18,
+     "W": 14,
+     "NW": 11
+    },
+    "SE1": {
+     "N": 47,
+     "NE": 45,
+     "E": 49,
+     "SE": 43,
+     "S": 46,
+     "SW": 48,
+     "W": 44,
+     "NW": 41
+    },
+    "E3": {
+     "N": 47,
+     "NE": 45,
+     "E": 49,
+     "SE": 43,
+     "S": 46,
+     "SW": 48,
+     "W": 44,
+     "NW": 41
+    },
+    "W2": {
+     "N": 47,
+     "NE": 45,
+     "E": 49,
+     "SE": 43,
+     "S": 46,
+     "SW": 48,
+     "W": 44,
+     "NW": 41
+    },
+    "W1": {
+     "N": 47,
+     "NE": 45,
+     "E": 49,
+     "SE": 43,
+     "S": 46,
+     "SW": 48,
+     "W": 44,
+     "NW": 41
+    },
+    "SE3": {
+     "N": 27,
+     "NE": 25,
+     "E": 29,
+     "SE": 23,
+     "S": 26,
+     "SW": 28,
+     "W": 24,
+     "NW": 21
+    },
+    "SE2": {
+     "N": 27,
+     "NE": 25,
+     "E": 29,
+     "SE": 23,
+     "S": 26,
+     "SW": 28,
+     "W": 24,
+     "NW": 21
+    },
+    "SW3": {
+     "N": 27,
+     "NE": 25,
+     "E": 29,
+     "SE": 23,
+     "S": 26,
+     "SW": 28,
+     "W": 24,
+     "NW": 21
+    },
+    "SW2": {
+     "N": 27,
+     "NE": 25,
+     "E": 29,
+     "SE": 23,
+     "S": 26,
+     "SW": 28,
+     "W": 24,
+     "NW": 21
+    },
+    "S2": {
+     "N": 37,
+     "NE": 35,
+     "E": 39,
+     "SE": 33,
+     "S": 36,
+     "SW": 38,
+     "W": 34,
+     "NW": 31
+    },
+    "S1": {
+     "N": 37,
+     "NE": 35,
+     "E": 39,
+     "SE": 33,
+     "S": 36,
+     "SW": 38,
+     "W": 34,
+     "NW": 31
+    },
+    "SW1": {
+     "N": 37,
+     "NE": 35,
+     "E": 39,
+     "SE": 33,
+     "S": 36,
+     "SW": 38,
+     "W": 34,
+     "NW": 31
+    },
+    "S3": {
+     "N": 37,
+     "NE": 35,
+     "E": 39,
+     "SE": 33,
+     "S": 36,
+     "SW": 38,
+     "W": 34,
+     "NW": 31
+    }
+   },
+   "8": {
+    "N2": {
+     "N": 6,
+     "NE": 4,
+     "E": 8,
+     "SE": 9,
+     "S": 5,
+     "SW": 7,
+     "W": 1,
+     "NW": 2
+    },
+    "N1": {
+     "N": 6,
+     "NE": 4,
+     "E": 8,
+     "SE": 9,
+     "S": 5,
+     "SW": 7,
+     "W": 1,
+     "NW": 2
+    },
+    "NE1": {
+     "N": 6,
+     "NE": 4,
+     "E": 8,
+     "SE": 9,
+     "S": 5,
+     "SW": 7,
+     "W": 1,
+     "NW": 2
+    },
+    "N3": {
+     "N": 6,
+     "NE": 4,
+     "E": 8,
+     "SE": 9,
+     "S": 5,
+     "SW": 7,
+     "W": 1,
+     "NW": 2
+    },
+    "NE3": {
+     "N": 56,
+     "NE": 54,
+     "E": 58,
+     "SE": 59,
+     "S": 55,
+     "SW": 57,
+     "W": 51,
+     "NW": 52
+    },
+    "NE2": {
+     "N": 56,
+     "NE": 54,
+     "E": 58,
+     "SE": 59,
+     "S": 55,
+     "SW": 57,
+     "W": 51,
+     "NW": 52
+    },
+    "NW3": {
+     "N": 56,
+     "NE": 54,
+     "E": 58,
+     "SE": 59,
+     "S": 55,
+     "SW": 57,
+     "W": 51,
+     "NW": 52
+    },
+    "NW2": {
+     "N": 56,
+     "NE": 54,
+     "E": 58,
+     "SE": 59,
+     "S": 55,
+     "SW": 57,
+     "W": 51,
+     "NW": 52
+    },
+    "E2": {
+     "N": 16,
+     "NE": 14,
+     "E": 18,
+     "SE": 19,
+     "S": 15,
+     "SW": 17,
+     "W": 11,
+     "NW": 12
+    },
+    "E1": {
+     "N": 16,
+     "NE": 14,
+     "E": 18,
+     "SE": 19,
+     "S": 15,
+     "SW": 17,
+     "W": 11,
+     "NW": 12
+    },
+    "NW1": {
+     "N": 16,
+     "NE": 14,
+     "E": 18,
+     "SE": 19,
+     "S": 15,
+     "SW": 17,
+     "W": 11,
+     "NW": 12
+    },
+    "W3": {
+     "N": 16,
+     "NE": 14,
+     "E": 18,
+     "SE": 19,
+     "S": 15,
+     "SW": 17,
+     "W": 11,
+     "NW": 12
+    },
+    "SE1": {
+     "N": 46,
+     "NE": 44,
+     "E": 48,
+     "SE": 49,
+     "S": 45,
+     "SW": 47,
+     "W": 41,
+     "NW": 42
+    },
+    "E3": {
+     "N": 46,
+     "NE": 44,
+     "E": 48,
+     "SE": 49,
+     "S": 45,
+     "SW": 47,
+     "W": 41,
+     "NW": 42
+    },
+    "W2": {
+     "N": 46,
+     "NE": 44,
+     "E": 48,
+     "SE": 49,
+     "S": 45,
+     "SW": 47,
+     "W": 41,
+     "NW": 42
+    },
+    "W1": {
+     "N": 46,
+     "NE": 44,
+     "E": 48,
+     "SE": 49,
+     "S": 45,
+     "SW": 47,
+     "W": 41,
+     "NW": 42
+    },
+    "SE3": {
+     "N": 26,
+     "NE": 24,
+     "E": 28,
+     "SE": 29,
+     "S": 25,
+     "SW": 27,
+     "W": 21,
+     "NW": 22
+    },
+    "SE2": {
+     "N": 26,
+     "NE": 24,
+     "E": 28,
+     "SE": 29,
+     "S": 25,
+     "SW": 27,
+     "W": 21,
+     "NW": 22
+    },
+    "SW3": {
+     "N": 26,
+     "NE": 24,
+     "E": 28,
+     "SE": 29,
+     "S": 25,
+     "SW": 27,
+     "W": 21,
+     "NW": 22
+    },
+    "SW2": {
+     "N": 26,
+     "NE": 24,
+     "E": 28,
+     "SE": 29,
+     "S": 25,
+     "SW": 27,
+     "W": 21,
+     "NW": 22
+    },
+    "S2": {
+     "N": 36,
+     "NE": 34,
+     "E": 38,
+     "SE": 39,
+     "S": 35,
+     "SW": 37,
+     "W": 31,
+     "NW": 32
+    },
+    "S1": {
+     "N": 36,
+     "NE": 34,
+     "E": 38,
+     "SE": 39,
+     "S": 35,
+     "SW": 37,
+     "W": 31,
+     "NW": 32
+    },
+    "SW1": {
+     "N": 36,
+     "NE": 34,
+     "E": 38,
+     "SE": 39,
+     "S": 35,
+     "SW": 37,
+     "W": 31,
+     "NW": 32
+    },
+    "S3": {
+     "N": 36,
+     "NE": 34,
+     "E": 38,
+     "SE": 39,
+     "S": 35,
+     "SW": 37,
+     "W": 31,
+     "NW": 32
+    }
+   },
+   "9": {
+    "N2": {
+     "N": 5,
+     "NE": 1,
+     "E": 7,
+     "SE": 8,
+     "S": 4,
+     "SW": 6,
+     "W": 2,
+     "NW": 3
+    },
+    "N1": {
+     "N": 5,
+     "NE": 1,
+     "E": 7,
+     "SE": 8,
+     "S": 4,
+     "SW": 6,
+     "W": 2,
+     "NW": 3
+    },
+    "NE1": {
+     "N": 5,
+     "NE": 1,
+     "E": 7,
+     "SE": 8,
+     "S": 4,
+     "SW": 6,
+     "W": 2,
+     "NW": 3
+    },
+    "N3": {
+     "N": 5,
+     "NE": 1,
+     "E": 7,
+     "SE": 8,
+     "S": 4,
+     "SW": 6,
+     "W": 2,
+     "NW": 3
+    },
+    "NE3": {
+     "N": 55,
+     "NE": 51,
+     "E": 57,
+     "SE": 58,
+     "S": 54,
+     "SW": 56,
+     "W": 52,
+     "NW": 53
+    },
+    "NE2": {
+     "N": 55,
+     "NE": 51,
+     "E": 57,
+     "SE": 58,
+     "S": 54,
+     "SW": 56,
+     "W": 52,
+     "NW": 53
+    },
+    "NW3": {
+     "N": 55,
+     "NE": 51,
+     "E": 57,
+     "SE": 58,
+     "S": 54,
+     "SW": 56,
+     "W": 52,
+     "NW": 53
+    },
+    "NW2": {
+     "N": 55,
+     "NE": 51,
+     "E": 57,
+     "SE": 58,
+     "S": 54,
+     "SW": 56,
+     "W": 52,
+     "NW": 53
+    },
+    "E2": {
+     "N": 15,
+     "NE": 11,
+     "E": 17,
+     "SE": 18,
+     "S": 14,
+     "SW": 16,
+     "W": 12,
+     "NW": 13
+    },
+    "E1": {
+     "N": 15,
+     "NE": 11,
+     "E": 17,
+     "SE": 18,
+     "S": 14,
+     "SW": 16,
+     "W": 12,
+     "NW": 13
+    },
+    "NW1": {
+     "N": 15,
+     "NE": 11,
+     "E": 17,
+     "SE": 18,
+     "S": 14,
+     "SW": 16,
+     "W": 12,
+     "NW": 13
+    },
+    "W3": {
+     "N": 15,
+     "NE": 11,
+     "E": 17,
+     "SE": 18,
+     "S": 14,
+     "SW": 16,
+     "W": 12,
+     "NW": 13
+    },
+    "SE1": {
+     "N": 45,
+     "NE": 41,
+     "E": 47,
+     "SE": 48,
+     "S": 44,
+     "SW": 46,
+     "W": 42,
+     "NW": 43
+    },
+    "E3": {
+     "N": 45,
+     "NE": 41,
+     "E": 47,
+     "SE": 48,
+     "S": 44,
+     "SW": 46,
+     "W": 42,
+     "NW": 43
+    },
+    "W2": {
+     "N": 45,
+     "NE": 41,
+     "E": 47,
+     "SE": 48,
+     "S": 44,
+     "SW": 46,
+     "W": 42,
+     "NW": 43
+    },
+    "W1": {
+     "N": 45,
+     "NE": 41,
+     "E": 47,
+     "SE": 48,
+     "S": 44,
+     "SW": 46,
+     "W": 42,
+     "NW": 43
+    },
+    "SE3": {
+     "N": 25,
+     "NE": 21,
+     "E": 27,
+     "SE": 28,
+     "S": 24,
+     "SW": 26,
+     "W": 22,
+     "NW": 23
+    },
+    "SE2": {
+     "N": 25,
+     "NE": 21,
+     "E": 27,
+     "SE": 28,
+     "S": 24,
+     "SW": 26,
+     "W": 22,
+     "NW": 23
+    },
+    "SW3": {
+     "N": 25,
+     "NE": 21,
+     "E": 27,
+     "SE": 28,
+     "S": 24,
+     "SW": 26,
+     "W": 22,
+     "NW": 23
+    },
+    "SW2": {
+     "N": 25,
+     "NE": 21,
+     "E": 27,
+     "SE": 28,
+     "S": 24,
+     "SW": 26,
+     "W": 22,
+     "NW": 23
+    },
+    "S2": {
+     "N": 35,
+     "NE": 31,
+     "E": 37,
+     "SE": 38,
+     "S": 34,
+     "SW": 36,
+     "W": 32,
+     "NW": 33
+    },
+    "S1": {
+     "N": 35,
+     "NE": 31,
+     "E": 37,
+     "SE": 38,
+     "S": 34,
+     "SW": 36,
+     "W": 32,
+     "NW": 33
+    },
+    "SW1": {
+     "N": 35,
+     "NE": 31,
+     "E": 37,
+     "SE": 38,
+     "S": 34,
+     "SW": 36,
+     "W": 32,
+     "NW": 33
+    },
+    "S3": {
+     "N": 35,
+     "NE": 31,
+     "E": 37,
+     "SE": 38,
+     "S": 34,
+     "SW": 36,
+     "W": 32,
+     "NW": 33
+    }
+   }
+  }
+ },
+ "degreeToMountain": [
+  {
+   "degree": 0,
+   "sector": "N2"
+  },
+  {
+   "degree": 0.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 1,
+   "sector": "N2"
+  },
+  {
+   "degree": 1.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 2,
+   "sector": "N2"
+  },
+  {
+   "degree": 2.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 3,
+   "sector": "N2"
+  },
+  {
+   "degree": 3.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 4,
+   "sector": "N2"
+  },
+  {
+   "degree": 4.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 5,
+   "sector": "N2"
+  },
+  {
+   "degree": 5.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 6,
+   "sector": "N2"
+  },
+  {
+   "degree": 6.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 7,
+   "sector": "N2"
+  },
+  {
+   "degree": 7.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 8,
+   "sector": "N3"
+  },
+  {
+   "degree": 8.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 9,
+   "sector": "N3"
+  },
+  {
+   "degree": 9.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 10,
+   "sector": "N3"
+  },
+  {
+   "degree": 10.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 11,
+   "sector": "N3"
+  },
+  {
+   "degree": 11.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 12,
+   "sector": "N3"
+  },
+  {
+   "degree": 12.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 13,
+   "sector": "N3"
+  },
+  {
+   "degree": 13.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 14,
+   "sector": "N3"
+  },
+  {
+   "degree": 14.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 15,
+   "sector": "N3"
+  },
+  {
+   "degree": 15.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 16,
+   "sector": "N3"
+  },
+  {
+   "degree": 16.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 17,
+   "sector": "N3"
+  },
+  {
+   "degree": 17.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 18,
+   "sector": "N3"
+  },
+  {
+   "degree": 18.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 19,
+   "sector": "N3"
+  },
+  {
+   "degree": 19.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 20,
+   "sector": "N3"
+  },
+  {
+   "degree": 20.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 21,
+   "sector": "N3"
+  },
+  {
+   "degree": 21.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 22,
+   "sector": "N3"
+  },
+  {
+   "degree": 22.5,
+   "sector": "N3"
+  },
+  {
+   "degree": 23,
+   "sector": "NE1"
+  },
+  {
+   "degree": 23.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 24,
+   "sector": "NE1"
+  },
+  {
+   "degree": 24.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 25,
+   "sector": "NE1"
+  },
+  {
+   "degree": 25.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 26,
+   "sector": "NE1"
+  },
+  {
+   "degree": 26.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 27,
+   "sector": "NE1"
+  },
+  {
+   "degree": 27.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 28,
+   "sector": "NE1"
+  },
+  {
+   "degree": 28.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 29,
+   "sector": "NE1"
+  },
+  {
+   "degree": 29.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 30,
+   "sector": "NE1"
+  },
+  {
+   "degree": 30.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 31,
+   "sector": "NE1"
+  },
+  {
+   "degree": 31.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 32,
+   "sector": "NE1"
+  },
+  {
+   "degree": 32.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 33,
+   "sector": "NE1"
+  },
+  {
+   "degree": 33.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 34,
+   "sector": "NE1"
+  },
+  {
+   "degree": 34.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 35,
+   "sector": "NE1"
+  },
+  {
+   "degree": 35.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 36,
+   "sector": "NE1"
+  },
+  {
+   "degree": 36.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 37,
+   "sector": "NE1"
+  },
+  {
+   "degree": 37.5,
+   "sector": "NE1"
+  },
+  {
+   "degree": 38,
+   "sector": "NE2"
+  },
+  {
+   "degree": 38.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 39,
+   "sector": "NE2"
+  },
+  {
+   "degree": 39.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 40,
+   "sector": "NE2"
+  },
+  {
+   "degree": 40.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 41,
+   "sector": "NE2"
+  },
+  {
+   "degree": 41.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 42,
+   "sector": "NE2"
+  },
+  {
+   "degree": 42.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 43,
+   "sector": "NE2"
+  },
+  {
+   "degree": 43.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 44,
+   "sector": "NE2"
+  },
+  {
+   "degree": 44.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 45,
+   "sector": "NE2"
+  },
+  {
+   "degree": 45.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 46,
+   "sector": "NE2"
+  },
+  {
+   "degree": 46.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 47,
+   "sector": "NE2"
+  },
+  {
+   "degree": 47.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 48,
+   "sector": "NE2"
+  },
+  {
+   "degree": 48.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 49,
+   "sector": "NE2"
+  },
+  {
+   "degree": 49.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 50,
+   "sector": "NE2"
+  },
+  {
+   "degree": 50.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 51,
+   "sector": "NE2"
+  },
+  {
+   "degree": 51.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 52,
+   "sector": "NE2"
+  },
+  {
+   "degree": 52.5,
+   "sector": "NE2"
+  },
+  {
+   "degree": 53,
+   "sector": "NE3"
+  },
+  {
+   "degree": 53.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 54,
+   "sector": "NE3"
+  },
+  {
+   "degree": 54.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 55,
+   "sector": "NE3"
+  },
+  {
+   "degree": 55.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 56,
+   "sector": "NE3"
+  },
+  {
+   "degree": 56.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 57,
+   "sector": "NE3"
+  },
+  {
+   "degree": 57.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 58,
+   "sector": "NE3"
+  },
+  {
+   "degree": 58.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 59,
+   "sector": "NE3"
+  },
+  {
+   "degree": 59.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 60,
+   "sector": "NE3"
+  },
+  {
+   "degree": 60.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 61,
+   "sector": "NE3"
+  },
+  {
+   "degree": 61.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 62,
+   "sector": "NE3"
+  },
+  {
+   "degree": 62.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 63,
+   "sector": "NE3"
+  },
+  {
+   "degree": 63.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 64,
+   "sector": "NE3"
+  },
+  {
+   "degree": 64.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 65,
+   "sector": "NE3"
+  },
+  {
+   "degree": 65.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 66,
+   "sector": "NE3"
+  },
+  {
+   "degree": 66.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 67,
+   "sector": "NE3"
+  },
+  {
+   "degree": 67.5,
+   "sector": "NE3"
+  },
+  {
+   "degree": 68,
+   "sector": "E1"
+  },
+  {
+   "degree": 68.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 69,
+   "sector": "E1"
+  },
+  {
+   "degree": 69.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 70,
+   "sector": "E1"
+  },
+  {
+   "degree": 70.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 71,
+   "sector": "E1"
+  },
+  {
+   "degree": 71.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 72,
+   "sector": "E1"
+  },
+  {
+   "degree": 72.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 73,
+   "sector": "E1"
+  },
+  {
+   "degree": 73.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 74,
+   "sector": "E1"
+  },
+  {
+   "degree": 74.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 75,
+   "sector": "E1"
+  },
+  {
+   "degree": 75.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 76,
+   "sector": "E1"
+  },
+  {
+   "degree": 76.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 77,
+   "sector": "E1"
+  },
+  {
+   "degree": 77.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 78,
+   "sector": "E1"
+  },
+  {
+   "degree": 78.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 79,
+   "sector": "E1"
+  },
+  {
+   "degree": 79.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 80,
+   "sector": "E1"
+  },
+  {
+   "degree": 80.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 81,
+   "sector": "E1"
+  },
+  {
+   "degree": 81.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 82,
+   "sector": "E1"
+  },
+  {
+   "degree": 82.5,
+   "sector": "E1"
+  },
+  {
+   "degree": 83,
+   "sector": "E2"
+  },
+  {
+   "degree": 83.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 84,
+   "sector": "E2"
+  },
+  {
+   "degree": 84.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 85,
+   "sector": "E2"
+  },
+  {
+   "degree": 85.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 86,
+   "sector": "E2"
+  },
+  {
+   "degree": 86.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 87,
+   "sector": "E2"
+  },
+  {
+   "degree": 87.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 88,
+   "sector": "E2"
+  },
+  {
+   "degree": 88.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 89,
+   "sector": "E2"
+  },
+  {
+   "degree": 89.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 90,
+   "sector": "E2"
+  },
+  {
+   "degree": 90.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 91,
+   "sector": "E2"
+  },
+  {
+   "degree": 91.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 92,
+   "sector": "E2"
+  },
+  {
+   "degree": 92.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 93,
+   "sector": "E2"
+  },
+  {
+   "degree": 93.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 94,
+   "sector": "E2"
+  },
+  {
+   "degree": 94.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 95,
+   "sector": "E2"
+  },
+  {
+   "degree": 95.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 96,
+   "sector": "E2"
+  },
+  {
+   "degree": 96.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 97,
+   "sector": "E2"
+  },
+  {
+   "degree": 97.5,
+   "sector": "E2"
+  },
+  {
+   "degree": 98,
+   "sector": "E3"
+  },
+  {
+   "degree": 98.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 99,
+   "sector": "E3"
+  },
+  {
+   "degree": 99.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 100,
+   "sector": "E3"
+  },
+  {
+   "degree": 100.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 101,
+   "sector": "E3"
+  },
+  {
+   "degree": 101.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 102,
+   "sector": "E3"
+  },
+  {
+   "degree": 102.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 103,
+   "sector": "E3"
+  },
+  {
+   "degree": 103.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 104,
+   "sector": "E3"
+  },
+  {
+   "degree": 104.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 105,
+   "sector": "E3"
+  },
+  {
+   "degree": 105.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 106,
+   "sector": "E3"
+  },
+  {
+   "degree": 106.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 107,
+   "sector": "E3"
+  },
+  {
+   "degree": 107.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 108,
+   "sector": "E3"
+  },
+  {
+   "degree": 108.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 109,
+   "sector": "E3"
+  },
+  {
+   "degree": 109.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 110,
+   "sector": "E3"
+  },
+  {
+   "degree": 110.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 111,
+   "sector": "E3"
+  },
+  {
+   "degree": 111.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 112,
+   "sector": "E3"
+  },
+  {
+   "degree": 112.5,
+   "sector": "E3"
+  },
+  {
+   "degree": 113,
+   "sector": "SE1"
+  },
+  {
+   "degree": 113.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 114,
+   "sector": "SE1"
+  },
+  {
+   "degree": 114.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 115,
+   "sector": "SE1"
+  },
+  {
+   "degree": 115.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 116,
+   "sector": "SE1"
+  },
+  {
+   "degree": 116.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 117,
+   "sector": "SE1"
+  },
+  {
+   "degree": 117.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 118,
+   "sector": "SE1"
+  },
+  {
+   "degree": 118.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 119,
+   "sector": "SE1"
+  },
+  {
+   "degree": 119.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 120,
+   "sector": "SE1"
+  },
+  {
+   "degree": 120.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 121,
+   "sector": "SE1"
+  },
+  {
+   "degree": 121.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 122,
+   "sector": "SE1"
+  },
+  {
+   "degree": 122.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 123,
+   "sector": "SE1"
+  },
+  {
+   "degree": 123.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 124,
+   "sector": "SE1"
+  },
+  {
+   "degree": 124.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 125,
+   "sector": "SE1"
+  },
+  {
+   "degree": 125.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 126,
+   "sector": "SE1"
+  },
+  {
+   "degree": 126.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 127,
+   "sector": "SE1"
+  },
+  {
+   "degree": 127.5,
+   "sector": "SE1"
+  },
+  {
+   "degree": 128,
+   "sector": "SE2"
+  },
+  {
+   "degree": 128.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 129,
+   "sector": "SE2"
+  },
+  {
+   "degree": 129.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 130,
+   "sector": "SE2"
+  },
+  {
+   "degree": 130.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 131,
+   "sector": "SE2"
+  },
+  {
+   "degree": 131.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 132,
+   "sector": "SE2"
+  },
+  {
+   "degree": 132.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 133,
+   "sector": "SE2"
+  },
+  {
+   "degree": 133.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 134,
+   "sector": "SE2"
+  },
+  {
+   "degree": 134.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 135,
+   "sector": "SE2"
+  },
+  {
+   "degree": 135.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 136,
+   "sector": "SE2"
+  },
+  {
+   "degree": 136.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 137,
+   "sector": "SE2"
+  },
+  {
+   "degree": 137.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 138,
+   "sector": "SE2"
+  },
+  {
+   "degree": 138.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 139,
+   "sector": "SE2"
+  },
+  {
+   "degree": 139.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 140,
+   "sector": "SE2"
+  },
+  {
+   "degree": 140.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 141,
+   "sector": "SE2"
+  },
+  {
+   "degree": 141.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 142,
+   "sector": "SE2"
+  },
+  {
+   "degree": 142.5,
+   "sector": "SE2"
+  },
+  {
+   "degree": 143,
+   "sector": "SE3"
+  },
+  {
+   "degree": 143.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 144,
+   "sector": "SE3"
+  },
+  {
+   "degree": 144.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 145,
+   "sector": "SE3"
+  },
+  {
+   "degree": 145.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 146,
+   "sector": "SE3"
+  },
+  {
+   "degree": 146.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 147,
+   "sector": "SE3"
+  },
+  {
+   "degree": 147.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 148,
+   "sector": "SE3"
+  },
+  {
+   "degree": 148.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 149,
+   "sector": "SE3"
+  },
+  {
+   "degree": 149.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 150,
+   "sector": "SE3"
+  },
+  {
+   "degree": 150.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 151,
+   "sector": "SE3"
+  },
+  {
+   "degree": 151.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 152,
+   "sector": "SE3"
+  },
+  {
+   "degree": 152.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 153,
+   "sector": "SE3"
+  },
+  {
+   "degree": 153.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 154,
+   "sector": "SE3"
+  },
+  {
+   "degree": 154.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 155,
+   "sector": "SE3"
+  },
+  {
+   "degree": 155.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 156,
+   "sector": "SE3"
+  },
+  {
+   "degree": 156.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 157,
+   "sector": "SE3"
+  },
+  {
+   "degree": 157.5,
+   "sector": "SE3"
+  },
+  {
+   "degree": 158,
+   "sector": "S1"
+  },
+  {
+   "degree": 158.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 159,
+   "sector": "S1"
+  },
+  {
+   "degree": 159.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 160,
+   "sector": "S1"
+  },
+  {
+   "degree": 160.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 161,
+   "sector": "S1"
+  },
+  {
+   "degree": 161.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 162,
+   "sector": "S1"
+  },
+  {
+   "degree": 162.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 163,
+   "sector": "S1"
+  },
+  {
+   "degree": 163.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 164,
+   "sector": "S1"
+  },
+  {
+   "degree": 164.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 165,
+   "sector": "S1"
+  },
+  {
+   "degree": 165.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 166,
+   "sector": "S1"
+  },
+  {
+   "degree": 166.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 167,
+   "sector": "S1"
+  },
+  {
+   "degree": 167.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 168,
+   "sector": "S1"
+  },
+  {
+   "degree": 168.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 169,
+   "sector": "S1"
+  },
+  {
+   "degree": 169.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 170,
+   "sector": "S1"
+  },
+  {
+   "degree": 170.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 171,
+   "sector": "S1"
+  },
+  {
+   "degree": 171.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 172,
+   "sector": "S1"
+  },
+  {
+   "degree": 172.5,
+   "sector": "S1"
+  },
+  {
+   "degree": 173,
+   "sector": "S2"
+  },
+  {
+   "degree": 173.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 174,
+   "sector": "S2"
+  },
+  {
+   "degree": 174.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 175,
+   "sector": "S2"
+  },
+  {
+   "degree": 175.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 176,
+   "sector": "S2"
+  },
+  {
+   "degree": 176.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 177,
+   "sector": "S2"
+  },
+  {
+   "degree": 177.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 178,
+   "sector": "S2"
+  },
+  {
+   "degree": 178.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 179,
+   "sector": "S2"
+  },
+  {
+   "degree": 179.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 180,
+   "sector": "S2"
+  },
+  {
+   "degree": 180.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 181,
+   "sector": "S2"
+  },
+  {
+   "degree": 181.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 182,
+   "sector": "S2"
+  },
+  {
+   "degree": 182.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 183,
+   "sector": "S2"
+  },
+  {
+   "degree": 183.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 184,
+   "sector": "S2"
+  },
+  {
+   "degree": 184.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 185,
+   "sector": "S2"
+  },
+  {
+   "degree": 185.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 186,
+   "sector": "S2"
+  },
+  {
+   "degree": 186.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 187,
+   "sector": "S2"
+  },
+  {
+   "degree": 187.5,
+   "sector": "S2"
+  },
+  {
+   "degree": 188,
+   "sector": "S3"
+  },
+  {
+   "degree": 188.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 189,
+   "sector": "S3"
+  },
+  {
+   "degree": 189.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 190,
+   "sector": "S3"
+  },
+  {
+   "degree": 190.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 191,
+   "sector": "S3"
+  },
+  {
+   "degree": 191.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 192,
+   "sector": "S3"
+  },
+  {
+   "degree": 192.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 193,
+   "sector": "S3"
+  },
+  {
+   "degree": 193.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 194,
+   "sector": "S3"
+  },
+  {
+   "degree": 194.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 195,
+   "sector": "S3"
+  },
+  {
+   "degree": 195.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 196,
+   "sector": "S3"
+  },
+  {
+   "degree": 196.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 197,
+   "sector": "S3"
+  },
+  {
+   "degree": 197.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 198,
+   "sector": "S3"
+  },
+  {
+   "degree": 198.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 199,
+   "sector": "S3"
+  },
+  {
+   "degree": 199.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 200,
+   "sector": "S3"
+  },
+  {
+   "degree": 200.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 201,
+   "sector": "S3"
+  },
+  {
+   "degree": 201.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 202,
+   "sector": "S3"
+  },
+  {
+   "degree": 202.5,
+   "sector": "S3"
+  },
+  {
+   "degree": 203,
+   "sector": "SW1"
+  },
+  {
+   "degree": 203.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 204,
+   "sector": "SW1"
+  },
+  {
+   "degree": 204.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 205,
+   "sector": "SW1"
+  },
+  {
+   "degree": 205.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 206,
+   "sector": "SW1"
+  },
+  {
+   "degree": 206.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 207,
+   "sector": "SW1"
+  },
+  {
+   "degree": 207.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 208,
+   "sector": "SW1"
+  },
+  {
+   "degree": 208.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 209,
+   "sector": "SW1"
+  },
+  {
+   "degree": 209.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 210,
+   "sector": "SW1"
+  },
+  {
+   "degree": 210.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 211,
+   "sector": "SW1"
+  },
+  {
+   "degree": 211.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 212,
+   "sector": "SW1"
+  },
+  {
+   "degree": 212.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 213,
+   "sector": "SW1"
+  },
+  {
+   "degree": 213.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 214,
+   "sector": "SW1"
+  },
+  {
+   "degree": 214.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 215,
+   "sector": "SW1"
+  },
+  {
+   "degree": 215.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 216,
+   "sector": "SW1"
+  },
+  {
+   "degree": 216.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 217,
+   "sector": "SW1"
+  },
+  {
+   "degree": 217.5,
+   "sector": "SW1"
+  },
+  {
+   "degree": 218,
+   "sector": "SW2"
+  },
+  {
+   "degree": 218.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 219,
+   "sector": "SW2"
+  },
+  {
+   "degree": 219.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 220,
+   "sector": "SW2"
+  },
+  {
+   "degree": 220.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 221,
+   "sector": "SW2"
+  },
+  {
+   "degree": 221.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 222,
+   "sector": "SW2"
+  },
+  {
+   "degree": 222.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 223,
+   "sector": "SW2"
+  },
+  {
+   "degree": 223.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 224,
+   "sector": "SW2"
+  },
+  {
+   "degree": 224.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 225,
+   "sector": "SW2"
+  },
+  {
+   "degree": 225.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 226,
+   "sector": "SW2"
+  },
+  {
+   "degree": 226.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 227,
+   "sector": "SW2"
+  },
+  {
+   "degree": 227.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 228,
+   "sector": "SW2"
+  },
+  {
+   "degree": 228.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 229,
+   "sector": "SW2"
+  },
+  {
+   "degree": 229.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 230,
+   "sector": "SW2"
+  },
+  {
+   "degree": 230.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 231,
+   "sector": "SW2"
+  },
+  {
+   "degree": 231.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 232,
+   "sector": "SW2"
+  },
+  {
+   "degree": 232.5,
+   "sector": "SW2"
+  },
+  {
+   "degree": 233,
+   "sector": "SW3"
+  },
+  {
+   "degree": 233.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 234,
+   "sector": "SW3"
+  },
+  {
+   "degree": 234.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 235,
+   "sector": "SW3"
+  },
+  {
+   "degree": 235.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 236,
+   "sector": "SW3"
+  },
+  {
+   "degree": 236.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 237,
+   "sector": "SW3"
+  },
+  {
+   "degree": 237.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 238,
+   "sector": "SW3"
+  },
+  {
+   "degree": 238.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 239,
+   "sector": "SW3"
+  },
+  {
+   "degree": 239.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 240,
+   "sector": "SW3"
+  },
+  {
+   "degree": 240.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 241,
+   "sector": "SW3"
+  },
+  {
+   "degree": 241.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 242,
+   "sector": "SW3"
+  },
+  {
+   "degree": 242.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 243,
+   "sector": "SW3"
+  },
+  {
+   "degree": 243.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 244,
+   "sector": "SW3"
+  },
+  {
+   "degree": 244.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 245,
+   "sector": "SW3"
+  },
+  {
+   "degree": 245.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 246,
+   "sector": "SW3"
+  },
+  {
+   "degree": 246.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 247,
+   "sector": "SW3"
+  },
+  {
+   "degree": 247.5,
+   "sector": "SW3"
+  },
+  {
+   "degree": 248,
+   "sector": "W1"
+  },
+  {
+   "degree": 248.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 249,
+   "sector": "W1"
+  },
+  {
+   "degree": 249.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 250,
+   "sector": "W1"
+  },
+  {
+   "degree": 250.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 251,
+   "sector": "W1"
+  },
+  {
+   "degree": 251.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 252,
+   "sector": "W1"
+  },
+  {
+   "degree": 252.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 253,
+   "sector": "W1"
+  },
+  {
+   "degree": 253.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 254,
+   "sector": "W1"
+  },
+  {
+   "degree": 254.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 255,
+   "sector": "W1"
+  },
+  {
+   "degree": 255.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 256,
+   "sector": "W1"
+  },
+  {
+   "degree": 256.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 257,
+   "sector": "W1"
+  },
+  {
+   "degree": 257.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 258,
+   "sector": "W1"
+  },
+  {
+   "degree": 258.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 259,
+   "sector": "W1"
+  },
+  {
+   "degree": 259.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 260,
+   "sector": "W1"
+  },
+  {
+   "degree": 260.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 261,
+   "sector": "W1"
+  },
+  {
+   "degree": 261.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 262,
+   "sector": "W1"
+  },
+  {
+   "degree": 262.5,
+   "sector": "W1"
+  },
+  {
+   "degree": 263,
+   "sector": "W2"
+  },
+  {
+   "degree": 263.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 264,
+   "sector": "W2"
+  },
+  {
+   "degree": 264.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 265,
+   "sector": "W2"
+  },
+  {
+   "degree": 265.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 266,
+   "sector": "W2"
+  },
+  {
+   "degree": 266.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 267,
+   "sector": "W2"
+  },
+  {
+   "degree": 267.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 268,
+   "sector": "W2"
+  },
+  {
+   "degree": 268.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 269,
+   "sector": "W2"
+  },
+  {
+   "degree": 269.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 270,
+   "sector": "W2"
+  },
+  {
+   "degree": 270.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 271,
+   "sector": "W2"
+  },
+  {
+   "degree": 271.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 272,
+   "sector": "W2"
+  },
+  {
+   "degree": 272.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 273,
+   "sector": "W2"
+  },
+  {
+   "degree": 273.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 274,
+   "sector": "W2"
+  },
+  {
+   "degree": 274.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 275,
+   "sector": "W2"
+  },
+  {
+   "degree": 275.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 276,
+   "sector": "W2"
+  },
+  {
+   "degree": 276.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 277,
+   "sector": "W2"
+  },
+  {
+   "degree": 277.5,
+   "sector": "W2"
+  },
+  {
+   "degree": 278,
+   "sector": "W3"
+  },
+  {
+   "degree": 278.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 279,
+   "sector": "W3"
+  },
+  {
+   "degree": 279.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 280,
+   "sector": "W3"
+  },
+  {
+   "degree": 280.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 281,
+   "sector": "W3"
+  },
+  {
+   "degree": 281.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 282,
+   "sector": "W3"
+  },
+  {
+   "degree": 282.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 283,
+   "sector": "W3"
+  },
+  {
+   "degree": 283.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 284,
+   "sector": "W3"
+  },
+  {
+   "degree": 284.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 285,
+   "sector": "W3"
+  },
+  {
+   "degree": 285.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 286,
+   "sector": "W3"
+  },
+  {
+   "degree": 286.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 287,
+   "sector": "W3"
+  },
+  {
+   "degree": 287.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 288,
+   "sector": "W3"
+  },
+  {
+   "degree": 288.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 289,
+   "sector": "W3"
+  },
+  {
+   "degree": 289.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 290,
+   "sector": "W3"
+  },
+  {
+   "degree": 290.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 291,
+   "sector": "W3"
+  },
+  {
+   "degree": 291.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 292,
+   "sector": "W3"
+  },
+  {
+   "degree": 292.5,
+   "sector": "W3"
+  },
+  {
+   "degree": 293,
+   "sector": "NW1"
+  },
+  {
+   "degree": 293.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 294,
+   "sector": "NW1"
+  },
+  {
+   "degree": 294.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 295,
+   "sector": "NW1"
+  },
+  {
+   "degree": 295.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 296,
+   "sector": "NW1"
+  },
+  {
+   "degree": 296.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 297,
+   "sector": "NW1"
+  },
+  {
+   "degree": 297.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 298,
+   "sector": "NW1"
+  },
+  {
+   "degree": 298.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 299,
+   "sector": "NW1"
+  },
+  {
+   "degree": 299.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 300,
+   "sector": "NW1"
+  },
+  {
+   "degree": 300.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 301,
+   "sector": "NW1"
+  },
+  {
+   "degree": 301.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 302,
+   "sector": "NW1"
+  },
+  {
+   "degree": 302.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 303,
+   "sector": "NW1"
+  },
+  {
+   "degree": 303.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 304,
+   "sector": "NW1"
+  },
+  {
+   "degree": 304.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 305,
+   "sector": "NW1"
+  },
+  {
+   "degree": 305.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 306,
+   "sector": "NW1"
+  },
+  {
+   "degree": 306.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 307,
+   "sector": "NW1"
+  },
+  {
+   "degree": 307.5,
+   "sector": "NW1"
+  },
+  {
+   "degree": 308,
+   "sector": "NW2"
+  },
+  {
+   "degree": 308.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 309,
+   "sector": "NW2"
+  },
+  {
+   "degree": 309.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 310,
+   "sector": "NW2"
+  },
+  {
+   "degree": 310.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 311,
+   "sector": "NW2"
+  },
+  {
+   "degree": 311.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 312,
+   "sector": "NW2"
+  },
+  {
+   "degree": 312.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 313,
+   "sector": "NW2"
+  },
+  {
+   "degree": 313.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 314,
+   "sector": "NW2"
+  },
+  {
+   "degree": 314.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 315,
+   "sector": "NW2"
+  },
+  {
+   "degree": 315.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 316,
+   "sector": "NW2"
+  },
+  {
+   "degree": 316.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 317,
+   "sector": "NW2"
+  },
+  {
+   "degree": 317.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 318,
+   "sector": "NW2"
+  },
+  {
+   "degree": 318.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 319,
+   "sector": "NW2"
+  },
+  {
+   "degree": 319.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 320,
+   "sector": "NW2"
+  },
+  {
+   "degree": 320.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 321,
+   "sector": "NW2"
+  },
+  {
+   "degree": 321.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 322,
+   "sector": "NW2"
+  },
+  {
+   "degree": 322.5,
+   "sector": "NW2"
+  },
+  {
+   "degree": 323,
+   "sector": "NW3"
+  },
+  {
+   "degree": 323.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 324,
+   "sector": "NW3"
+  },
+  {
+   "degree": 324.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 325,
+   "sector": "NW3"
+  },
+  {
+   "degree": 325.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 326,
+   "sector": "NW3"
+  },
+  {
+   "degree": 326.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 327,
+   "sector": "NW3"
+  },
+  {
+   "degree": 327.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 328,
+   "sector": "NW3"
+  },
+  {
+   "degree": 328.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 329,
+   "sector": "NW3"
+  },
+  {
+   "degree": 329.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 330,
+   "sector": "NW3"
+  },
+  {
+   "degree": 330.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 331,
+   "sector": "NW3"
+  },
+  {
+   "degree": 331.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 332,
+   "sector": "NW3"
+  },
+  {
+   "degree": 332.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 333,
+   "sector": "NW3"
+  },
+  {
+   "degree": 333.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 334,
+   "sector": "NW3"
+  },
+  {
+   "degree": 334.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 335,
+   "sector": "NW3"
+  },
+  {
+   "degree": 335.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 336,
+   "sector": "NW3"
+  },
+  {
+   "degree": 336.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 337,
+   "sector": "NW3"
+  },
+  {
+   "degree": 337.5,
+   "sector": "NW3"
+  },
+  {
+   "degree": 338,
+   "sector": "N1"
+  },
+  {
+   "degree": 338.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 339,
+   "sector": "N1"
+  },
+  {
+   "degree": 339.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 340,
+   "sector": "N1"
+  },
+  {
+   "degree": 340.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 341,
+   "sector": "N1"
+  },
+  {
+   "degree": 341.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 342,
+   "sector": "N1"
+  },
+  {
+   "degree": 342.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 343,
+   "sector": "N1"
+  },
+  {
+   "degree": 343.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 344,
+   "sector": "N1"
+  },
+  {
+   "degree": 344.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 345,
+   "sector": "N1"
+  },
+  {
+   "degree": 345.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 346,
+   "sector": "N1"
+  },
+  {
+   "degree": 346.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 347,
+   "sector": "N1"
+  },
+  {
+   "degree": 347.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 348,
+   "sector": "N1"
+  },
+  {
+   "degree": 348.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 349,
+   "sector": "N1"
+  },
+  {
+   "degree": 349.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 350,
+   "sector": "N1"
+  },
+  {
+   "degree": 350.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 351,
+   "sector": "N1"
+  },
+  {
+   "degree": 351.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 352,
+   "sector": "N1"
+  },
+  {
+   "degree": 352.5,
+   "sector": "N1"
+  },
+  {
+   "degree": 353,
+   "sector": "N2"
+  },
+  {
+   "degree": 353.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 354,
+   "sector": "N2"
+  },
+  {
+   "degree": 354.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 355,
+   "sector": "N2"
+  },
+  {
+   "degree": 355.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 356,
+   "sector": "N2"
+  },
+  {
+   "degree": 356.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 357,
+   "sector": "N2"
+  },
+  {
+   "degree": 357.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 358,
+   "sector": "N2"
+  },
+  {
+   "degree": 358.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 359,
+   "sector": "N2"
+  },
+  {
+   "degree": 359.5,
+   "sector": "N2"
+  },
+  {
+   "degree": 360,
+   "sector": "N2"
+  },
+  {
+   "degree": 7.55
+  },
+  {
+   "degree": 7.6,
+   "sector": "N3"
+  },
+  {
+   "degree": 22.55
+  },
+  {
+   "degree": 22.6,
+   "sector": "NE1"
+  },
+  {
+   "degree": 157.55
+  },
+  {
+   "degree": 157.6,
+   "sector": "S1"
+  },
+  {
+   "degree": 352.55
+  },
+  {
+   "degree": 352.6,
+   "sector": "N2"
+  },
+  {
+   "degree": 359.9,
+   "sector": "N2"
+  },
+  {
+   "degree": 360.5,
+   "sector": "N2"
+  },
+  {
+   "degree": -0.1,
+   "sector": "N2"
+  },
+  {
+   "degree": -5,
+   "sector": "N2"
+  }
+ ],
+ "yearToPeriod": [
+  {
+   "year": 1840,
+   "period": null
+  },
+  {
+   "year": 1841,
+   "period": null
+  },
+  {
+   "year": 1842,
+   "period": null
+  },
+  {
+   "year": 1843,
+   "period": null
+  },
+  {
+   "year": 1844,
+   "period": 9
+  },
+  {
+   "year": 1845,
+   "period": 9
+  },
+  {
+   "year": 1846,
+   "period": 9
+  },
+  {
+   "year": 1847,
+   "period": 9
+  },
+  {
+   "year": 1848,
+   "period": 9
+  },
+  {
+   "year": 1849,
+   "period": 9
+  },
+  {
+   "year": 1850,
+   "period": 9
+  },
+  {
+   "year": 1851,
+   "period": 9
+  },
+  {
+   "year": 1852,
+   "period": 9
+  },
+  {
+   "year": 1853,
+   "period": 9
+  },
+  {
+   "year": 1854,
+   "period": 9
+  },
+  {
+   "year": 1855,
+   "period": 9
+  },
+  {
+   "year": 1856,
+   "period": 9
+  },
+  {
+   "year": 1857,
+   "period": 9
+  },
+  {
+   "year": 1858,
+   "period": 9
+  },
+  {
+   "year": 1859,
+   "period": 9
+  },
+  {
+   "year": 1860,
+   "period": 9
+  },
+  {
+   "year": 1861,
+   "period": 9
+  },
+  {
+   "year": 1862,
+   "period": 9
+  },
+  {
+   "year": 1863,
+   "period": 9
+  },
+  {
+   "year": 1864,
+   "period": 1
+  },
+  {
+   "year": 1865,
+   "period": 1
+  },
+  {
+   "year": 1866,
+   "period": 1
+  },
+  {
+   "year": 1867,
+   "period": 1
+  },
+  {
+   "year": 1868,
+   "period": 1
+  },
+  {
+   "year": 1869,
+   "period": 1
+  },
+  {
+   "year": 1870,
+   "period": 1
+  },
+  {
+   "year": 1871,
+   "period": 1
+  },
+  {
+   "year": 1872,
+   "period": 1
+  },
+  {
+   "year": 1873,
+   "period": 1
+  },
+  {
+   "year": 1874,
+   "period": 1
+  },
+  {
+   "year": 1875,
+   "period": 1
+  },
+  {
+   "year": 1876,
+   "period": 1
+  },
+  {
+   "year": 1877,
+   "period": 1
+  },
+  {
+   "year": 1878,
+   "period": 1
+  },
+  {
+   "year": 1879,
+   "period": 1
+  },
+  {
+   "year": 1880,
+   "period": 1
+  },
+  {
+   "year": 1881,
+   "period": 1
+  },
+  {
+   "year": 1882,
+   "period": 1
+  },
+  {
+   "year": 1883,
+   "period": 1
+  },
+  {
+   "year": 1884,
+   "period": 2
+  },
+  {
+   "year": 1885,
+   "period": 2
+  },
+  {
+   "year": 1886,
+   "period": 2
+  },
+  {
+   "year": 1887,
+   "period": 2
+  },
+  {
+   "year": 1888,
+   "period": 2
+  },
+  {
+   "year": 1889,
+   "period": 2
+  },
+  {
+   "year": 1890,
+   "period": 2
+  },
+  {
+   "year": 1891,
+   "period": 2
+  },
+  {
+   "year": 1892,
+   "period": 2
+  },
+  {
+   "year": 1893,
+   "period": 2
+  },
+  {
+   "year": 1894,
+   "period": 2
+  },
+  {
+   "year": 1895,
+   "period": 2
+  },
+  {
+   "year": 1896,
+   "period": 2
+  },
+  {
+   "year": 1897,
+   "period": 2
+  },
+  {
+   "year": 1898,
+   "period": 2
+  },
+  {
+   "year": 1899,
+   "period": 2
+  },
+  {
+   "year": 1900,
+   "period": 2
+  },
+  {
+   "year": 1901,
+   "period": 2
+  },
+  {
+   "year": 1902,
+   "period": 2
+  },
+  {
+   "year": 1903,
+   "period": 2
+  },
+  {
+   "year": 1904,
+   "period": 3
+  },
+  {
+   "year": 1905,
+   "period": 3
+  },
+  {
+   "year": 1906,
+   "period": 3
+  },
+  {
+   "year": 1907,
+   "period": 3
+  },
+  {
+   "year": 1908,
+   "period": 3
+  },
+  {
+   "year": 1909,
+   "period": 3
+  },
+  {
+   "year": 1910,
+   "period": 3
+  },
+  {
+   "year": 1911,
+   "period": 3
+  },
+  {
+   "year": 1912,
+   "period": 3
+  },
+  {
+   "year": 1913,
+   "period": 3
+  },
+  {
+   "year": 1914,
+   "period": 3
+  },
+  {
+   "year": 1915,
+   "period": 3
+  },
+  {
+   "year": 1916,
+   "period": 3
+  },
+  {
+   "year": 1917,
+   "period": 3
+  },
+  {
+   "year": 1918,
+   "period": 3
+  },
+  {
+   "year": 1919,
+   "period": 3
+  },
+  {
+   "year": 1920,
+   "period": 3
+  },
+  {
+   "year": 1921,
+   "period": 3
+  },
+  {
+   "year": 1922,
+   "period": 3
+  },
+  {
+   "year": 1923,
+   "period": 3
+  },
+  {
+   "year": 1924,
+   "period": 4
+  },
+  {
+   "year": 1925,
+   "period": 4
+  },
+  {
+   "year": 1926,
+   "period": 4
+  },
+  {
+   "year": 1927,
+   "period": 4
+  },
+  {
+   "year": 1928,
+   "period": 4
+  },
+  {
+   "year": 1929,
+   "period": 4
+  },
+  {
+   "year": 1930,
+   "period": 4
+  },
+  {
+   "year": 1931,
+   "period": 4
+  },
+  {
+   "year": 1932,
+   "period": 4
+  },
+  {
+   "year": 1933,
+   "period": 4
+  },
+  {
+   "year": 1934,
+   "period": 4
+  },
+  {
+   "year": 1935,
+   "period": 4
+  },
+  {
+   "year": 1936,
+   "period": 4
+  },
+  {
+   "year": 1937,
+   "period": 4
+  },
+  {
+   "year": 1938,
+   "period": 4
+  },
+  {
+   "year": 1939,
+   "period": 4
+  },
+  {
+   "year": 1940,
+   "period": 4
+  },
+  {
+   "year": 1941,
+   "period": 4
+  },
+  {
+   "year": 1942,
+   "period": 4
+  },
+  {
+   "year": 1943,
+   "period": 4
+  },
+  {
+   "year": 1944,
+   "period": 5
+  },
+  {
+   "year": 1945,
+   "period": 5
+  },
+  {
+   "year": 1946,
+   "period": 5
+  },
+  {
+   "year": 1947,
+   "period": 5
+  },
+  {
+   "year": 1948,
+   "period": 5
+  },
+  {
+   "year": 1949,
+   "period": 5
+  },
+  {
+   "year": 1950,
+   "period": 5
+  },
+  {
+   "year": 1951,
+   "period": 5
+  },
+  {
+   "year": 1952,
+   "period": 5
+  },
+  {
+   "year": 1953,
+   "period": 5
+  },
+  {
+   "year": 1954,
+   "period": 5
+  },
+  {
+   "year": 1955,
+   "period": 5
+  },
+  {
+   "year": 1956,
+   "period": 5
+  },
+  {
+   "year": 1957,
+   "period": 5
+  },
+  {
+   "year": 1958,
+   "period": 5
+  },
+  {
+   "year": 1959,
+   "period": 5
+  },
+  {
+   "year": 1960,
+   "period": 5
+  },
+  {
+   "year": 1961,
+   "period": 5
+  },
+  {
+   "year": 1962,
+   "period": 5
+  },
+  {
+   "year": 1963,
+   "period": 5
+  },
+  {
+   "year": 1964,
+   "period": 6
+  },
+  {
+   "year": 1965,
+   "period": 6
+  },
+  {
+   "year": 1966,
+   "period": 6
+  },
+  {
+   "year": 1967,
+   "period": 6
+  },
+  {
+   "year": 1968,
+   "period": 6
+  },
+  {
+   "year": 1969,
+   "period": 6
+  },
+  {
+   "year": 1970,
+   "period": 6
+  },
+  {
+   "year": 1971,
+   "period": 6
+  },
+  {
+   "year": 1972,
+   "period": 6
+  },
+  {
+   "year": 1973,
+   "period": 6
+  },
+  {
+   "year": 1974,
+   "period": 6
+  },
+  {
+   "year": 1975,
+   "period": 6
+  },
+  {
+   "year": 1976,
+   "period": 6
+  },
+  {
+   "year": 1977,
+   "period": 6
+  },
+  {
+   "year": 1978,
+   "period": 6
+  },
+  {
+   "year": 1979,
+   "period": 6
+  },
+  {
+   "year": 1980,
+   "period": 6
+  },
+  {
+   "year": 1981,
+   "period": 6
+  },
+  {
+   "year": 1982,
+   "period": 6
+  },
+  {
+   "year": 1983,
+   "period": 6
+  },
+  {
+   "year": 1984,
+   "period": 7
+  },
+  {
+   "year": 1985,
+   "period": 7
+  },
+  {
+   "year": 1986,
+   "period": 7
+  },
+  {
+   "year": 1987,
+   "period": 7
+  },
+  {
+   "year": 1988,
+   "period": 7
+  },
+  {
+   "year": 1989,
+   "period": 7
+  },
+  {
+   "year": 1990,
+   "period": 7
+  },
+  {
+   "year": 1991,
+   "period": 7
+  },
+  {
+   "year": 1992,
+   "period": 7
+  },
+  {
+   "year": 1993,
+   "period": 7
+  },
+  {
+   "year": 1994,
+   "period": 7
+  },
+  {
+   "year": 1995,
+   "period": 7
+  },
+  {
+   "year": 1996,
+   "period": 7
+  },
+  {
+   "year": 1997,
+   "period": 7
+  },
+  {
+   "year": 1998,
+   "period": 7
+  },
+  {
+   "year": 1999,
+   "period": 7
+  },
+  {
+   "year": 2000,
+   "period": 7
+  },
+  {
+   "year": 2001,
+   "period": 7
+  },
+  {
+   "year": 2002,
+   "period": 7
+  },
+  {
+   "year": 2003,
+   "period": 7
+  },
+  {
+   "year": 2004,
+   "period": 8
+  },
+  {
+   "year": 2005,
+   "period": 8
+  },
+  {
+   "year": 2006,
+   "period": 8
+  },
+  {
+   "year": 2007,
+   "period": 8
+  },
+  {
+   "year": 2008,
+   "period": 8
+  },
+  {
+   "year": 2009,
+   "period": 8
+  },
+  {
+   "year": 2010,
+   "period": 8
+  },
+  {
+   "year": 2011,
+   "period": 8
+  },
+  {
+   "year": 2012,
+   "period": 8
+  },
+  {
+   "year": 2013,
+   "period": 8
+  },
+  {
+   "year": 2014,
+   "period": 8
+  },
+  {
+   "year": 2015,
+   "period": 8
+  },
+  {
+   "year": 2016,
+   "period": 8
+  },
+  {
+   "year": 2017,
+   "period": 8
+  },
+  {
+   "year": 2018,
+   "period": 8
+  },
+  {
+   "year": 2019,
+   "period": 8
+  },
+  {
+   "year": 2020,
+   "period": 8
+  },
+  {
+   "year": 2021,
+   "period": 8
+  },
+  {
+   "year": 2022,
+   "period": 8
+  },
+  {
+   "year": 2023,
+   "period": 8
+  },
+  {
+   "year": 2024,
+   "period": 9
+  },
+  {
+   "year": 2025,
+   "period": 9
+  },
+  {
+   "year": 2026,
+   "period": 9
+  },
+  {
+   "year": 2027,
+   "period": 9
+  },
+  {
+   "year": 2028,
+   "period": 9
+  },
+  {
+   "year": 2029,
+   "period": 9
+  },
+  {
+   "year": 2030,
+   "period": 9
+  },
+  {
+   "year": 2031,
+   "period": 9
+  },
+  {
+   "year": 2032,
+   "period": 9
+  },
+  {
+   "year": 2033,
+   "period": 9
+  },
+  {
+   "year": 2034,
+   "period": 9
+  },
+  {
+   "year": 2035,
+   "period": 9
+  },
+  {
+   "year": 2036,
+   "period": 9
+  },
+  {
+   "year": 2037,
+   "period": 9
+  },
+  {
+   "year": 2038,
+   "period": 9
+  },
+  {
+   "year": 2039,
+   "period": 9
+  },
+  {
+   "year": 2040,
+   "period": 9
+  },
+  {
+   "year": 2041,
+   "period": 9
+  },
+  {
+   "year": 2042,
+   "period": 9
+  },
+  {
+   "year": 2043,
+   "period": 9
+  },
+  {
+   "year": 2044,
+   "period": 1
+  },
+  {
+   "year": 2045,
+   "period": 1
+  },
+  {
+   "year": 2046,
+   "period": 1
+  },
+  {
+   "year": 2047,
+   "period": 1
+  },
+  {
+   "year": 2048,
+   "period": 1
+  },
+  {
+   "year": 2049,
+   "period": 1
+  },
+  {
+   "year": 2050,
+   "period": 1
+  },
+  {
+   "year": 2051,
+   "period": 1
+  },
+  {
+   "year": 2052,
+   "period": 1
+  },
+  {
+   "year": 2053,
+   "period": 1
+  },
+  {
+   "year": 2054,
+   "period": 1
+  },
+  {
+   "year": 2055,
+   "period": 1
+  },
+  {
+   "year": 2056,
+   "period": 1
+  },
+  {
+   "year": 2057,
+   "period": 1
+  },
+  {
+   "year": 2058,
+   "period": 1
+  },
+  {
+   "year": 2059,
+   "period": 1
+  },
+  {
+   "year": 2060,
+   "period": 1
+  },
+  {
+   "year": 2061,
+   "period": 1
+  },
+  {
+   "year": 2062,
+   "period": 1
+  },
+  {
+   "year": 2063,
+   "period": 1
+  },
+  {
+   "year": 2064,
+   "period": 2
+  },
+  {
+   "year": 2065,
+   "period": 2
+  },
+  {
+   "year": 2066,
+   "period": 2
+  },
+  {
+   "year": 2067,
+   "period": 2
+  },
+  {
+   "year": 2068,
+   "period": 2
+  },
+  {
+   "year": 2069,
+   "period": 2
+  },
+  {
+   "year": 2070,
+   "period": 2
+  },
+  {
+   "year": 2071,
+   "period": 2
+  },
+  {
+   "year": 2072,
+   "period": 2
+  },
+  {
+   "year": 2073,
+   "period": 2
+  },
+  {
+   "year": 2074,
+   "period": 2
+  },
+  {
+   "year": 2075,
+   "period": 2
+  },
+  {
+   "year": 2076,
+   "period": 2
+  },
+  {
+   "year": 2077,
+   "period": 2
+  },
+  {
+   "year": 2078,
+   "period": 2
+  },
+  {
+   "year": 2079,
+   "period": 2
+  },
+  {
+   "year": 2080,
+   "period": 2
+  },
+  {
+   "year": 2081,
+   "period": 2
+  },
+  {
+   "year": 2082,
+   "period": 2
+  },
+  {
+   "year": 2083,
+   "period": 2
+  },
+  {
+   "year": 2084,
+   "period": null
+  },
+  {
+   "year": 2085,
+   "period": null
+  },
+  {
+   "year": 2086,
+   "period": null
+  },
+  {
+   "year": 2087,
+   "period": null
+  },
+  {
+   "year": 2088,
+   "period": null
+  },
+  {
+   "year": 2089,
+   "period": null
+  },
+  {
+   "year": 2090,
+   "period": null
+  }
+ ],
+ "eightMansions": [
+  {
+   "facing": "N",
+   "palaces": {
+    "li": "fuWei",
+    "kun": "liuSha",
+    "dui": "wuGui",
+    "qian": "jueMing",
+    "kan": "yanNian",
+    "gen": "huoHai",
+    "zhen": "shengQi",
+    "xun": "tianYi"
+   },
+   "extended": {
+    "li": {
+     "name": "fuWei",
+     "strength": "weak",
+     "rating": 1,
+     "score": 2
+    },
+    "kun": {
+     "name": "liuSha",
+     "strength": "dead",
+     "rating": -1,
+     "score": 0
+    },
+    "dui": {
+     "name": "wuGui",
+     "strength": "trap",
+     "rating": -1,
+     "score": -1
+    },
+    "qian": {
+     "name": "jueMing",
+     "strength": "peak",
+     "rating": -1,
+     "score": -4
+    },
+    "kan": {
+     "name": "yanNian",
+     "strength": "weak",
+     "rating": 1,
+     "score": 2
+    },
+    "gen": {
+     "name": "huoHai",
+     "strength": "peak",
+     "rating": -1,
+     "score": -4
+    },
+    "zhen": {
+     "name": "shengQi",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    },
+    "xun": {
+     "name": "tianYi",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    }
+   }
+  },
+  {
+   "facing": "NE",
+   "palaces": {
+    "li": "liuSha",
+    "kun": "fuWei",
+    "dui": "tianYi",
+    "qian": "yanNian",
+    "kan": "jueMing",
+    "gen": "shengQi",
+    "zhen": "huoHai",
+    "xun": "wuGui"
+   },
+   "extended": {
+    "li": {
+     "name": "liuSha",
+     "strength": "trap",
+     "rating": -1,
+     "score": -1
+    },
+    "kun": {
+     "name": "fuWei",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    },
+    "dui": {
+     "name": "tianYi",
+     "strength": "weak",
+     "rating": 1,
+     "score": 2
+    },
+    "qian": {
+     "name": "yanNian",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    },
+    "kan": {
+     "name": "jueMing",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    },
+    "gen": {
+     "name": "shengQi",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    },
+    "zhen": {
+     "name": "huoHai",
+     "strength": "dead",
+     "rating": -1,
+     "score": 0
+    },
+    "xun": {
+     "name": "wuGui",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    }
+   }
+  },
+  {
+   "facing": "E",
+   "palaces": {
+    "li": "wuGui",
+    "kun": "tianYi",
+    "dui": "fuWei",
+    "qian": "shengQi",
+    "kan": "huoHai",
+    "gen": "yanNian",
+    "zhen": "jueMing",
+    "xun": "liuSha"
+   },
+   "extended": {
+    "li": {
+     "name": "wuGui",
+     "strength": "peak",
+     "rating": -1,
+     "score": -4
+    },
+    "kun": {
+     "name": "tianYi",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    },
+    "dui": {
+     "name": "fuWei",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    },
+    "qian": {
+     "name": "shengQi",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    },
+    "kan": {
+     "name": "huoHai",
+     "strength": "trap",
+     "rating": -1,
+     "score": -1
+    },
+    "gen": {
+     "name": "yanNian",
+     "strength": "strong",
+     "rating": 1,
+     "score": 3
+    },
+    "zhen": {
+     "name": "jueMing",
+     "strength": "trap",
+     "rating": -1,
+     "score": -1
+    },
+    "xun": {
+     "name": "liuSha",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    }
+   }
+  },
+  {
+   "facing": "SE",
+   "palaces": {
+    "li": "jueMing",
+    "kun": "yanNian",
+    "dui": "shengQi",
+    "qian": "fuWei",
+    "kan": "liuSha",
+    "gen": "tianYi",
+    "zhen": "wuGui",
+    "xun": "huoHai"
+   },
+   "extended": {
+    "li": {
+     "name": "jueMing",
+     "strength": "dead",
+     "rating": -1,
+     "score": 0
+    },
+    "kun": {
+     "name": "yanNian",
+     "strength": "strong",
+     "rating": 1,
+     "score": 3
+    },
+    "dui": {
+     "name": "shengQi",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    },
+    "qian": {
+     "name": "fuWei",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    },
+    "kan": {
+     "name": "liuSha",
+     "strength": "peak",
+     "rating": -1,
+     "score": -4
+    },
+    "gen": {
+     "name": "tianYi",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    },
+    "zhen": {
+     "name": "wuGui",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    },
+    "xun": {
+     "name": "huoHai",
+     "strength": "dead",
+     "rating": -1,
+     "score": 0
+    }
+   }
+  },
+  {
+   "facing": "S",
+   "palaces": {
+    "li": "yanNian",
+    "kun": "jueMing",
+    "dui": "huoHai",
+    "qian": "liuSha",
+    "kan": "fuWei",
+    "gen": "wuGui",
+    "zhen": "tianYi",
+    "xun": "shengQi"
+   },
+   "extended": {
+    "li": {
+     "name": "yanNian",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    },
+    "kun": {
+     "name": "jueMing",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    },
+    "dui": {
+     "name": "huoHai",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    },
+    "qian": {
+     "name": "liuSha",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    },
+    "kan": {
+     "name": "fuWei",
+     "strength": "strong",
+     "rating": 1,
+     "score": 3
+    },
+    "gen": {
+     "name": "wuGui",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    },
+    "zhen": {
+     "name": "tianYi",
+     "strength": "dead",
+     "rating": 1,
+     "score": 0
+    },
+    "xun": {
+     "name": "shengQi",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    }
+   }
+  },
+  {
+   "facing": "SW",
+   "palaces": {
+    "li": "huoHai",
+    "kun": "shengQi",
+    "dui": "yanNian",
+    "qian": "tianYi",
+    "kan": "wuGui",
+    "gen": "fuWei",
+    "zhen": "liuSha",
+    "xun": "jueMing"
+   },
+   "extended": {
+    "li": {
+     "name": "huoHai",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    },
+    "kun": {
+     "name": "shengQi",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    },
+    "dui": {
+     "name": "yanNian",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    },
+    "qian": {
+     "name": "tianYi",
+     "strength": "weak",
+     "rating": 1,
+     "score": 2
+    },
+    "kan": {
+     "name": "wuGui",
+     "strength": "dead",
+     "rating": -1,
+     "score": 0
+    },
+    "gen": {
+     "name": "fuWei",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    },
+    "zhen": {
+     "name": "liuSha",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    },
+    "xun": {
+     "name": "jueMing",
+     "strength": "trap",
+     "rating": -1,
+     "score": -1
+    }
+   }
+  },
+  {
+   "facing": "W",
+   "palaces": {
+    "li": "shengQi",
+    "kun": "huoHai",
+    "dui": "jueMing",
+    "qian": "wuGui",
+    "kan": "tianYi",
+    "gen": "liuSha",
+    "zhen": "fuWei",
+    "xun": "yanNian"
+   },
+   "extended": {
+    "li": {
+     "name": "shengQi",
+     "strength": "weak",
+     "rating": 1,
+     "score": 2
+    },
+    "kun": {
+     "name": "huoHai",
+     "strength": "peak",
+     "rating": -1,
+     "score": -4
+    },
+    "dui": {
+     "name": "jueMing",
+     "strength": "peak",
+     "rating": -1,
+     "score": -4
+    },
+    "qian": {
+     "name": "wuGui",
+     "strength": "trap",
+     "rating": -1,
+     "score": -1
+    },
+    "kan": {
+     "name": "tianYi",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    },
+    "gen": {
+     "name": "liuSha",
+     "strength": "dead",
+     "rating": -1,
+     "score": 0
+    },
+    "zhen": {
+     "name": "fuWei",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    },
+    "xun": {
+     "name": "yanNian",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    }
+   }
+  },
+  {
+   "facing": "NW",
+   "palaces": {
+    "li": "tianYi",
+    "kun": "wuGui",
+    "dui": "liuSha",
+    "qian": "huoHai",
+    "kan": "shengQi",
+    "gen": "jueMing",
+    "zhen": "yanNian",
+    "xun": "fuWei"
+   },
+   "extended": {
+    "li": {
+     "name": "tianYi",
+     "strength": "strong",
+     "rating": 1,
+     "score": 3
+    },
+    "kun": {
+     "name": "wuGui",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    },
+    "dui": {
+     "name": "liuSha",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    },
+    "qian": {
+     "name": "huoHai",
+     "strength": "weak",
+     "rating": -1,
+     "score": -2
+    },
+    "kan": {
+     "name": "shengQi",
+     "strength": "strong",
+     "rating": 1,
+     "score": 3
+    },
+    "gen": {
+     "name": "jueMing",
+     "strength": "strong",
+     "rating": -1,
+     "score": -3
+    },
+    "zhen": {
+     "name": "yanNian",
+     "strength": "trap",
+     "rating": 1,
+     "score": 1
+    },
+    "xun": {
+     "name": "fuWei",
+     "strength": "peak",
+     "rating": 1,
+     "score": 4
+    }
+   }
+  }
+ ],
+ "eightMansionsUnknown": {
+  "error": "Cannot read properties of undefined (reading '0')"
+ },
+ "personalGua": [
+  {
+   "year": 1864,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 1864,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1864,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1864,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 1900,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 1900,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1900,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1900,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 1932,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1932,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☰",
+    "english": "heaven",
+    "pinyin": "qian",
+    "chinese": "乾",
+    "element": "metal",
+    "direction": "NW",
+    "group": "W",
+    "luoShu": 6,
+    "preHeaven": 1,
+    "binary": "111",
+    "laterHeavenSeason": "autumn",
+    "concept": "creation",
+    "personality": "initiative, active, brave",
+    "person": "father",
+    "place": "capital, headquarters, palace",
+    "thing": "pearl, diamond, ring, gold, jade",
+    "animal": "horse",
+    "weather": "snow",
+    "life": "mentorship, blessing, travel",
+    "body": "head, bones, lungs",
+    "color": "pink, bright",
+    "numbers": "1, 4, 9",
+    "taste": "hot, spicy",
+    "lifeStarDescArr": [
+     "white",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 1932,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 1932,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☲",
+    "english": "fire",
+    "pinyin": "li",
+    "chinese": "離",
+    "element": "fire",
+    "direction": "S",
+    "group": "E",
+    "luoShu": 9,
+    "preHeaven": 3,
+    "binary": "101",
+    "laterHeavenSeason": "summer",
+    "concept": "expansion",
+    "personality": "radiant, cultural, beautiful",
+    "person": "middle daughter",
+    "place": "desert, dry place",
+    "thing": "clothes, books, art,",
+    "animal": "pheasant",
+    "weather": "sunny",
+    "life": "fame",
+    "body": "eyes, heart",
+    "color": "red, purple",
+    "numbers": "3, 2, 7",
+    "taste": "bitter",
+    "lifeStarDescArr": [
+     "purple",
+     "fire"
+    ]
+   }
+  },
+  {
+   "year": 1950,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1950,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☰",
+    "english": "heaven",
+    "pinyin": "qian",
+    "chinese": "乾",
+    "element": "metal",
+    "direction": "NW",
+    "group": "W",
+    "luoShu": 6,
+    "preHeaven": 1,
+    "binary": "111",
+    "laterHeavenSeason": "autumn",
+    "concept": "creation",
+    "personality": "initiative, active, brave",
+    "person": "father",
+    "place": "capital, headquarters, palace",
+    "thing": "pearl, diamond, ring, gold, jade",
+    "animal": "horse",
+    "weather": "snow",
+    "life": "mentorship, blessing, travel",
+    "body": "head, bones, lungs",
+    "color": "pink, bright",
+    "numbers": "1, 4, 9",
+    "taste": "hot, spicy",
+    "lifeStarDescArr": [
+     "white",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 1950,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 1950,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☲",
+    "english": "fire",
+    "pinyin": "li",
+    "chinese": "離",
+    "element": "fire",
+    "direction": "S",
+    "group": "E",
+    "luoShu": 9,
+    "preHeaven": 3,
+    "binary": "101",
+    "laterHeavenSeason": "summer",
+    "concept": "expansion",
+    "personality": "radiant, cultural, beautiful",
+    "person": "middle daughter",
+    "place": "desert, dry place",
+    "thing": "clothes, books, art,",
+    "animal": "pheasant",
+    "weather": "sunny",
+    "life": "fame",
+    "body": "eyes, heart",
+    "color": "red, purple",
+    "numbers": "3, 2, 7",
+    "taste": "bitter",
+    "lifeStarDescArr": [
+     "purple",
+     "fire"
+    ]
+   }
+  },
+  {
+   "year": 1978,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 1978,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1978,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1978,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 1984,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☱",
+    "english": "lake",
+    "pinyin": "dui",
+    "chinese": "兌",
+    "element": "metal",
+    "direction": "W",
+    "group": "W",
+    "luoShu": 7,
+    "preHeaven": 2,
+    "binary": "011",
+    "laterHeavenSeason": "autumn",
+    "concept": "devotion",
+    "personality": "joyous, contentment, satisfaction, happy, stagnation",
+    "person": "youngest daughter",
+    "place": "pond, lake, well, pool",
+    "thing": "piano, fork, metal instruments, jewelry",
+    "animal": "sheep",
+    "weather": "rain",
+    "life": "future, children",
+    "body": "tongue, mouth, throat, lung, saliva",
+    "color": "white",
+    "numbers": "4, 2, 9",
+    "taste": "pungent",
+    "lifeStarDescArr": [
+     "red",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 1984,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1984,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1984,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☱",
+    "english": "lake",
+    "pinyin": "dui",
+    "chinese": "兌",
+    "element": "metal",
+    "direction": "W",
+    "group": "W",
+    "luoShu": 7,
+    "preHeaven": 2,
+    "binary": "011",
+    "laterHeavenSeason": "autumn",
+    "concept": "devotion",
+    "personality": "joyous, contentment, satisfaction, happy, stagnation",
+    "person": "youngest daughter",
+    "place": "pond, lake, well, pool",
+    "thing": "piano, fork, metal instruments, jewelry",
+    "animal": "sheep",
+    "weather": "rain",
+    "life": "future, children",
+    "body": "tongue, mouth, throat, lung, saliva",
+    "color": "white",
+    "numbers": "4, 2, 9",
+    "taste": "pungent",
+    "lifeStarDescArr": [
+     "red",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 1990,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 1990,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1990,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 1990,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 2000,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☲",
+    "english": "fire",
+    "pinyin": "li",
+    "chinese": "離",
+    "element": "fire",
+    "direction": "S",
+    "group": "E",
+    "luoShu": 9,
+    "preHeaven": 3,
+    "binary": "101",
+    "laterHeavenSeason": "summer",
+    "concept": "expansion",
+    "personality": "radiant, cultural, beautiful",
+    "person": "middle daughter",
+    "place": "desert, dry place",
+    "thing": "clothes, books, art,",
+    "animal": "pheasant",
+    "weather": "sunny",
+    "life": "fame",
+    "body": "eyes, heart",
+    "color": "red, purple",
+    "numbers": "3, 2, 7",
+    "taste": "bitter",
+    "lifeStarDescArr": [
+     "purple",
+     "fire"
+    ]
+   }
+  },
+  {
+   "year": 2000,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 2000,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☰",
+    "english": "heaven",
+    "pinyin": "qian",
+    "chinese": "乾",
+    "element": "metal",
+    "direction": "NW",
+    "group": "W",
+    "luoShu": 6,
+    "preHeaven": 1,
+    "binary": "111",
+    "laterHeavenSeason": "autumn",
+    "concept": "creation",
+    "personality": "initiative, active, brave",
+    "person": "father",
+    "place": "capital, headquarters, palace",
+    "thing": "pearl, diamond, ring, gold, jade",
+    "animal": "horse",
+    "weather": "snow",
+    "life": "mentorship, blessing, travel",
+    "body": "head, bones, lungs",
+    "color": "pink, bright",
+    "numbers": "1, 4, 9",
+    "taste": "hot, spicy",
+    "lifeStarDescArr": [
+     "white",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 2000,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2012,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☰",
+    "english": "heaven",
+    "pinyin": "qian",
+    "chinese": "乾",
+    "element": "metal",
+    "direction": "NW",
+    "group": "W",
+    "luoShu": 6,
+    "preHeaven": 1,
+    "binary": "111",
+    "laterHeavenSeason": "autumn",
+    "concept": "creation",
+    "personality": "initiative, active, brave",
+    "person": "father",
+    "place": "capital, headquarters, palace",
+    "thing": "pearl, diamond, ring, gold, jade",
+    "animal": "horse",
+    "weather": "snow",
+    "life": "mentorship, blessing, travel",
+    "body": "head, bones, lungs",
+    "color": "pink, bright",
+    "numbers": "1, 4, 9",
+    "taste": "hot, spicy",
+    "lifeStarDescArr": [
+     "white",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 2012,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☱",
+    "english": "lake",
+    "pinyin": "dui",
+    "chinese": "兌",
+    "element": "metal",
+    "direction": "W",
+    "group": "W",
+    "luoShu": 7,
+    "preHeaven": 2,
+    "binary": "011",
+    "laterHeavenSeason": "autumn",
+    "concept": "devotion",
+    "personality": "joyous, contentment, satisfaction, happy, stagnation",
+    "person": "youngest daughter",
+    "place": "pond, lake, well, pool",
+    "thing": "piano, fork, metal instruments, jewelry",
+    "animal": "sheep",
+    "weather": "rain",
+    "life": "future, children",
+    "body": "tongue, mouth, throat, lung, saliva",
+    "color": "white",
+    "numbers": "4, 2, 9",
+    "taste": "pungent",
+    "lifeStarDescArr": [
+     "red",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 2012,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☲",
+    "english": "fire",
+    "pinyin": "li",
+    "chinese": "離",
+    "element": "fire",
+    "direction": "S",
+    "group": "E",
+    "luoShu": 9,
+    "preHeaven": 3,
+    "binary": "101",
+    "laterHeavenSeason": "summer",
+    "concept": "expansion",
+    "personality": "radiant, cultural, beautiful",
+    "person": "middle daughter",
+    "place": "desert, dry place",
+    "thing": "clothes, books, art,",
+    "animal": "pheasant",
+    "weather": "sunny",
+    "life": "fame",
+    "body": "eyes, heart",
+    "color": "red, purple",
+    "numbers": "3, 2, 7",
+    "taste": "bitter",
+    "lifeStarDescArr": [
+     "purple",
+     "fire"
+    ]
+   }
+  },
+  {
+   "year": 2012,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2024,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☳",
+    "english": "thunder",
+    "pinyin": "zhen",
+    "chinese": "震",
+    "element": "wood",
+    "direction": "E",
+    "group": "E",
+    "luoShu": 3,
+    "preHeaven": 4,
+    "binary": "001",
+    "laterHeavenSeason": "spring",
+    "concept": "arousing",
+    "personality": "excitement, revolution, initiation, beginning",
+    "person": "eldest son",
+    "place": "forest, new town",
+    "thing": "furniture, books",
+    "animal": "dragon",
+    "weather": "thunder",
+    "life": "family, health, foundation",
+    "body": "legs, liver, hair",
+    "color": "green",
+    "numbers": "4, 8, 3",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 2024,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 2024,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☳",
+    "english": "thunder",
+    "pinyin": "zhen",
+    "chinese": "震",
+    "element": "wood",
+    "direction": "E",
+    "group": "E",
+    "luoShu": 3,
+    "preHeaven": 4,
+    "binary": "001",
+    "laterHeavenSeason": "spring",
+    "concept": "arousing",
+    "personality": "excitement, revolution, initiation, beginning",
+    "person": "eldest son",
+    "place": "forest, new town",
+    "thing": "furniture, books",
+    "animal": "dragon",
+    "weather": "thunder",
+    "life": "family, health, foundation",
+    "body": "legs, liver, hair",
+    "color": "green",
+    "numbers": "4, 8, 3",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 2024,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2044,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 2044,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2044,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2044,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  },
+  {
+   "year": 2064,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2064,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☲",
+    "english": "fire",
+    "pinyin": "li",
+    "chinese": "離",
+    "element": "fire",
+    "direction": "S",
+    "group": "E",
+    "luoShu": 9,
+    "preHeaven": 3,
+    "binary": "101",
+    "laterHeavenSeason": "summer",
+    "concept": "expansion",
+    "personality": "radiant, cultural, beautiful",
+    "person": "middle daughter",
+    "place": "desert, dry place",
+    "thing": "clothes, books, art,",
+    "animal": "pheasant",
+    "weather": "sunny",
+    "life": "fame",
+    "body": "eyes, heart",
+    "color": "red, purple",
+    "numbers": "3, 2, 7",
+    "taste": "bitter",
+    "lifeStarDescArr": [
+     "purple",
+     "fire"
+    ]
+   }
+  },
+  {
+   "year": 2064,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☱",
+    "english": "lake",
+    "pinyin": "dui",
+    "chinese": "兌",
+    "element": "metal",
+    "direction": "W",
+    "group": "W",
+    "luoShu": 7,
+    "preHeaven": 2,
+    "binary": "011",
+    "laterHeavenSeason": "autumn",
+    "concept": "devotion",
+    "personality": "joyous, contentment, satisfaction, happy, stagnation",
+    "person": "youngest daughter",
+    "place": "pond, lake, well, pool",
+    "thing": "piano, fork, metal instruments, jewelry",
+    "animal": "sheep",
+    "weather": "rain",
+    "life": "future, children",
+    "body": "tongue, mouth, throat, lung, saliva",
+    "color": "white",
+    "numbers": "4, 2, 9",
+    "taste": "pungent",
+    "lifeStarDescArr": [
+     "red",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 2064,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☰",
+    "english": "heaven",
+    "pinyin": "qian",
+    "chinese": "乾",
+    "element": "metal",
+    "direction": "NW",
+    "group": "W",
+    "luoShu": 6,
+    "preHeaven": 1,
+    "binary": "111",
+    "laterHeavenSeason": "autumn",
+    "concept": "creation",
+    "personality": "initiative, active, brave",
+    "person": "father",
+    "place": "capital, headquarters, palace",
+    "thing": "pearl, diamond, ring, gold, jade",
+    "animal": "horse",
+    "weather": "snow",
+    "life": "mentorship, blessing, travel",
+    "body": "head, bones, lungs",
+    "color": "pink, bright",
+    "numbers": "1, 4, 9",
+    "taste": "hot, spicy",
+    "lifeStarDescArr": [
+     "white",
+     "metal"
+    ]
+   }
+  },
+  {
+   "year": 2080,
+   "gender": "male",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☵",
+    "english": "water",
+    "pinyin": "kan",
+    "chinese": "坎",
+    "element": "water",
+    "direction": "N",
+    "group": "E",
+    "luoShu": 1,
+    "preHeaven": 6,
+    "binary": "010",
+    "laterHeavenSeason": "winter",
+    "concept": "motion",
+    "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+    "person": "middle son",
+    "place": "river, waterfall, highways",
+    "thing": "bed, cloud, wine, milk, bowl",
+    "animal": "pig",
+    "weather": "rain, snow",
+    "life": "career",
+    "body": "ear, blood, kidney",
+    "color": "black",
+    "numbers": "1, 6",
+    "taste": "salty",
+    "lifeStarDescArr": [
+     "white",
+     "water"
+    ]
+   }
+  },
+  {
+   "year": 2080,
+   "gender": "male",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☷",
+    "english": "earth",
+    "pinyin": "kun",
+    "chinese": "坤",
+    "element": "earth",
+    "direction": "SW",
+    "group": "W",
+    "luoShu": 2,
+    "preHeaven": 8,
+    "binary": "000",
+    "laterHeavenSeason": "summer",
+    "concept": "receptive",
+    "personality": "loving, yielding, adapting",
+    "person": "mother",
+    "place": "farm, countryside",
+    "thing": "wool, clay, cotton",
+    "animal": "cow",
+    "weather": "cloudy, haze",
+    "life": "love, relationship",
+    "body": "belly, stomach, abdomen, flesh",
+    "color": "yellow",
+    "numbers": "8, 5, 10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "black",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2080,
+   "gender": "female",
+   "isPreviousYear": false,
+   "gua": {
+    "trigram": "☶",
+    "english": "mountain",
+    "pinyin": "gen",
+    "chinese": "艮",
+    "element": "earth",
+    "direction": "NE",
+    "group": "W",
+    "luoShu": 8,
+    "preHeaven": 7,
+    "binary": "100",
+    "laterHeavenSeason": "winter",
+    "concept": "completion",
+    "personality": "stillness, immovability, trust, quiet",
+    "person": "youngest son",
+    "place": "mountains, plantations, farmlands",
+    "thing": "stones, antiques, pottery",
+    "animal": "dog, wolf",
+    "weather": "cloudy, haze",
+    "life": "wisdom, knowledge, experience",
+    "body": "fingers, bones, nose, back",
+    "color": "yellow",
+    "numbers": "5, 7  10",
+    "taste": "sweet",
+    "lifeStarDescArr": [
+     "white",
+     "earth"
+    ]
+   }
+  },
+  {
+   "year": 2080,
+   "gender": "female",
+   "isPreviousYear": true,
+   "gua": {
+    "trigram": "☴",
+    "english": "wind",
+    "pinyin": "xun",
+    "chinese": "巽",
+    "element": "wood",
+    "direction": "SE",
+    "group": "E",
+    "luoShu": 4,
+    "preHeaven": 5,
+    "binary": "110",
+    "laterHeavenSeason": "spring",
+    "concept": "gentle",
+    "personality": "flexible, adaptable, soft, dancing",
+    "person": "eldest daughter",
+    "place": "graden, grassland",
+    "thing": "rope, feather, fan",
+    "animal": "fowl",
+    "weather": "windy",
+    "life": "abundance, abundance",
+    "body": "upper arm, thigh",
+    "color": "green, white",
+    "numbers": "5, 3, 8",
+    "taste": "sour",
+    "lifeStarDescArr": [
+     "green",
+     "wood"
+    ]
+   }
+  }
+ ],
+ "timeFlyingStars": [
+  {
+   "time": "2024-06-15T14:30:00+08:00",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-07-01T10:00:00+08:00",
+   "hour": {
+    "kan": 3,
+    "kun": 4,
+    "zhen": 5,
+    "xun": 6,
+    "center": 7,
+    "qian": 8,
+    "dui": 9,
+    "gen": 1,
+    "li": 2
+   },
+   "day": {
+    "kan": 3,
+    "kun": 4,
+    "zhen": 5,
+    "xun": 6,
+    "center": 7,
+    "qian": 8,
+    "dui": 9,
+    "gen": 1,
+    "li": 2
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-12-25T09:00:00+08:00",
+   "hour": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   },
+   "day": {
+    "kan": 5,
+    "kun": 6,
+    "zhen": 7,
+    "xun": 8,
+    "center": 9,
+    "qian": 1,
+    "dui": 2,
+    "gen": 3,
+    "li": 4
+   },
+   "month": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-01-15T08:00:00+08:00",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 2,
+    "kun": 3,
+    "zhen": 4,
+    "xun": 5,
+    "center": 6,
+    "qian": 7,
+    "dui": 8,
+    "gen": 9,
+    "li": 1
+   },
+   "month": {
+    "kan": 2,
+    "kun": 3,
+    "zhen": 4,
+    "xun": 5,
+    "center": 6,
+    "qian": 7,
+    "dui": 8,
+    "gen": 9,
+    "li": 1
+   },
+   "year": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   }
+  },
+  {
+   "time": "2024-02-10T12:00:00+08:00",
+   "hour": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "day": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "month": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2025-02-03T23:30:00+08:00",
+   "hour": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "day": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "month": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "year": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   }
+  },
+  {
+   "time": "2025-02-04T10:00:00+08:00",
+   "hour": {
+    "kan": 5,
+    "kun": 6,
+    "zhen": 7,
+    "xun": 8,
+    "center": 9,
+    "qian": 1,
+    "dui": 2,
+    "gen": 3,
+    "li": 4
+   },
+   "day": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "month": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "year": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   }
+  },
+  {
+   "time": "2023-06-22T00:30:00+08:00",
+   "hour": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   },
+   "day": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "month": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "year": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   }
+  },
+  {
+   "time": "2023-12-22T23:30:00+08:00",
+   "hour": {
+    "kan": 3,
+    "kun": 4,
+    "zhen": 5,
+    "xun": 6,
+    "center": 7,
+    "qian": 8,
+    "dui": 9,
+    "gen": 1,
+    "li": 2
+   },
+   "day": {
+    "kan": 5,
+    "kun": 6,
+    "zhen": 7,
+    "xun": 8,
+    "center": 9,
+    "qian": 1,
+    "dui": 2,
+    "gen": 3,
+    "li": 4
+   },
+   "month": {
+    "kan": 3,
+    "kun": 4,
+    "zhen": 5,
+    "xun": 6,
+    "center": 7,
+    "qian": 8,
+    "dui": 9,
+    "gen": 1,
+    "li": 2
+   },
+   "year": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   }
+  },
+  {
+   "time": "1990-05-15T14:30:00+08:00",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "month": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "year": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   }
+  },
+  {
+   "time": "2000-01-01T00:00:00+08:00",
+   "hour": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "day": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "month": {
+    "kan": 3,
+    "kun": 4,
+    "zhen": 5,
+    "xun": 6,
+    "center": 7,
+    "qian": 8,
+    "dui": 9,
+    "gen": 1,
+    "li": 2
+   },
+   "year": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   }
+  },
+  {
+   "time": "2044-01-01T12:00:00+08:00",
+   "hour": {
+    "kan": 3,
+    "kun": 4,
+    "zhen": 5,
+    "xun": 6,
+    "center": 7,
+    "qian": 8,
+    "dui": 9,
+    "gen": 1,
+    "li": 2
+   },
+   "day": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   }
+  },
+  {
+   "time": "2024-06-15T14:30:00-05:00",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 2,
+    "kun": 3,
+    "zhen": 4,
+    "xun": 5,
+    "center": 6,
+    "qian": 7,
+    "dui": 8,
+    "gen": 9,
+    "li": 1
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-06-15T14:30:00+05:30",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-06-15T14:30:00+11:00",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-06-15T14:30:00Z",
+   "hour": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "day": {
+    "kan": 1,
+    "kun": 2,
+    "zhen": 3,
+    "xun": 4,
+    "center": 5,
+    "qian": 6,
+    "dui": 7,
+    "gen": 8,
+    "li": 9
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2024-06-15T23:30:00-08:00",
+   "hour": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "day": {
+    "kan": 2,
+    "kun": 3,
+    "zhen": 4,
+    "xun": 5,
+    "center": 6,
+    "qian": 7,
+    "dui": 8,
+    "gen": 9,
+    "li": 1
+   },
+   "month": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  },
+  {
+   "time": "2025-02-03T23:30:00+05:30",
+   "hour": {
+    "kan": 6,
+    "kun": 7,
+    "zhen": 8,
+    "xun": 9,
+    "center": 1,
+    "qian": 2,
+    "dui": 3,
+    "gen": 4,
+    "li": 5
+   },
+   "day": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "month": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   },
+   "year": {
+    "kan": 7,
+    "kun": 8,
+    "zhen": 9,
+    "xun": 1,
+    "center": 2,
+    "qian": 3,
+    "dui": 4,
+    "gen": 5,
+    "li": 6
+   }
+  },
+  {
+   "time": "2023-06-22T00:30:00-05:00",
+   "hour": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   },
+   "day": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "month": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "year": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   }
+  },
+  {
+   "time": "2024-12-25T09:00:00-05:00",
+   "hour": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   },
+   "day": {
+    "kan": 5,
+    "kun": 6,
+    "zhen": 7,
+    "xun": 8,
+    "center": 9,
+    "qian": 1,
+    "dui": 2,
+    "gen": 3,
+    "li": 4
+   },
+   "month": {
+    "kan": 9,
+    "kun": 1,
+    "zhen": 2,
+    "xun": 3,
+    "center": 4,
+    "qian": 5,
+    "dui": 6,
+    "gen": 7,
+    "li": 8
+   },
+   "year": {
+    "kan": 8,
+    "kun": 9,
+    "zhen": 1,
+    "xun": 2,
+    "center": 3,
+    "qian": 4,
+    "dui": 5,
+    "gen": 6,
+    "li": 7
+   }
+  }
+ ],
+ "houseFlyingStars": [
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": 0
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 3,
+      "kun": 4,
+      "zhen": 5,
+      "xun": 6,
+      "center": 7,
+      "qian": 8,
+      "dui": 9,
+      "gen": 1,
+      "li": 2
+     },
+     "facing": {
+      "kan": 7,
+      "kun": 6,
+      "zhen": 5,
+      "xun": 4,
+      "center": 3,
+      "qian": 2,
+      "dui": 1,
+      "gen": 9,
+      "li": 8
+     },
+     "sitting": {
+      "kan": 7,
+      "kun": 8,
+      "zhen": 9,
+      "xun": 1,
+      "center": 2,
+      "qian": 3,
+      "dui": 4,
+      "gen": 5,
+      "li": 6
+     }
+    },
+    "period": 7,
+    "faceMountain": {
+     "sector": "N2",
+     "direction": "N",
+     "pinyin": "zi",
+     "chinese": "子",
+     "element": "water",
+     "type": "branch",
+     "palace": "kan"
+    },
+    "sitMountain": {
+     "sector": "S2",
+     "direction": "S",
+     "pinyin": "wu",
+     "chinese": "午",
+     "element": "fire",
+     "type": "branch",
+     "palace": "li"
+    },
+    "houseDegree": 0,
+    "houseYear": 1984
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": 45
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 3,
+      "kun": 4,
+      "zhen": 5,
+      "xun": 6,
+      "center": 7,
+      "qian": 8,
+      "dui": 9,
+      "gen": 1,
+      "li": 2
+     },
+     "facing": {
+      "kan": 5,
+      "kun": 4,
+      "zhen": 3,
+      "xun": 2,
+      "center": 1,
+      "qian": 9,
+      "dui": 8,
+      "gen": 7,
+      "li": 6
+     },
+     "sitting": {
+      "kan": 9,
+      "kun": 1,
+      "zhen": 2,
+      "xun": 3,
+      "center": 4,
+      "qian": 5,
+      "dui": 6,
+      "gen": 7,
+      "li": 8
+     }
+    },
+    "period": 7,
+    "faceMountain": {
+     "sector": "NE2",
+     "direction": "NE",
+     "pinyin": "gen",
+     "chinese": "艮",
+     "element": "earth",
+     "type": "trigram",
+     "palace": "gen"
+    },
+    "sitMountain": {
+     "sector": "SW2",
+     "direction": "SW",
+     "pinyin": "kun",
+     "chinese": "坤",
+     "element": "earth",
+     "type": "trigram",
+     "palace": "kun"
+    },
+    "houseDegree": 45,
+    "houseYear": 1984
+   }
+  },
+  {
+   "input": {
+    "houseYear": 2024,
+    "houseDegree": 90
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 5,
+      "kun": 6,
+      "zhen": 7,
+      "xun": 8,
+      "center": 9,
+      "qian": 1,
+      "dui": 2,
+      "gen": 3,
+      "li": 4
+     },
+     "facing": {
+      "kan": 2,
+      "kun": 1,
+      "zhen": 9,
+      "xun": 8,
+      "center": 7,
+      "qian": 6,
+      "dui": 5,
+      "gen": 4,
+      "li": 3
+     },
+     "sitting": {
+      "kan": 7,
+      "kun": 8,
+      "zhen": 9,
+      "xun": 1,
+      "center": 2,
+      "qian": 3,
+      "dui": 4,
+      "gen": 5,
+      "li": 6
+     }
+    },
+    "period": 9,
+    "faceMountain": {
+     "sector": "E2",
+     "direction": "E",
+     "pinyin": "mao",
+     "chinese": "卯",
+     "element": "wood",
+     "type": "branch",
+     "palace": "zhen"
+    },
+    "sitMountain": {
+     "sector": "W2",
+     "direction": "W",
+     "pinyin": "you",
+     "chinese": "酉",
+     "element": "metal",
+     "type": "branch",
+     "palace": "dui"
+    },
+    "houseDegree": 90,
+    "houseYear": 2024
+   }
+  },
+  {
+   "input": {
+    "houseYear": 2024,
+    "houseDegree": 180
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 5,
+      "kun": 6,
+      "zhen": 7,
+      "xun": 8,
+      "center": 9,
+      "qian": 1,
+      "dui": 2,
+      "gen": 3,
+      "li": 4
+     },
+     "facing": {
+      "kan": 9,
+      "kun": 1,
+      "zhen": 2,
+      "xun": 3,
+      "center": 4,
+      "qian": 5,
+      "dui": 6,
+      "gen": 7,
+      "li": 8
+     },
+     "sitting": {
+      "kan": 9,
+      "kun": 8,
+      "zhen": 7,
+      "xun": 6,
+      "center": 5,
+      "qian": 4,
+      "dui": 3,
+      "gen": 2,
+      "li": 1
+     }
+    },
+    "period": 9,
+    "faceMountain": {
+     "sector": "S2",
+     "direction": "S",
+     "pinyin": "wu",
+     "chinese": "午",
+     "element": "fire",
+     "type": "branch",
+     "palace": "li"
+    },
+    "sitMountain": {
+     "sector": "N2",
+     "direction": "N",
+     "pinyin": "zi",
+     "chinese": "子",
+     "element": "water",
+     "type": "branch",
+     "palace": "kan"
+    },
+    "houseDegree": 180,
+    "houseYear": 2024
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1864,
+    "houseDegree": 7.5
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 6,
+      "kun": 7,
+      "zhen": 8,
+      "xun": 9,
+      "center": 1,
+      "qian": 2,
+      "dui": 3,
+      "gen": 4,
+      "li": 5
+     },
+     "facing": {
+      "kan": 2,
+      "kun": 3,
+      "zhen": 4,
+      "xun": 5,
+      "center": 6,
+      "qian": 7,
+      "dui": 8,
+      "gen": 9,
+      "li": 1
+     },
+     "sitting": {
+      "kan": 9,
+      "kun": 8,
+      "zhen": 7,
+      "xun": 6,
+      "center": 5,
+      "qian": 4,
+      "dui": 3,
+      "gen": 2,
+      "li": 1
+     }
+    },
+    "period": 1,
+    "faceMountain": {
+     "sector": "N2",
+     "direction": "N",
+     "pinyin": "zi",
+     "chinese": "子",
+     "element": "water",
+     "type": "branch",
+     "palace": "kan"
+    },
+    "sitMountain": {
+     "sector": "S2",
+     "direction": "S",
+     "pinyin": "wu",
+     "chinese": "午",
+     "element": "fire",
+     "type": "branch",
+     "palace": "li"
+    },
+    "houseDegree": 7.5,
+    "houseYear": 1864
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1864,
+    "houseDegree": 7.6
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 6,
+      "kun": 7,
+      "zhen": 8,
+      "xun": 9,
+      "center": 1,
+      "qian": 2,
+      "dui": 3,
+      "gen": 4,
+      "li": 5
+     },
+     "facing": {
+      "kan": 2,
+      "kun": 3,
+      "zhen": 4,
+      "xun": 5,
+      "center": 6,
+      "qian": 7,
+      "dui": 8,
+      "gen": 9,
+      "li": 1
+     },
+     "sitting": {
+      "kan": 9,
+      "kun": 8,
+      "zhen": 7,
+      "xun": 6,
+      "center": 5,
+      "qian": 4,
+      "dui": 3,
+      "gen": 2,
+      "li": 1
+     }
+    },
+    "period": 1,
+    "faceMountain": {
+     "sector": "N3",
+     "direction": "N",
+     "pinyin": "gui",
+     "chinese": "癸",
+     "element": "water",
+     "type": "stem",
+     "palace": "kan"
+    },
+    "sitMountain": {
+     "sector": "S3",
+     "direction": "S",
+     "pinyin": "ding",
+     "chinese": "丁",
+     "element": "fire",
+     "type": "stem",
+     "palace": "li"
+    },
+    "houseDegree": 7.6,
+    "houseYear": 1864
+   }
+  },
+  {
+   "input": {
+    "houseYear": 2064,
+    "houseDegree": 337.5
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 7,
+      "kun": 8,
+      "zhen": 9,
+      "xun": 1,
+      "center": 2,
+      "qian": 3,
+      "dui": 4,
+      "gen": 5,
+      "li": 6
+     },
+     "facing": {
+      "kan": 7,
+      "kun": 6,
+      "zhen": 5,
+      "xun": 4,
+      "center": 3,
+      "qian": 2,
+      "dui": 1,
+      "gen": 9,
+      "li": 8
+     },
+     "sitting": {
+      "kan": 5,
+      "kun": 4,
+      "zhen": 3,
+      "xun": 2,
+      "center": 1,
+      "qian": 9,
+      "dui": 8,
+      "gen": 7,
+      "li": 6
+     }
+    },
+    "period": 2,
+    "faceMountain": {
+     "sector": "NW3",
+     "direction": "NW",
+     "pinyin": "hai",
+     "chinese": "亥",
+     "element": "water",
+     "type": "branch",
+     "palace": "qian"
+    },
+    "sitMountain": {
+     "sector": "SE3",
+     "direction": "SE",
+     "pinyin": "si",
+     "chinese": "巳",
+     "element": "fire",
+     "type": "branch",
+     "palace": "xun"
+    },
+    "houseDegree": 337.5,
+    "houseYear": 2064
+   }
+  },
+  {
+   "input": {
+    "houseYear": 2064,
+    "houseDegree": 352.6
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 7,
+      "kun": 8,
+      "zhen": 9,
+      "xun": 1,
+      "center": 2,
+      "qian": 3,
+      "dui": 4,
+      "gen": 5,
+      "li": 6
+     },
+     "facing": {
+      "kan": 2,
+      "kun": 1,
+      "zhen": 9,
+      "xun": 8,
+      "center": 7,
+      "qian": 6,
+      "dui": 5,
+      "gen": 4,
+      "li": 3
+     },
+     "sitting": {
+      "kan": 2,
+      "kun": 3,
+      "zhen": 4,
+      "xun": 5,
+      "center": 6,
+      "qian": 7,
+      "dui": 8,
+      "gen": 9,
+      "li": 1
+     }
+    },
+    "period": 2,
+    "faceMountain": {
+     "sector": "N2",
+     "direction": "N",
+     "pinyin": "zi",
+     "chinese": "子",
+     "element": "water",
+     "type": "branch",
+     "palace": "kan"
+    },
+    "sitMountain": {
+     "sector": "S2",
+     "direction": "S",
+     "pinyin": "wu",
+     "chinese": "午",
+     "element": "fire",
+     "type": "branch",
+     "palace": "li"
+    },
+    "houseDegree": 352.6,
+    "houseYear": 2064
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": 157.5
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 3,
+      "kun": 4,
+      "zhen": 5,
+      "xun": 6,
+      "center": 7,
+      "qian": 8,
+      "dui": 9,
+      "gen": 1,
+      "li": 2
+     },
+     "facing": {
+      "kan": 2,
+      "kun": 3,
+      "zhen": 4,
+      "xun": 5,
+      "center": 6,
+      "qian": 7,
+      "dui": 8,
+      "gen": 9,
+      "li": 1
+     },
+     "sitting": {
+      "kan": 4,
+      "kun": 5,
+      "zhen": 6,
+      "xun": 7,
+      "center": 8,
+      "qian": 9,
+      "dui": 1,
+      "gen": 2,
+      "li": 3
+     }
+    },
+    "period": 7,
+    "faceMountain": {
+     "sector": "SE3",
+     "direction": "SE",
+     "pinyin": "si",
+     "chinese": "巳",
+     "element": "fire",
+     "type": "branch",
+     "palace": "xun"
+    },
+    "sitMountain": {
+     "sector": "NW3",
+     "direction": "NW",
+     "pinyin": "hai",
+     "chinese": "亥",
+     "element": "water",
+     "type": "branch",
+     "palace": "qian"
+    },
+    "houseDegree": 157.5,
+    "houseYear": 1984
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": 157.6
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 3,
+      "kun": 4,
+      "zhen": 5,
+      "xun": 6,
+      "center": 7,
+      "qian": 8,
+      "dui": 9,
+      "gen": 1,
+      "li": 2
+     },
+     "facing": {
+      "kan": 6,
+      "kun": 5,
+      "zhen": 4,
+      "xun": 3,
+      "center": 2,
+      "qian": 1,
+      "dui": 9,
+      "gen": 8,
+      "li": 7
+     },
+     "sitting": {
+      "kan": 8,
+      "kun": 9,
+      "zhen": 1,
+      "xun": 2,
+      "center": 3,
+      "qian": 4,
+      "dui": 5,
+      "gen": 6,
+      "li": 7
+     }
+    },
+    "period": 7,
+    "faceMountain": {
+     "sector": "S1",
+     "direction": "S",
+     "pinyin": "bing",
+     "chinese": "丙",
+     "element": "fire",
+     "type": "stem",
+     "palace": "li"
+    },
+    "sitMountain": {
+     "sector": "N1",
+     "direction": "N",
+     "pinyin": "ren",
+     "chinese": "壬",
+     "element": "water",
+     "type": "stem",
+     "palace": "kan"
+    },
+    "houseDegree": 157.6,
+    "houseYear": 1984
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1990,
+    "houseDegree": 157.55
+   },
+   "error": "Cannot read properties of undefined (reading 'palace')"
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": 359.9
+   },
+   "payload": {
+    "plates": {
+     "base": {
+      "kan": 3,
+      "kun": 4,
+      "zhen": 5,
+      "xun": 6,
+      "center": 7,
+      "qian": 8,
+      "dui": 9,
+      "gen": 1,
+      "li": 2
+     },
+     "facing": {
+      "kan": 7,
+      "kun": 6,
+      "zhen": 5,
+      "xun": 4,
+      "center": 3,
+      "qian": 2,
+      "dui": 1,
+      "gen": 9,
+      "li": 8
+     },
+     "sitting": {
+      "kan": 7,
+      "kun": 8,
+      "zhen": 9,
+      "xun": 1,
+      "center": 2,
+      "qian": 3,
+      "dui": 4,
+      "gen": 5,
+      "li": 6
+     }
+    },
+    "period": 7,
+    "faceMountain": {
+     "sector": "N2",
+     "direction": "N",
+     "pinyin": "zi",
+     "chinese": "子",
+     "element": "water",
+     "type": "branch",
+     "palace": "kan"
+    },
+    "sitMountain": {
+     "sector": "S2",
+     "direction": "S",
+     "pinyin": "wu",
+     "chinese": "午",
+     "element": "fire",
+     "type": "branch",
+     "palace": "li"
+    },
+    "houseDegree": 359.9,
+    "houseYear": 1984
+   }
+  },
+  {
+   "input": {
+    "houseYear": 1863,
+    "houseDegree": 90
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": 2065,
+    "houseDegree": 90
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": -1
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": 361
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": null
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": null,
+    "houseDegree": 90
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": 1984,
+    "houseDegree": "abc"
+   },
+   "payload": null
+  },
+  {
+   "input": {
+    "houseYear": 0,
+    "houseDegree": 90
+   },
+   "payload": null
+  }
+ ]
+}

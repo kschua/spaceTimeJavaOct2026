@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BaZi Chart</title>
+<style>
+  :root {
+    --wood:#2e9e5b; --fire:#e2483d; --earth:#b8860b; --metal:#8a94a6; --water:#2f6fd0;
+    --bg:#0f1420; --card:#1a2130; --card2:#222c3e; --line:#33415a; --txt:#e8edf6; --dim:#93a0b8;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); display:flex;
+           align-items:center; justify-content:space-between; gap:16px; }
+  a.navlink { color:#9db7f5; text-decoration:none; font-size:13px; }
+  a.navlink:hover { text-decoration:underline; }
+  h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  .wrap { padding:20px 24px 60px; max-width:1100px; margin:0 auto; }
+  form { display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; background:var(--card);
+         padding:16px; border-radius:12px; border:1px solid var(--line); margin-bottom:20px; }
+  label { display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--dim); }
+  input,select { background:var(--bg); color:var(--txt); border:1px solid var(--line);
+         border-radius:8px; padding:8px 10px; font-size:14px; }
+  button { background:#3d6fe0; color:#fff; border:0; border-radius:8px; padding:10px 20px;
+         font-size:14px; font-weight:600; cursor:pointer; }
+  button:hover { background:#4d7ff0; }
+  .chk { flex-direction:row; align-items:center; gap:6px; }
+  .chk input { width:auto; }
+  .err { background:#3a1c1c; border:1px solid #7a2c2c; color:#ffb4b4; padding:12px 16px;
+         border-radius:10px; margin-bottom:20px; }
+  .muted { color:var(--dim); font-size:13px; }
+
+  .section { margin-top:26px; }
+  .section h2 { font-size:14px; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim);
+         margin:0 0 12px; font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+
+  .pillars { display:grid; grid-template-columns:repeat(7,1fr); gap:10px; }
+  .pcol { background:var(--card2); border:1px solid var(--line); border-radius:10px;
+          padding:10px 8px; text-align:center; }
+  .pcol.focus { border-color:#3d6fe0; box-shadow:0 0 0 1px #3d6fe0 inset; }
+  .pcol .plabel { font-size:11px; color:var(--dim); margin-bottom:6px; letter-spacing:1px; }
+  .glyph { font-size:30px; line-height:1.1; font-weight:600; }
+  .glyph .en { display:block; font-size:10px; color:var(--dim); font-weight:400; letter-spacing:.5px; }
+  .god { font-size:10px; color:var(--dim); margin:2px 0 4px; min-height:13px; line-height:1.5; }
+  .god .code, .code { display:inline-block; background:#3d6fe0; color:#fff; border-radius:4px;
+         padding:0 4px; font-weight:700; font-size:10px; letter-spacing:.5px; }
+  .cn { color:var(--dim); font-size:.9em; margin-left:3px; }
+  .glyph .glyph-cn { display:block; }
+  .hidden { margin-top:8px; border-top:1px dashed var(--line); padding-top:6px; }
+  .hidden .h { font-size:10px; color:var(--dim); display:flex; justify-content:space-between; }
+  .pillar-god { font-size:10px; margin-top:6px; color:var(--dim); }
+
+  .wood{color:var(--wood)} .fire{color:var(--fire)} .earth{color:var(--earth)}
+  .metal{color:var(--metal)} .water{color:var(--water)}
+
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(110px,1fr)); gap:12px; }
+  .stat { background:var(--card2); border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
+  .stat .k { font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:1px; }
+  .stat .v { font-size:16px; font-weight:600; margin-top:4px; }
+
+  .bar { display:flex; align-items:center; gap:10px; margin:6px 0; font-size:13px; }
+  .bar .name { width:96px; font-size:12px; }
+  .bar .track { flex:1; height:12px; background:var(--card2); border-radius:6px; overflow:hidden; }
+  .bar .fill { height:100%; border-radius:6px; }
+  .bar .num { width:44px; text-align:right; color:var(--dim); }
+
+  .tags { display:flex; flex-wrap:wrap; gap:8px; }
+  .tag { background:var(--card2); border:1px solid var(--line); border-radius:999px;
+         padding:5px 12px; font-size:12px; }
+  .tag .cn { color:var(--dim); margin-left:6px; }
+
+  .luck { display:flex; gap:12px; overflow-x:auto; padding-bottom:8px; }
+  .luck .pcol { min-width:118px; flex:0 0 auto; }
+
+  .shensha { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:10px; }
+  .ss { background:var(--card2); border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
+  .ss .n { font-weight:600; font-size:13px; }
+  .ss .sr { font-size:11px; color:var(--dim); margin-top:4px; }
+  .ss .sd { font-size:11px; color:var(--dim); margin-top:6px; line-height:1.4; }
+  @media (max-width:820px){ .pillars{grid-template-columns:repeat(3,1fr)} .grid2{grid-template-columns:1fr}
+    .pillars .pcol:nth-child(n+4){} }
+</style>
+</head>
+<body>
+<header>
+  <h1>BaZi Chart <small id="clock">local time</small></h1>
+  <nav style="display:flex; gap:16px">
+    <a class="navlink" href="/almanac.html">Almanac →</a>
+    <a class="navlink" href="/hexagrams.html">Yi Jing →</a>
+    <a class="navlink" href="/fengshui.html">Feng Shui →</a>
+    <a class="navlink" href="/qimen.html">Qi Men →</a>
+    <a class="navlink" href="/library.html">Library →</a>
+    <a class="navlink" href="/tutorials.html">Tutorials →</a>
+  </nav>
+</header>
+<div class="wrap">
+  <form id="f">
+    <label>Birth date &amp; time
+      <input type="datetime-local" id="time" step="1" value="1990-05-15T14:30:00" required>
+    </label>
+    <label>Gender
+      <select id="gender"><option value="male">Male</option><option value="female">Female</option></select>
+    </label>
+    <label>Options
+      <span class="chk"><input type="checkbox" id="lateZi"> Late-Zi hour</span>
+    </label>
+    <label>&nbsp;
+      <span class="chk"><input type="checkbox" id="hourUnknown"> Hour unknown</span>
+    </label>
+    <button type="submit">Show Chart</button>
+  </form>
+  <div id="err" class="err" style="display:none"></div>
+  <div id="out"></div>
+</div>
+
+<script>
+const STEM_CN = {jia:"甲",yi:"乙",bing:"丙",ding:"丁",wu:"戊",ji:"己",geng:"庚",xin:"辛",ren:"壬",gui:"癸"};
+const STEM_EN = {jia:"Yang Wood",yi:"Yin Wood",bing:"Yang Fire",ding:"Yin Fire",wu:"Yang Earth",ji:"Yin Earth",geng:"Yang Metal",xin:"Yin Metal",ren:"Yang Water",gui:"Yin Water"};
+const BRANCH_CN = {zi:"子",chou:"丑",yin:"寅",mao:"卯",chen:"辰",si:"巳",wu:"午",wei:"未",shen:"申",you:"酉",xu:"戌",hai:"亥"};
+const BRANCH_EN = {zi:"Rat",chou:"Ox",yin:"Tiger",mao:"Rabbit",chen:"Dragon",si:"Snake",wu:"Horse",wei:"Goat",shen:"Monkey",you:"Rooster",xu:"Dog",hai:"Pig"};
+const EL_CN = {wood:"木",fire:"火",earth:"土",metal:"金",water:"水"};
+const EL_EN = {wood:"Wood",fire:"Fire",earth:"Earth",metal:"Metal",water:"Water"};
+const STEM_EL = {jia:"wood",yi:"wood",bing:"fire",ding:"fire",wu:"earth",ji:"earth",geng:"metal",xin:"metal",ren:"water",gui:"water"};
+const GOD_CN = {f:"比肩",rw:"劫财",eg:"食神",ho:"伤官",dw:"正财",iw:"偏财",do:"正官",k7:"七杀","7k":"七杀",dr:"正印",ir:"偏印"};
+const GOD_EN = {f:"Friend",rw:"Rob Wealth",eg:"Eating God",ho:"Hurting Officer",iw:"Indirect Wealth",dw:"Direct Wealth",do:"Direct Officer","7k":"Seven Killings",dr:"Direct Resource",ir:"Indirect Resource"};
+const GOD_CODE = {f:"F",rw:"RW",eg:"EG",ho:"HO",iw:"IW",dw:"DW",do:"DO","7k":"7K",dr:"DR",ir:"IR"};
+const ASPECT_CN = {companion:"比劫",output:"食伤",wealth:"财",power:"官杀",resource:"印"};
+const ASPECT_EN = {companion:"Companion",output:"Output",wealth:"Wealth",power:"Power",resource:"Resource"};
+const PILLAR_CN = {year:"年 Year",month:"月 Month",day:"日 Day",hour:"时 Hour",conception:"胎 Conception",life:"命 Life"};
+
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cc = (mapCN,mapEN,k,en) => {
+  const cn = mapCN[k]||esc(k);
+  const sub = en||mapEN[k]||k;
+  return `<span class="glyph-cn">${cn}</span><span class="en">${esc(sub)}</span>`;
+};
+const GodShort = g => `${GOD_CODE[g]?`<span class="code">${GOD_CODE[g]}</span> `:""}${esc(GOD_EN[g]||g)}`;
+const godLabel = g => GodShort(g)+(GOD_CN[g]?` <span class="cn">${GOD_CN[g]}</span>`:"");
+
+function elSpan(el, inner){ return `<span class="${esc(el)}">${inner}</span>`; }
+
+function pillarCard(p, label, focus){
+  if(!p) return `<div class="pcol"><div class="plabel">${label}</div><div class="muted">—</div></div>`;
+  const st = p.stem, br = p.branch;
+  const hidden = (br.hiddenStems||[]).filter(h=>h.stem);
+  return `<div class="pcol ${focus?'focus':''}">
+    <div class="plabel">${label}</div>
+    <div class="god">${st.god?godLabel(st.god):""}</div>
+    <div class="glyph">${elSpan(st.element, cc(STEM_CN,STEM_EN,st.name))}</div>
+    <div class="glyph" style="margin-top:6px">${elSpan(br.element, cc(BRANCH_CN,BRANCH_EN,br.name))}</div>
+    <div class="hidden">
+      ${hidden.map(h=>`<div class="h"><span>${esc(GOD_EN[h.god]||h.god||"")}${GOD_CN[h.god]?` <span class="cn">${GOD_CN[h.god]}</span>`:""}</span>
+        ${elSpan(STEM_EL[h.stem]||"", esc(STEM_CN[h.stem]||h.stem))}</div>`).join("")}
+    </div>
+    <div class="pillar-god">${st.aspect?"aspect: "+esc(ASPECT_EN[st.aspect]||st.aspect)+" <span class=\"cn\">"+(ASPECT_CN[st.aspect]||"")+"</span>":""}</div>
+    <div class="pillar-god">${p.naYin?`naYin: ${esc(p.naYin.name||"")} <span class="cn">${esc(p.naYin.chinese||"")}</span>`:""}</div>
+    <div class="pillar-god">${p.jiaGroup?`jia: ${esc(p.jiaGroup)}`:""}${(p.voidStars||[]).length?` · void: ${p.voidStars.map(v=>BRANCH_CN[v]||v).join("")}`:""}</div>
+    ${(p.stars||[]).length?`<div class="pillar-god">stars: ${p.stars.map(s=>pretty(s.name)).join(", ")}</div>`:""}
+  </div>`;
+}
+
+function pillarColumn(chart, key){
+  return pillarCard(chart.pillars[key], PILLAR_CN[key]||key, key==='day');
+}
+
+function statBox(k,v){ return `<div class="stat"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`; }
+const pretty = s => esc(String(s==null?"":s).replace(/([a-z])([A-Z])/g,"$1 $2").replace(/^./,c=>c.toUpperCase()));
+
+function elementBars(elements, colors){
+  const vals = elements||{};
+  const max = Math.max(1, ...Object.values(vals));
+  const order = ["wood","fire","earth","metal","water"];
+  return order.map(k=>{
+    const v = vals[k]||0;
+    const pct = Math.round((v/(vals.__total||max))*100);
+    return `<div class="bar"><span class="name ${k}">${EL_CN[k]} ${EL_EN[k]}</span>
+      <span class="track"><span class="fill" style="width:${pct}%;background:var(--${k})"></span></span>
+      <span class="num">${v}</span></div>`;
+  }).join("");
+}
+
+function render(chart){
+  const info = chart.info||{}, meta = chart.meta||{}, stats = meta.stats||{};
+  const keys = ["year","month","day","hour","conception","life"];
+  const elRaw = (meta.weights||{}).raw||{};
+  const elements = Object.assign({}, elRaw.elements||{});
+  elements.__total = Object.values(elRaw.elements||{}).reduce((a,b)=>a+b,0);
+
+  const fav = meta.favorable||{}, unfav = meta.unfavorable||{}, useful = meta.usefulGods||{};
+  const luck = (chart.luck||[]).map((l,i)=>{
+    const t=(l.time||"").slice(0,10);
+    return pillarCard(l.pillar, `#${i} · ${t}`, false);
+  }).join("");
+
+  const ss = (chart.shensha||[]).map(x=>`<div class="ss">
+      <div class="n">${pretty(x.name)}<span class="cn">${esc(x.chinese||"")}</span></div>
+      <div class="sr">${esc(x.pillar||"")} · ${pretty(x.ref)}</div>
+      ${x.desc?`<div class="sd">${esc(x.desc)}</div>`:""}
+    </div>`).join("");
+
+  const tag = inner => `<span class="tag">${inner}</span>`;
+  const listEl = arr => (arr||[]).map(k=>tag(`${EL_CN[k]||k} ${esc(EL_EN[k]||k)}`)).join(" ");
+  const listGod = arr => (arr||[]).map(k=>tag(`${GodShort(k)} <span class="cn">${GOD_EN[k]?esc(GOD_EN[k]):""} ${esc(GOD_CN[k]||"")}</span>`)).join(" ");
+  const listStem = arr => (arr||[]).map(k=>tag(`${esc(STEM_CN[k]||k)} <span class="cn">${esc(STEM_EN[k]||k)}</span>`)).join(" ");
+
+  const sect = info.solarTerm||{}, t1 = (sect.thisTerm||{}).data||{}, t2 = (sect.nextTerm||{}).data||{};
+  const sum = meta.summary||{}, gua = meta.gua||{};
+
+  document.getElementById("out").innerHTML = `
+    <div class="muted">${esc((info.chineseTimeString||"")
+        +"  ·  term "+(t1.num!=null?t1.num:"?")+" "+esc(t1.english||t1.chinese||"")+" → "
+        +(t2.num!=null?t2.num:"?")+" "+esc(t2.english||t2.chinese||""))}
+      ${info.isPreviousYear?" · previous-year boundary":""}</div>
+
+    <div class="section"><h2>Pillars</h2>
+      <div class="pillars">${keys.map(k=>pillarColumn(chart,k)).join("")}</div>
+    </div>
+
+    <div class="section grid2">
+      <div><h2>Stats</h2><div class="stats">
+        ${statBox("Temperature",pretty(stats.temperature))}
+        ${statBox("Strength",pretty(stats.strength))}
+        ${statBox("Support",stats.supportScore)}
+        ${statBox("Profile",stats.profile?`${GOD_CODE[stats.profile]||""} ${GOD_EN[stats.profile]||stats.profile}`:stats.profile)}
+        ${statBox("Structure",ASPECT_EN[stats.structure]?`${ASPECT_EN[stats.structure]} (${stats.structure})`:pretty(stats.structure))}
+        ${statBox("Polarity",pretty((stats.polarity||{}).desc))}
+        ${statBox("Gua",gua.english?`${pretty(gua.english)} ${gua.chinese||""}${gua.luoShu?` (#${gua.luoShu})`:""}`:"—")}
+      </div></div>
+      <div><h2>Five Elements (raw)</h2><div class="card">${elementBars(elements)}</div></div>
+    </div>
+
+    <div class="section grid2">
+      <div><h2>Summary</h2><div class="card tags">
+        ${sum.elementStrength?tag(`Weak element <span class="cn">${EL_CN[sum.elementStrength.weak]||""}</span> ${esc(EL_EN[sum.elementStrength.weak]||sum.elementStrength.weak)} (${sum.ratioNum?sum.ratioNum.weak:"?"}%)`):""}
+        ${sum.elementStrength?tag(`Strong element <span class="cn">${EL_CN[sum.elementStrength.strong]||""}</span> ${esc(EL_EN[sum.elementStrength.strong]||sum.elementStrength.strong)} (${sum.ratioNum?sum.ratioNum.strong:"?"}%)`):""}
+        ${sum.aspectStrength?tag(`Weak aspect ${esc(ASPECT_EN[sum.aspectStrength.weak]||sum.aspectStrength.weak)}`):""}
+        ${sum.aspectStrength?tag(`Strong aspect ${esc(ASPECT_EN[sum.aspectStrength.strong]||sum.aspectStrength.strong)}`):""}
+        ${sum.stemStrength?tag(`Weak stem ${esc(STEM_CN[sum.stemStrength.weak]||sum.stemStrength.weak)} ${esc(STEM_EN[sum.stemStrength.weak]||"")}`):""}
+        ${sum.stemStrength?tag(`Strong stem ${esc(STEM_CN[sum.stemStrength.strong]||sum.stemStrength.strong)} ${esc(STEM_EN[sum.stemStrength.strong]||"")}`):""}
+      </div></div>
+      <div><h2>Gua</h2><div class="card tags">
+        ${gua.trigram?tag(`<span style="font-size:20px">${esc(gua.trigram)}</span> ${esc(gua.chinese||"")} ${pretty(gua.english)}`):""}
+        ${gua.luoShu?tag(`Luo Shu ${gua.luoShu}`):""}
+        ${(gua.lifeStarDescArr||[]).length?tag(`Life star ${esc(gua.lifeStarDescArr.join(" · "))}`):""}
+      </div></div>
+    </div>
+
+    <div class="section grid2">
+      <div><h2>Favorable</h2><div class="card tags">
+        ${listEl(fav.elements)} ${listGod(fav.gods)} ${listStem(fav.stems)}
+      </div></div>
+      <div><h2>Unfavorable</h2><div class="card tags">
+        ${listEl(unfav.elements)} ${listGod(unfav.gods)} ${listStem(unfav.stems)}
+      </div></div>
+    </div>
+
+    <div class="section"><h2>Useful Gods</h2><div class="card tags">
+      ${tag(`Regulating <span class="cn">调候</span> &nbsp; ${useful.regulating?GodShort(useful.regulating)+` <span class="cn">${GOD_EN[useful.regulating]||""} ${GOD_CN[useful.regulating]||""}</span>`:"—"}`)}
+      ${tag(`Medicating <span class="cn">病药</span> &nbsp; ${useful.medicating?GodShort(useful.medicating)+` <span class="cn">${GOD_EN[useful.medicating]||""} ${GOD_CN[useful.medicating]||""}</span>`:"—"}`)}
+      ${tag(`Arbitrating <span class="cn">通关</span> &nbsp; ${useful.arbitrating?GodShort(useful.arbitrating)+` <span class="cn">${GOD_EN[useful.arbitrating]||""} ${GOD_CN[useful.arbitrating]||""}</span>`:"—"}`)}
+    </div></div>
+
+    <div class="section"><h2>Luck Pillars</h2><div class="card"><div class="luck">${luck}</div></div></div>
+
+    <div class="section"><h2>Shen Sha (${(chart.shensha||[]).length})</h2><div class="shensha">${ss}</div></div>
+  `;
+}
+
+async function run(e){
+  if(e) e.preventDefault();
+  const err = document.getElementById("err");
+  err.style.display="none";
+  const time = document.getElementById("time").value;
+  const gender = document.getElementById("gender").value;
+  const lateZi = document.getElementById("lateZi").checked;
+  const hourUnknown = document.getElementById("hourUnknown").checked;
+  if(!time){ err.textContent="Enter a birth date/time."; err.style.display="block"; return; }
+  try{
+    const url = `/api/bazi?time=${encodeURIComponent(time)}&gender=${gender}&lateZi=${lateZi}&hourUnknown=${hourUnknown}`;
+    const r = await fetch(url);
+    const j = await r.json();
+    if(!r.ok){ throw new Error(j.error||("HTTP "+r.status)); }
+    render(j);
+  }catch(ex){
+    document.getElementById("out").innerHTML="";
+    err.textContent = ex.message;
+    err.style.display="block";
+  }
+}
+
+document.getElementById("f").addEventListener("submit", run);
+run();
+setInterval(()=>{ document.getElementById("clock").textContent = new Date().toLocaleString(); }, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+bazi-spring/target
+**/node_modules
+tools/extract-js-data/backup
+tools/extract-js-data/raw-dump.json
+decoded
+.git
+.gitignore

@@ -1,0 +1,14 @@
+import { pathToFileURL } from 'node:url';
+import { DateTime } from 'luxon';
+const ROOT = 'C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools';
+const FourPillars = await import(pathToFileURL(ROOT + '/Plotters/FourPillars/index.js').href);
+const time = DateTime.fromISO('1990-05-15T14:30:00+08:00', { setZone: true });
+const chart = FourPillars.plot({ time });
+console.log('top keys:', Object.keys(chart));
+console.log('info:', JSON.stringify(chart.info, null, 1).slice(0, 1800));
+console.log('pillar keys:', Object.keys(chart.pillars));
+console.log('year pillar keys:', Object.keys(chart.pillars.year));
+console.log('year pillar:', JSON.stringify(chart.pillars.year, null, 1).slice(0, 2500));
+console.log('luck:', JSON.stringify(chart.luck).slice(0, 800));
+console.log('meta keys:', Object.keys(chart.meta || {}));
+console.log('meta.gua keys:', Object.keys(chart.meta?.gua || {}));

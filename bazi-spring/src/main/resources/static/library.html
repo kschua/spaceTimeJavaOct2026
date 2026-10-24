@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Library — Compendium</title>
+<style>
+  :root {
+    --bg:#0f1420; --card:#1a2130; --card2:#222c3e; --line:#33415a; --txt:#e8edf6; --dim:#93a0b8;
+    --accent:#3d6fe0; --good:#4fbf74; --gold:#e6b84c;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); display:flex;
+           align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  a.navlink { color:#9db7f5; text-decoration:none; font-size:13px; }
+  a.navlink:hover { text-decoration:underline; }
+  h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  nav { display:flex; gap:16px; flex-wrap:wrap; }
+  .wrap { padding:20px 24px 60px; max-width:1080px; margin:0 auto; }
+  .crumbs { font-size:13px; color:var(--dim); margin-bottom:14px; display:flex; gap:6px; flex-wrap:wrap;
+            align-items:center; }
+  .crumbs a { color:#9db7f5; text-decoration:none; cursor:pointer; }
+  .crumbs a:hover { text-decoration:underline; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  .row { display:flex; align-items:center; justify-content:space-between; gap:12px;
+         padding:12px 16px; border-bottom:1px solid var(--line); }
+  .row:last-child { border-bottom:0; }
+  .row.clickable { cursor:pointer; }
+  .row.clickable:hover { background:var(--card2); }
+  .row .t { font-size:14px; }
+  .row .sub { color:var(--dim); font-size:12px; margin-top:3px; }
+  .row .chev { color:var(--dim); font-size:16px; }
+  .row a { color:#9db7f5; text-decoration:none; font-size:13px; word-break:break-all; }
+  .row a:hover { text-decoration:underline; }
+  .header-row { padding:14px 16px 8px; color:var(--gold); font-size:12px; letter-spacing:1.5px;
+                text-transform:uppercase; border-bottom:1px solid var(--line); background:rgba(230,184,76,.06); }
+  .content-row { padding:10px 16px; border-bottom:1px solid var(--line); font-size:13px; color:var(--dim); }
+  .content-row b { color:var(--txt); font-weight:600; display:block; margin-bottom:3px; font-size:12px;
+                   letter-spacing:.5px; text-transform:capitalize; }
+  .tags { padding:12px 16px; border-bottom:1px solid var(--line); font-size:13px; }
+  .tags .label { color:var(--dim); font-size:12px; margin-bottom:6px; text-transform:capitalize; }
+  .tag { display:inline-block; background:var(--card2); border:1px solid var(--line); border-radius:999px;
+         padding:3px 10px; margin:2px 4px 2px 0; font-size:12px; }
+  .err { background:#3a1c1c; border:1px solid #7a2c2c; color:#ffb4b4; padding:12px 16px;
+         border-radius:10px; margin-bottom:14px; display:none; }
+  .status { color:var(--dim); font-size:13px; margin-left:10px; }
+  .grid2 { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:14px; }
+  table.ref { width:100%; border-collapse:collapse; }
+  table.ref td, table.ref th { padding:8px 12px; border-bottom:1px solid var(--line); font-size:13px;
+                               text-align:left; }
+  table.ref th { color:var(--gold); font-size:11px; letter-spacing:1px; text-transform:uppercase; }
+  .refrow { display:flex; gap:8px; flex-wrap:wrap; align-items:center; padding:8px 0;
+            border-bottom:1px solid var(--line); }
+  .refrow:last-child { border-bottom:0; }
+  .cell { background:var(--card2); border-radius:8px; padding:6px 12px; font-size:13px; }
+  .cell.stem { border-left:3px solid #b78be0; }
+  .cell.branch { border-left:3px solid #4fbf74; }
+  .cell.text { color:var(--gold); }
+  .emap { color:var(--dim); font-style:italic; }
+  .stemrow { display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid var(--line); }
+  .stemrow:last-child { border-bottom:0; }
+  .stemrow .side { color:var(--dim); font-size:12px; width:70px; }
+  .stemrow .box { background:var(--card2); border-radius:8px; padding:6px 12px; min-width:130px; }
+  .stemrow .box b { font-weight:600; }
+  .stemrow .stage { color:var(--dim); font-size:12px; }
+  .stemrow .chinese { color:#cfe0ff; margin-left:6px; }
+  .back { background:transparent; color:var(--dim); border:1px solid var(--line); border-radius:9px;
+          padding:8px 18px; font-size:13px; cursor:pointer; margin-bottom:14px; }
+  .back:hover { color:var(--txt); }
+  .vhead { font-size:18px; margin:0 0 4px; }
+  .vsub { color:var(--dim); font-size:13px; margin-bottom:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Library <small>圖書館 · Compendium, interactions & reference tables</small></h1>
+  <nav>
+    <a class="navlink" href="/">← BaZi chart</a>
+    <a class="navlink" href="/almanac.html">Almanac</a>
+    <a class="navlink" href="/hexagrams.html">Yi Jing</a>
+    <a class="navlink" href="/fengshui.html">Feng Shui</a>
+    <a class="navlink" href="/qimen.html">Qi Men chart</a>
+    <a class="navlink" href="/qimen-days.html">Day scan</a>
+    <a class="navlink" href="/qimen-symbols.html">Symbols</a>
+    <a class="navlink" href="/tutorials.html">Tutorials</a>
+  </nav>
+</header>
+<div class="wrap">
+  <div id="err" class="err"></div>
+  <div class="crumbs" id="crumbs"></div>
+  <div id="out"></div>
+</div>
+
+<script>
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const capFirst = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+const toTitle = s => String(s==null?"":s).replace(/\b\w/g, c => c.toUpperCase());
+const deCamel = s => toTitle(String(s==null?"":s).replace(/_/g," ").replace(/([a-z])([A-Z])/g,"$1 $2"));
+
+// QiMenUsefulGodList is the only push target that is a separate screen
+const PUSH_VIEWS = {
+  YinYangRef: "yin-yang",
+  HeavenEarthMan: "heaven-earth-man",
+  TwelveStagesList: "twelve-stages",
+  RelationshipsTable: "relationships",
+};
+
+let COMP = null;          // {tree, titles}
+let path = [];            // current tree navigation
+const state = { push: null };
+
+function showError(msg){
+  const err = document.getElementById("err");
+  err.textContent = msg;
+  err.style.display = msg ? "block" : "none";
+}
+
+function nodeAt(p){
+  let n = COMP.tree;
+  for (const k of p) n = n && n[k];
+  return n;
+}
+function titleFor(p, key){
+  const dotted = p.concat([key]).join(".");
+  return (COMP.titles && COMP.titles[dotted]) || deCamel(key);
+}
+function isPlainObject(v){
+  return v !== null && typeof v === "object" && !Array.isArray(v);
+}
+
+// ------------------------------------------------------------- tree render
+
+function renderCrumbs(){
+  const el = document.getElementById("crumbs");
+  if (state.push) { el.innerHTML = ""; return; }
+  const parts = [`<a data-nav="-1">Library</a>`];
+  path.forEach((k, i) => parts.push(`<span>›</span><a data-nav="${i}">${esc(titleFor(path.slice(0, i), k))}</a>`));
+  el.innerHTML = parts.join(" ");
+  el.querySelectorAll("a[data-nav]").forEach(a => {
+    a.addEventListener("click", () => {
+      const i = parseInt(a.getAttribute("data-nav"), 10);
+      path = i < 0 ? [] : path.slice(0, i + 1);
+      renderTree();
+    });
+  });
+}
+
+function row(inner, cls, attrs){
+  return `<div class="row ${cls||""}"${attrs?" "+attrs:""}>${inner}</div>`;
+}
+
+function renderTree(){
+  state.push = null;
+  showError("");
+  const node = nodeAt(path);
+  if (node === null || node === undefined) {
+    document.getElementById("out").innerHTML = `<div class="card content-row">Nothing at this path.</div>`;
+    return;
+  }
+  renderCrumbs();
+
+  const items = [];
+  for (const key of Object.keys(node)) {
+    const value = node[key];
+    if (key.indexOf("_") === 0) continue;
+    if (key.indexOf("$icon") === 0) continue;
+
+    if (key.indexOf("$header") === 0) {
+      items.push(`<div class="header-row">${esc(value.title||"")}${value.subtitle?` · ${esc(value.subtitle)}`:""}</div>`);
+    } else if (key.indexOf("$push") === 0) {
+      const kind = value.path === "QiMenUsefulGodList" ? "qimen-symbols" : (PUSH_VIEWS[value.path] || null);
+      const sub = value.params ? esc(JSON.stringify(value.params)) : esc(value.path);
+      const attr = `data-push='${esc(JSON.stringify({kind, params: value.params || null, path: value.path}))}'`;
+      items.push(row(`<div><div class="t">${esc(value.title||value.path)}</div><div class="sub">${sub}${kind?"":" · not ported"}</div></div>
+        <div class="chev">›</div>`, "clickable", attr));
+    } else if (key.indexOf("$body") === 0) {
+      items.push(`<div class="content-row">${esc(value)}</div>`);
+    } else if (key.indexOf("$link_wiki") === 0) {
+      items.push(row(`<a href="${esc(value.uri)}" target="_blank" rel="noopener">${esc(value.uri)}</a>`, ""));
+    } else if (key.indexOf("$link") === 0) {
+      const label = value.title ? `${esc(value.title)} — ` : "";
+      items.push(row(`<div class="t">${label}<a href="${esc(value.uri)}" target="_blank" rel="noopener">${esc(value.uri)}</a></div>`, ""));
+    } else if (key.indexOf("$def") === 0) {
+      items.push(`<div class="content-row"><b>Definition</b>${esc(capFirst(String(value)))}</div>`);
+    } else if (Array.isArray(value)) {
+      const title = deCamel(key.replace("$dict", "").replace(/_/g, " ").replace("adj", "adjective").replace("syn", "synonyms"));
+      items.push(`<div class="tags"><div class="label">${esc(title)}</div>${
+        value.map(v => `<span class="tag">${esc(typeof v === "object" ? JSON.stringify(v) : v)}</span>`).join("")}</div>`);
+    } else if (isPlainObject(value)) {
+      items.push(row(`<div class="t">${esc(titleFor(path, key))}</div><div class="chev">›</div>`,
+        "clickable", `data-sub='${esc(key)}'`));
+    } else if (typeof value === "string" || typeof value === "number") {
+      items.push(`<div class="content-row"><b>${esc(deCamel(key))}</b>${esc(capFirst(String(value)))}</div>`);
+    }
+  }
+
+  const title = path.length ? titleFor(path.slice(0,-1), path[path.length-1]) : "Library";
+  document.getElementById("out").innerHTML =
+    `<h2 class="vhead">${esc(title)}</h2>
+     <div class="card">${items.join("")}</div>`;
+
+  document.querySelectorAll("#out .row[data-sub]").forEach(el => {
+    el.addEventListener("click", () => {
+      path = path.concat([el.getAttribute("data-sub")]);
+      renderTree();
+    });
+  });
+  document.querySelectorAll("#out .row[data-push]").forEach(el => {
+    el.addEventListener("click", () => {
+      const push = JSON.parse(el.getAttribute("data-push"));
+      if (!push.kind) { showError("No web view for " + push.path); return; }
+      if (push.kind === "qimen-symbols") { window.location.href = "/qimen-symbols.html"; return; }
+      openPush(push.kind, push.params);
+    });
+  });
+}
+
+// ------------------------------------------------------------- push views
+
+function backButton(){
+  return `<button class="back" id="back">← Compendium</button>`;
+}
+function wireBack(){
+  const b = document.getElementById("back");
+  if (b) b.addEventListener("click", renderTree);
+}
+
+async function jget(path){
+  const r = await fetch(path);
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || ("HTTP " + r.status));
+  return j;
+}
+
+async function openPush(kind, params){
+  showError("");
+  state.push = kind;
+  try {
+    if (kind === "yin-yang") return renderYinYang(await jget("/api/library/yin-yang"));
+    if (kind === "heaven-earth-man") return renderHem(await jget("/api/library/heaven-earth-man"));
+    if (kind === "twelve-stages") return renderStages(await jget("/api/library/twelve-stages?stem=" + encodeURIComponent((params||{}).stem || "jia")));
+    if (kind === "relationships") return renderRelationships(await jget("/api/library/relationships" + ((params||{}).key ? "?key=" + encodeURIComponent(params.key) : "")));
+    renderTree();
+  } catch (ex) {
+    showError(ex.message);
+    renderTree();
+  }
+}
+
+function renderYinYang(data){
+  document.getElementById("crumbs").innerHTML = "";
+  document.getElementById("out").innerHTML = backButton() +
+    `<h2 class="vhead">Yin &amp; Yang</h2>
+     <div class="vsub">YinYangRef — each line: yang (light) left, yin (dark) right</div>
+     <div class="card"><table class="ref"><tr><th>Yang</th><th>Yin</th></tr>
+       ${data.words.map(w => `<tr><td>${esc(w[0])}</td><td>${esc(w[1])}</td></tr>`).join("")}
+     </table></div>`;
+  wireBack();
+}
+
+function renderHem(data){
+  document.getElementById("crumbs").innerHTML = "";
+  document.getElementById("out").innerHTML = backButton() +
+    `<h2 class="vhead">Heaven · Earth · Man</h2>
+     <div class="vsub">HeavenEarthMan — the three lenses</div>
+     <div class="card"><table class="ref"><tr><th>Heaven</th><th>Earth</th><th>Man</th></tr>
+       ${data.heaven.map((w, i) => `<tr><td>${esc(w)}</td><td>${esc(data.earth[i])}</td><td>${esc(data.man[i])}</td></tr>`).join("")}
+     </table></div>`;
+  wireBack();
+}
+
+async function renderStages(data){
+  document.getElementById("crumbs").innerHTML = "";
+  const s = data.stem;
+  document.getElementById("out").innerHTML = backButton() +
+    `<h2 class="vhead">${esc(s.chinese)} ${esc(toTitle(s.natureName))} — ${esc(toTitle(s.elementName))} (${esc(toTitle(s.name))})</h2>
+     <div class="vsub">Twelve Stages of Growth — branches in zi…hai order</div>
+     <div class="grid2" id="stemgrid"></div>`;
+  wireBack();
+
+  const grid = document.getElementById("stemgrid");
+  grid.innerHTML = data.stages.map(r => {
+    const stage = r.stage || {};
+    return `<div class="stemrow">
+      <div class="side">${esc(toTitle(r.season))}</div>
+      <div class="box"><b>${esc(toTitle(r.animalName))}</b><span class="chinese">${esc(r.chinese)}</span>
+        <div class="stage">${esc(toTitle(stage.name||""))} ${esc(stage.visual||"")} ${stage.rating>0?"+":""}${esc(stage.rating)}</div>
+      </div>
+      <div class="stage">${esc((stage.chinese||"") + " " + deCamel(stage.name||""))}</div>
+    </div>`;
+  }).join("");
+
+  // stem picker: re-render for another stem
+  const picker = document.createElement("div");
+  picker.style.marginBottom = "12px";
+  picker.innerHTML = ["jia","yi","bing","ding","wu","ji","geng","xin","ren","gui"]
+    .map(k => `<button class="back" data-stem="${k}" style="padding:5px 12px;margin:0 6px 6px 0">${k}</button>`).join("");
+  grid.parentNode.insertBefore(picker, grid);
+  picker.querySelectorAll("button[data-stem]").forEach(b => b.addEventListener("click", async () => {
+    try { renderStages(await jget("/api/library/twelve-stages?stem=" + b.getAttribute("data-stem"))); }
+    catch (ex) { showError(ex.message); }
+  }));
+}
+
+function cellHtml(c){
+  if (c.type === "stem") return `<span class="cell stem">${esc(toTitle(stemName(c.val)))} ${esc(stemCn(c.val))}</span>`;
+  if (c.type === "branch") return `<span class="cell branch">${esc(toTitle(branchName(c.val)))} ${esc(branchCn(c.val))}</span>`;
+  return `<span class="cell text">${esc(toTitle(c.val))}</span>`;
+}
+const STEM_CN = {jia:"甲",yi:"乙",bing:"丙",ding:"丁",wu:"戊",ji:"己",geng:"庚",xin:"辛",ren:"壬",gui:"癸"};
+const BRANCH_CN = {zi:"子",chou:"丑",yin:"寅",mao:"卯",chen:"辰",si:"巳",wu:"午",wei:"未",shen:"申",you:"酉",xu:"戌",hai:"亥"};
+const STEM_NAME = {jia:"tree",yi:"flower",bing:"sun",ding:"flame",wu:"mountain",ji:"soil",geng:"iron",xin:"gold",ren:"ocean",gui:"mist"};
+const BRANCH_NAME = {zi:"rat",chou:"ox",yin:"tiger",mao:"rabbit",chen:"dragon",si:"snake",wu:"horse",wei:"goat",shen:"monkey",you:"rooster",xu:"dog",hai:"pig"};
+const stemName = k => STEM_NAME[k] || k;
+const branchName = k => BRANCH_NAME[k] || k;
+const stemCn = k => STEM_CN[k] || "";
+const branchCn = k => BRANCH_CN[k] || "";
+
+function renderRelationships(data){
+  document.getElementById("crumbs").innerHTML = "";
+  document.getElementById("out").innerHTML = backButton() +
+    (data.sections.length
+      ? data.sections.map(s => `
+        <h2 class="vhead" style="margin-top:18px">${esc(s.title)}</h2>
+        <div class="card">${s.data.map(r => `<div class="refrow">${r.map(cellHtml).join("")}</div>`).join("")}</div>`).join("")
+      : `<div class="card content-row">No sections for this key.</div>`);
+  wireBack();
+}
+
+// ------------------------------------------------------------------ boot
+
+async function load(){
+  try {
+    COMP = await jget("/api/library/compendium");
+    renderTree();
+  } catch (ex) {
+    showError(ex.message);
+  }
+}
+load();
+</script>
+</body>
+</html>

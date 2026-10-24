@@ -1,0 +1,30 @@
+import { pathToFileURL } from 'node:url';
+import { DateTime } from 'luxon';
+const ROOT = 'C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools';
+const FourPillars = await import(pathToFileURL(ROOT + '/Plotters/FourPillars/index.js').href);
+const EightWords = await import(pathToFileURL(ROOT + '/EightWords.js').href);
+const strip = (v) => {
+  if (Array.isArray(v)) return v.map(strip);
+  if (v && typeof v === 'object') { const o = {}; for (const k of Object.keys(v)) { if (k === '$icon') continue; const x = strip(v[k]); if (typeof x !== 'function' && x !== undefined) o[k] = x; } return o; }
+  return typeof v === 'function' ? undefined : v;
+};
+const c = FourPillars.plot({ time: DateTime.fromISO('1990-05-15T14:30:00+08:00',{setZone:true}), showLuck:true, showWeights:true });
+EightWords.getSummary(c, 0.1); EightWords.extendAuxDataChart(c);
+const j = strip(JSON.parse(JSON.stringify(c)));
+console.log('stage pillar:', JSON.stringify(j.pillars.year.stage));
+console.log('star row keys:', Object.keys(j.pillars.year.stars[0] || {}).join(','));
+console.log('star row:', JSON.stringify(j.pillars.year.stars[0]));
+console.log('annual row:', JSON.stringify(j.pillars.year.annualStars[0]));
+console.log('aspc:', JSON.stringify(j.pillars.year.stem.aspc));
+console.log('gdd:', JSON.stringify(j.pillars.year.stem.gdd));
+console.log('elm keys:', Object.keys(j.pillars.year.stem.elm).join(','));
+console.log('branch.ssn:', JSON.stringify(j.pillars.year.branch.ssn).slice(0,200));
+console.log('branch.relations:', JSON.stringify(j.pillars.year.branch.relations).slice(0,300));
+console.log('voidStars:', JSON.stringify(j.pillars.year.voidStars));
+console.log('interactions:', JSON.stringify(j.pillars.year.interactions));
+console.log('stem.interactions:', JSON.stringify(j.pillars.year.stem.interactions));
+console.log('gua keys:', Object.keys(j.meta.gua).join(','));
+console.log('weights keys:', Object.keys(j.meta.weights).join(','));
+const sz = (o) => JSON.stringify(o).length;
+console.log('full meta', sz(j.meta), 'maps', sz(j.meta.maps), 'weights', sz(j.meta.weights), 'stats', sz(j.meta.stats), 'summary', sz(j.meta.summary));
+console.log('info', sz(j.info));

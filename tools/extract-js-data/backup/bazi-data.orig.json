@@ -1,0 +1,4144 @@
+{
+ "sixtyPillars": {
+  "jia": {
+   "yin": {
+    "stream": "yin",
+    "hostFanYin": [
+     "geng",
+     "shen"
+    ],
+    "guestFanYin": [
+     "wu",
+     "shen"
+    ],
+    "naYin": "water"
+   },
+   "chen": {
+    "stream": "chen",
+    "hostFanYin": [
+     "geng",
+     "xu"
+    ],
+    "guestFanYin": [
+     "wu",
+     "xu"
+    ],
+    "naYin": "fire"
+   },
+   "wu": {
+    "stream": "wu",
+    "hostFanYin": [
+     "geng",
+     "zi"
+    ],
+    "guestFanYin": [
+     "wu",
+     "zi"
+    ],
+    "naYin": "metal"
+   },
+   "shen": {
+    "stream": "shen",
+    "hostFanYin": [
+     "geng",
+     "yin"
+    ],
+    "guestFanYin": [
+     "wu",
+     "yin"
+    ],
+    "naYin": "water"
+   },
+   "xu": {
+    "stream": "xu",
+    "hostFanYin": [
+     "geng",
+     "chen"
+    ],
+    "guestFanYin": [
+     "wu",
+     "chen"
+    ],
+    "naYin": "fire"
+   },
+   "zi": {
+    "stream": "zi",
+    "hostFanYin": [
+     "geng",
+     "wu"
+    ],
+    "guestFanYin": [
+     "wu",
+     "wu"
+    ],
+    "naYin": "metal"
+   }
+  },
+  "yi": {
+   "mao": {
+    "stream": "yin",
+    "hostFanYin": [
+     "xin",
+     "you"
+    ],
+    "guestFanYin": [
+     "ji",
+     "you"
+    ],
+    "naYin": "water"
+   },
+   "si": {
+    "stream": "chen",
+    "hostFanYin": [
+     "xin",
+     "hai"
+    ],
+    "guestFanYin": [
+     "ji",
+     "hai"
+    ],
+    "naYin": "fire"
+   },
+   "wei": {
+    "stream": "wu",
+    "hostFanYin": [
+     "xin",
+     "chou"
+    ],
+    "guestFanYin": [
+     "ji",
+     "chou"
+    ],
+    "naYin": "metal"
+   },
+   "you": {
+    "stream": "shen",
+    "hostFanYin": [
+     "xin",
+     "mao"
+    ],
+    "guestFanYin": [
+     "ji",
+     "mao"
+    ],
+    "naYin": "water"
+   },
+   "hai": {
+    "stream": "xu",
+    "hostFanYin": [
+     "xin",
+     "si"
+    ],
+    "guestFanYin": [
+     "ji",
+     "si"
+    ],
+    "naYin": "fire"
+   },
+   "chou": {
+    "stream": "zi",
+    "hostFanYin": [
+     "xin",
+     "wei"
+    ],
+    "guestFanYin": [
+     "ji",
+     "wei"
+    ],
+    "naYin": "metal"
+   }
+  },
+  "bing": {
+   "chen": {
+    "stream": "yin",
+    "hostFanYin": [
+     "ren",
+     "xu"
+    ],
+    "guestFanYin": [
+     "geng",
+     "xu"
+    ],
+    "naYin": "earth"
+   },
+   "wu": {
+    "stream": "chen",
+    "hostFanYin": [
+     "ren",
+     "zi"
+    ],
+    "guestFanYin": [
+     "geng",
+     "zi"
+    ],
+    "naYin": "water"
+   },
+   "shen": {
+    "stream": "wu",
+    "hostFanYin": [
+     "ren",
+     "yin"
+    ],
+    "guestFanYin": [
+     "geng",
+     "yin"
+    ],
+    "naYin": "fire"
+   },
+   "xu": {
+    "stream": "shen",
+    "hostFanYin": [
+     "ren",
+     "chen"
+    ],
+    "guestFanYin": [
+     "geng",
+     "chen"
+    ],
+    "naYin": "earth"
+   },
+   "zi": {
+    "stream": "xu",
+    "hostFanYin": [
+     "ren",
+     "wu"
+    ],
+    "guestFanYin": [
+     "geng",
+     "wu"
+    ],
+    "naYin": "water"
+   },
+   "yin": {
+    "stream": "zi",
+    "hostFanYin": [
+     "ren",
+     "shen"
+    ],
+    "guestFanYin": [
+     "geng",
+     "shen"
+    ],
+    "naYin": "fire"
+   }
+  },
+  "ding": {
+   "si": {
+    "stream": "yin",
+    "hostFanYin": [
+     "gui",
+     "hai"
+    ],
+    "guestFanYin": [
+     "xin",
+     "hai"
+    ],
+    "naYin": "earth"
+   },
+   "wei": {
+    "stream": "chen",
+    "hostFanYin": [
+     "gui",
+     "chou"
+    ],
+    "guestFanYin": [
+     "xin",
+     "chou"
+    ],
+    "naYin": "water"
+   },
+   "you": {
+    "stream": "wu",
+    "hostFanYin": [
+     "gui",
+     "mao"
+    ],
+    "guestFanYin": [
+     "xin",
+     "mao"
+    ],
+    "naYin": "fire"
+   },
+   "hai": {
+    "stream": "shen",
+    "hostFanYin": [
+     "gui",
+     "si"
+    ],
+    "guestFanYin": [
+     "xin",
+     "si"
+    ],
+    "naYin": "earth"
+   },
+   "chou": {
+    "stream": "xu",
+    "hostFanYin": [
+     "gui",
+     "wei"
+    ],
+    "guestFanYin": [
+     "xin",
+     "wei"
+    ],
+    "naYin": "water"
+   },
+   "mao": {
+    "stream": "zi",
+    "hostFanYin": [
+     "gui",
+     "you"
+    ],
+    "guestFanYin": [
+     "xin",
+     "you"
+    ],
+    "naYin": "fire"
+   }
+  },
+  "wu": {
+   "wu": {
+    "stream": "yin",
+    "hostFanYin": [
+     "jia",
+     "zi"
+    ],
+    "guestFanYin": [
+     "ren",
+     "zi"
+    ],
+    "naYin": "fire"
+   },
+   "shen": {
+    "stream": "chen",
+    "hostFanYin": [
+     "jia",
+     "yin"
+    ],
+    "guestFanYin": [
+     "ren",
+     "yin"
+    ],
+    "naYin": "earth"
+   },
+   "xu": {
+    "stream": "wu",
+    "hostFanYin": [
+     "jia",
+     "chen"
+    ],
+    "guestFanYin": [
+     "ren",
+     "chen"
+    ],
+    "naYin": "wood"
+   },
+   "zi": {
+    "stream": "shen",
+    "hostFanYin": [
+     "jia",
+     "wu"
+    ],
+    "guestFanYin": [
+     "ren",
+     "wu"
+    ],
+    "naYin": "fire"
+   },
+   "yin": {
+    "stream": "xu",
+    "hostFanYin": [
+     "jia",
+     "shen"
+    ],
+    "guestFanYin": [
+     "ren",
+     "shen"
+    ],
+    "naYin": "earth"
+   },
+   "chen": {
+    "stream": "zi",
+    "hostFanYin": [
+     "jia",
+     "xu"
+    ],
+    "guestFanYin": [
+     "ren",
+     "xu"
+    ],
+    "naYin": "wood"
+   }
+  },
+  "ji": {
+   "wei": {
+    "stream": "yin",
+    "hostFanYin": [
+     "yi",
+     "chou"
+    ],
+    "guestFanYin": [
+     "gui",
+     "chou"
+    ],
+    "naYin": "fire"
+   },
+   "you": {
+    "stream": "chen",
+    "hostFanYin": [
+     "yi",
+     "mao"
+    ],
+    "guestFanYin": [
+     "gui",
+     "mao"
+    ],
+    "naYin": "earth"
+   },
+   "hai": {
+    "stream": "wu",
+    "hostFanYin": [
+     "yi",
+     "si"
+    ],
+    "guestFanYin": [
+     "gui",
+     "si"
+    ],
+    "naYin": "wood"
+   },
+   "chou": {
+    "stream": "shen",
+    "hostFanYin": [
+     "yi",
+     "wei"
+    ],
+    "guestFanYin": [
+     "gui",
+     "wei"
+    ],
+    "naYin": "fire"
+   },
+   "mao": {
+    "stream": "xu",
+    "hostFanYin": [
+     "yi",
+     "you"
+    ],
+    "guestFanYin": [
+     "gui",
+     "you"
+    ],
+    "naYin": "earth"
+   },
+   "si": {
+    "stream": "zi",
+    "hostFanYin": [
+     "yi",
+     "hai"
+    ],
+    "guestFanYin": [
+     "gui",
+     "hai"
+    ],
+    "naYin": "wood"
+   }
+  },
+  "geng": {
+   "shen": {
+    "stream": "yin",
+    "hostFanYin": [
+     "bing",
+     "yin"
+    ],
+    "guestFanYin": [
+     "jia",
+     "yin"
+    ],
+    "naYin": "wood"
+   },
+   "xu": {
+    "stream": "chen",
+    "hostFanYin": [
+     "bing",
+     "chen"
+    ],
+    "guestFanYin": [
+     "jia",
+     "chen"
+    ],
+    "naYin": "metal"
+   },
+   "zi": {
+    "stream": "wu",
+    "hostFanYin": [
+     "bing",
+     "wu"
+    ],
+    "guestFanYin": [
+     "jia",
+     "wu"
+    ],
+    "naYin": "earth"
+   },
+   "yin": {
+    "stream": "shen",
+    "hostFanYin": [
+     "bing",
+     "shen"
+    ],
+    "guestFanYin": [
+     "jia",
+     "shen"
+    ],
+    "naYin": "wood"
+   },
+   "chen": {
+    "stream": "xu",
+    "hostFanYin": [
+     "bing",
+     "xu"
+    ],
+    "guestFanYin": [
+     "jia",
+     "xu"
+    ],
+    "naYin": "metal"
+   },
+   "wu": {
+    "stream": "zi",
+    "hostFanYin": [
+     "bing",
+     "zi"
+    ],
+    "guestFanYin": [
+     "jia",
+     "zi"
+    ],
+    "naYin": "earth"
+   }
+  },
+  "xin": {
+   "you": {
+    "stream": "yin",
+    "hostFanYin": [
+     "ding",
+     "mao"
+    ],
+    "guestFanYin": [
+     "yi",
+     "mao"
+    ],
+    "naYin": "wood"
+   },
+   "hai": {
+    "stream": "chen",
+    "hostFanYin": [
+     "ding",
+     "si"
+    ],
+    "guestFanYin": [
+     "yi",
+     "si"
+    ],
+    "naYin": "metal"
+   },
+   "chou": {
+    "stream": "wu",
+    "hostFanYin": [
+     "ding",
+     "wei"
+    ],
+    "guestFanYin": [
+     "yi",
+     "wei"
+    ],
+    "naYin": "earth"
+   },
+   "mao": {
+    "stream": "shen",
+    "hostFanYin": [
+     "ding",
+     "you"
+    ],
+    "guestFanYin": [
+     "yi",
+     "you"
+    ],
+    "naYin": "wood"
+   },
+   "si": {
+    "stream": "xu",
+    "hostFanYin": [
+     "ding",
+     "hai"
+    ],
+    "guestFanYin": [
+     "yi",
+     "hai"
+    ],
+    "naYin": "metal"
+   },
+   "wei": {
+    "stream": "zi",
+    "hostFanYin": [
+     "ding",
+     "chou"
+    ],
+    "guestFanYin": [
+     "yi",
+     "chou"
+    ],
+    "naYin": "earth"
+   }
+  },
+  "ren": {
+   "xu": {
+    "stream": "yin",
+    "hostFanYin": [
+     "wu",
+     "chen"
+    ],
+    "guestFanYin": [
+     "bing",
+     "chen"
+    ],
+    "naYin": "water"
+   },
+   "zi": {
+    "stream": "chen",
+    "hostFanYin": [
+     "wu",
+     "wu"
+    ],
+    "guestFanYin": [
+     "bing",
+     "wu"
+    ],
+    "naYin": "wood"
+   },
+   "yin": {
+    "stream": "wu",
+    "hostFanYin": [
+     "wu",
+     "shen"
+    ],
+    "guestFanYin": [
+     "bing",
+     "shen"
+    ],
+    "naYin": "metal"
+   },
+   "chen": {
+    "stream": "shen",
+    "hostFanYin": [
+     "wu",
+     "xu"
+    ],
+    "guestFanYin": [
+     "bing",
+     "xu"
+    ],
+    "naYin": "water"
+   },
+   "wu": {
+    "stream": "xu",
+    "hostFanYin": [
+     "wu",
+     "zi"
+    ],
+    "guestFanYin": [
+     "bing",
+     "zi"
+    ],
+    "naYin": "wood"
+   },
+   "shen": {
+    "stream": "zi",
+    "hostFanYin": [
+     "wu",
+     "yin"
+    ],
+    "guestFanYin": [
+     "bing",
+     "yin"
+    ],
+    "naYin": "metal"
+   }
+  },
+  "gui": {
+   "hai": {
+    "stream": "yin",
+    "hostFanYin": [
+     "ji",
+     "si"
+    ],
+    "guestFanYin": [
+     "ding",
+     "si"
+    ],
+    "naYin": "water"
+   },
+   "chou": {
+    "stream": "chen",
+    "hostFanYin": [
+     "ji",
+     "wei"
+    ],
+    "guestFanYin": [
+     "ding",
+     "wei"
+    ],
+    "naYin": "wood"
+   },
+   "mao": {
+    "stream": "wu",
+    "hostFanYin": [
+     "ji",
+     "you"
+    ],
+    "guestFanYin": [
+     "ding",
+     "you"
+    ],
+    "naYin": "metal"
+   },
+   "si": {
+    "stream": "shen",
+    "hostFanYin": [
+     "ji",
+     "hai"
+    ],
+    "guestFanYin": [
+     "ding",
+     "hai"
+    ],
+    "naYin": "water"
+   },
+   "wei": {
+    "stream": "xu",
+    "hostFanYin": [
+     "ji",
+     "chou"
+    ],
+    "guestFanYin": [
+     "ding",
+     "chou"
+    ],
+    "naYin": "wood"
+   },
+   "you": {
+    "stream": "zi",
+    "hostFanYin": [
+     "ji",
+     "mao"
+    ],
+    "guestFanYin": [
+     "ding",
+     "mao"
+    ],
+    "naYin": "metal"
+   }
+  }
+ },
+ "branchSpecialRelations": {
+  "harmony": {
+   "water": [
+    "shen",
+    "zi",
+    "chen"
+   ],
+   "wood": [
+    "hai",
+    "mao",
+    "wei"
+   ],
+   "fire": [
+    "yin",
+    "wu",
+    "xu"
+   ],
+   "metal": [
+    "si",
+    "you",
+    "chou"
+   ]
+  },
+  "direction": {
+   "wood": [
+    "yin",
+    "mao",
+    "chen"
+   ],
+   "fire": [
+    "si",
+    "wu",
+    "wei"
+   ],
+   "metal": [
+    "shen",
+    "you",
+    "xu"
+   ],
+   "water": [
+    "hai",
+    "zi",
+    "chou"
+   ]
+  },
+  "penalty": {
+   "ungrateful": [
+    "yin",
+    "si",
+    "shen"
+   ],
+   "bullying": [
+    "wei",
+    "xu",
+    "chou"
+   ]
+  }
+ },
+ "stems": {
+  "jia": {
+   "name": "jia",
+   "element": "wood",
+   "polarity": "yang",
+   "number": 0,
+   "combine": "ji",
+   "combineResult": "earth",
+   "clashes": [
+    "geng",
+    "wu"
+   ],
+   "aspects": {
+    "companion": [
+     "jia",
+     "yi"
+    ],
+    "output": [
+     "bing",
+     "ding"
+    ],
+    "wealth": [
+     "wu",
+     "ji"
+    ],
+    "power": [
+     "geng",
+     "xin"
+    ],
+    "resource": [
+     "ren",
+     "gui"
+    ]
+   }
+  },
+  "yi": {
+   "name": "yi",
+   "element": "wood",
+   "polarity": "yin",
+   "number": 1,
+   "combine": "geng",
+   "combineResult": "metal",
+   "clashes": [
+    "xin",
+    "ji"
+   ],
+   "aspects": {
+    "companion": [
+     "yi",
+     "jia"
+    ],
+    "output": [
+     "ding",
+     "bing"
+    ],
+    "wealth": [
+     "ji",
+     "wu"
+    ],
+    "power": [
+     "xin",
+     "geng"
+    ],
+    "resource": [
+     "gui",
+     "ren"
+    ]
+   }
+  },
+  "bing": {
+   "name": "bing",
+   "element": "fire",
+   "polarity": "yang",
+   "number": 2,
+   "combine": "xin",
+   "combineResult": "water",
+   "clashes": [
+    "ren",
+    "geng"
+   ],
+   "aspects": {
+    "companion": [
+     "bing",
+     "ding"
+    ],
+    "output": [
+     "wu",
+     "ji"
+    ],
+    "wealth": [
+     "geng",
+     "xin"
+    ],
+    "power": [
+     "ren",
+     "gui"
+    ],
+    "resource": [
+     "jia",
+     "yi"
+    ]
+   }
+  },
+  "ding": {
+   "name": "ding",
+   "element": "fire",
+   "polarity": "yin",
+   "number": 3,
+   "combine": "ren",
+   "combineResult": "wood",
+   "clashes": [
+    "gui",
+    "xin"
+   ],
+   "aspects": {
+    "companion": [
+     "ding",
+     "bing"
+    ],
+    "output": [
+     "ji",
+     "wu"
+    ],
+    "wealth": [
+     "xin",
+     "geng"
+    ],
+    "power": [
+     "gui",
+     "ren"
+    ],
+    "resource": [
+     "yi",
+     "jia"
+    ]
+   }
+  },
+  "wu": {
+   "name": "wu",
+   "element": "earth",
+   "polarity": "yang",
+   "number": 4,
+   "combine": "gui",
+   "combineResult": "fire",
+   "clashes": [
+    "jia",
+    "ren"
+   ],
+   "aspects": {
+    "companion": [
+     "wu",
+     "ji"
+    ],
+    "output": [
+     "geng",
+     "xin"
+    ],
+    "wealth": [
+     "ren",
+     "gui"
+    ],
+    "power": [
+     "jia",
+     "yi"
+    ],
+    "resource": [
+     "bing",
+     "ding"
+    ]
+   }
+  },
+  "ji": {
+   "name": "ji",
+   "element": "earth",
+   "polarity": "yin",
+   "number": 5,
+   "combine": "jia",
+   "combineResult": "earth",
+   "clashes": [
+    "yi",
+    "gui"
+   ],
+   "aspects": {
+    "companion": [
+     "ji",
+     "wu"
+    ],
+    "output": [
+     "xin",
+     "geng"
+    ],
+    "wealth": [
+     "gui",
+     "ren"
+    ],
+    "power": [
+     "yi",
+     "jia"
+    ],
+    "resource": [
+     "ding",
+     "bing"
+    ]
+   }
+  },
+  "geng": {
+   "name": "geng",
+   "element": "metal",
+   "polarity": "yang",
+   "number": 6,
+   "combine": "yi",
+   "combineResult": "metal",
+   "clashes": [
+    "bing",
+    "jia"
+   ],
+   "aspects": {
+    "companion": [
+     "geng",
+     "xin"
+    ],
+    "output": [
+     "ren",
+     "gui"
+    ],
+    "wealth": [
+     "jia",
+     "ji"
+    ],
+    "power": [
+     "bing",
+     "ding"
+    ],
+    "resource": [
+     "wu",
+     "ji"
+    ]
+   }
+  },
+  "xin": {
+   "name": "xin",
+   "element": "metal",
+   "polarity": "yin",
+   "number": 7,
+   "combine": "bing",
+   "combineResult": "water",
+   "clashes": [
+    "ding",
+    "yi"
+   ],
+   "aspects": {
+    "companion": [
+     "xin",
+     "geng"
+    ],
+    "output": [
+     "gui",
+     "ren"
+    ],
+    "wealth": [
+     "ji",
+     "jia"
+    ],
+    "power": [
+     "ding",
+     "bing"
+    ],
+    "resource": [
+     "ji",
+     "wu"
+    ]
+   }
+  },
+  "ren": {
+   "name": "ren",
+   "element": "water",
+   "polarity": "yang",
+   "number": 8,
+   "combine": "ding",
+   "combineResult": "wood",
+   "clashes": [
+    "wu",
+    "bing"
+   ],
+   "aspects": {
+    "companion": [
+     "ren",
+     "gui"
+    ],
+    "output": [
+     "jia",
+     "yi"
+    ],
+    "wealth": [
+     "bing",
+     "ding"
+    ],
+    "power": [
+     "wu",
+     "ji"
+    ],
+    "resource": [
+     "geng",
+     "xin"
+    ]
+   }
+  },
+  "gui": {
+   "name": "gui",
+   "element": "water",
+   "polarity": "yin",
+   "number": 9,
+   "combine": "wu",
+   "combineResult": "fire",
+   "clashes": [
+    "ji",
+    "ding"
+   ],
+   "aspects": {
+    "companion": [
+     "gui",
+     "ren"
+    ],
+    "output": [
+     "yi",
+     "jia"
+    ],
+    "wealth": [
+     "ding",
+     "bing"
+    ],
+    "power": [
+     "ji",
+     "wu"
+    ],
+    "resource": [
+     "xin",
+     "geng"
+    ]
+   }
+  }
+ },
+ "branches": {
+  "zi": {
+   "name": "zi",
+   "element": "water",
+   "polarity": "yang",
+   "number": 0,
+   "season": "winter",
+   "group": "peak",
+   "combine": "chou",
+   "combineResult": "earth",
+   "clash": "wu",
+   "_hiddenStemsArr": [
+    null,
+    "gui",
+    null
+   ],
+   "hiddenCombineResult": "fire"
+  },
+  "chou": {
+   "name": "chou",
+   "element": "earth",
+   "polarity": "yin",
+   "number": 1,
+   "season": "winter",
+   "group": "end",
+   "combine": "zi",
+   "combineResult": "earth",
+   "clash": "wei",
+   "_hiddenStemsArr": [
+    "xin",
+    "ji",
+    "gui"
+   ],
+   "hiddenCombineResult": "earth"
+  },
+  "yin": {
+   "name": "yin",
+   "element": "wood",
+   "polarity": "yang",
+   "number": 2,
+   "season": "spring",
+   "group": "start",
+   "combine": "hai",
+   "combineResult": "wood",
+   "clash": "shen",
+   "_hiddenStemsArr": [
+    "wu",
+    "jia",
+    "bing"
+   ],
+   "hiddenCombineResult": "earth"
+  },
+  "mao": {
+   "name": "mao",
+   "element": "wood",
+   "polarity": "yin",
+   "number": 3,
+   "season": "spring",
+   "group": "peak",
+   "combine": "xu",
+   "combineResult": "fire",
+   "clash": "you",
+   "_hiddenStemsArr": [
+    null,
+    "yi",
+    null
+   ],
+   "hiddenCombineResult": "metal"
+  },
+  "chen": {
+   "name": "chen",
+   "element": "earth",
+   "polarity": "yang",
+   "number": 4,
+   "season": "spring",
+   "group": "end",
+   "combine": "you",
+   "combineResult": "metal",
+   "clash": "xu",
+   "_hiddenStemsArr": [
+    "gui",
+    "wu",
+    "yi"
+   ],
+   "hiddenCombineResult": null
+  },
+  "si": {
+   "name": "si",
+   "element": "fire",
+   "polarity": "yin",
+   "number": 5,
+   "season": "summer",
+   "group": "start",
+   "combine": "shen",
+   "combineResult": "water",
+   "clash": "hai",
+   "_hiddenStemsArr": [
+    "geng",
+    "bing",
+    "wu"
+   ],
+   "hiddenCombineResult": null
+  },
+  "wu": {
+   "name": "wu",
+   "element": "fire",
+   "polarity": "yang",
+   "number": 6,
+   "season": "summer",
+   "group": "peak",
+   "combine": "wei",
+   "combineResult": "fire",
+   "clash": "zi",
+   "_hiddenStemsArr": [
+    null,
+    "ding",
+    "ji"
+   ],
+   "hiddenCombineResult": "wood"
+  },
+  "wei": {
+   "name": "wei",
+   "element": "earth",
+   "polarity": "yin",
+   "number": 7,
+   "season": "summer",
+   "group": "end",
+   "combine": "wu",
+   "combineResult": "fire",
+   "clash": "chou",
+   "_hiddenStemsArr": [
+    "yi",
+    "ji",
+    "ding"
+   ],
+   "hiddenCombineResult": "earth"
+  },
+  "shen": {
+   "name": "shen",
+   "element": "metal",
+   "polarity": "yang",
+   "number": 8,
+   "season": "autumn",
+   "group": "start",
+   "combine": "si",
+   "combineResult": "water",
+   "clash": "yin",
+   "_hiddenStemsArr": [
+    "wu",
+    "geng",
+    "ren"
+   ],
+   "hiddenCombineResult": "metal"
+  },
+  "you": {
+   "name": "you",
+   "element": "metal",
+   "polarity": "yin",
+   "number": 9,
+   "season": "autumn",
+   "group": "peak",
+   "combine": "chen",
+   "combineResult": "metal",
+   "clash": "mao",
+   "_hiddenStemsArr": [
+    null,
+    "xin",
+    null
+   ],
+   "hiddenCombineResult": null
+  },
+  "xu": {
+   "name": "xu",
+   "element": "earth",
+   "polarity": "yang",
+   "number": 10,
+   "season": "autumn",
+   "group": "end",
+   "combine": "mao",
+   "combineResult": "fire",
+   "clash": "chen",
+   "_hiddenStemsArr": [
+    "ding",
+    "wu",
+    "xin"
+   ],
+   "hiddenCombineResult": "fire"
+  },
+  "hai": {
+   "name": "hai",
+   "element": "water",
+   "polarity": "yin",
+   "number": 11,
+   "season": "winter",
+   "group": "start",
+   "combine": "yin",
+   "combineResult": "wood",
+   "clash": "si",
+   "_hiddenStemsArr": [
+    null,
+    "ren",
+    "jia"
+   ],
+   "hiddenCombineResult": "wood"
+  }
+ },
+ "dms": {
+  "jia": {
+   "stemsToGods": {
+    "jia": "f",
+    "yi": "rw",
+    "bing": "eg",
+    "ding": "ho",
+    "wu": "iw",
+    "ji": "dw",
+    "geng": "7k",
+    "xin": "do",
+    "ren": "ir",
+    "gui": "dr"
+   },
+   "godsToStems": {
+    "f": "jia",
+    "rw": "yi",
+    "eg": "bing",
+    "ho": "ding",
+    "iw": "wu",
+    "dw": "ji",
+    "7k": "geng",
+    "do": "xin",
+    "ir": "ren",
+    "dr": "gui"
+   }
+  },
+  "yi": {
+   "stemsToGods": {
+    "yi": "f",
+    "jia": "rw",
+    "ding": "eg",
+    "bing": "ho",
+    "ji": "iw",
+    "wu": "dw",
+    "xin": "7k",
+    "geng": "do",
+    "gui": "ir",
+    "ren": "dr"
+   },
+   "godsToStems": {
+    "f": "yi",
+    "rw": "jia",
+    "eg": "ding",
+    "ho": "bing",
+    "iw": "ji",
+    "dw": "wu",
+    "7k": "xin",
+    "do": "geng",
+    "ir": "gui",
+    "dr": "ren"
+   }
+  },
+  "bing": {
+   "stemsToGods": {
+    "bing": "f",
+    "ding": "rw",
+    "wu": "eg",
+    "ji": "ho",
+    "geng": "iw",
+    "xin": "dw",
+    "ren": "7k",
+    "gui": "do",
+    "jia": "ir",
+    "yi": "dr"
+   },
+   "godsToStems": {
+    "f": "bing",
+    "rw": "ding",
+    "eg": "wu",
+    "ho": "ji",
+    "iw": "geng",
+    "dw": "xin",
+    "7k": "ren",
+    "do": "gui",
+    "ir": "jia",
+    "dr": "yi"
+   }
+  },
+  "ding": {
+   "stemsToGods": {
+    "ding": "f",
+    "bing": "rw",
+    "ji": "eg",
+    "wu": "ho",
+    "xin": "iw",
+    "geng": "dw",
+    "gui": "7k",
+    "ren": "do",
+    "yi": "ir",
+    "jia": "dr"
+   },
+   "godsToStems": {
+    "f": "ding",
+    "rw": "bing",
+    "eg": "ji",
+    "ho": "wu",
+    "iw": "xin",
+    "dw": "geng",
+    "7k": "gui",
+    "do": "ren",
+    "ir": "yi",
+    "dr": "jia"
+   }
+  },
+  "wu": {
+   "stemsToGods": {
+    "wu": "f",
+    "ji": "rw",
+    "geng": "eg",
+    "xin": "ho",
+    "ren": "iw",
+    "gui": "dw",
+    "jia": "7k",
+    "yi": "do",
+    "bing": "ir",
+    "ding": "dr"
+   },
+   "godsToStems": {
+    "f": "wu",
+    "rw": "ji",
+    "eg": "geng",
+    "ho": "xin",
+    "iw": "ren",
+    "dw": "gui",
+    "7k": "jia",
+    "do": "yi",
+    "ir": "bing",
+    "dr": "ding"
+   }
+  },
+  "ji": {
+   "stemsToGods": {
+    "ji": "f",
+    "wu": "rw",
+    "xin": "eg",
+    "geng": "ho",
+    "gui": "iw",
+    "ren": "dw",
+    "yi": "7k",
+    "jia": "do",
+    "ding": "ir",
+    "bing": "dr"
+   },
+   "godsToStems": {
+    "f": "ji",
+    "rw": "wu",
+    "eg": "xin",
+    "ho": "geng",
+    "iw": "gui",
+    "dw": "ren",
+    "7k": "yi",
+    "do": "jia",
+    "ir": "ding",
+    "dr": "bing"
+   }
+  },
+  "geng": {
+   "stemsToGods": {
+    "geng": "f",
+    "xin": "rw",
+    "ren": "eg",
+    "gui": "ho",
+    "jia": "iw",
+    "yi": "dw",
+    "bing": "7k",
+    "ding": "do",
+    "wu": "ir",
+    "ji": "dr"
+   },
+   "godsToStems": {
+    "f": "geng",
+    "rw": "xin",
+    "eg": "ren",
+    "ho": "gui",
+    "iw": "jia",
+    "dw": "yi",
+    "7k": "bing",
+    "do": "ding",
+    "ir": "wu",
+    "dr": "ji"
+   }
+  },
+  "xin": {
+   "stemsToGods": {
+    "xin": "f",
+    "geng": "rw",
+    "gui": "eg",
+    "ren": "ho",
+    "yi": "iw",
+    "jia": "dw",
+    "ding": "7k",
+    "bing": "do",
+    "ji": "ir",
+    "wu": "dr"
+   },
+   "godsToStems": {
+    "f": "xin",
+    "rw": "geng",
+    "eg": "gui",
+    "ho": "ren",
+    "iw": "yi",
+    "dw": "jia",
+    "7k": "ding",
+    "do": "bing",
+    "ir": "ji",
+    "dr": "wu"
+   }
+  },
+  "ren": {
+   "stemsToGods": {
+    "ren": "f",
+    "gui": "rw",
+    "jia": "eg",
+    "yi": "ho",
+    "bing": "iw",
+    "ding": "dw",
+    "wu": "7k",
+    "ji": "do",
+    "geng": "ir",
+    "xin": "dr"
+   },
+   "godsToStems": {
+    "f": "ren",
+    "rw": "gui",
+    "eg": "jia",
+    "ho": "yi",
+    "iw": "bing",
+    "dw": "ding",
+    "7k": "wu",
+    "do": "ji",
+    "ir": "geng",
+    "dr": "xin"
+   }
+  },
+  "gui": {
+   "stemsToGods": {
+    "gui": "f",
+    "ren": "rw",
+    "yi": "eg",
+    "jia": "ho",
+    "ding": "iw",
+    "bing": "dw",
+    "ji": "7k",
+    "wu": "do",
+    "xin": "ir",
+    "geng": "dr"
+   },
+   "godsToStems": {
+    "f": "gui",
+    "rw": "ren",
+    "eg": "yi",
+    "ho": "jia",
+    "iw": "ding",
+    "dw": "bing",
+    "7k": "ji",
+    "do": "wu",
+    "ir": "xin",
+    "dr": "geng"
+   }
+  }
+ },
+ "lifePalaceBranch": {
+  "yin": {
+   "zi": "mao",
+   "chou": "yin",
+   "yin": "chou",
+   "mao": "zi",
+   "chen": "hai",
+   "si": "xu",
+   "wu": "you",
+   "wei": "shen",
+   "shen": "wei",
+   "you": "wu",
+   "xu": "si",
+   "hai": "chen"
+  },
+  "mao": {
+   "zi": "yin",
+   "chou": "chou",
+   "yin": "zi",
+   "mao": "hai",
+   "chen": "xu",
+   "si": "you",
+   "wu": "shen",
+   "wei": "wei",
+   "shen": "wu",
+   "you": "si",
+   "xu": "chen",
+   "hai": "mao"
+  },
+  "chen": {
+   "zi": "chou",
+   "chou": "zi",
+   "yin": "hai",
+   "mao": "xu",
+   "chen": "you",
+   "si": "shen",
+   "wu": "wei",
+   "wei": "wu",
+   "shen": "si",
+   "you": "chen",
+   "xu": "mao",
+   "hai": "yin"
+  },
+  "si": {
+   "zi": "zi",
+   "chou": "hai",
+   "yin": "xu",
+   "mao": "you",
+   "chen": "shen",
+   "si": "wei",
+   "wu": "wu",
+   "wei": "si",
+   "shen": "chen",
+   "you": "mao",
+   "xu": "yin",
+   "hai": "chou"
+  },
+  "wu": {
+   "zi": "hai",
+   "chou": "xu",
+   "yin": "you",
+   "mao": "shen",
+   "chen": "wei",
+   "si": "wu",
+   "wu": "si",
+   "wei": "chen",
+   "shen": "mao",
+   "you": "yin",
+   "xu": "chou",
+   "hai": "zi"
+  },
+  "wei": {
+   "zi": "xu",
+   "chou": "you",
+   "yin": "shen",
+   "mao": "wei",
+   "chen": "wu",
+   "si": "si",
+   "wu": "chen",
+   "wei": "mao",
+   "shen": "yin",
+   "you": "chou",
+   "xu": "zi",
+   "hai": "hai"
+  },
+  "shen": {
+   "zi": "you",
+   "chou": "shen",
+   "yin": "wei",
+   "mao": "wu",
+   "chen": "si",
+   "si": "chen",
+   "wu": "mao",
+   "wei": "yin",
+   "shen": "chou",
+   "you": "zi",
+   "xu": "hai",
+   "hai": "xu"
+  },
+  "you": {
+   "zi": "shen",
+   "chou": "wei",
+   "yin": "wu",
+   "mao": "si",
+   "chen": "chen",
+   "si": "mao",
+   "wu": "yin",
+   "wei": "chou",
+   "shen": "zi",
+   "you": "hai",
+   "xu": "xu",
+   "hai": "you"
+  },
+  "xu": {
+   "zi": "wei",
+   "chou": "wu",
+   "yin": "si",
+   "mao": "chen",
+   "chen": "mao",
+   "si": "yin",
+   "wu": "chou",
+   "wei": "zi",
+   "shen": "hai",
+   "you": "xu",
+   "xu": "you",
+   "hai": "shen"
+  },
+  "hai": {
+   "zi": "wu",
+   "chou": "si",
+   "yin": "chen",
+   "mao": "mao",
+   "chen": "yin",
+   "si": "chou",
+   "wu": "zi",
+   "wei": "hai",
+   "shen": "xu",
+   "you": "you",
+   "xu": "shen",
+   "hai": "wei"
+  },
+  "zi": {
+   "zi": "si",
+   "chou": "chen",
+   "yin": "mao",
+   "mao": "yin",
+   "chen": "chou",
+   "si": "zi",
+   "wu": "hai",
+   "wei": "xu",
+   "shen": "you",
+   "you": "shen",
+   "xu": "wei",
+   "hai": "wu"
+  },
+  "chou": {
+   "zi": "chen",
+   "chou": "mao",
+   "yin": "yin",
+   "mao": "chou",
+   "chen": "zi",
+   "si": "hai",
+   "wu": "xu",
+   "wei": "you",
+   "shen": "shen",
+   "you": "wei",
+   "xu": "wu",
+   "hai": "si"
+  }
+ },
+ "lifePalaceStem": {
+  "jia": {
+   "yin": "bing",
+   "mao": "ding",
+   "chen": "wu",
+   "si": "ji",
+   "wu": "geng",
+   "wei": "xin",
+   "shen": "ren",
+   "you": "gui",
+   "xu": "jia",
+   "hai": "yi",
+   "zi": "bing",
+   "chou": "ding"
+  },
+  "ji": {
+   "yin": "bing",
+   "mao": "ding",
+   "chen": "wu",
+   "si": "ji",
+   "wu": "geng",
+   "wei": "xin",
+   "shen": "ren",
+   "you": "gui",
+   "xu": "jia",
+   "hai": "yi",
+   "zi": "bing",
+   "chou": "ding"
+  },
+  "yi": {
+   "yin": "wu",
+   "mao": "ji",
+   "chen": "geng",
+   "si": "xin",
+   "wu": "ren",
+   "wei": "gui",
+   "shen": "jia",
+   "you": "yi",
+   "xu": "bing",
+   "hai": "ding",
+   "zi": "wu",
+   "chou": "ji"
+  },
+  "geng": {
+   "yin": "wu",
+   "mao": "ji",
+   "chen": "geng",
+   "si": "xin",
+   "wu": "ren",
+   "wei": "gui",
+   "shen": "jia",
+   "you": "yi",
+   "xu": "bing",
+   "hai": "ding",
+   "zi": "wu",
+   "chou": "ji"
+  },
+  "bing": {
+   "yin": "geng",
+   "mao": "xin",
+   "chen": "ren",
+   "si": "gui",
+   "wu": "jia",
+   "wei": "yi",
+   "shen": "bing",
+   "you": "ding",
+   "xu": "wu",
+   "hai": "ji",
+   "zi": "geng",
+   "chou": "xin"
+  },
+  "xin": {
+   "yin": "geng",
+   "mao": "xin",
+   "chen": "ren",
+   "si": "gui",
+   "wu": "jia",
+   "wei": "yi",
+   "shen": "bing",
+   "you": "ding",
+   "xu": "wu",
+   "hai": "ji",
+   "zi": "geng",
+   "chou": "xin"
+  },
+  "ding": {
+   "yin": "ren",
+   "mao": "gui",
+   "chen": "jia",
+   "si": "yi",
+   "wu": "bing",
+   "wei": "ding",
+   "shen": "wu",
+   "you": "ji",
+   "xu": "geng",
+   "hai": "xin",
+   "zi": "ren",
+   "chou": "gui"
+  },
+  "ren": {
+   "yin": "ren",
+   "mao": "gui",
+   "chen": "jia",
+   "si": "yi",
+   "wu": "bing",
+   "wei": "ding",
+   "shen": "wu",
+   "you": "ji",
+   "xu": "geng",
+   "hai": "xin",
+   "zi": "ren",
+   "chou": "gui"
+  },
+  "wu": {
+   "yin": "jia",
+   "mao": "yi",
+   "chen": "bing",
+   "si": "ding",
+   "wu": "wu",
+   "wei": "ji",
+   "shen": "geng",
+   "you": "xin",
+   "xu": "ren",
+   "hai": "gui",
+   "zi": "jia",
+   "chou": "yi"
+  },
+  "gui": {
+   "yin": "jia",
+   "mao": "yi",
+   "chen": "bing",
+   "si": "ding",
+   "wu": "wu",
+   "wei": "ji",
+   "shen": "geng",
+   "you": "xin",
+   "xu": "ren",
+   "hai": "gui",
+   "zi": "jia",
+   "chou": "yi"
+  }
+ },
+ "scores": {
+  "multiplier": {
+   "stem": 0.6,
+   "main": 1,
+   "storage": 0.4,
+   "tomb": 0.4,
+   "growth": 0.4
+  },
+  "branchMultipliers": {
+   "zi": {
+    "gui": 1
+   },
+   "chou": {
+    "xin": 0.4,
+    "ji": 1,
+    "gui": 0.4
+   },
+   "yin": {
+    "wu": 0.4,
+    "jia": 1,
+    "bing": 0.4
+   },
+   "mao": {
+    "yi": 1
+   },
+   "chen": {
+    "gui": 0.4,
+    "wu": 1,
+    "yi": 0.4
+   },
+   "si": {
+    "geng": 0.4,
+    "bing": 1,
+    "wu": 0.4
+   },
+   "wu": {
+    "ding": 1,
+    "ji": 0.4
+   },
+   "wei": {
+    "yi": 0.4,
+    "ji": 1,
+    "ding": 0.4
+   },
+   "shen": {
+    "wu": 0.4,
+    "geng": 1,
+    "ren": 0.4
+   },
+   "you": {
+    "xin": 1
+   },
+   "xu": {
+    "ding": 0.4,
+    "wu": 1,
+    "xin": 0.4
+   },
+   "hai": {
+    "ren": 1,
+    "jia": 0.4
+   }
+  },
+  "comboMultiplier": {
+   "stem": 0.6,
+   "direction": 1.6,
+   "harmony": 1.6,
+   "halfHarmony": 1.3,
+   "branchCombo": 1
+  },
+  "stemWeights": {
+   "jia": {
+    "zi": 9,
+    "chou": 10,
+    "yin": 11,
+    "mao": 12,
+    "chen": 11,
+    "si": 10,
+    "wu": 9,
+    "wei": 8,
+    "shen": 7,
+    "you": 6,
+    "xu": 7,
+    "hai": 8
+   },
+   "yi": {
+    "zi": 10,
+    "chou": 11,
+    "yin": 12,
+    "mao": 11,
+    "chen": 10,
+    "si": 9,
+    "wu": 8,
+    "wei": 7,
+    "shen": 6,
+    "you": 7,
+    "xu": 8,
+    "hai": 9
+   },
+   "bing": {
+    "zi": 6,
+    "chou": 7,
+    "yin": 8,
+    "mao": 9,
+    "chen": 10,
+    "si": 11,
+    "wu": 12,
+    "wei": 11,
+    "shen": 10,
+    "you": 9,
+    "xu": 8,
+    "hai": 7
+   },
+   "ding": {
+    "zi": 7,
+    "chou": 8,
+    "yin": 9,
+    "mao": 10,
+    "chen": 11,
+    "si": 12,
+    "wu": 11,
+    "wei": 10,
+    "shen": 9,
+    "you": 8,
+    "xu": 7,
+    "hai": 6
+   },
+   "wu": {
+    "zi": 6,
+    "chou": 7,
+    "yin": 8,
+    "mao": 9,
+    "chen": 10,
+    "si": 11,
+    "wu": 12,
+    "wei": 11,
+    "shen": 10,
+    "you": 9,
+    "xu": 8,
+    "hai": 7
+   },
+   "ji": {
+    "zi": 7,
+    "chou": 8,
+    "yin": 9,
+    "mao": 10,
+    "chen": 11,
+    "si": 12,
+    "wu": 11,
+    "wei": 10,
+    "shen": 9,
+    "you": 8,
+    "xu": 7,
+    "hai": 6
+   },
+   "geng": {
+    "zi": 9,
+    "chou": 8,
+    "yin": 7,
+    "mao": 6,
+    "chen": 7,
+    "si": 8,
+    "wu": 9,
+    "wei": 10,
+    "shen": 11,
+    "you": 12,
+    "xu": 11,
+    "hai": 10
+   },
+   "xin": {
+    "zi": 8,
+    "chou": 7,
+    "yin": 6,
+    "mao": 7,
+    "chen": 8,
+    "si": 9,
+    "wu": 10,
+    "wei": 11,
+    "shen": 12,
+    "you": 11,
+    "xu": 10,
+    "hai": 9
+   },
+   "ren": {
+    "zi": 12,
+    "chou": 11,
+    "yin": 10,
+    "mao": 9,
+    "chen": 8,
+    "si": 7,
+    "wu": 6,
+    "wei": 7,
+    "shen": 8,
+    "you": 9,
+    "xu": 10,
+    "hai": 11
+   },
+   "gui": {
+    "zi": 11,
+    "chou": 10,
+    "yin": 9,
+    "mao": 8,
+    "chen": 7,
+    "si": 6,
+    "wu": 7,
+    "wei": 8,
+    "shen": 9,
+    "you": 10,
+    "xu": 11,
+    "hai": 12
+   }
+  }
+ },
+ "dayStemAux": {
+  "nobleman": [
+   [
+    "wei",
+    "chou"
+   ],
+   [
+    "shen",
+    "zi"
+   ],
+   [
+    "you",
+    "hai"
+   ],
+   [
+    "you",
+    "hai"
+   ],
+   [
+    "chou",
+    "wei"
+   ],
+   [
+    "zi",
+    "shen"
+   ],
+   [
+    "chou",
+    "wei"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "mao",
+    "si"
+   ],
+   [
+    "mao",
+    "si"
+   ]
+  ],
+  "saltPool": [
+   "zi",
+   "zi",
+   "mao",
+   "mao",
+   [
+    "mao",
+    "you"
+   ],
+   [
+    "mao",
+    "you"
+   ],
+   "wu",
+   "wu",
+   "you",
+   "you"
+  ],
+  "intelligence": [
+   "si",
+   "wu",
+   "shen",
+   "you",
+   "shen",
+   "you",
+   "hai",
+   "zi",
+   "yin",
+   "mao"
+  ],
+  "thriving": [
+   "yin",
+   "mao",
+   "si",
+   "wu",
+   "si",
+   "wu",
+   "shen",
+   "chou",
+   "hai",
+   "zi"
+  ],
+  "goatBlade": [
+   "mao",
+   "yin",
+   "wu",
+   "si",
+   "wu",
+   "si",
+   "you",
+   "shen",
+   "zi",
+   "hai"
+  ],
+  "redChamber": [
+   [
+    "shen",
+    "wu"
+   ],
+   [
+    "shen",
+    "wu"
+   ],
+   "yin",
+   "wei",
+   "chen",
+   "chen",
+   "xu",
+   "you",
+   "zi",
+   "shen"
+  ],
+  "studyRoom": [
+   "hai",
+   "wu",
+   "yin",
+   "you",
+   "yin",
+   "you",
+   "si",
+   "zi",
+   "shen",
+   "mao"
+  ],
+  "cascadeClouds": [
+   "you",
+   "xu",
+   "wei",
+   "shen",
+   "si",
+   "wu",
+   "chen",
+   "mao",
+   "yin",
+   "hai"
+  ],
+  "flyingSword": [
+   "you",
+   "xu",
+   "zi",
+   "chou",
+   "zi",
+   "chou",
+   "mao",
+   "chen",
+   "wu",
+   "wei"
+  ],
+  "goldCarriage": [
+   "chen",
+   "si",
+   "wei",
+   "shen",
+   "wei",
+   "shen",
+   "xu",
+   "hai",
+   "chou",
+   "yin"
+  ],
+  "rightMeasure": [
+   "si",
+   "wei",
+   "si",
+   "wei",
+   "si",
+   "wei",
+   "hai",
+   "chou",
+   "hai",
+   "chou"
+  ],
+  "wealthStorage": [
+   "chen",
+   "chen",
+   "chou",
+   "chou",
+   "chen",
+   "chen",
+   "wei",
+   "wei",
+   "xu",
+   "xu"
+  ],
+  "skyWealth": [
+   "wu",
+   "ji",
+   "geng",
+   "xin",
+   "ren",
+   "gui",
+   "jia",
+   "yi",
+   "bing",
+   "ding"
+  ]
+ },
+ "dayBranchAux": {
+  "redMatchmaker": [
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai",
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si",
+   "chen"
+  ],
+  "elegantSeal": [
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei"
+  ],
+  "general": [
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao"
+  ],
+  "skyHorse": [
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si"
+  ],
+  "peachBlossom": [
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi"
+  ],
+  "bloodBlade": [
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si",
+   "chen",
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai"
+  ],
+  "solitude": [
+   "yin",
+   "yin",
+   "si",
+   "si",
+   "si",
+   "shen",
+   "shen",
+   "shen",
+   "hai",
+   "hai",
+   "hai",
+   "yin"
+  ],
+  "lonely": [
+   "xu",
+   "xu",
+   "chou",
+   "chou",
+   "chou",
+   "chen",
+   "chen",
+   "chen",
+   "wei",
+   "wei",
+   "wei",
+   "xu"
+  ],
+  "funeralGate": [
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou"
+  ],
+  "robbery": [
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen"
+  ],
+  "separateEdge": [
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou"
+  ],
+  "deathGod": [
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin"
+  ]
+ },
+ "yearBranchAux": {
+  "skyHorse": [
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin"
+  ],
+  "dragonVirtue": [
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu"
+  ],
+  "goldLock": [
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao"
+  ],
+  "skyDog": [
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you"
+  ],
+  "hook": [
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin"
+  ],
+  "bigDelight": [
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si"
+  ],
+  "fiveGhost": [
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao"
+  ],
+  "peachBlossom": [
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi"
+  ],
+  "bloodBlade": [
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si",
+   "chen",
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai"
+  ],
+  "skyDipper": [
+   "chen",
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai",
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si"
+  ],
+  "yearPenalty": [
+   "mao",
+   "xu",
+   "si",
+   "zi",
+   "chen",
+   "shen",
+   "wu",
+   "chou",
+   "yin",
+   "you",
+   "wei",
+   "hai"
+  ],
+  "yearBreaker": [
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si"
+  ],
+  "disasterSha": [
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu"
+  ],
+  "calamitySha": [
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you"
+  ],
+  "sickness": [
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu"
+  ],
+  "fortuneVirtue": [
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen"
+  ],
+  "whiteTiger": [
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei"
+  ],
+  "litigation": [
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao"
+  ],
+  "moon": [
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin"
+  ],
+  "sun": [
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi"
+  ],
+  "grandDuke": [
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai"
+  ]
+ },
+ "monthBranchAux": {
+  "heavenRelief": [
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "jia",
+    "zi"
+   ]
+  ],
+  "heavenHappiness": [
+   [
+    null,
+    "wei"
+   ],
+   [
+    null,
+    "wei"
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "wei"
+   ]
+  ],
+  "heavenVirtueNoble": [
+   [
+    null,
+    "si"
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "ding",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "xin",
+    null
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "gui",
+    null
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "yi",
+    null
+   ]
+  ],
+  "monthlyVirtueNoble": [
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ]
+  ],
+  "monthEmptiness": [
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ]
+  ],
+  "fiveProsperity": [
+   [
+    "ji",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    "ji",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    "ji",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "yin"
+   ]
+  ],
+  "thrivingDay": [
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "you"
+   ],
+   [
+    null,
+    "wu"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    ""
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "mao"
+   ],
+   [
+    null,
+    "zi"
+   ],
+   [
+    null,
+    "si"
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    null,
+    "wei"
+   ]
+  ]
+ },
+ "specialDayMasterAux": {
+  "intellect": [
+   [
+    "wu",
+    "zi"
+   ],
+   [
+    "ji",
+    "chou"
+   ],
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "ji",
+    "wei"
+   ]
+  ],
+  "strategist": [
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "wu",
+    "zi"
+   ]
+  ],
+  "smartTen": [
+   [
+    "jia",
+    "chen"
+   ],
+   [
+    "yi",
+    "hai"
+   ],
+   [
+    "bing",
+    "chen"
+   ],
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "wu",
+    "wu"
+   ],
+   [
+    "geng",
+    "xu"
+   ],
+   [
+    "geng",
+    "yin"
+   ],
+   [
+    "xin",
+    "hai"
+   ],
+   [
+    "ren",
+    "yin"
+   ],
+   [
+    "gui",
+    "wei"
+   ]
+  ],
+  "fortuneNoble": [
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "yi",
+    "chou"
+   ],
+   [
+    "yi",
+    "hai"
+   ],
+   [
+    "bing",
+    "zi"
+   ],
+   [
+    "bing",
+    "xu"
+   ],
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "ji",
+    "wei"
+   ],
+   [
+    "geng",
+    "wu"
+   ],
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "gui",
+    "mao"
+   ]
+  ],
+  "dayNoble": [
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "ding",
+    "hai"
+   ],
+   [
+    "gui",
+    "mao"
+   ],
+   [
+    "gui",
+    "si"
+   ]
+  ],
+  "dayVirtue": [
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "bing",
+    "chen"
+   ],
+   [
+    "wu",
+    "chen"
+   ],
+   [
+    "geng",
+    "chen"
+   ],
+   [
+    "ren",
+    "xu"
+   ]
+  ],
+  "advancement": [
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "ji",
+    "mao"
+   ],
+   [
+    "ji",
+    "you"
+   ]
+  ],
+  "retreat": [
+   [
+    "ding",
+    "chou"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "ren",
+    "xu"
+   ]
+  ],
+  "solitaryPhoenix": [
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "yi",
+    "si"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "ding",
+    "si"
+   ],
+   [
+    "wu",
+    "wu"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "xin",
+    "hai"
+   ],
+   [
+    "ren",
+    "zi"
+   ],
+   [
+    "gui",
+    "si"
+   ]
+  ]
+ },
+ "specialPillarAux": {
+  "redLight": [
+   [
+    "bing",
+    "yin"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "gui",
+    "wei"
+   ],
+   [
+    "xin",
+    "wei"
+   ],
+   [
+    "yi",
+    "wei"
+   ],
+   [
+    "jia",
+    "xu"
+   ],
+   [
+    "geng",
+    "xu"
+   ]
+  ],
+  "yinYangMismatch": [
+   [
+    "xin",
+    "mao"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "gui",
+    "si"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "xin",
+    "you"
+   ],
+   [
+    "ren",
+    "xu"
+   ],
+   [
+    "gui",
+    "hai"
+   ],
+   [
+    "bing",
+    "zi"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "ding",
+    "chou"
+   ]
+  ],
+  "commander": [
+   [
+    "wu",
+    "chen"
+   ],
+   [
+    "wu",
+    "xu"
+   ],
+   [
+    "geng",
+    "chen"
+   ],
+   [
+    "geng",
+    "xu"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "ren",
+    "xu"
+   ]
+  ]
+ },
+ "auxDetails": {
+  "specialDayMasterAux": {
+   "intellect": {
+    "name": "intellect",
+    "chinese": "",
+    "desc": "One born with this day pillar will excel in school and have high mental processing powers.",
+    "ref": "specialDayMasterAux"
+   },
+   "strategist": {
+    "name": "strategist",
+    "chinese": "",
+    "desc": "One born with this day pillar will be masterminds in planning and execution.",
+    "ref": "specialDayMasterAux"
+   },
+   "smartTen": {
+    "name": "smartTen",
+    "chinese": "",
+    "desc": "One born with this day pillar will possess clear and flexible minds.",
+    "ref": "specialDayMasterAux"
+   },
+   "fortuneNoble": {
+    "name": "fortuneNoble",
+    "chinese": "",
+    "desc": "Life will have fame and fortune. One will live long and prosperous.",
+    "ref": "specialDayMasterAux"
+   },
+   "dayNoble": {
+    "name": "dayNoble",
+    "chinese": "",
+    "desc": "Kind and ethical. Follows the rules. [Ideal if Direct Wealth, Eating God, or Resource]",
+    "ref": "specialDayMasterAux"
+   },
+   "dayVirtue": {
+    "name": "dayVirtue",
+    "chinese": "",
+    "desc": "Understands the problems of others. Good at commuincating emotions and connecting with friends.",
+    "ref": "specialDayMasterAux"
+   },
+   "advancement": {
+    "name": "advancement",
+    "chinese": "",
+    "desc": "Strives towards results and action.  Progresses with stability. Decisive and independent.",
+    "ref": "specialDayMasterAux"
+   },
+   "retreat": {
+    "name": "retreat",
+    "chinese": "",
+    "desc": "Prone to setbacks, career hindrance. Slow to progress. Requires more work than average.",
+    "ref": "specialDayMasterAux"
+   },
+   "solitaryPhoenix": {
+    "name": "solitaryPhoenix",
+    "chinese": "",
+    "desc": "Difficulty with relationships, due to Companion star found in Day Branch.",
+    "ref": "specialDayMasterAux"
+   }
+  },
+  "specialPillarAux": {
+   "redLight": {
+    "name": "redLight",
+    "chinese": "",
+    "desc": "One with red light pillars often have problems with stable relationships.  The effect is greatest if this pillar is found in the Day.",
+    "ref": "specialPillarAux"
+   },
+   "yinYangMismatch": {
+    "name": "yinYangMismatch",
+    "chinese": "",
+    "desc": "The effects are stronger if this pillar is found in the Day. In the old days, a chart with more than one such pillar tend towards arranged marriages.",
+    "ref": "specialPillarAux"
+   },
+   "commander": {
+    "name": "commander",
+    "chinese": "",
+    "desc": "One who posesses this pillar has the ability to achieve enormous success due to their ambitious nature.  These people possess high degrees of drive and forward-looking motivations.  The effect is greatest if this pillar is found in the Day.",
+    "ref": "specialPillarAux"
+   }
+  },
+  "dayStemAux": {
+   "nobleman": {
+    "name": "nobleman",
+    "chinese": "天乙貴人",
+    "desc": "Helpful person in your life – one who will lift you out of troubles. The most auspicious star, especially if found in natal chart.",
+    "ref": "dayStemAux"
+   },
+   "saltPool": {
+    "name": "saltPool",
+    "chinese": "咸池",
+    "desc": "Lust, attraction, charisma.  Internal romance if found in year/month.  External romance if found in day/hour.",
+    "ref": "dayStemAux"
+   },
+   "intelligence": {
+    "name": "intelligence",
+    "chinese": "文昌",
+    "desc": "Intuition, pattern recognition, fast learning. Also known as Intelligence Star.",
+    "ref": "dayStemAux"
+   },
+   "thriving": {
+    "name": "thriving",
+    "chinese": "祿神",
+    "desc": "Filled with energy, encouraged to succeed.  If Weak DM: success comes easily.  If Strong DM: easy to be lazy.",
+    "ref": "dayStemAux"
+   },
+   "goatBlade": {
+    "name": "goatBlade",
+    "chinese": "羊刃",
+    "desc": "Bravery and courage. Intense with strong motivations. This is a Companion star; therefore, brings confidence to ego. Works well with 7Killings to achieve greatness. Prone to injuries due to aggressive nature.",
+    "ref": "dayStemAux"
+   },
+   "redChamber": {
+    "name": "redChamber",
+    "chinese": "红艳",
+    "desc": "Passion, lust, infidelity, affairs, romance. [Most relevant if in Day Branch]",
+    "ref": "dayStemAux"
+   },
+   "studyRoom": {
+    "name": "studyRoom",
+    "chinese": "學堂",
+    "desc": "Knowledge, studies, learning, persistence. Also known as Literacy.",
+    "ref": "dayStemAux"
+   },
+   "cascadeClouds": {
+    "name": "cascadeClouds",
+    "chinese": "流霞",
+    "desc": "Revenge, disasters, trauama, or miscarriage.",
+    "ref": "dayStemAux"
+   },
+   "flyingSword": {
+    "name": "flyingSword",
+    "chinese": "飛刃",
+    "desc": "Things move fast. Prone to surprising consequences.",
+    "ref": "dayStemAux"
+   },
+   "goldCarriage": {
+    "name": "goldCarriage",
+    "chinese": "金輿",
+    "desc": "Easily meet a partner who brings wealth or support. Good, proper relationships with others. [Ideally a wealth star with Day Branch being Useful God]",
+    "ref": "dayStemAux"
+   },
+   "rightMeasure": {
+    "name": "rightMeasure",
+    "chinese": "节度",
+    "desc": "Respect for others.  Follows guidelines and laws.",
+    "ref": "dayStemAux"
+   },
+   "wealthStorage": {
+    "name": "wealthStorage",
+    "chinese": "财库",
+    "desc": "Able to keep and save money.",
+    "ref": "dayStemAux"
+   },
+   "skyWealth": {
+    "name": "skyWealth",
+    "chinese": "天财",
+    "desc": "Prosperity. Enhanced if found in Luck or Annual Pillar. Ideal if Strong DM.",
+    "ref": "dayStemAux"
+   }
+  },
+  "dayBranchAux": {
+   "redMatchmaker": {
+    "name": "redMatchmaker",
+    "chinese": "紅鸞",
+    "desc": "Bright future, enhances positive aura. Positive surroundings and happy events.",
+    "ref": "dayBranchAux"
+   },
+   "elegantSeal": {
+    "name": "elegantSeal",
+    "chinese": "华盖",
+    "desc": "Artistic talents, creative productions. Enhanced learning capabilities, especially if it is a Resource.",
+    "ref": "dayBranchAux"
+   },
+   "general": {
+    "name": "general",
+    "chinese": "將星",
+    "desc": "Capable of leading an organization to success. Can spread influence.",
+    "ref": "dayBranchAux"
+   },
+   "skyHorse": {
+    "name": "skyHorse",
+    "chinese": "驛馬",
+    "desc": "Change, movement, or travel.",
+    "ref": "dayBranchAux"
+   },
+   "peachBlossom": {
+    "name": "peachBlossom",
+    "chinese": "桃花",
+    "desc": "Charisma, appearance, aura.  Easily attract others.",
+    "ref": "dayBranchAux"
+   },
+   "bloodBlade": {
+    "name": "bloodBlade",
+    "chinese": "血刃",
+    "desc": "Prone to accidents, mishaps, falls, cuts, surgeries.",
+    "ref": "dayBranchAux"
+   },
+   "solitude": {
+    "name": "solitude",
+    "chinese": "孤辰",
+    "desc": "Preference to be alone. Can self-reflect. Good for pondering. Dislikes big groups of people.",
+    "ref": "dayBranchAux"
+   },
+   "lonely": {
+    "name": "lonely",
+    "chinese": "寡宿",
+    "desc": "Philosophical, spiritual, can gain enlightenment. Prefers to be alone.",
+    "ref": "dayBranchAux"
+   },
+   "funeralGate": {
+    "name": "funeralGate",
+    "chinese": "喪門",
+    "desc": "Prone to attracting energies from funerals, hospitals, and spirits.",
+    "ref": "dayBranchAux"
+   },
+   "robbery": {
+    "name": "robbery",
+    "chinese": "劫煞",
+    "desc": "Impatient, difficult to deal with. Attracts others who are intense and demanding. Possible betrayal by friends.",
+    "ref": "dayBranchAux"
+   },
+   "separateEdge": {
+    "name": "separateEdge",
+    "chinese": "隔角",
+    "desc": "Disputes and entanglements. Possible separation from society.",
+    "ref": "dayBranchAux"
+   },
+   "deathGod": {
+    "name": "deathGod",
+    "chinese": "亡神",
+    "desc": "Dedicated to work, attention to detail. If useful star: power and fame.  If not useful star: shallow, spendthrift. Possibly cause harm to others.",
+    "ref": "dayBranchAux"
+   }
+  },
+  "monthBranchAux": {
+   "heavenRelief": {
+    "name": "heavenRelief",
+    "chinese": "天恕",
+    "desc": "Protection, even if one has done something wrong. \"Get out of jail\" card.",
+    "ref": "monthBranchAux"
+   },
+   "heavenHappiness": {
+    "name": "heavenHappiness",
+    "chinese": "天喜",
+    "desc": "Forward-looking, positive outlook on life. Will not involve in trivial or petty disagreements. Will live a joyful life.",
+    "ref": "monthBranchAux"
+   },
+   "heavenVirtueNoble": {
+    "name": "heavenVirtueNoble",
+    "chinese": "天德贵人",
+    "desc": "Strong, fatherly figure of protection. One is earnest and focused.",
+    "ref": "monthBranchAux"
+   },
+   "monthlyVirtueNoble": {
+    "name": "monthlyVirtueNoble",
+    "chinese": "月德贵人",
+    "desc": "Soft, motherly figure of protection. One is considerate and generous.",
+    "ref": "monthBranchAux"
+   },
+   "monthEmptiness": {
+    "name": "monthEmptiness",
+    "chinese": "月空",
+    "desc": "Wandering for direction in life, uncertain about one's future path.",
+    "ref": "monthBranchAux"
+   },
+   "fiveProsperity": {
+    "name": "fiveProsperity",
+    "chinese": "五富",
+    "desc": "Symbolizes wealth, fortune, and probability of a good political career.",
+    "ref": "monthBranchAux"
+   },
+   "thrivingDay": {
+    "name": "thrivingDay",
+    "chinese": "临日",
+    "desc": "Energy and persistence to break through obstacles.",
+    "ref": "monthBranchAux"
+   }
+  },
+  "yearBranchAux": {
+   "skyHorse": {
+    "name": "skyHorse",
+    "chinese": "驛馬",
+    "desc": "Change, movement, or travel.",
+    "ref": "yearBranchAux"
+   },
+   "dragonVirtue": {
+    "name": "dragonVirtue",
+    "chinese": "龍德",
+    "desc": "Ethical, noble, able to attract mentors and helpful people.",
+    "ref": "yearBranchAux"
+   },
+   "goldLock": {
+    "name": "goldLock",
+    "chinese": "金匱",
+    "desc": "Expert in an industry. Brilliance in career aspects. Strong decision-making abilities.",
+    "ref": "yearBranchAux"
+   },
+   "skyDog": {
+    "name": "skyDog",
+    "chinese": "天狗",
+    "desc": "Physical scars and injuries, easily gets hurt.",
+    "ref": "yearBranchAux"
+   },
+   "hook": {
+    "name": "hook",
+    "chinese": "勾絞",
+    "desc": "Prone to gossip, rumors, social, and legal troubles.",
+    "ref": "yearBranchAux"
+   },
+   "bigDelight": {
+    "name": "bigDelight",
+    "chinese": "大耗",
+    "desc": "Inauspicious. Lack of harmony. Discord among people. Fierce negative energy.",
+    "ref": "yearBranchAux"
+   },
+   "fiveGhost": {
+    "name": "fiveGhost",
+    "chinese": "五鬼",
+    "desc": "Prone to gossip, undesired annoyance from negative people.",
+    "ref": "yearBranchAux"
+   },
+   "peachBlossom": {
+    "name": "peachBlossom",
+    "chinese": "桃花",
+    "desc": "Charisma, appearance, aura.  Easily attract others.",
+    "ref": "yearBranchAux"
+   },
+   "bloodBlade": {
+    "name": "bloodBlade",
+    "chinese": "血刃",
+    "desc": "Prone to accidents, mishaps, falls, cuts, surgeries.",
+    "ref": "yearBranchAux"
+   },
+   "skyDipper": {
+    "name": "skyDipper",
+    "chinese": "天罡",
+    "desc": "One is aligned with the natural order of things.",
+    "ref": "yearBranchAux"
+   },
+   "yearPenalty": {
+    "name": "yearPenalty",
+    "chinese": "歲刑",
+    "desc": "Uncertain outcomes, possible impediments.",
+    "ref": "yearBranchAux"
+   },
+   "yearBreaker": {
+    "name": "yearBreaker",
+    "chinese": "歲破",
+    "desc": "Money comes, money goes.  Finds it hard to save money.",
+    "ref": "yearBranchAux"
+   },
+   "disasterSha": {
+    "name": "disasterSha",
+    "chinese": "歳煞",
+    "desc": "Accidents, problems, and conflicts.",
+    "ref": "yearBranchAux"
+   },
+   "calamitySha": {
+    "name": "calamitySha",
+    "chinese": "災煞",
+    "desc": "Prone to bodily injuries, minor illness.",
+    "ref": "yearBranchAux"
+   },
+   "sickness": {
+    "name": "sickness",
+    "chinese": "病符",
+    "desc": "Prone to illness, worry, anxiety. Should take care of health and visit hospitals less often.",
+    "ref": "yearBranchAux"
+   },
+   "fortuneVirtue": {
+    "name": "fortuneVirtue",
+    "chinese": "福德",
+    "desc": "Positivity and protection from the upper realm. Ethical and proper behavior.",
+    "ref": "yearBranchAux"
+   },
+   "whiteTiger": {
+    "name": "whiteTiger",
+    "chinese": "白虎",
+    "desc": "Traffic accidents, legal troubles, body injury, volatile ups and downs.",
+    "ref": "yearBranchAux"
+   },
+   "litigation": {
+    "name": "litigation",
+    "chinese": "官符",
+    "desc": "Prone to disagreements and conflicts.",
+    "ref": "yearBranchAux"
+   },
+   "moon": {
+    "name": "moon",
+    "chinese": "太陰",
+    "desc": "Powerful energy to drive forward and accomplish goals. Step-by-step support to gain wealth and success.",
+    "ref": "yearBranchAux"
+   },
+   "sun": {
+    "name": "sun",
+    "chinese": "太陽",
+    "desc": "Inauspicious things turn auspicious. Negativity can be avoided.",
+    "ref": "yearBranchAux"
+   },
+   "grandDuke": {
+    "name": "grandDuke",
+    "chinese": "太歳",
+    "desc": "Also know as the Tai Sui, this star is identical to the year pillar branch. Resonates strong energy and represents the planet of Jupiter.",
+    "ref": "yearBranchAux"
+   },
+   "sittingSha": {
+    "name": "sittingSha",
+    "chinese": "坐煞",
+    "desc": null,
+    "ref": "yearBranchAux"
+   },
+   "facingSha": {
+    "name": "facingSha",
+    "chinese": "向煞",
+    "desc": null,
+    "ref": "yearBranchAux"
+   }
+  }
+ },
+ "solarTerms": [
+  {
+   "num": 0,
+   "english": "start of spring",
+   "chinese": "立春",
+   "element": "wood",
+   "timing": "Feb 4 - Feb 18",
+   "branch": "yin",
+   "desc": "beginning of growth"
+  },
+  {
+   "num": 1,
+   "english": "spring showers",
+   "chinese": "雨水",
+   "element": "wood",
+   "timing": "Feb 19 - Mar 5",
+   "branch": "yin",
+   "desc": "drizzle from the skies"
+  },
+  {
+   "num": 2,
+   "english": "insects awaken",
+   "chinese": "惊蛰",
+   "element": "wood",
+   "timing": "Mar 6 - Mar 20",
+   "branch": "mao",
+   "desc": "coming to senses"
+  },
+  {
+   "num": 3,
+   "english": "spring equinox",
+   "chinese": "春分",
+   "element": "wood",
+   "timing": "Mar 21 - Apr 4",
+   "branch": "mao",
+   "desc": "equal day, equal night"
+  },
+  {
+   "num": 4,
+   "english": "bright and clear",
+   "chinese": "清明",
+   "element": "earth",
+   "timing": "Apr 5 - Apr 20",
+   "branch": "chen",
+   "desc": "warm and pure"
+  },
+  {
+   "num": 5,
+   "english": "grain rain",
+   "chinese": "谷雨",
+   "element": "earth",
+   "timing": "Apr 21 - May 5",
+   "branch": "chen",
+   "desc": "early crops show their shoots"
+  },
+  {
+   "num": 6,
+   "english": "start of summer",
+   "chinese": "立夏",
+   "element": "fire",
+   "timing": "May 6 - May 20",
+   "branch": "si",
+   "desc": "beginning of abundance"
+  },
+  {
+   "num": 7,
+   "english": "small grain",
+   "chinese": "小满",
+   "element": "fire",
+   "timing": "May 21 - Jun 5",
+   "branch": "si",
+   "desc": "seeds plump"
+  },
+  {
+   "num": 8,
+   "english": "mature grain",
+   "chinese": "芒种",
+   "element": "fire",
+   "timing": "Jun 6 - Jun 21",
+   "branch": "wu",
+   "desc": "wheat ripens"
+  },
+  {
+   "num": 9,
+   "english": "summer solstice",
+   "chinese": "夏至",
+   "element": "fire",
+   "timing": "Jun 22 - Jul 6",
+   "branch": "wu",
+   "desc": "longest day, shortest night"
+  },
+  {
+   "num": 10,
+   "english": "minor heat",
+   "chinese": "小暑",
+   "element": "earth",
+   "timing": "Jul 7 - Jul 22",
+   "branch": "wei",
+   "desc": "dry air comes"
+  },
+  {
+   "num": 11,
+   "english": "major heat",
+   "chinese": "大暑",
+   "element": "earth",
+   "timing": "Jul 23 - Aug 7",
+   "branch": "wei",
+   "desc": "hottest period of the year"
+  },
+  {
+   "num": 12,
+   "english": "start of autumn",
+   "chinese": "立秋",
+   "element": "metal",
+   "timing": "Aug 8 - Aug 23",
+   "branch": "shen",
+   "desc": "beginning of harvest"
+  },
+  {
+   "num": 13,
+   "english": "end of heat",
+   "chinese": "处暑",
+   "element": "metal",
+   "timing": "Aug 24 - Sep 7",
+   "branch": "shen",
+   "desc": "heat descends"
+  },
+  {
+   "num": 14,
+   "english": "white dew",
+   "chinese": "白露",
+   "element": "metal",
+   "timing": "Sep 8 - Sep 22",
+   "branch": "you",
+   "desc": "cooling winds"
+  },
+  {
+   "num": 15,
+   "english": "autumn equinox",
+   "chinese": "秋分",
+   "element": "metal",
+   "timing": "Sep 23 - Oct 7",
+   "branch": "you",
+   "desc": "equal day, equal night"
+  },
+  {
+   "num": 16,
+   "english": "cold dew",
+   "chinese": "寒露",
+   "element": "earth",
+   "timing": "Oct 8 - Oct 23",
+   "branch": "xu",
+   "desc": "chill in the air"
+  },
+  {
+   "num": 17,
+   "english": "frost's descent",
+   "chinese": "霜降",
+   "element": "earth",
+   "timing": "Oct 24 - Nov 6",
+   "branch": "xu",
+   "desc": "sprinkle from above"
+  },
+  {
+   "num": 18,
+   "english": "start of winter",
+   "chinese": "立冬",
+   "element": "water",
+   "timing": "Nov 7 - Nov 22",
+   "branch": "hai",
+   "desc": "beginning of rest"
+  },
+  {
+   "num": 19,
+   "english": "minor snow",
+   "chinese": "立冬",
+   "element": "water",
+   "timing": "Nov 23 - Dec 6",
+   "branch": "hai",
+   "desc": "snow begins to fall"
+  },
+  {
+   "num": 20,
+   "english": "major snow",
+   "chinese": "大雪",
+   "element": "water",
+   "timing": "Dec 7 - Dec 21",
+   "branch": "zi",
+   "desc": "heavy snow from above"
+  },
+  {
+   "num": 21,
+   "english": "winter solstice",
+   "chinese": "冬至",
+   "element": "water",
+   "timing": "Dec 22 - Jan 5",
+   "branch": "zi",
+   "desc": "shortest day, longest night"
+  },
+  {
+   "num": 22,
+   "english": "minor cold",
+   "chinese": "小寒",
+   "element": "earth",
+   "timing": "Jan 6 - Jan 20",
+   "branch": "chou",
+   "desc": "temperature descends"
+  },
+  {
+   "num": 23,
+   "english": "major cold",
+   "chinese": "大寒",
+   "element": "earth",
+   "timing": "Jan 21 - Feb 3",
+   "branch": "chou",
+   "desc": "coldest period of the year"
+  }
+ ]
+}

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feng Shui · WindWater</title>
+<style>
+  :root {
+    --wood:#2e9e5b; --fire:#e2483d; --earth:#b8860b; --metal:#8a94a6; --water:#2f6fd0;
+    --bg:#0f1420; --card:#1a2130; --card2:#222c3e; --line:#33415a; --txt:#e8edf6; --dim:#93a0b8;
+    --good:#2e9e5b; --bad:#e2483d;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); display:flex;
+           align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  a.navlink { color:#9db7f5; text-decoration:none; font-size:13px; }
+  a.navlink:hover { text-decoration:underline; }
+  .wrap { padding:20px 24px 60px; max-width:1100px; margin:0 auto; }
+  .section { margin-top:26px; }
+  .section h2 { font-size:14px; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim);
+         margin:0 0 12px; font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .muted { color:var(--dim); font-size:13px; }
+  .err { background:#3a1c1c; border:1px solid #7a2c2c; color:#ffb4b4; padding:12px 16px;
+         border-radius:10px; margin:12px 0; }
+
+  form.row { display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; }
+  label { display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--dim); }
+  input,select { background:var(--bg); color:var(--txt); border:1px solid var(--line);
+         border-radius:8px; padding:8px 10px; font-size:14px; }
+  input[type=range]{ padding:0; }
+  input[type=checkbox]{ width:auto; }
+  button { background:#3d6fe0; color:#fff; border:0; border-radius:8px; padding:10px 18px;
+         font-size:14px; font-weight:600; cursor:pointer; }
+  button:hover { background:#4d7ff0; }
+  .chk { flex-direction:row; align-items:center; gap:6px; }
+  .rowflex { display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+
+  .cols { display:grid; grid-template-columns:minmax(320px,460px) 1fr; gap:20px; }
+  @media (max-width:900px){ .cols{grid-template-columns:1fr} }
+
+  /* luopan */
+  .luopan { display:flex; flex-direction:column; align-items:center; gap:6px; }
+  .luopan svg { width:100%; max-width:460px; height:auto; }
+  .sectorlabel { font-size:10px; fill:#cfd9ea; }
+  .sectorlabel .cn { font-size:10px; fill:#8fa0bd; }
+
+  table.fields { width:100%; border-collapse:collapse; font-size:13px; }
+  table.fields th, table.fields td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
+  table.fields th { color:var(--dim); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:1px; width:38%; }
+  table.fields tr:last-child th, table.fields tr:last-child td { border-bottom:0; }
+
+  /* lo shu grid */
+  .grids { display:flex; flex-wrap:wrap; gap:18px; }
+  .gridbox { background:var(--card2); border:1px solid var(--line); border-radius:10px; padding:10px; }
+  .gridbox .cap { font-size:11px; text-transform:uppercase; letter-spacing:1.2px; color:var(--dim);
+                  text-align:center; margin-bottom:8px; font-weight:600; }
+  .loshugrid { display:grid; grid-template-columns:repeat(3,84px); grid-template-rows:repeat(3,84px); gap:6px; }
+  .cell { background:var(--bg); border:1px solid var(--line); border-radius:8px;
+          display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; }
+  .cell .num { font-size:26px; font-weight:700; line-height:1; }
+  .cell .pn { font-size:10px; color:var(--dim); }
+  .cell .dir { font-size:10px; color:#8fa0bd; }
+  .cell.center-cell { border-color:#3d6fe0; }
+  .scorecell .num { font-size:20px; }
+  .scorecell .good { color:var(--good); }
+  .scorecell .bad { color:var(--bad); }
+
+  .platebtns { display:flex; gap:8px; margin:10px 0; flex-wrap:wrap; }
+  .platebtns button { background:var(--card2); border:1px solid var(--line); }
+  .platebtns button.sel { background:#3d6fe0; border-color:#3d6fe0; }
+
+  .mansiontable td.good { color:var(--good); font-weight:600; }
+  .mansiontable td.bad { color:var(--bad); }
+  .tag { display:inline-block; background:var(--card2); border:1px solid var(--line); border-radius:999px;
+         padding:2px 9px; font-size:11px; color:var(--dim); margin:2px 4px 2px 0; }
+  details summary { cursor:pointer; color:var(--dim); font-size:13px; margin:8px 0; }
+  .combos { columns:2; column-gap:24px; font-size:12px; color:var(--dim); }
+  @media (max-width:700px){ .combos{columns:1} }
+  .combos div { break-inside:avoid; margin-bottom:4px; }
+  .combos b { color:var(--txt); font-weight:600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Feng Shui <small>風水 · flying stars &amp; eight mansions</small></h1>
+  <nav style="display:flex; gap:16px; flex-wrap:wrap">
+    <a class="navlink" href="/">← BaZi chart</a>
+    <a class="navlink" href="/almanac.html">Almanac</a>
+    <a class="navlink" href="/hexagrams.html">Yi Jing →</a>
+    <a class="navlink" href="/qimen.html">Qi Men →</a>
+    <a class="navlink" href="/library.html">Library →</a>
+    <a class="navlink" href="/tutorials.html">Tutorials →</a>
+  </nav>
+</header>
+<div class="wrap">
+
+  <div class="section">
+    <h2>Lo Pan · 羅盤</h2>
+    <div class="cols">
+      <div class="card luopan">
+        <svg id="compass" viewBox="0 0 460 460" aria-label="luo pan compass"></svg>
+        <div class="rowflex" style="width:100%">
+          <label style="flex:1">Degree
+            <input type="range" id="degRange" min="0" max="360" step="0.5" value="0">
+          </label>
+          <label>Value
+            <input type="number" id="degNum" min="0" max="360" step="0.1" value="0" style="width:96px">
+          </label>
+        </div>
+      </div>
+      <div class="card">
+        <div id="luopanOut"><span class="muted">Move the dial to read the 24 mountains.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Flying stars · time · 飛星</h2>
+    <div class="card">
+      <form id="timeForm" class="row">
+        <label>Time (local)
+          <input type="datetime-local" id="fsTime" step="60">
+        </label>
+        <button type="submit">Plot</button>
+        <span class="muted">Year / month / day / hour centers (year center switches at Li Chun 立春).</span>
+      </form>
+      <div id="timeOut"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>House flying stars · 宅命盤</h2>
+    <div class="card">
+      <form id="houseForm" class="row">
+        <label>House year (1864-2064)
+          <input type="number" id="houseYear" value="2024" min="1864" max="2064" style="width:110px">
+        </label>
+        <label>Facing degree (0-360)
+          <input type="number" id="houseDegree" value="90" min="0" max="360" step="0.5" style="width:110px">
+        </label>
+        <label>Door degree (optional, validated only)
+          <input type="number" id="doorDegree" min="0" max="360" step="0.5" placeholder="—" style="width:110px">
+        </label>
+        <button type="submit">Plot</button>
+      </form>
+      <div id="houseOut"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Eight mansions · 八宅</h2>
+    <div class="card">
+      <form id="guaForm" class="row">
+        <label>Birth year
+          <input type="number" id="guaYear" value="1990" style="width:110px">
+        </label>
+        <label>Gender
+          <select id="guaGender"><option value="male">male</option><option value="female">female</option></select>
+        </label>
+        <label class="chk"><input type="checkbox" id="guaPrev"> born before Li Chun (use previous year)</label>
+        <button type="submit">Calculate</button>
+      </form>
+      <div id="guaOut"></div>
+      <div class="rowflex" style="margin-top:18px">
+        <label>House facing (palace scores)
+          <select id="facingSel">
+            <option>N</option><option>NE</option><option>E</option><option>SE</option>
+            <option>S</option><option>SW</option><option>W</option><option>NW</option>
+          </select>
+        </label>
+        <span class="muted">Extends the facing map with element strengths (RN extendEightMansions).</span>
+      </div>
+      <div id="facingOut"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Reference · star meanings</h2>
+    <div class="card" id="refOut"><span class="muted">Loading…</span></div>
+  </div>
+
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const PALACE_DIR = {kan:'N',kun:'SW',zhen:'E',xun:'SE',center:'C',qian:'NW',dui:'W',gen:'NE',li:'S'};
+const PALACE_CN = {kan:'坎',kun:'坤',zhen:'震',xun:'巽',center:'中',qian:'乾',dui:'兌',gen:'艮',li:'離'};
+const LOSHU = [['xun','li','kun'],['zhen','center','dui'],['gen','kan','qian']];
+const ORDERED_SECTORS = ['N2','N3','NE1','NE2','NE3','E1','E2','E3','SE1','SE2','SE3',
+  'S1','S2','S3','SW1','SW2','SW3','W1','W2','W3','NW1','NW2','NW3'];
+const GOOD_MANSIONS = ['shengQi','tianYi','yanNian','fuWei'];
+const MANSION_ORDER = ['shengQi','tianYi','yanNian','fuWei','huoHai','wuGui','liuSha','jueMing'];
+const ELEMENT_COLOR = {wood:'var(--wood)', fire:'var(--fire)', earth:'var(--earth)',
+  metal:'var(--metal)', water:'var(--water)'};
+const DIR_CN = {N:'北', NE:'東北', E:'東', SE:'東南', S:'南', SW:'西南', W:'西', NW:'西北'};
+
+let REF = null;       // /api/fengshui/reference
+let MOUNTAINS = null; // /api/fengshui/luopan/mountains
+
+async function fetchJson(url) {
+  const res = await fetch(url);
+  let body = null;
+  try { body = await res.json(); } catch (e) { /* not json */ }
+  if (!res.ok) {
+    const msg = body && (body.message || body.error) ? (body.message || body.error) : res.status + ' ' + res.statusText;
+    throw new Error(String(msg).replace(/^.*?:\s*/, ''));
+  }
+  return body;
+}
+
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function errBox(msg) { return '<div class="err">' + esc(msg) + '</div>'; }
+function localIso(d) {
+  const p = (n) => String(n).padStart(2, '0');
+  const off = -d.getTimezoneOffset();
+  const sign = off >= 0 ? '+' : '-';
+  const abs = Math.abs(off);
+  return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()) + 'T' +
+    p(d.getHours()) + ':' + p(d.getMinutes()) + ':00' + sign + p(Math.floor(abs / 60)) + ':' + p(abs % 60);
+}
+
+/* ---------------------------------------------------------------- luopan -- */
+function arcPath(cx, cy, r0, r1, a0, a1) {
+  const rad = (a) => (a - 90) * Math.PI / 180;
+  const x0 = cx + r0 * Math.cos(rad(a0)), y0 = cy + r0 * Math.sin(rad(a0));
+  const x1 = cx + r1 * Math.cos(rad(a0)), y1 = cy + r1 * Math.sin(rad(a0));
+  const x2 = cx + r1 * Math.cos(rad(a1)), y2 = cy + r1 * Math.sin(rad(a1));
+  const x3 = cx + r0 * Math.cos(rad(a1)), y3 = cy + r0 * Math.sin(rad(a1));
+  return `M ${x0} ${y0} L ${x1} ${y1} A ${r1} ${r1} 0 0 1 ${x2} ${y2} L ${x3} ${y3} A ${r0} ${r0} 0 0 0 ${x0} ${y0} Z`;
+}
+
+function renderCompass() {
+  const C = 230, R = 218;
+  let svg = '';
+  svg += `<circle cx="${C}" cy="${C}" r="${R}" fill="#141b28" stroke="#33415a"/>`;
+  ORDERED_SECTORS.forEach((code, i) => {
+    const m = MOUNTAINS.mountains[code];
+    const a0 = i * 15 - 7.5, a1 = i * 15 + 7.5;
+    const fill = i % 2 === 0 ? '#1c2537' : '#161e2d';
+    svg += `<path d="${arcPath(C, C, R - 58, R, a0, a1)}" fill="${fill}" stroke="#33415a" stroke-width="0.6"/>`;
+    const rad = (a) => (a - 90) * Math.PI / 180;
+    const lr = R - 29;
+    const x = C + lr * Math.cos(rad(i * 15)), y = C + lr * Math.sin(rad(i * 15));
+    const flip = (i * 15 + 90) % 360 > 180 ? 180 : 0;
+    svg += `<g transform="translate(${x} ${y}) rotate(${i * 15 + flip})">
+      <text text-anchor="middle" y="-2" class="sectorlabel">${esc(m ? m.pinyin : code)}</text>
+      <text text-anchor="middle" y="9" class="sectorlabel cn">${esc(m ? m.chinese : '')}</text>
+    </g>`;
+  });
+  svg += `<circle cx="${C}" cy="${C}" r="${R - 58}" fill="#101724" stroke="#33415a"/>`;
+  for (let d = 0; d < 360; d += 30) {
+    const rad = (d - 90) * Math.PI / 180;
+    const x1 = C + (R - 58) * Math.cos(rad), y1 = C + (R - 58) * Math.sin(rad);
+    const x2 = C + (R - 74) * Math.cos(rad), y2 = C + (R - 74) * Math.sin(rad);
+    svg += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#33415a"/>`;
+    svg += `<text x="${C + (R - 86) * Math.cos(rad)}" y="${C + (R - 86) * Math.sin(rad)}" text-anchor="middle" dominant-baseline="middle" font-size="11" fill="#8fa0bd">${d}</text>`;
+  }
+  svg += `<g id="needle">
+    <polygon points="${C},${C - (R - 20)} ${C - 7},${C + 14} ${C + 7},${C + 14}" fill="#e2483d" opacity="0.92"/>
+    <circle cx="${C}" cy="${C}" r="7" fill="#e8edf6"/>
+  </g>`;
+  $('compass').innerHTML = svg;
+  updateNeedle();
+}
+
+function updateNeedle() {
+  const d = parseFloat($('degNum').value) || 0;
+  const g = $('needle');
+  if (g) g.setAttribute('transform', `rotate(${d} 230 230)`);
+}
+
+async function luopan(degree) {
+  const out = $('luopanOut');
+  try {
+    const j = await fetchJson('/api/fengshui/luopan?degree=' + encodeURIComponent(degree));
+    const m = j.mountain, a = j.attributes;
+    if (!m) {
+      out.innerHTML = `<div class="muted">No mountain sector at ${degree}° (the RN tables leave a 0.1° gap between
+        bands; the source app crashes here).</div>`;
+      return;
+    }
+    let html = `<div class="rowflex" style="margin-bottom:10px">
+      <span class="tag">Sector ${esc(j.sector)}</span>
+      <span class="tag">${esc(m.direction)} ${esc(DIR_CN[m.direction] || '')}</span>
+      <span class="tag">${esc(m.type)}</span>
+      <span class="tag">${esc(m.element)}</span></div>`;
+    html += `<table class="fields">
+      <tr><th>Mountain</th><td>${esc(m.chinese)} ${esc(m.pinyin)} (${esc(m.sector)})</td></tr>
+      <tr><th>Palace</th><td>${esc(PALACE_CN[m.palace] || m.palace)} · ${esc(m.palace)}</td></tr>`;
+    if (a) {
+      html += `<tr><th>Body (internal / external)</th><td>${esc(a.internalBodyPart)} / ${esc(a.externalBodyPart)}</td></tr>
+        <tr><th>Direct needle element</th><td>${esc(a.directNeedleElement)}</td></tr>
+        <tr><th>Three harmony / direction</th><td>${esc(a.threeHarmonyElement)} / ${esc(a.threeDdirectionElement)}</td></tr>
+        <tr><th>Xuan Kong major / minor</th><td>${esc(a.majorXuanKongElement)} / ${esc(a.minorXuanKongElement)}</td></tr>
+        <tr><th>Center needle element</th><td>${esc(a.centerNeedleElement)}</td></tr>`;
+    } else {
+      html += `<tr><th>Attributes</th><td class="muted">none (NE3 寅 is missing from the RN source table)</td></tr>`;
+    }
+    html += `</table>`;
+    out.innerHTML = html;
+  } catch (e) { out.innerHTML = errBox(e.message); }
+}
+
+/* ----------------------------------------------------------- star grids -- */
+function starInfo(n) { return REF && REF.flyingStars ? REF.flyingStars[String(n)] : null; }
+
+function gridHtml(plate, extra) {
+  let html = '<div class="loshugrid">';
+  LOSHU.flat().forEach((pal) => {
+    const n = plate[pal];
+    const s = starInfo(n);
+    const color = s ? ELEMENT_COLOR[s.element] : 'var(--txt)';
+    html += `<div class="cell${pal === 'center' ? ' center-cell' : ''}">
+      <div class="num" style="color:${color}">${n}</div>
+      <div class="pn">${s ? esc(s.pinyin) : ''}</div>
+      <div class="dir">${esc(PALACE_CN[pal] || pal)} · ${esc(PALACE_DIR[pal])}</div>`;
+    if (extra) html += extra(pal, n);
+    html += '</div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function gridBox(caption, plate, extra) {
+  return `<div class="gridbox"><div class="cap">${esc(caption)}</div>${gridHtml(plate, extra)}</div>`;
+}
+
+/* --------------------------------------------------------- time flying -- */
+$('timeForm').addEventListener('submit', async (ev) => {
+  ev.preventDefault();
+  const out = $('timeOut');
+  out.innerHTML = '<div class="muted" style="margin-top:12px">Plotting… (the day center scans up to 61 charts)</div>';
+  const v = $('fsTime').value;
+  if (!v) { out.innerHTML = errBox('pick a time'); return; }
+  const iso = localIso(new Date(v));
+  try {
+    const j = await fetchJson('/api/fengshui/time-flying-stars?time=' + encodeURIComponent(iso));
+    out.innerHTML = `<div class="muted" style="margin:10px 0">${esc(iso)}</div>
+      <div class="grids">
+        ${gridBox('year', j.year)}${gridBox('month', j.month)}${gridBox('day', j.day)}${gridBox('hour', j.hour)}
+      </div>`;
+  } catch (e) { out.innerHTML = errBox(e.message); }
+});
+
+/* -------------------------------------------------------- house flying -- */
+let housePlates = null, housePlateSel = 'base';
+function renderHouse() {
+  if (!housePlates) return;
+  const j = housePlates;
+  const plates = j.plates;
+  const face = j.faceMountain, sit = j.sitMountain;
+  const btns = ['base', 'facing', 'sitting'].map(k =>
+    `<button type="button" data-plate="${k}" class="${k === housePlateSel ? 'sel' : ''}">${k}</button>`).join('');
+  let html = `<div class="rowflex" style="margin:12px 0">
+      <span class="tag">period ${j.period}</span>
+      <span class="tag">facing ${esc(face.chinese)}${esc(face.pinyin)} · ${esc(face.sector)} (${esc(face.direction)})</span>
+      <span class="tag">sitting ${esc(sit.chinese)}${esc(sit.pinyin)} · ${esc(sit.sector)} (${esc(sit.direction)})</span>
+      ${j.doorDegree != null ? `<span class="tag">door ${j.doorDegree}°</span>` : ''}
+    </div>
+    <div class="platebtns">${btns}</div>
+    <div class="grids">${gridBox(j.houseYear + ' · ' + housePlateSel + ' plate', plates[housePlateSel])}</div>`;
+  $('houseOut').innerHTML = html;
+  $('houseOut').querySelectorAll('.platebtns button').forEach(b => b.addEventListener('click', () => {
+    housePlateSel = b.dataset.plate;
+    renderHouse();
+  }));
+}
+
+$('houseForm').addEventListener('submit', async (ev) => {
+  ev.preventDefault();
+  const out = $('houseOut');
+  out.innerHTML = '<div class="muted" style="margin-top:12px">Plotting…</div>';
+  const year = $('houseYear').value.trim();
+  const deg = $('houseDegree').value.trim();
+  const door = $('doorDegree').value.trim();
+  let url = '/api/fengshui/house-flying-stars?houseYear=' + encodeURIComponent(year) +
+    '&houseDegree=' + encodeURIComponent(deg);
+  if (door !== '') url += '&doorDegree=' + encodeURIComponent(door);
+  try {
+    housePlates = await fetchJson(url);
+    renderHouse();
+    loadFacing(housePlates.faceMountain.direction);
+  } catch (e) { out.innerHTML = errBox(e.message); }
+});
+
+/* ------------------------------------------------------- eight mansions -- */
+async function loadFacing(facing) {
+  const out = $('facingOut');
+  $('facingSel').value = facing;
+  try {
+    const j = await fetchJson('/api/fengshui/eight-mansions?facing=' + encodeURIComponent(facing));
+    out.innerHTML = `<div class="muted" style="margin:12px 0">Facing ${esc(facing)}
+      (scores: element strength × auspiciousness)</div>
+      <div class="grids">${gridBoxScores(j.palaces)}</div>`;
+  } catch (e) { out.innerHTML = errBox(e.message); }
+}
+
+function gridBoxScores(palaces) {
+  // reuses the lo shu layout but with mansion score content
+  let html = '<div class="loshugrid">';
+  LOSHU.flat().forEach((pal) => {
+    const p = palaces[pal];
+    const mansion = p && REF && REF.eightMansions ? REF.eightMansions[p.name] : null;
+    if (!p) { html += `<div class="cell scorecell"></div>`; return; }
+    const cls = p.rating > 0 ? 'good' : 'bad';
+    html += `<div class="cell scorecell${pal === 'center' ? ' center-cell' : ''}">
+      <div class="num ${cls}">${p.score >= 0 ? '+' : ''}${p.score}</div>
+      <div class="pn">${mansion ? esc(mansion.chinese) : ''}</div>
+      <div class="dir">${p.strength}</div></div>`;
+  });
+  html += '</div>';
+  return `<div class="gridbox"><div class="cap">mansion scores</div>${html}</div>`;
+}
+
+$('facingSel').addEventListener('change', () => loadFacing($('facingSel').value));
+
+$('guaForm').addEventListener('submit', async (ev) => {
+  ev.preventDefault();
+  const out = $('guaOut');
+  out.innerHTML = '<div class="muted" style="margin-top:12px">Calculating…</div>';
+  const url = '/api/fengshui/personal-gua?year=' + encodeURIComponent($('guaYear').value.trim()) +
+    '&gender=' + encodeURIComponent($('guaGender').value) +
+    '&isPreviousYear=' + ($('guaPrev').checked ? 'true' : 'false');
+  try {
+    const j = await fetchJson(url);
+    const gua = j.personalGua;
+    const dirs = j.directions || {};
+    let rows = '';
+    MANSION_ORDER.forEach((key) => {
+      const m = j.mansions && j.mansions[key];
+      if (!m) return;
+      const good = GOOD_MANSIONS.includes(key);
+      rows += `<tr>
+        <td class="${good ? 'good' : 'bad'}">${esc(m.chinese)} ${esc(m.pinyin)}</td>
+        <td>${esc(m.nickname || m.name)}</td>
+        <td>${esc(dirs[key] || '')}</td>
+        <td>${esc(m.auspiciousness || '')}</td>
+        <td>${esc(m.element)}</td>
+      </tr>`;
+    });
+    out.innerHTML = `<div class="rowflex" style="margin:12px 0">
+        <span class="tag">${esc(gua.chinese)} ${esc(gua.pinyin)} · luo shu ${gua.luoShu}</span>
+        <span class="tag">${esc(gua.direction)} ${esc(DIR_CN[gua.direction] || '')}</span>
+        <span class="tag">${esc((gua.lifeStarDescArr || []).join(' '))}</span>
+      </div>
+      <table class="fields mansiontable" style="max-width:720px">
+        <tr><th>Mansion</th><th>Name</th><th>Direction</th><th>Fortunes</th><th>Element</th></tr>
+        ${rows}
+      </table>`;
+  } catch (e) { out.innerHTML = errBox(e.message); }
+});
+
+/* -------------------------------------------------------------- startup -- */
+function starLegend() {
+  if (!REF) return '';
+  let rows = '';
+  for (let n = 1; n <= 9; n++) {
+    const s = starInfo(n);
+    if (!s) continue;
+    rows += `<div><b>${n} ${esc(s.pinyin)}</b> ${esc(s.chinese)} — ${esc(s.nickname)} · ${esc(s.concept)} · ${esc(s.element)}</div>`;
+  }
+  let combos = '';
+  const c = REF.flyingStarCombinations || {};
+  Object.keys(c).forEach(k => { combos += `<div><b>${esc(k)}</b> — ${esc(c[k])}</div>`; });
+  return `<div class="combos" style="margin-top:8px">${rows}</div>
+    <details><summary>All 45 flying-star pair readings</summary><div class="combos">${combos}</div></details>`;
+}
+
+function mansionLegend() {
+  if (!REF || !REF.eightMansions) return '';
+  let rows = '';
+  MANSION_ORDER.forEach((k) => {
+    const m = REF.eightMansions[k];
+    if (!m) return;
+    const good = GOOD_MANSIONS.includes(k);
+    rows += `<tr><td class="${good ? 'good' : 'bad'}">${esc(m.chinese)} ${esc(m.pinyin)}</td>
+      <td>${esc(m.nickname)}</td><td>${esc(m.auspiciousness)}</td><td>${esc(m.element)}</td></tr>`;
+  });
+  return `<details style="margin-top:12px"><summary>Eight mansions legend</summary>
+    <table class="fields" style="max-width:640px">
+      <tr><th>Mansion</th><th>Nickname</th><th>Fortunes</th><th>Element</th></tr>${rows}</table></details>`;
+}
+
+(async function init() {
+  // default times
+  const now = new Date();
+  const p = (n) => String(n).padStart(2, '0');
+  $('fsTime').value = now.getFullYear() + '-' + p(now.getMonth() + 1) + '-' + p(now.getDate()) +
+    'T' + p(now.getHours()) + ':' + p(now.getMinutes());
+  try {
+    [REF, MOUNTAINS] = await Promise.all([
+      fetchJson('/api/fengshui/reference'),
+      fetchJson('/api/fengshui/luopan/mountains'),
+    ]);
+    renderCompass();
+    $('refOut').innerHTML = starLegend() + mansionLegend();
+  } catch (e) {
+    $('refOut').innerHTML = errBox(e.message);
+  }
+  const onDeg = (v) => { $('degNum').value = v; $('degRange').value = v; updateNeedle(); luopan(v); };
+  $('degRange').addEventListener('input', () => onDeg($('degRange').value));
+  $('degNum').addEventListener('change', () => onDeg($('degNum').value));
+  luopan(0);
+  loadFacing('E');
+})();
+</script>
+</body>
+</html>

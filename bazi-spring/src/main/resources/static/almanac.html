@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Almanac · Tong Shu</title>
+<style>
+  :root {
+    --bg:#0f1420; --card:#1a2130; --card2:#222c3e; --line:#33415a; --txt:#e8edf6; --dim:#93a0b8;
+    --good:#2e9e5b; --bad:#e2483d; --warn:#b8860b;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line);
+           display:flex; align-items:center; justify-content:space-between; gap:16px; }
+  h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  a.navlink { color:#9db7f5; text-decoration:none; font-size:13px; }
+  a.navlink:hover { text-decoration:underline; }
+  .wrap { padding:20px 24px 60px; max-width:1100px; margin:0 auto; }
+  form { display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; background:var(--card);
+         padding:16px; border-radius:12px; border:1px solid var(--line); margin-bottom:20px; }
+  label { display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--dim); }
+  input,select { background:var(--bg); color:var(--txt); border:1px solid var(--line);
+         border-radius:8px; padding:8px 10px; font-size:14px; }
+  button { background:#3d6fe0; color:#fff; border:0; border-radius:8px; padding:10px 20px;
+         font-size:14px; font-weight:600; cursor:pointer; }
+  button:hover { background:#4d7ff0; }
+  .chk { flex-direction:row; align-items:center; gap:6px; }
+  .chk input { width:auto; }
+  .err { background:#3a1c1c; border:1px solid #7a2c2c; color:#ffb4b4; padding:12px 16px;
+         border-radius:10px; margin-bottom:20px; }
+  .muted { color:var(--dim); font-size:13px; }
+
+  .section { margin-top:26px; }
+  .section h2 { font-size:14px; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim);
+         margin:0 0 12px; font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+
+  .pillars { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+  .pcol { background:var(--card2); border:1px solid var(--line); border-radius:10px;
+          padding:12px 8px; text-align:center; }
+  .pcol .plabel { font-size:11px; color:var(--dim); margin-bottom:6px; letter-spacing:1px; text-transform:uppercase; }
+  .pcol .glyph { font-size:32px; line-height:1.1; font-weight:600; }
+  .pcol .en { display:block; font-size:11px; color:var(--dim); font-weight:400; margin-top:4px; letter-spacing:.4px; }
+
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+  .stat { background:var(--card2); border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+  .stat .k { font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:1px; }
+  .stat .v { font-size:17px; font-weight:600; margin-top:4px; }
+  .stat .d { font-size:12px; color:var(--dim); margin-top:6px; line-height:1.45; }
+  .stat .d .suit { color:#8fd3a7; }
+  .stat .d .unsuit { color:#e8a3a3; }
+
+  .flagrows { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+  .flag { display:flex; align-items:center; gap:10px; background:var(--card2);
+          border:1px solid var(--line); border-radius:10px; padding:10px 14px; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--dim); flex:0 0 auto; }
+  .dot.on { background:var(--bad); box-shadow:0 0 8px rgba(226,72,61,.55); }
+  .flag .t { font-size:13px; }
+  .flag .s { font-size:11px; color:var(--dim); margin-left:auto; }
+
+  table.tongshu { width:100%; border-collapse:collapse; font-size:13px; }
+  table.tongshu th, table.tongshu td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); }
+  table.tongshu th { color:var(--dim); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:1px; }
+  table.tongshu tr:last-child td { border-bottom:0; }
+
+  .badge { display:inline-block; border-radius:999px; padding:2px 9px; font-size:11px; font-weight:600;
+           background:var(--card2); border:1px solid var(--line); color:var(--dim); }
+  .badge.good { color:#a9e6c0; border-color:#2e6b45; background:#16301f; }
+  .badge.bad { color:#ffc4bd; border-color:#7a2c2c; background:#331817; }
+  .badge.warn { color:#f0d9a0; border-color:#6b5620; background:#2b2513; }
+
+  @media (max-width:820px){ .pillars{grid-template-columns:repeat(2,1fr)} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Almanac <small>Tong Shu day info · 通書</small></h1>
+  <nav style="display:flex; gap:16px">
+    <a class="navlink" href="/">← BaZi chart</a>
+    <a class="navlink" href="/hexagrams.html">Yi Jing →</a>
+    <a class="navlink" href="/fengshui.html">Feng Shui →</a>
+    <a class="navlink" href="/qimen.html">Qi Men →</a>
+    <a class="navlink" href="/library.html">Library →</a>
+    <a class="navlink" href="/tutorials.html">Tutorials →</a>
+  </nav>
+</header>
+<div class="wrap">
+  <form id="f">
+    <label>Date &amp; time
+      <input type="datetime-local" id="time" step="1" required>
+    </label>
+    <label>Options
+      <span class="chk"><input type="checkbox" id="lateZi"> Late-Zi hour</span>
+    </label>
+    <button type="submit">Show Day</button>
+  </form>
+  <div id="err" class="err" style="display:none"></div>
+  <div id="out"></div>
+</div>
+
+<script>
+const OFFICER_EN = {
+  establish:"Establish", remove:"Remove", full:"Full", balance:"Balance", stable:"Stable",
+  initiate:"Initiate", destruction:"Destruction", danger:"Danger", success:"Success",
+  receive:"Receive", open:"Open", close:"Close",
+};
+const YB_EN = {
+  greenDragon:"Green Dragon", brightHall:"Bright Hall", heavenPunishment:"Heaven Punishment",
+  redPhoenix:"Red Phoenix", goldLock:"Golden Lock", preciousLight:"Precious Light",
+  whiteTiger:"White Tiger", jadeHall:"Jade Hall", heavenJail:"Heaven Jail",
+  blackTortoise:"Black Tortoise", lifeGovernor:"Life Governor", grapplingHook:"Grappling Hook",
+};
+const KILLING_EN = { robbery:"Robbery", calamity:"Calamity", annual:"Annual" };
+const KILLING_TAG = { robbery:"Growth branch", calamity:"Cardinal branch", annual:"Graveyard branch" };
+const CN = {
+  jia:"甲",yi:"乙",bing:"丙",ding:"丁",wu:"戊",ji:"己",geng:"庚",xin:"辛",ren:"壬",gui:"癸",
+  zi:"子",chou:"丑",yin:"寅",mao:"卯",chen:"辰",si:"巳",wu:"午",wei:"未",shen:"申",you:"酉",xu:"戌",hai:"亥",
+};
+const PILLAR_LABEL = { year:"Year", month:"Month", day:"Day", hour:"Hour" };
+
+let reference = null;
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function isoWithOffset(v) {
+  // datetime-local -> ISO 8601 with the browser's offset for that date.
+  const d = new Date(v);
+  const withSeconds = v.length === 16 ? v + ":00" : v;
+  const pad = n => String(n).padStart(2, "0");
+  const off = -d.getTimezoneOffset();
+  const sign = off >= 0 ? "+" : "-";
+  return withSeconds + sign + pad(Math.floor(Math.abs(off) / 60)) + ":" + pad(Math.abs(off) % 60);
+}
+
+function humanize(key) {
+  return String(key).replace(/([a-z])([A-Z])/g, "$1 $2").replace(/^./, c => c.toUpperCase());
+}
+
+function badge(text, cls) {
+  return '<span class="badge ' + (cls || "") + '">' + esc(text) + "</span>";
+}
+
+function ratingBadge(rating) {
+  if (rating === 1) return badge("Auspicious ★", "good");
+  if (rating === -1) return badge("Inauspicious ✕", "bad");
+  return badge("Neutral", "warn");
+}
+
+function stat(label, value, desc) {
+  return '<div class="stat"><div class="k">' + esc(label) + '</div><div class="v">' + value + '</div>' +
+    (desc ? '<div class="d">' + desc + "</div>" : "") + "</div>";
+}
+
+function officerDesc(officer) {
+  const d = reference && reference.twelveOfficerDesc[officer];
+  if (!d) return "";
+  return '<div class="d"><span class="suit">宜: ' + esc(d.suitable) + '</span><br>' +
+         '<span class="unsuit">忌: ' + esc(d.unsuitable) + "</span></div>";
+}
+
+function constellationDesc(constellation) {
+  const d = reference && reference.twentyEightConstellationsDesc[constellation];
+  if (!d) return "";
+  return '<div class="d">' + ratingBadge(d.rating) + "<br>" +
+         '<span class="suit">宜: ' + esc(d.suitable) + '</span><br>' +
+         '<span class="unsuit">忌: ' + esc(d.unsuitable) + "</span></div>";
+}
+
+function killingDesc(k) {
+  const d = reference && reference.threeKillingsDesc[k];
+  if (!d) return "";
+  return '<div class="d">' + esc(d).replace(/\n\n/g, "<br>") + "</div>";
+}
+
+function flag(label, on) {
+  return '<div class="flag"><span class="dot ' + (on ? "on" : "") + '"></span>' +
+         '<span class="t">' + esc(label) + '</span><span class="s">' + (on ? "Yes" : "—") + "</span></div>";
+}
+
+async function loadReference() {
+  try {
+    const r = await fetch("/api/almanac/reference");
+    if (r.ok) reference = await r.json();
+  } catch (e) { /* descriptions are optional */ }
+}
+
+async function show() {
+  const err = document.getElementById("err");
+  const out = document.getElementById("out");
+  err.style.display = "none";
+  const value = document.getElementById("time").value;
+  if (!value) return;
+  const lateZi = document.getElementById("lateZi").checked;
+  const params = new URLSearchParams({ time: isoWithOffset(value), lateZi: String(lateZi) });
+  try {
+    const r = await fetch("/api/almanac?" + params.toString());
+    const body = await r.json();
+    if (!r.ok) throw new Error(body.error || ("HTTP " + r.status));
+    render(body, lateZi);
+  } catch (e) {
+    out.innerHTML = "";
+    err.textContent = "Request failed: " + e.message;
+    err.style.display = "";
+  }
+}
+
+function render(data, lateZi) {
+  const d = data.dayInfo;
+  const p = data.pillars;
+  const out = document.getElementById("out");
+  const pad2 = n => String(n).padStart(2, "0");
+  const dt = new Date(data.time);
+  const dateLabel = isNaN(dt) ? data.time : dt.toLocaleString();
+
+  let html = "";
+
+  html += '<div class="section"><h2>Date · ' + esc(dateLabel) + (lateZi ? " · late-Zi" : "") + "</h2>";
+  html += '<div class="pillars">';
+  for (const key of ["year", "month", "day", "hour"]) {
+    const pillar = p[key];
+    if (!pillar) {
+      html += '<div class="pcol"><div class="plabel">' + PILLAR_LABEL[key] +
+              '</div><div class="glyph">—</div></div>';
+      continue;
+    }
+    html += '<div class="pcol"><div class="plabel">' + PILLAR_LABEL[key] +
+            '</div><div class="glyph">' + esc(CN[pillar.stem] || pillar.stem) + esc(CN[pillar.branch] || pillar.branch) +
+            '<span class="en">' + esc(humanize(pillar.stem)) + " / " + esc(humanize(pillar.branch)) +
+            "</span></div></div>";
+  }
+  html += "</div></div>";
+
+  html += '<div class="section"><h2>Day info</h2><div class="stats">';
+  html += stat("Officer · 建除", esc(OFFICER_EN[d.officer] || d.officer), officerDesc(d.officer));
+  html += stat("Constellation · 廿八宿", esc(humanize(d.constellation)), constellationDesc(d.constellation));
+  html += stat("Yellow / Black · 黃黑道", esc(YB_EN[d.yellowBlack] || humanize(d.yellowBlack)));
+  html += stat("Month three killings", d.m3k ? esc(KILLING_EN[d.m3k] || d.m3k) +
+      ' <span class="badge warn">' + esc(KILLING_TAG[d.m3k] || "") + "</span>" : "—",
+      d.m3k ? killingDesc(d.m3k) : "");
+  html += stat("Year three killings", d.y3k ? esc(KILLING_EN[d.y3k] || d.y3k) +
+      ' <span class="badge warn">' + esc(KILLING_TAG[d.y3k] || "") + "</span>" : "—",
+      d.y3k ? killingDesc(d.y3k) : "");
+  html += stat("Dong Gong · 董公", d.dongGongNum ? '<span style="font-size:22px">' + esc(d.dongGongNum) + "</span>" : "—",
+      "Dong Gong day rating (✕✕ → ★★★)");
+  html += "</div></div>";
+
+  html += '<div class="section"><h2>Day flags</h2><div class="flagrows">';
+  html += flag("Big disaster day", d.bigDisaster === true);
+  html += flag("Year breaker", d.yearBreaker === true);
+  html += flag("Month breaker", d.monthBreaker === true);
+  html += flag("Month destructor", d.monthDestructor === true);
+  html += "</div></div>";
+
+  if (d.other) {
+    const o = d.other;
+    html += '<div class="section"><h2>Tong Shu entry · 通書</h2><div class="card"><table class="tongshu">';
+    const rows = [
+      ["Officer", o.officer], ["Constellation", o.constellation], ["Yellow/black belt", o.yellowBlackBelt],
+      ["Dong Gong", o.donggong], ["Moon", o.moon], ["Zhirun", o.zhirun], ["Chaibu", o.chaibu],
+    ];
+    for (const [k, v] of rows) {
+      if (v === undefined || v === null || v === "") continue;
+      html += "<tr><th>" + esc(k) + "</th><td>" + esc(v) + "</td></tr>";
+    }
+    html += "</table></div></div>";
+  } else {
+    html += '<div class="section"><h2>Tong Shu entry · 通書</h2><div class="card muted">' +
+            "No crawled Tong Shu entry for this date. The data covers 2019-01-01 → 2020-08-19; " +
+            "all other day info is still computed." + "</div></div>";
+  }
+
+  out.innerHTML = html;
+}
+
+function init() {
+  const input = document.getElementById("time");
+  const now = new Date();
+  const pad2 = n => String(n).padStart(2, "0");
+  input.value = now.getFullYear() + "-" + pad2(now.getMonth() + 1) + "-" + pad2(now.getDate()) +
+                "T12:00:00";
+  document.getElementById("f").addEventListener("submit", e => { e.preventDefault(); show(); });
+  loadReference().then(show);
+}
+
+init();
+</script>
+</body>
+</html>

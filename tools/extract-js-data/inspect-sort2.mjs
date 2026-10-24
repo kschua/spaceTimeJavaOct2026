@@ -1,0 +1,12 @@
+import { pathToFileURL } from 'node:url';
+const ROOT = 'C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools';
+const ShenSha = await import(pathToFileURL(ROOT + '/ShenSha.js').href);
+const cmp = (a, b) => (a.rating < b.rating) ? 1 : -1;
+const arr = ShenSha.annualStarAux.zi.si;
+console.log('original:', arr.map(x => x.name).join(','));
+arr.sort(cmp);
+console.log('after 1:', arr.map(x => x.name).join(','));
+arr.sort(cmp);
+console.log('after 2:', arr.map(x => x.name).join(','));
+arr.sort(cmp);
+console.log('after 3:', arr.map(x => x.name).join(','));

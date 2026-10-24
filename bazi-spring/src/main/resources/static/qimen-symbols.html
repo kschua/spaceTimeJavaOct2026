@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qi Men Symbols</title>
+<style>
+  :root {
+    --bg:#0f1420; --card:#1a2130; --card2:#222c3e; --line:#33415a; --txt:#e8edf6; --dim:#93a0b8;
+    --accent:#3d6fe0;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); display:flex;
+           align-items:center; justify-content:space-between; gap:16px; }
+  a.navlink { color:#9db7f5; text-decoration:none; font-size:13px; }
+  a.navlink:hover { text-decoration:underline; }
+  h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  .wrap { padding:20px 24px 60px; max-width:1180px; margin:0 auto; }
+  .layout { display:grid; grid-template-columns:270px 1fr; gap:18px; align-items:start; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; }
+  .topics { padding:8px; position:sticky; top:16px; }
+  .topic { display:block; width:100%; text-align:left; background:transparent; color:var(--txt);
+           border:0; border-radius:8px; padding:10px 12px; font-size:14px; cursor:pointer; }
+  .topic:hover { background:var(--card2); }
+  .topic.active { background:var(--accent); color:#fff; font-weight:600; }
+  .detail { padding:18px 20px; min-height:320px; }
+  .detail h2 { margin:0 0 4px; font-size:18px; }
+  .detail .muted { color:var(--dim); font-size:12px; margin-bottom:14px; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; vertical-align:top; padding:10px 12px; border-top:1px solid var(--line);
+           font-size:14px; line-height:1.45; }
+  th { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--dim);
+       border-top:0; padding-bottom:6px; }
+  td.symbol { width:38%; font-weight:600; color:#cfe0ff; }
+  .err { background:#3a1c1c; border:1px solid #7a2c2c; color:#ffb4b4; padding:12px 16px;
+         border-radius:10px; }
+  .empty { color:var(--dim); font-size:14px; }
+  @media (max-width:800px){
+    .layout { grid-template-columns:1fr; }
+    .topics { position:static; display:flex; flex-wrap:wrap; gap:4px; }
+    .topic { width:auto; }
+    td.symbol { width:45%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Qi Men Symbols <small>用神符號 · useful gods</small></h1>
+  <nav style="display:flex; gap:16px; flex-wrap:wrap">
+    <a class="navlink" href="/">← BaZi chart</a>
+    <a class="navlink" href="/almanac.html">Almanac</a>
+    <a class="navlink" href="/hexagrams.html">Yi Jing</a>
+    <a class="navlink" href="/fengshui.html">Feng Shui</a>
+    <a class="navlink" href="/qimen.html">Qi Men chart</a>
+    <a class="navlink" href="/qimen-days.html">Day scan</a>
+    <a class="navlink" href="/library.html">Library</a>
+    <a class="navlink" href="/tutorials.html">Tutorials</a>
+  </nav>
+</header>
+<div class="wrap">
+  <div id="err" class="err" style="display:none"></div>
+  <div class="layout">
+    <div id="topics" class="card topics"><div class="empty" style="padding:10px">Loading…</div></div>
+    <div id="details" class="card detail"><div class="empty">Choose a topic.</div></div>
+  </div>
+</div>
+
+<script>
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const state = { topics: [], selected: null };
+
+function showError(msg){
+  const err = document.getElementById("err");
+  err.textContent = msg;
+  err.style.display = "block";
+}
+
+function renderTopics(){
+  const box = document.getElementById("topics");
+  box.innerHTML = state.topics.map(t =>
+    `<button class="topic ${t.topic===state.selected?"active":""}" data-topic="${esc(t.topic)}">${esc(t.title)}</button>`
+  ).join("");
+  box.querySelectorAll("button[data-topic]").forEach(b => {
+    b.addEventListener("click", () => select(b.dataset.topic));
+  });
+}
+
+async function select(topic, push){
+  state.selected = topic;
+  renderTopics();
+  if(push && location.hash !== "#" + topic){
+    history.replaceState(null, "", "#" + topic);
+  }
+  const details = document.getElementById("details");
+  details.innerHTML = `<div class="empty">Loading…</div>`;
+  try{
+    const r = await fetch("/api/qimen/useful-gods/" + encodeURIComponent(topic));
+    const j = await r.json();
+    if(!r.ok) throw new Error(j.error || ("HTTP " + r.status));
+    details.innerHTML = `
+      <h2>${esc(j.title)}</h2>
+      <div class="muted">${j.symbols.length} symbol${j.symbols.length===1?"":"s"} · topic <code>${esc(j.topic)}</code></div>
+      <table>
+        <thead><tr><th>Symbol</th><th>Meaning</th></tr></thead>
+        <tbody>${j.symbols.map(s =>
+          `<tr><td class="symbol">${esc(s.title)}</td><td>${esc(s.body)}</td></tr>`).join("")}
+        </tbody>
+      </table>`;
+  }catch(ex){
+    details.innerHTML = "";
+    showError(ex.message);
+  }
+}
+
+async function load(){
+  try{
+    const r = await fetch("/api/qimen/useful-gods");
+    const j = await r.json();
+    if(!r.ok) throw new Error(j.error || ("HTTP " + r.status));
+    state.topics = j.topics || [];
+    if(!state.topics.length){ document.getElementById("topics").innerHTML = `<div class="empty" style="padding:10px">No topics.</div>`; return; }
+    const wanted = location.hash ? location.hash.slice(1) : null;
+    const first = state.topics.some(t => t.topic === wanted) ? wanted : state.topics[0].topic;
+    await select(first, false);
+  }catch(ex){
+    document.getElementById("topics").innerHTML = "";
+    showError(ex.message);
+  }
+}
+
+window.addEventListener("hashchange", () => {
+  const topic = location.hash.slice(1);
+  if(topic && topic !== state.selected) select(topic, false);
+});
+load();
+</script>
+</body>
+</html>

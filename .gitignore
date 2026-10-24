@@ -1,0 +1,12 @@
+# Build output
+bazi-spring/target/
+**/target/
+
+# Node dependencies
+**/node_modules/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

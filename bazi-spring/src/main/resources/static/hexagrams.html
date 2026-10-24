@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yi Jing · Hexagrams</title>
+<style>
+  :root {
+    --wood:#2e9e5b; --fire:#e2483d; --earth:#b8860b; --metal:#8a94a6; --water:#2f6fd0;
+    --bg:#0f1420; --card:#1a2130; --card2:#222c3e; --line:#33415a; --txt:#e8edf6; --dim:#93a0b8;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans CJK SC","PingFang SC",sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); display:flex;
+           align-items:center; justify-content:space-between; gap:16px; }
+  h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  h1 small { color:var(--dim); font-weight:400; font-size:13px; margin-left:8px; }
+  a.navlink { color:#9db7f5; text-decoration:none; font-size:13px; }
+  a.navlink:hover { text-decoration:underline; }
+  .wrap { padding:20px 24px 60px; max-width:1100px; margin:0 auto; }
+  .section { margin-top:26px; }
+  .section h2 { font-size:14px; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim);
+         margin:0 0 12px; font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .muted { color:var(--dim); font-size:13px; }
+  .err { background:#3a1c1c; border:1px solid #7a2c2c; color:#ffb4b4; padding:12px 16px;
+         border-radius:10px; margin:12px 0; }
+
+  form.row { display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; }
+  label { display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--dim); }
+  input,select { background:var(--bg); color:var(--txt); border:1px solid var(--line);
+         border-radius:8px; padding:8px 10px; font-size:14px; }
+  button { background:#3d6fe0; color:#fff; border:0; border-radius:8px; padding:10px 18px;
+         font-size:14px; font-weight:600; cursor:pointer; }
+  button:hover { background:#4d7ff0; }
+  .chk { flex-direction:row; align-items:center; gap:6px; }
+  .chk input { width:auto; }
+
+  .grid64 { display:grid; grid-template-columns:repeat(auto-fill,minmax(86px,1fr)); gap:8px; }
+  .tile { background:var(--card2); border:1px solid var(--line); border-radius:10px;
+          padding:8px 6px; text-align:center; cursor:pointer; }
+  .tile:hover { border-color:#3d6fe0; }
+  .tile.sel { border-color:#3d6fe0; box-shadow:0 0 0 1px #3d6fe0 inset; }
+  .tile .g { font-size:26px; line-height:1.15; }
+  .tile .n { font-size:11px; color:var(--dim); }
+  .tile .cn { font-size:12px; margin-top:2px; }
+
+  .detail { margin-top:16px; }
+  .detailhead { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:10px; }
+  .detailhead .big { font-size:34px; }
+  .detailhead .t { font-size:18px; font-weight:600; }
+  .detailhead .cn { color:var(--dim); }
+  .columns { display:grid; grid-template-columns:230px 1fr 1fr; gap:16px; }
+  @media (max-width:900px){ .columns{grid-template-columns:1fr} }
+
+  .lines { display:flex; flex-direction:column; gap:6px; }
+  .hxline { display:flex; align-items:center; gap:10px; cursor:pointer; padding:2px 4px; border-radius:6px; }
+  .hxline:hover { background:#2a3550; }
+  .hxline .bar { display:flex; flex:0 0 112px; height:14px; gap:8px; }
+  .hxline .bar .seg { flex:1; background:#dfe7f5; border-radius:2px; }
+  .hxline .meta { font-size:12px; color:var(--dim); }
+  .hxline .mark { font-size:11px; color:#9db7f5; font-weight:700; width:22px; }
+  .hxline .asp { font-size:12px; margin-left:auto; }
+
+  table.fields { width:100%; border-collapse:collapse; font-size:13px; }
+  table.fields th, table.fields td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
+  table.fields th { color:var(--dim); font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:1px; width:44%; }
+  table.fields tr:last-child th, table.fields tr:last-child td { border-bottom:0; }
+
+  .trigram { display:flex; gap:12px; align-items:flex-start; }
+  .trigram .glyph { font-size:30px; line-height:1; }
+  .tag { display:inline-block; background:var(--card2); border:1px solid var(--line); border-radius:999px;
+         padding:2px 9px; font-size:11px; color:var(--dim); margin:2px 4px 2px 0; }
+
+  .result { margin-top:12px; }
+  .result .num { font-size:15px; font-weight:600; }
+  .result .sub { color:var(--dim); font-size:12px; margin-top:4px; }
+  .btnrow { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+  .mini { display:inline-flex; flex-direction:column; align-items:center; gap:2px; background:var(--card2);
+          border:1px solid var(--line); border-radius:10px; padding:8px 12px; cursor:pointer; }
+  .mini:hover { border-color:#3d6fe0; }
+  .mini .g { font-size:26px; }
+  .mini .n { font-size:11px; color:var(--dim); }
+  .rowflex { display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Yi Jing <small>hexagrams · 易經</small></h1>
+  <nav style="display:flex; gap:16px">
+    <a class="navlink" href="/">← BaZi chart</a>
+    <a class="navlink" href="/almanac.html">Almanac →</a>
+    <a class="navlink" href="/fengshui.html">Feng Shui →</a>
+    <a class="navlink" href="/qimen.html">Qi Men →</a>
+    <a class="navlink" href="/library.html">Library →</a>
+    <a class="navlink" href="/tutorials.html">Tutorials →</a>
+  </nav>
+</header>
+<div class="wrap">
+
+  <div class="section">
+    <h2>Hexagram browser · 64 卦</h2>
+    <div class="card">
+      <div class="rowflex" style="margin-bottom:12px">
+        <label>Day master (optional, adds line animals)
+          <select id="dm">
+            <option value="">—</option>
+            <option>jia</option><option>yi</option><option>bing</option><option>ding</option><option>wu</option>
+            <option>ji</option><option>geng</option><option>xin</option><option>ren</option><option>gui</option>
+          </select>
+        </label>
+        <span class="muted">Click a tile to open a hexagram; click lines inside the detail to flip them.</span>
+      </div>
+      <div id="grid" class="grid64"></div>
+      <div id="detail" class="detail"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Hexagram from string · 李氏易數</h2>
+    <div class="card">
+      <form id="lsyForm" class="row">
+        <label>Letters / digits
+          <input id="lsyQ" type="text" placeholder="e.g. hello world" autocomplete="off" required>
+        </label>
+        <label>Chart time (optional, defaults to now)
+          <input type="datetime-local" id="lsyTime" step="1">
+        </label>
+        <button type="submit">Convert</button>
+      </form>
+      <div id="lsyOut"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Hexagram from pillar · 柱卦</h2>
+    <div class="card">
+      <form id="pillarForm" class="row">
+        <label>Stem
+          <select id="pStem">
+            <option>jia</option><option>yi</option><option>bing</option><option>ding</option><option>wu</option>
+            <option>ji</option><option>geng</option><option>xin</option><option>ren</option><option>gui</option>
+          </select>
+        </label>
+        <label>Branch
+          <select id="pBranch">
+            <option>zi</option><option>chou</option><option>yin</option><option>mao</option><option>chen</option><option>si</option>
+            <option>wu</option><option>wei</option><option>shen</option><option>you</option><option>xu</option><option>hai</option>
+          </select>
+        </label>
+        <label>Options
+          <span class="chk"><input type="checkbox" id="pHorary"> Horary (contemporary school)</span>
+        </label>
+        <button type="submit">Look up</button>
+      </form>
+      <div id="pillarOut"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const EL_COLOR = {wood:"#2e9e5b",fire:"#e2483d",earth:"#b8860b",metal:"#8a94a6",water:"#2f6fd0"};
+const BRANCH_CN = {zi:"子",chou:"丑",yin:"寅",mao:"卯",chen:"辰",si:"巳",wu:"午",wei:"未",shen:"申",you:"酉",xu:"戌",hai:"亥"};
+const BRANCH_ANIMAL = {zi:"rat",chou:"ox",yin:"tiger",mao:"rabbit",chen:"dragon",si:"snake",wu:"horse",wei:"goat",shen:"monkey",you:"rooster",xu:"dog",hai:"pig"};
+const STEM_CN = {jia:"甲",yi:"乙",bing:"丙",ding:"丁",wu:"戊",ji:"己",geng:"庚",xin:"辛",ren:"壬",gui:"癸"};
+
+let catalog = [];
+let currentBinary = null;
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function humanize(key) {
+  return String(key).replace(/([a-z])([A-Z])/g, "$1 $2").replace(/_/g, " ").replace(/^./, c => c.toUpperCase());
+}
+function elColor(el) { return EL_COLOR[el] || "#93a0b8"; }
+
+async function jget(url) {
+  const r = await fetch(url);
+  const body = await r.json();
+  if (!r.ok) throw new Error(body.message || body.error || ("HTTP " + r.status));
+  return body;
+}
+
+function isoWithOffset(v) {
+  if (!v) return "";
+  const d = new Date(v);
+  const withSeconds = v.length === 16 ? v + ":00" : v;
+  const pad = n => String(n).padStart(2, "0");
+  const off = -d.getTimezoneOffset();
+  const sign = off >= 0 ? "+" : "-";
+  return withSeconds + sign + pad(Math.floor(Math.abs(off) / 60)) + ":" + pad(Math.abs(off) % 60);
+}
+
+// ---------------------------------------------------------------- browser
+
+function renderGrid() {
+  document.getElementById("grid").innerHTML = catalog.map(h =>
+    '<div class="tile' + (h.binary === currentBinary ? " sel" : "") + '" data-binary="' + h.binary + '">' +
+      '<div class="g">' + esc(h.hexagram) + '</div>' +
+      '<div class="n">' + h.number + ' · ' + esc(h.englishName) + '</div>' +
+      '<div class="cn">' + esc(h.chineseShort) + '</div>' +
+    "</div>").join("");
+  for (const tile of document.querySelectorAll(".tile")) {
+    tile.addEventListener("click", () => showDetail(tile.dataset.binary));
+  }
+}
+
+function lineHtml(bit, i, ld) {
+  const solid = bit === 1;
+  const bars = solid
+    ? '<div class="bar"><div class="seg"></div></div>'
+    : '<div class="bar"><div class="seg"></div><div class="seg"></div></div>';
+  const branch = ld.branches[i];
+  const meta = branch
+    ? esc(BRANCH_ANIMAL[branch] || "") + " " + esc(BRANCH_CN[branch] || "") + " · " + esc(branch)
+    : "";
+  const mark = (ld.subject === i ? "S" : "") + (ld.object === i ? "O" : "");
+  const aspect = ld.aspects[i]
+    ? '<span class="asp" style="color:' + elColor(ld.elements[i]) + '">' + esc(humanize(ld.aspects[i])) + " · " + esc(ld.elements[i]) + "</span>"
+    : "";
+  return '<div class="hxline" data-index="' + i + '">' + bars +
+    '<span class="mark">' + mark + '</span>' +
+    '<span class="meta">' + meta + "</span>" + aspect +
+  "</div>";
+}
+
+function renderDetail(d, changed) {
+  const h = d.hexagram;
+  const ld = d.lineData;
+  const bits = h.binary.split("").map(Number);
+  let html = '<div class="detailhead">' +
+    '<span class="big">' + esc(h.hexagram) + '</span>' +
+    '<span class="t">' + h.number + ". " + esc(humanize(h.englishName)) + '</span>' +
+    '<span class="cn">' + esc(h.chineseLong) + '</span>' +
+    '<span class="tag">' + esc(h.element) + '</span>' +
+    '<span class="tag">binary ' + esc(h.binary) + '</span>' +
+    '<span class="tag">subject line ' + h.subjectLine + '</span>' +
+    '</div>';
+
+  html += '<div class="columns">';
+
+  // lines column
+  html += '<div><div class="lines">';
+  for (let i = 0; i < 6; i++) html += lineHtml(bits[i], i, ld);
+  html += "</div>";
+  html += '<div class="muted" style="margin-top:8px">Line 6 at top. Click a line to flip it. ' +
+          "S = subject, O = object.</div>";
+  html += '<div class="rowflex" style="margin-top:10px"><label>Changed (moving line)' +
+          '<select id="mlSel"><option value="">—</option>';
+  for (let i = 1; i <= 6; i++) html += '<option value="' + i + '">' + i + "</option>";
+  html += "</select></label></div>";
+  if (changed) {
+    html += '<div class="rowflex" style="margin-top:8px">' +
+      '<div class="mini" data-binary="' + changed.binary + '">' +
+        '<div class="g">' + esc(changed.hexagram) + '</div>' +
+        '<div class="n">' + changed.number + " · " + esc(changed.englishName) + '</div>' +
+      "</div>";
+    html += '<div class="mini" data-binary="' + d.mutual.binary + '">' +
+        '<div class="g">' + esc(d.mutual.hexagram.hexagram) + '</div>' +
+        '<div class="n">mutual · ' + d.mutual.hexagram.number + " · " + esc(d.mutual.hexagram.englishName) + '</div>' +
+      "</div></div>";
+  } else if (d.mutual) {
+    html += '<div class="rowflex" style="margin-top:8px">' +
+      '<div class="mini" data-binary="' + d.mutual.binary + '">' +
+        '<div class="g">' + esc(d.mutual.hexagram.hexagram) + '</div>' +
+        '<div class="n">mutual · ' + d.mutual.hexagram.number + " · " + esc(d.mutual.hexagram.englishName) + '</div>' +
+      "</div></div>";
+  }
+  html += "</div>";
+
+  // trigrams column
+  const tri = (t, label) => '<div class="trigram"><div class="glyph">' + esc(t.trigram) + '</div><div>' +
+      '<div style="font-weight:600">' + esc(label) + ": " + esc(t.pinyin) + " " + esc(t.chinese) + "</div>" +
+      '<div class="muted">' + esc(t.english) + " · element " + esc(t.element) + " · " + esc(t.direction) + "</div>" +
+      '<div class="muted">binary ' + esc(t.binary) + " · pre-heaven " + esc(t.preHeaven) + " · luo shu " + esc(t.luoShu) + "</div>" +
+      '<div style="margin-top:6px">' + ["concept","person","place","body","life","weather"].map(k =>
+          t[k] ? '<span class="tag">' + esc(k) + ": " + esc(t[k]) + "</span>" : "").join("") + "</div>" +
+    "</div></div>";
+  html += "<div>" + tri(d.topTrigram, "Top") + '<div style="height:12px"></div>' + tri(d.bottomTrigram, "Bottom") + "</div>";
+
+  // fields column
+  html += '<div><table class="fields">';
+  for (const k of ["englishName","English Name 2","chineseShort","chineseLong","pillar","group","guaQi","guaYun","stem","branch","binary","number"]) {
+    if (h[k] === undefined) continue;
+    let val = h[k];
+    if (k === "pillar") val = String(val).split("-").map(humanize).join(" ");
+    html += "<tr><th>" + esc(k === "English Name 2" ? k : humanize(k)) + "</th><td>" + esc(val) + "</td></tr>";
+  }
+  html += "</table></div>";
+
+  html += "</div>";
+  document.getElementById("detail").innerHTML = html;
+
+  for (const line of document.querySelectorAll("#detail .hxline")) {
+    line.addEventListener("click", () => {
+      const i = Number(line.dataset.index);
+      const flipped = bits.slice();
+      flipped[i] = flipped[i] === 1 ? 0 : 1;
+      showDetail(flipped.join(""));
+    });
+  }
+  for (const mini of document.querySelectorAll("#detail .mini")) {
+    mini.addEventListener("click", () => showDetail(mini.dataset.binary));
+  }
+  const mlSel = document.getElementById("mlSel");
+  if (mlSel) {
+    mlSel.addEventListener("change", async () => {
+      const ml = Number(mlSel.value);
+      if (!ml) { renderDetail(d, null); return; }
+      const idx = 6 - ml; // top-first array
+      const bits2 = h.binary.split("");
+      bits2[idx] = bits2[idx] === "0" ? "1" : "0";
+      try {
+        const changed = await jget("/api/hexagrams/" + bits2.join(""));
+        renderDetail(d, changed.hexagram);
+      } catch (e) { /* ignore */ }
+    });
+  }
+}
+
+async function showDetail(binary) {
+  currentBinary = binary;
+  renderGrid();
+  const dm = document.getElementById("dm").value;
+  try {
+    const d = await jget("/api/hexagrams/" + binary + (dm ? "?dayMaster=" + encodeURIComponent(dm) : ""));
+    renderDetail(d, null);
+  } catch (e) {
+    document.getElementById("detail").innerHTML = '<div class="err">' + esc(e.message) + "</div>";
+  }
+}
+
+// ---------------------------------------------------------------- LSY
+
+function renderLsy(r) {
+  const out = document.getElementById("lsyOut");
+  if (!("h1" in r)) {
+    out.innerHTML = '<div class="result muted">Converted digits: "' + esc(r.converted) +
+      '" — need at least 2 digits (letters map a-j-s→1 … i-r→9; other characters are dropped).</div>';
+    return;
+  }
+  let html = '<div class="result card" style="background:var(--card2)">';
+  html += '<div class="rowflex">' +
+    '<div class="mini" data-binary="' + r.binary + '">' +
+      '<div class="g">' + esc(r.hexagram.hexagram) + '</div>' +
+      '<div class="n">' + r.number + " · " + esc(humanize(r.hexagram.englishName)) + '</div>' +
+    "</div>" +
+    '<div class="mini" data-binary="' + r.changedBinary + '">' +
+      '<div class="g">' + esc(r.changedHexagram.hexagram) + '</div>' +
+      '<div class="n">changed · ' + r.changedNumber + " · " + esc(humanize(r.changedHexagram.englishName)) + '</div>' +
+    "</div>" +
+    '<div class="sub">' + esc(r.hexagram.chineseLong) + " → " + esc(r.changedHexagram.chineseLong) + "</div>" +
+  "</div>";
+  html += '<div style="margin-top:10px" class="muted">' +
+    "converted: <b>" + esc(r.converted) + "</b> · h1 " + esc(r.h1) + " / h2 " + esc(r.h2) +
+    (r.extra ? " / extra " + esc(r.extra) : "") +
+    " · trigrams " + esc(r.firstTrigram) + " (top) / " + esc(r.secondTrigram) + " (bottom)" +
+    " · hour " + esc(r.hourBranch) + " (" + r.whichHour + ")" +
+    " · total " + r.numTotal + " · moving line " + r.movingLine +
+    " · binary " + esc(r.binary) + "</div>";
+  html += "</div>";
+  out.innerHTML = html;
+  for (const mini of out.querySelectorAll(".mini")) {
+    mini.addEventListener("click", () => showDetail(mini.dataset.binary));
+  }
+}
+
+// ---------------------------------------------------------------- pillar
+
+function renderPillar(r) {
+  const out = document.getElementById("pillarOut");
+  const hexes = r.hexagrams || [];
+  if (!hexes.length) {
+    out.innerHTML = '<div class="result muted">No hexagram for ' + esc(r.stem + "-" + r.branch) +
+      (r.horary ? " (the RN horary table has no entry for this pillar)" : "") + ".</div>";
+    return;
+  }
+  let html = '<div class="result rowflex">';
+  for (const h of hexes) {
+    html += '<div class="mini" data-binary="' + h.binary + '">' +
+      '<div class="g">' + esc(h.hexagram) + '</div>' +
+      '<div class="n">' + h.number + " · " + esc(humanize(h.englishName)) + "</div>" +
+      '<div class="n">' + esc(h.chineseLong) + "</div></div>";
+  }
+  html += "</div>";
+  out.innerHTML = html;
+  for (const mini of out.querySelectorAll(".mini")) {
+    mini.addEventListener("click", () => showDetail(mini.dataset.binary));
+  }
+}
+
+// ---------------------------------------------------------------- init
+
+async function init() {
+  try {
+    catalog = await jget("/api/hexagrams");
+  } catch (e) {
+    document.getElementById("grid").innerHTML = '<div class="err">' + esc(e.message) + "</div>";
+    return;
+  }
+  renderGrid();
+  document.getElementById("dm").addEventListener("change", () => {
+    if (currentBinary) showDetail(currentBinary);
+  });
+
+  document.getElementById("lsyForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    try {
+      const q = document.getElementById("lsyQ").value;
+      const t = isoWithOffset(document.getElementById("lsyTime").value);
+      renderLsy(await jget("/api/lisheeyee?q=" + encodeURIComponent(q) + (t ? "&time=" + encodeURIComponent(t) : "")));
+    } catch (err) {
+      document.getElementById("lsyOut").innerHTML = '<div class="err">' + esc(err.message) + "</div>";
+    }
+  });
+
+  document.getElementById("pillarForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    try {
+      const stem = document.getElementById("pStem").value;
+      const branch = document.getElementById("pBranch").value;
+      const horary = document.getElementById("pHorary").checked;
+      renderPillar(await jget("/api/hexagrams/from-pillar?stem=" + stem + "&branch=" + branch + "&horary=" + horary));
+    } catch (err) {
+      document.getElementById("pillarOut").innerHTML = '<div class="err">' + esc(err.message) + "</div>";
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,8903 @@
+{
+ "sixtyPillars": {
+  "jia": {
+   "yin": {
+    "naYin": [
+     "water",
+     "Water of Great Stream",
+     "大溪水"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "geng",
+     "shen"
+    ],
+    "guestFanYin": [
+     "wu",
+     "shen"
+    ]
+   },
+   "chen": {
+    "naYin": [
+     "fire",
+     "Fire from Lamp",
+     "覆燈火"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "geng",
+     "xu"
+    ],
+    "guestFanYin": [
+     "wu",
+     "xu"
+    ]
+   },
+   "wu": {
+    "naYin": [
+     "metal",
+     "Metal found in Sand",
+     "砂中金"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "geng",
+     "zi"
+    ],
+    "guestFanYin": [
+     "wu",
+     "zi"
+    ]
+   },
+   "shen": {
+    "naYin": [
+     "water",
+     "Spring Water",
+     "井泉水"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "geng",
+     "yin"
+    ],
+    "guestFanYin": [
+     "wu",
+     "yin"
+    ]
+   },
+   "xu": {
+    "naYin": [
+     "fire",
+     "Fire from Volcano",
+     "山頭火"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "geng",
+     "chen"
+    ],
+    "guestFanYin": [
+     "wu",
+     "chen"
+    ]
+   },
+   "zi": {
+    "naYin": [
+     "metal",
+     "Gold in Sea",
+     "海中金"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "geng",
+     "wu"
+    ],
+    "guestFanYin": [
+     "wu",
+     "wu"
+    ]
+   }
+  },
+  "yi": {
+   "mao": {
+    "naYin": [
+     "water",
+     "Water of Great Stream",
+     "大溪水"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "xin",
+     "you"
+    ],
+    "guestFanYin": [
+     "ji",
+     "you"
+    ]
+   },
+   "si": {
+    "naYin": [
+     "fire",
+     "Fire from Lamp",
+     "覆燈火"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "xin",
+     "hai"
+    ],
+    "guestFanYin": [
+     "ji",
+     "hai"
+    ]
+   },
+   "wei": {
+    "naYin": [
+     "metal",
+     "Metal found in Sand",
+     "砂中金"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "xin",
+     "chou"
+    ],
+    "guestFanYin": [
+     "ji",
+     "chou"
+    ]
+   },
+   "you": {
+    "naYin": [
+     "water",
+     "Spring Water",
+     "井泉水"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "xin",
+     "mao"
+    ],
+    "guestFanYin": [
+     "ji",
+     "mao"
+    ]
+   },
+   "hai": {
+    "naYin": [
+     "fire",
+     "Fire from Volcano",
+     "山頭火"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "xin",
+     "si"
+    ],
+    "guestFanYin": [
+     "ji",
+     "si"
+    ]
+   },
+   "chou": {
+    "naYin": [
+     "metal",
+     "Gold in Sea",
+     "海中金"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "xin",
+     "wei"
+    ],
+    "guestFanYin": [
+     "ji",
+     "wei"
+    ]
+   }
+  },
+  "bing": {
+   "chen": {
+    "naYin": [
+     "earth",
+     "Earth of a Grave",
+     "砂中土"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "ren",
+     "xu"
+    ],
+    "guestFanYin": [
+     "geng",
+     "xu"
+    ]
+   },
+   "wu": {
+    "naYin": [
+     "water",
+     "Celestial River",
+     "天河水"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "ren",
+     "zi"
+    ],
+    "guestFanYin": [
+     "geng",
+     "zi"
+    ]
+   },
+   "shen": {
+    "naYin": [
+     "fire",
+     "Fire from Mountain Slope",
+     "山下火"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "ren",
+     "yin"
+    ],
+    "guestFanYin": [
+     "geng",
+     "yin"
+    ]
+   },
+   "xu": {
+    "naYin": [
+     "earth",
+     "Earth from House",
+     "屋上土"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "ren",
+     "chen"
+    ],
+    "guestFanYin": [
+     "geng",
+     "chen"
+    ]
+   },
+   "zi": {
+    "naYin": [
+     "water",
+     "Condense Water",
+     "澗下水"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "ren",
+     "wu"
+    ],
+    "guestFanYin": [
+     "geng",
+     "wu"
+    ]
+   },
+   "yin": {
+    "naYin": [
+     "fire",
+     "Fire in Furnace",
+     "爐中火"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "ren",
+     "shen"
+    ],
+    "guestFanYin": [
+     "geng",
+     "shen"
+    ]
+   }
+  },
+  "ding": {
+   "si": {
+    "naYin": [
+     "earth",
+     "Earth of a Grave",
+     "砂中土"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "gui",
+     "hai"
+    ],
+    "guestFanYin": [
+     "xin",
+     "hai"
+    ]
+   },
+   "wei": {
+    "naYin": [
+     "water",
+     "Celestial River",
+     "天河水"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "gui",
+     "chou"
+    ],
+    "guestFanYin": [
+     "xin",
+     "chou"
+    ]
+   },
+   "you": {
+    "naYin": [
+     "fire",
+     "Fire from Mountain Slope",
+     "山下火"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "gui",
+     "mao"
+    ],
+    "guestFanYin": [
+     "xin",
+     "mao"
+    ]
+   },
+   "hai": {
+    "naYin": [
+     "earth",
+     "Earth from House",
+     "屋上土"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "gui",
+     "si"
+    ],
+    "guestFanYin": [
+     "xin",
+     "si"
+    ]
+   },
+   "chou": {
+    "naYin": [
+     "water",
+     "Condense Water",
+     "澗下水"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "gui",
+     "wei"
+    ],
+    "guestFanYin": [
+     "xin",
+     "wei"
+    ]
+   },
+   "mao": {
+    "naYin": [
+     "fire",
+     "Fire in Furnace",
+     "爐中火"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "gui",
+     "you"
+    ],
+    "guestFanYin": [
+     "xin",
+     "you"
+    ]
+   }
+  },
+  "wu": {
+   "wu": {
+    "naYin": [
+     "fire",
+     "Heavenly Fire",
+     "天上火"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "jia",
+     "zi"
+    ],
+    "guestFanYin": [
+     "ren",
+     "zi"
+    ]
+   },
+   "shen": {
+    "naYin": [
+     "earth",
+     "Highway Earth",
+     "大驛土"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "jia",
+     "yin"
+    ],
+    "guestFanYin": [
+     "ren",
+     "yin"
+    ]
+   },
+   "xu": {
+    "naYin": [
+     "wood",
+     "Bushes on Plain",
+     "平地木"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "jia",
+     "chen"
+    ],
+    "guestFanYin": [
+     "ren",
+     "chen"
+    ]
+   },
+   "zi": {
+    "naYin": [
+     "fire",
+     "Lightning",
+     "霹靂火"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "jia",
+     "wu"
+    ],
+    "guestFanYin": [
+     "ren",
+     "wu"
+    ]
+   },
+   "yin": {
+    "naYin": [
+     "earth",
+     "Fortress Rampart Earth",
+     "城頭土"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "jia",
+     "shen"
+    ],
+    "guestFanYin": [
+     "ren",
+     "shen"
+    ]
+   },
+   "chen": {
+    "naYin": [
+     "wood",
+     "Forest Wood",
+     "大林木"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "jia",
+     "xu"
+    ],
+    "guestFanYin": [
+     "ren",
+     "xu"
+    ]
+   }
+  },
+  "ji": {
+   "wei": {
+    "naYin": [
+     "fire",
+     "Heavenly Fire",
+     "天上火"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "yi",
+     "chou"
+    ],
+    "guestFanYin": [
+     "gui",
+     "chou"
+    ]
+   },
+   "you": {
+    "naYin": [
+     "earth",
+     "Highway Earth",
+     "大驛土"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "yi",
+     "mao"
+    ],
+    "guestFanYin": [
+     "gui",
+     "mao"
+    ]
+   },
+   "hai": {
+    "naYin": [
+     "wood",
+     "Bushes on Plain",
+     "平地木"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "yi",
+     "si"
+    ],
+    "guestFanYin": [
+     "gui",
+     "si"
+    ]
+   },
+   "chou": {
+    "naYin": [
+     "fire",
+     "Lightning",
+     "霹靂火"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "yi",
+     "wei"
+    ],
+    "guestFanYin": [
+     "gui",
+     "wei"
+    ]
+   },
+   "mao": {
+    "naYin": [
+     "earth",
+     "Fortress Earth",
+     "城頭土"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "yi",
+     "you"
+    ],
+    "guestFanYin": [
+     "gui",
+     "you"
+    ]
+   },
+   "si": {
+    "naYin": [
+     "wood",
+     "Forest Wood",
+     "大林木"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "yi",
+     "hai"
+    ],
+    "guestFanYin": [
+     "gui",
+     "hai"
+    ]
+   }
+  },
+  "geng": {
+   "shen": {
+    "naYin": [
+     "wood",
+     "Wood of Pomegranate Tree",
+     "石榴木"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "bing",
+     "yin"
+    ],
+    "guestFanYin": [
+     "jia",
+     "yin"
+    ]
+   },
+   "xu": {
+    "naYin": [
+     "metal",
+     "Ornament Gold",
+     "釵釧金"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "bing",
+     "chen"
+    ],
+    "guestFanYin": [
+     "jia",
+     "chen"
+    ]
+   },
+   "zi": {
+    "naYin": [
+     "earth",
+     "Earth on Wall",
+     "壁上土"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "bing",
+     "wu"
+    ],
+    "guestFanYin": [
+     "jia",
+     "wu"
+    ]
+   },
+   "yin": {
+    "naYin": [
+     "wood",
+     "Pine Wood",
+     "松柏木"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "bing",
+     "shen"
+    ],
+    "guestFanYin": [
+     "jia",
+     "shen"
+    ]
+   },
+   "chen": {
+    "naYin": [
+     "metal",
+     "White Wax Gold",
+     "白蠟金"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "bing",
+     "xu"
+    ],
+    "guestFanYin": [
+     "jia",
+     "xu"
+    ]
+   },
+   "wu": {
+    "naYin": [
+     "earth",
+     "Soil at Roadside",
+     "路旁土"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "bing",
+     "zi"
+    ],
+    "guestFanYin": [
+     "jia",
+     "zi"
+    ]
+   }
+  },
+  "xin": {
+   "you": {
+    "naYin": [
+     "wood",
+     "Wood of Pomegranate Tree",
+     "石榴木"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "ding",
+     "mao"
+    ],
+    "guestFanYin": [
+     "yi",
+     "mao"
+    ]
+   },
+   "hai": {
+    "naYin": [
+     "metal",
+     "Ornament Gold",
+     "釵釧金"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "ding",
+     "si"
+    ],
+    "guestFanYin": [
+     "yi",
+     "si"
+    ]
+   },
+   "chou": {
+    "naYin": [
+     "earth",
+     "Earth on Wall",
+     "壁上土"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "ding",
+     "wei"
+    ],
+    "guestFanYin": [
+     "yi",
+     "wei"
+    ]
+   },
+   "mao": {
+    "naYin": [
+     "wood",
+     "Pine Wood",
+     "松柏木"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "ding",
+     "you"
+    ],
+    "guestFanYin": [
+     "yi",
+     "you"
+    ]
+   },
+   "si": {
+    "naYin": [
+     "metal",
+     "White Wax Gold",
+     "白蠟金"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "ding",
+     "hai"
+    ],
+    "guestFanYin": [
+     "yi",
+     "hai"
+    ]
+   },
+   "wei": {
+    "naYin": [
+     "earth",
+     "Soil at Roadside",
+     "路旁土"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "ding",
+     "chou"
+    ],
+    "guestFanYin": [
+     "yi",
+     "chou"
+    ]
+   }
+  },
+  "ren": {
+   "xu": {
+    "naYin": [
+     "water",
+     "Ocean Water",
+     "大海水"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "wu",
+     "chen"
+    ],
+    "guestFanYin": [
+     "bing",
+     "chen"
+    ]
+   },
+   "zi": {
+    "naYin": [
+     "wood",
+     "Wood of Mulberry Tree",
+     "桑柘木"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "wu",
+     "wu"
+    ],
+    "guestFanYin": [
+     "bing",
+     "wu"
+    ]
+   },
+   "yin": {
+    "naYin": [
+     "metal",
+     "Gold Foil",
+     "金泊金"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "wu",
+     "shen"
+    ],
+    "guestFanYin": [
+     "bing",
+     "shen"
+    ]
+   },
+   "chen": {
+    "naYin": [
+     "water",
+     "Water of Big River",
+     "長流水"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "wu",
+     "xu"
+    ],
+    "guestFanYin": [
+     "bing",
+     "xu"
+    ]
+   },
+   "wu": {
+    "naYin": [
+     "wood",
+     "Wood of Willow Tree",
+     "楊柳木"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "wu",
+     "zi"
+    ],
+    "guestFanYin": [
+     "bing",
+     "zi"
+    ]
+   },
+   "shen": {
+    "naYin": [
+     "metal",
+     "Sword Edge Metal",
+     "劍鋒金"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "wu",
+     "yin"
+    ],
+    "guestFanYin": [
+     "bing",
+     "yin"
+    ]
+   }
+  },
+  "gui": {
+   "hai": {
+    "naYin": [
+     "water",
+     "Ocean Water",
+     "大海水"
+    ],
+    "stream": "yin",
+    "hostFanYin": [
+     "ji",
+     "si"
+    ],
+    "guestFanYin": [
+     "ding",
+     "si"
+    ]
+   },
+   "chou": {
+    "naYin": [
+     "wood",
+     "Wood of Mulberry Tree",
+     "桑柘木"
+    ],
+    "stream": "chen",
+    "hostFanYin": [
+     "ji",
+     "wei"
+    ],
+    "guestFanYin": [
+     "ding",
+     "wei"
+    ]
+   },
+   "mao": {
+    "naYin": [
+     "metal",
+     "Gold Foil",
+     "金泊金"
+    ],
+    "stream": "wu",
+    "hostFanYin": [
+     "ji",
+     "you"
+    ],
+    "guestFanYin": [
+     "ding",
+     "you"
+    ]
+   },
+   "si": {
+    "naYin": [
+     "water",
+     "Water of Big River",
+     "長流水"
+    ],
+    "stream": "shen",
+    "hostFanYin": [
+     "ji",
+     "hai"
+    ],
+    "guestFanYin": [
+     "ding",
+     "hai"
+    ]
+   },
+   "wei": {
+    "naYin": [
+     "wood",
+     "Wood of Willow Tree",
+     "楊柳木"
+    ],
+    "stream": "xu",
+    "hostFanYin": [
+     "ji",
+     "chou"
+    ],
+    "guestFanYin": [
+     "ding",
+     "chou"
+    ]
+   },
+   "you": {
+    "naYin": [
+     "metal",
+     "Sword Edge Metal",
+     "劍鋒金"
+    ],
+    "stream": "zi",
+    "hostFanYin": [
+     "ji",
+     "mao"
+    ],
+    "guestFanYin": [
+     "ding",
+     "mao"
+    ]
+   }
+  }
+ },
+ "branchSpecialRelations": {
+  "harmony": {
+   "water": [
+    "shen",
+    "zi",
+    "chen"
+   ],
+   "wood": [
+    "hai",
+    "mao",
+    "wei"
+   ],
+   "fire": [
+    "yin",
+    "wu",
+    "xu"
+   ],
+   "metal": [
+    "si",
+    "you",
+    "chou"
+   ]
+  },
+  "direction": {
+   "wood": [
+    "yin",
+    "mao",
+    "chen"
+   ],
+   "fire": [
+    "si",
+    "wu",
+    "wei"
+   ],
+   "metal": [
+    "shen",
+    "you",
+    "xu"
+   ],
+   "water": [
+    "hai",
+    "zi",
+    "chou"
+   ]
+  },
+  "penalty": {
+   "ungrateful": [
+    "yin",
+    "si",
+    "shen"
+   ],
+   "bullying": [
+    "wei",
+    "xu",
+    "chou"
+   ]
+  }
+ },
+ "stems": {
+  "jia": {
+   "$def": "strong generating force",
+   "$dict_adj": [
+    "firm",
+    "straight",
+    "persistent"
+   ],
+   "natureName": "tree",
+   "elementName": "yang wood",
+   "chinese": "甲",
+   "pinyin": "jia",
+   "name": "jia",
+   "element": "wood",
+   "polarity": "yang",
+   "direction": "E",
+   "season": "spring",
+   "spirit": "green dragon",
+   "trigram": "zhen",
+   "number": 0,
+   "symbols": "first, creative, growth, strong, unyielding, firm, direct, rooted, ambitious, thick, powerful",
+   "body": "gallbladder, head, thyroid, nervous system, scapula, ankle, fingernails, toenails",
+   "clashes": [
+    "geng",
+    "wu"
+   ],
+   "combine": "ji",
+   "combineResult": "earth",
+   "twelveStages": [
+    "hai",
+    "zi",
+    "chou",
+    "yin",
+    "mao",
+    "chen",
+    "si",
+    "wu",
+    "wei",
+    "shen",
+    "you",
+    "xu"
+   ],
+   "aspects": {
+    "companion": [
+     "jia",
+     "yi"
+    ],
+    "output": [
+     "bing",
+     "ding"
+    ],
+    "wealth": [
+     "wu",
+     "ji"
+    ],
+    "power": [
+     "geng",
+     "xin"
+    ],
+    "resource": [
+     "ren",
+     "gui"
+    ]
+   }
+  },
+  "yi": {
+   "$def": "gentle generating force",
+   "$dict_adj": [
+    "flexible",
+    "resilient",
+    "graceful"
+   ],
+   "natureName": "flower",
+   "elementName": "yin wood",
+   "chinese": "乙",
+   "pinyin": "yi",
+   "name": "yi",
+   "element": "wood",
+   "polarity": "yin",
+   "direction": "E",
+   "season": "spring",
+   "spirit": "green dragon",
+   "trigram": "xun",
+   "number": 1,
+   "symbols": "flexible, adaptable, gentle, resilient, elegant, fickle, compassion",
+   "body": "liver, neck, immune system, tendons, wrist, finger",
+   "clashes": [
+    "xin",
+    "ji"
+   ],
+   "combine": "geng",
+   "combineResult": "metal",
+   "twelveStages": [
+    "wu",
+    "si",
+    "chen",
+    "mao",
+    "yin",
+    "chou",
+    "zi",
+    "hai",
+    "xu",
+    "you",
+    "shen",
+    "wei"
+   ],
+   "aspects": {
+    "companion": [
+     "yi",
+     "jia"
+    ],
+    "output": [
+     "ding",
+     "bing"
+    ],
+    "wealth": [
+     "ji",
+     "wu"
+    ],
+    "power": [
+     "xin",
+     "geng"
+    ],
+    "resource": [
+     "gui",
+     "ren"
+    ]
+   }
+  },
+  "bing": {
+   "$def": "strong developing force",
+   "$dict_adj": [
+    "vibrant",
+    "ambitious",
+    "generous"
+   ],
+   "natureName": "sun",
+   "elementName": "yang fire",
+   "chinese": "丙",
+   "pinyin": "bing",
+   "name": "bing",
+   "element": "fire",
+   "polarity": "yang",
+   "direction": "S",
+   "season": "summer",
+   "spirit": "red phoenix",
+   "trigram": "li",
+   "number": 2,
+   "symbols": "passion, excitement, selfless, optimistic, thrilling, vivacious, vibrant, radiant, open",
+   "body": "small intestines, shoulders, upper body, forehead, eyes",
+   "clashes": [
+    "ren",
+    "geng"
+   ],
+   "combine": "xin",
+   "combineResult": "water",
+   "twelveStages": [
+    "yin",
+    "mao",
+    "chen",
+    "si",
+    "wu",
+    "wei",
+    "shen",
+    "you",
+    "xu",
+    "hai",
+    "zi",
+    "chou"
+   ],
+   "aspects": {
+    "companion": [
+     "bing",
+     "ding"
+    ],
+    "output": [
+     "wu",
+     "ji"
+    ],
+    "wealth": [
+     "geng",
+     "xin"
+    ],
+    "power": [
+     "ren",
+     "gui"
+    ],
+    "resource": [
+     "jia",
+     "yi"
+    ]
+   }
+  },
+  "ding": {
+   "$def": "gentle developing force",
+   "$dict_adj": [
+    "warm",
+    "meticulous",
+    "illuminating"
+   ],
+   "natureName": "flame",
+   "elementName": "yin fire",
+   "chinese": "丁",
+   "pinyin": "ding",
+   "name": "ding",
+   "element": "fire",
+   "polarity": "yin",
+   "direction": "S",
+   "season": "summer",
+   "spirit": "red phoenix",
+   "trigram": "li",
+   "number": 3,
+   "symbols": "inspiring, adoring, illmuminating, fickle, spark, imaginative",
+   "body": "heart, veins, arteries, mouth, tongue",
+   "clashes": [
+    "gui",
+    "xin"
+   ],
+   "combine": "ren",
+   "combineResult": "wood",
+   "twelveStages": [
+    "you",
+    "shen",
+    "wei",
+    "wu",
+    "si",
+    "chen",
+    "mao",
+    "yin",
+    "chou",
+    "zi",
+    "hai",
+    "xu"
+   ],
+   "aspects": {
+    "companion": [
+     "ding",
+     "bing"
+    ],
+    "output": [
+     "ji",
+     "wu"
+    ],
+    "wealth": [
+     "xin",
+     "geng"
+    ],
+    "power": [
+     "gui",
+     "ren"
+    ],
+    "resource": [
+     "yi",
+     "jia"
+    ]
+   }
+  },
+  "wu": {
+   "$def": "strong stabilizing force",
+   "$dict_adj": [
+    "steady",
+    "heavy",
+    "stable"
+   ],
+   "natureName": "mountain",
+   "elementName": "yang earth",
+   "chinese": "戊",
+   "pinyin": "wu",
+   "name": "wu",
+   "element": "earth",
+   "polarity": "yang",
+   "direction": "center",
+   "season": "all seasons",
+   "spirit": "yellow phoenix",
+   "trigram": "gen",
+   "number": 4,
+   "symbols": "solid, stable, trust, eternal, immovable, centered, mature, loyal",
+   "body": "stomach, ribs and abdomen, face",
+   "clashes": [
+    "jia",
+    "ren"
+   ],
+   "combine": "gui",
+   "combineResult": "fire",
+   "twelveStages": [
+    "yin",
+    "mao",
+    "chen",
+    "si",
+    "wu",
+    "wei",
+    "shen",
+    "you",
+    "xu",
+    "hai",
+    "zi",
+    "chou"
+   ],
+   "aspects": {
+    "companion": [
+     "wu",
+     "ji"
+    ],
+    "output": [
+     "geng",
+     "xin"
+    ],
+    "wealth": [
+     "ren",
+     "gui"
+    ],
+    "power": [
+     "jia",
+     "yi"
+    ],
+    "resource": [
+     "bing",
+     "ding"
+    ]
+   }
+  },
+  "ji": {
+   "$def": "gentle stabilizing force",
+   "$dict_adj": [
+    "resourceful",
+    "tolerant",
+    "lasting"
+   ],
+   "natureName": "soil",
+   "elementName": "yin earth",
+   "chinese": "己",
+   "pinyin": "ji",
+   "name": "ji",
+   "element": "earth",
+   "polarity": "yin",
+   "direction": "center",
+   "season": "all seasons",
+   "spirit": "yellow phoenix",
+   "trigram": "kun",
+   "number": 5,
+   "symbols": "resourceful, nurturing, supportive, firm, productive, humble, heavy, peaceful",
+   "body": "spleen, pancreas, nose, skin",
+   "clashes": [
+    "yi",
+    "gui"
+   ],
+   "combine": "jia",
+   "combineResult": "earth",
+   "twelveStages": [
+    "you",
+    "shen",
+    "wei",
+    "wu",
+    "si",
+    "chen",
+    "mao",
+    "yin",
+    "chou",
+    "zi",
+    "hai",
+    "xu"
+   ],
+   "aspects": {
+    "companion": [
+     "ji",
+     "wu"
+    ],
+    "output": [
+     "xin",
+     "geng"
+    ],
+    "wealth": [
+     "gui",
+     "ren"
+    ],
+    "power": [
+     "yi",
+     "jia"
+    ],
+    "resource": [
+     "ding",
+     "bing"
+    ]
+   }
+  },
+  "geng": {
+   "$def": "strong reforming force",
+   "$dict_adj": [
+    "blunt",
+    "direct",
+    "straightforward"
+   ],
+   "natureName": "iron",
+   "elementName": "yang metal",
+   "chinese": "庚",
+   "pinyin": "geng",
+   "name": "geng",
+   "element": "metal",
+   "polarity": "yang",
+   "direction": "W",
+   "season": "autumn",
+   "spirit": "white tiger",
+   "trigram": "qian",
+   "number": 6,
+   "symbols": "sharp, straight, righteous, justice, altruistic, determined, critical, useful",
+   "body": "large intestines, navel, bones",
+   "clashes": [
+    "bing",
+    "jia"
+   ],
+   "combine": "yi",
+   "combineResult": "metal",
+   "twelveStages": [
+    "si",
+    "wu",
+    "wei",
+    "shen",
+    "you",
+    "xu",
+    "hai",
+    "zi",
+    "chou",
+    "yin",
+    "mao",
+    "chen"
+   ],
+   "aspects": {
+    "companion": [
+     "geng",
+     "xin"
+    ],
+    "output": [
+     "ren",
+     "gui"
+    ],
+    "wealth": [
+     "jia",
+     "ji"
+    ],
+    "power": [
+     "bing",
+     "ding"
+    ],
+    "resource": [
+     "wu",
+     "ji"
+    ]
+   }
+  },
+  "xin": {
+   "$def": "gentle reforming force",
+   "$dict_adj": [
+    "refined",
+    "precise",
+    "delicate"
+   ],
+   "natureName": "gold",
+   "elementName": "yin metal",
+   "chinese": "辛",
+   "pinyin": "xin",
+   "name": "xin",
+   "element": "metal",
+   "polarity": "yin",
+   "direction": "W",
+   "season": "autumn",
+   "spirit": "white tiger",
+   "trigram": "dui",
+   "number": 7,
+   "symbols": "refined, elegant, pure, sensitive, beautiful, rare, wit",
+   "body": "lung, upper leg, respiratory system",
+   "clashes": [
+    "ding",
+    "yi"
+   ],
+   "combine": "bing",
+   "combineResult": "water",
+   "twelveStages": [
+    "zi",
+    "hai",
+    "xu",
+    "you",
+    "shen",
+    "wei",
+    "wu",
+    "si",
+    "chen",
+    "mao",
+    "yin",
+    "chou"
+   ],
+   "aspects": {
+    "companion": [
+     "xin",
+     "geng"
+    ],
+    "output": [
+     "gui",
+     "ren"
+    ],
+    "wealth": [
+     "ji",
+     "jia"
+    ],
+    "power": [
+     "ding",
+     "bing"
+    ],
+    "resource": [
+     "ji",
+     "wu"
+    ]
+   }
+  },
+  "ren": {
+   "$def": "strong returning force",
+   "$dict_adj": [
+    "dynamic",
+    "grand",
+    "powerful"
+   ],
+   "natureName": "ocean",
+   "elementName": "yang water",
+   "chinese": "壬",
+   "pinyin": "ren",
+   "name": "ren",
+   "element": "water",
+   "polarity": "yang",
+   "direction": "N",
+   "season": "winter",
+   "spirit": "mystical warrior",
+   "trigram": "kan",
+   "number": 8,
+   "symbols": "flow, adaptive, movement, adventure, unstoppable, quick, real",
+   "body": "urinary system, bladder, lower leg, ear",
+   "clashes": [
+    "wu",
+    "bing"
+   ],
+   "combine": "ding",
+   "combineResult": "wood",
+   "twelveStages": [
+    "shen",
+    "you",
+    "xu",
+    "hai",
+    "zi",
+    "chou",
+    "yin",
+    "mao",
+    "chen",
+    "si",
+    "wu",
+    "wei"
+   ],
+   "aspects": {
+    "companion": [
+     "ren",
+     "gui"
+    ],
+    "output": [
+     "jia",
+     "yi"
+    ],
+    "wealth": [
+     "bing",
+     "ding"
+    ],
+    "power": [
+     "wu",
+     "ji"
+    ],
+    "resource": [
+     "geng",
+     "xin"
+    ]
+   }
+  },
+  "gui": {
+   "$def": "gentle returning force",
+   "$dict_adj": [
+    "formless",
+    "sensitive",
+    "enigmatic"
+   ],
+   "natureName": "mist",
+   "elementName": "yin water",
+   "chinese": "癸",
+   "pinyin": "gui",
+   "name": "gui",
+   "element": "water",
+   "polarity": "yin",
+   "direction": "N",
+   "season": "winter",
+   "spirit": "mystical warrior",
+   "trigram": "kan",
+   "number": 9,
+   "symbols": "last, mysterious, wise, artistic, drift, unpredictable, communicative",
+   "body": "kidney, foot, sperm, egg, brain",
+   "clashes": [
+    "ji",
+    "ding"
+   ],
+   "combine": "wu",
+   "combineResult": "fire",
+   "twelveStages": [
+    "mao",
+    "yin",
+    "chou",
+    "zi",
+    "hai",
+    "xu",
+    "you",
+    "shen",
+    "wei",
+    "wu",
+    "si",
+    "chen"
+   ],
+   "aspects": {
+    "companion": [
+     "gui",
+     "ren"
+    ],
+    "output": [
+     "yi",
+     "jia"
+    ],
+    "wealth": [
+     "ding",
+     "bing"
+    ],
+    "power": [
+     "ji",
+     "wu"
+    ],
+    "resource": [
+     "xin",
+     "geng"
+    ]
+   }
+  }
+ },
+ "branches": {
+  "zi": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "癸 Mist — Yin Water (Gui)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Rat_(zodiac)"
+   },
+   "animalName": "rat",
+   "polarity": "yang",
+   "element": "water",
+   "chinese": "子",
+   "pinyin": "zi",
+   "name": "zi",
+   "season": "winter",
+   "group": "peak",
+   "direction": "N",
+   "palace": "kan",
+   "month": "december",
+   "hour": "23:00-00:59",
+   "body": "kidney, gallbladder meridian",
+   "number": 0,
+   "clash": "wu",
+   "combine": "chou",
+   "combineResult": "earth",
+   "destruction": "you",
+   "hiddenCombineResult": "fire",
+   "balance": [
+    0.5,
+    11.5
+   ],
+   "harmonyCycle": "water",
+   "relations": {
+    "chou": [
+     "6 combo"
+    ],
+    "wu": [
+     "clash"
+    ],
+    "mao": [
+     "uncivilized penalty"
+    ],
+    "you": [
+     "destruction"
+    ],
+    "wei": [
+     "harm"
+    ],
+    "xu": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    null,
+    "gui",
+    null
+   ],
+   "_hiddenStemsDict": {
+    "storage": null,
+    "main": "gui",
+    "tomb": null,
+    "growth": null
+   },
+   "_markers": [
+    "peak-minor-winter",
+    "peak-major-winter"
+   ]
+  },
+  "chou": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Soil — Yin Earth (己 Ji)",
+   "storage": "Gold — Yin Metal (辛 Xin)",
+   "tomb": "Mist — Yin Water (癸 Gui)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Ox_(zodiac)"
+   },
+   "animalName": "ox",
+   "polarity": "yin",
+   "element": "earth",
+   "chinese": "丑",
+   "pinyin": "chou",
+   "name": "chou",
+   "season": "winter",
+   "group": "end",
+   "direction": "NE",
+   "palace": "gen",
+   "month": "january",
+   "hour": "01:00-02:59",
+   "body": "spleen, liver meridian",
+   "number": 1,
+   "clash": "wei",
+   "combine": "zi",
+   "combineResult": "earth",
+   "destruction": "chen",
+   "hiddenCombineResult": "earth",
+   "balance": [
+    1.5,
+    10.5
+   ],
+   "harmonyCycle": "metal",
+   "relations": {
+    "zi": [
+     "6 combo"
+    ],
+    "wei": [
+     "clash"
+    ],
+    "chen": [
+     "destruction"
+    ],
+    "wu": [
+     "harm"
+    ],
+    "yin": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "xin",
+    "ji",
+    "gui"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "xin",
+    "main": "ji",
+    "tomb": "gui",
+    "growth": null
+   },
+   "_markers": [
+    "end-minor-winter",
+    "end-major-autumn",
+    "end-year"
+   ]
+  },
+  "yin": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Tree — Yang Wood (甲 Jia)",
+   "storage": "Mountain — Yang Earth (戊 Wu)",
+   "growth": "Sun — Yang Fire (丙 Bing)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Tiger_(zodiac)"
+   },
+   "animalName": "tiger",
+   "polarity": "yang",
+   "element": "wood",
+   "chinese": "寅",
+   "pinyin": "yin",
+   "name": "yin",
+   "season": "spring",
+   "group": "start",
+   "direction": "NE",
+   "palace": "gen",
+   "month": "february",
+   "hour": "03:00-04:59",
+   "body": "gallbladder, lung meridian",
+   "number": 2,
+   "clash": "shen",
+   "combine": "hai",
+   "combineResult": "wood",
+   "destruction": "hai",
+   "hiddenCombineResult": "earth",
+   "balance": [
+    3.5,
+    8.5
+   ],
+   "harmonyCycle": "fire",
+   "relations": {
+    "hai": [
+     "6 combo",
+     "destruction"
+    ],
+    "shen": [
+     "clash"
+    ],
+    "si": [
+     "harm"
+    ],
+    "chou": [
+     "hidden combo"
+    ],
+    "wei": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "wu",
+    "jia",
+    "bing"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "wu",
+    "main": "jia",
+    "tomb": null,
+    "growth": "bing"
+   },
+   "_markers": [
+    "start-minor-spring",
+    "start-major-summer",
+    "start-year"
+   ]
+  },
+  "mao": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Flower — Yin Wood (乙 Yi)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Rabbit_(zodiac)"
+   },
+   "animalName": "rabbit",
+   "polarity": "yin",
+   "element": "wood",
+   "chinese": "卯",
+   "pinyin": "mao",
+   "name": "mao",
+   "season": "spring",
+   "group": "peak",
+   "direction": "E",
+   "palace": "zhen",
+   "month": "march",
+   "hour": "05:00-06:59",
+   "body": "liver, large intestine meridian",
+   "number": 3,
+   "clash": "you",
+   "combine": "xu",
+   "combineResult": "fire",
+   "destruction": "wu",
+   "hiddenCombineResult": "metal",
+   "balance": [
+    5.5,
+    6.5
+   ],
+   "harmonyCycle": "wood",
+   "relations": {
+    "xu": [
+     "6 combo"
+    ],
+    "chen": [
+     "harm"
+    ],
+    "you": [
+     "clash"
+    ],
+    "zi": [
+     "uncivilized penalty"
+    ],
+    "wu": [
+     "destruction"
+    ],
+    "shen": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    null,
+    "yi",
+    null
+   ],
+   "_hiddenStemsDict": {
+    "storage": null,
+    "main": "yi",
+    "tomb": null,
+    "growth": null
+   },
+   "_markers": [
+    "peak-minor-spring",
+    "peak-major-spring"
+   ]
+  },
+  "chen": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Mountain — Yang Earth (戊 Wu)",
+   "storage": "Mist — Yin Water (癸 Gui)",
+   "tomb": "Flower — Yin Wood (乙 Yi)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Dragon_(zodiac)"
+   },
+   "animalName": "dragon",
+   "polarity": "yang",
+   "element": "earth",
+   "chinese": "辰",
+   "pinyin": "chen",
+   "name": "chen",
+   "season": "spring",
+   "group": "end",
+   "direction": "SE",
+   "palace": "xun",
+   "month": "april",
+   "hour": "07:00-08:59",
+   "number": 4,
+   "body": "stomach, stomach meridian",
+   "clash": "xu",
+   "combine": "you",
+   "destruction": "chou",
+   "combineResult": "metal",
+   "balance": [
+    7.5,
+    4.5
+   ],
+   "harmonyCycle": "water",
+   "relations": {
+    "you": [
+     "6 combo"
+    ],
+    "mao": [
+     "harm"
+    ],
+    "xu": [
+     "clash"
+    ],
+    "chen": [
+     "self penalty"
+    ],
+    "chou": [
+     "destruction"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "gui",
+    "wu",
+    "yi"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "gui",
+    "main": "wu",
+    "tomb": "yi",
+    "growth": null
+   },
+   "_markers": [
+    "end-minor-spring",
+    "end-major-winter"
+   ]
+  },
+  "si": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Sun — Yang Fire (丙 Bing)",
+   "storage": "Mountain — Yang Earth (戊 Wu)",
+   "growth": "Iron — Yang Metal (庚 Geng)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Snake_(zodiac)"
+   },
+   "animalName": "snake",
+   "polarity": "yin",
+   "element": "fire",
+   "chinese": "巳",
+   "pinyin": "si",
+   "name": "si",
+   "season": "summer",
+   "group": "start",
+   "direction": "SE",
+   "palace": "xun",
+   "month": "may",
+   "hour": "09:00-10:59",
+   "body": "small intesting, spleen meridian",
+   "number": 5,
+   "destruction": "shen",
+   "clash": "hai",
+   "combine": "shen",
+   "combineResult": "water",
+   "balance": [
+    9.5,
+    2.5
+   ],
+   "harmonyCycle": "metal",
+   "relations": {
+    "shen": [
+     "6 combo",
+     "destruction"
+    ],
+    "hai": [
+     "clash"
+    ],
+    "yin": [
+     "harm"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "geng",
+    "bing",
+    "wu"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "wu",
+    "main": "bing",
+    "tomb": null,
+    "growth": "geng"
+   },
+   "_markers": [
+    "start-minor-summer",
+    "start-major-autumn"
+   ]
+  },
+  "wu": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Flame — Yin Fire (丁 Ding)",
+   "storage": "Soil — Yin Earth (己 Ji)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Horse_(zodiac)"
+   },
+   "animalName": "horse",
+   "polarity": "yang",
+   "element": "fire",
+   "chinese": "午",
+   "pinyin": "wu",
+   "name": "wu",
+   "season": "summer",
+   "group": "peak",
+   "direction": "S",
+   "palace": "li",
+   "month": "june",
+   "hour": "11:00-12:59",
+   "body": "heart, heart meridian",
+   "number": 6,
+   "clash": "zi",
+   "combine": "wei",
+   "combineResult": "fire",
+   "destruction": "mao",
+   "hiddenCombineResult": "wood",
+   "balance": [
+    11.5,
+    0.5
+   ],
+   "harmonyCycle": "fire",
+   "relations": {
+    "wei": [
+     "6 combo"
+    ],
+    "zi": [
+     "clash"
+    ],
+    "wu": [
+     "self penalty"
+    ],
+    "mao": [
+     "destruction"
+    ],
+    "chou": [
+     "harm"
+    ],
+    "hai": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    null,
+    "ding",
+    "ji"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "ji",
+    "main": "ding",
+    "tomb": null,
+    "growth": null
+   },
+   "_markers": [
+    "peak-minor-summer",
+    "peak-major-summer"
+   ]
+  },
+  "wei": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Soil — Yin Earth (己 Ji)",
+   "storage": "Flower — Yin Wood (乙 Yi)",
+   "tomb": "Flame — Yin Fire (丁 Ding)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Goat_(zodiac)"
+   },
+   "animalName": "goat",
+   "polarity": "yin",
+   "element": "earth",
+   "chinese": "未",
+   "pinyin": "chou",
+   "name": "wei",
+   "season": "summer",
+   "group": "end",
+   "direction": "SW",
+   "palace": "kun",
+   "month": "july",
+   "hour": "13:00-14:59",
+   "number": 7,
+   "body": "spleen and pancrease, small intestine meridian",
+   "clash": "chou",
+   "combine": "wu",
+   "combineResult": "fire",
+   "destruction": "xu",
+   "hiddenCombineResult": "earth",
+   "balance": [
+    10.5,
+    1.5
+   ],
+   "harmonyCycle": "wood",
+   "relations": {
+    "wu": [
+     "6 combo"
+    ],
+    "chou": [
+     "clash"
+    ],
+    "xu": [
+     "destruction"
+    ],
+    "zi": [
+     "harm"
+    ],
+    "yin": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "yi",
+    "ji",
+    "ding"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "yi",
+    "main": "ji",
+    "tomb": "ding",
+    "growth": null
+   },
+   "_markers": [
+    "end-minor-summer",
+    "end-major-spring"
+   ]
+  },
+  "shen": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Iron — Yang Metal (庚 Geng)",
+   "storage": "Mountain — Yang Earth (戊 Wu)",
+   "growth": "Ocean — Yang Water (壬 Ren)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Monkey_(zodiac)"
+   },
+   "animalName": "monkey",
+   "polarity": "yang",
+   "element": "metal",
+   "chinese": "申",
+   "pinyin": "shen",
+   "name": "shen",
+   "season": "autumn",
+   "group": "start",
+   "direction": "SW",
+   "palace": "kun",
+   "month": "august",
+   "hour": "15:00-16:59",
+   "body": "large intestine, bladder meridian",
+   "number": 8,
+   "clash": "yin",
+   "combine": "si",
+   "combineResult": "water",
+   "destruction": "si",
+   "hiddenCombineResult": "metal",
+   "balance": [
+    8.5,
+    3.5
+   ],
+   "harmonyCycle": "water",
+   "relations": {
+    "si": [
+     "6 combo",
+     "destruction"
+    ],
+    "yin": [
+     "clash"
+    ],
+    "hai": [
+     "harm"
+    ],
+    "mao": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "wu",
+    "geng",
+    "ren"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "wu",
+    "main": "geng",
+    "tomb": null,
+    "growth": "ren"
+   },
+   "_markers": [
+    "start-minor-autumn",
+    "start-major-winter"
+   ]
+  },
+  "you": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Gold — Yin Metal (辛 Xin)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Rooster_(zodiac)"
+   },
+   "animalName": "rooster",
+   "polarity": "yin",
+   "element": "metal",
+   "chinese": "酉",
+   "pinyin": "you",
+   "name": "you",
+   "season": "autumn",
+   "group": "peak",
+   "direction": "W",
+   "palace": "dui",
+   "month": "september",
+   "hour": "17:00-18:59",
+   "body": "lung, kidney meridian",
+   "number": 9,
+   "clash": "mao",
+   "combine": "chen",
+   "combineResult": "metal",
+   "destruction": "zi",
+   "balance": [
+    6.5,
+    5.5
+   ],
+   "harmonyCycle": "metal",
+   "relations": {
+    "chen": [
+     "6 combo"
+    ],
+    "xu": [
+     "harm"
+    ],
+    "mao": [
+     "clash"
+    ],
+    "you": [
+     "self penalty"
+    ],
+    "zi": [
+     "destruction"
+    ]
+   },
+   "_hiddenStemsArr": [
+    null,
+    "xin",
+    null
+   ],
+   "_hiddenStemsDict": {
+    "storage": null,
+    "main": "xin",
+    "tomb": null,
+    "growth": null
+   },
+   "_markers": [
+    "peak-minor-autumn",
+    "peak-major-autumn"
+   ]
+  },
+  "xu": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Mountain — Yang Earth (戊 Wu)",
+   "storage": "Flame — Yin Fire (丁 Ding)",
+   "tomb": "Gold — Yin Metal (辛 Xin)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Dog_(zodiac)"
+   },
+   "animalName": "dog",
+   "polarity": "yang",
+   "element": "earth",
+   "chinese": "戌",
+   "pinyin": "xu",
+   "name": "xu",
+   "season": "autumn",
+   "group": "end",
+   "direction": "NW",
+   "palace": "qian",
+   "month": "october",
+   "hour": "19:00-20:59",
+   "body": "stomach, pericardium meridian",
+   "number": 10,
+   "clash": "chen",
+   "combine": "mao",
+   "combineResult": "fire",
+   "destruction": "wei",
+   "hiddenCombineResult": "fire",
+   "balance": [
+    4.5,
+    7.5
+   ],
+   "harmonyCycle": "fire",
+   "relations": {
+    "mao": [
+     "6 combo"
+    ],
+    "you": [
+     "harm"
+    ],
+    "chen": [
+     "clash"
+    ],
+    "wei": [
+     "destruction"
+    ],
+    "zi": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    "ding",
+    "wu",
+    "xin"
+   ],
+   "_hiddenStemsDict": {
+    "storage": "ding",
+    "main": "wu",
+    "tomb": "xin",
+    "growth": null
+   },
+   "_markers": [
+    "end-minor-autumn",
+    "end-major-summer"
+   ]
+  },
+  "hai": {
+   "$header_hiddenStems": {
+    "title": "Hidden Stems"
+   },
+   "main": "Ocean — Yang Water (壬 Ren)",
+   "growth": "Tree — Yang Wood (甲 Jia)",
+   "$header_info": {
+    "title": "Details"
+   },
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Pig_(zodiac)"
+   },
+   "animalName": "pig",
+   "polarity": "yin",
+   "element": "water",
+   "chinese": "亥",
+   "pinyin": "hai",
+   "name": "hai",
+   "season": "winter",
+   "group": "start",
+   "direction": "NW",
+   "palace": "qian",
+   "month": "november",
+   "hour": "21:00-22:59",
+   "number": 11,
+   "body": "bladder, triple burner meridian",
+   "clash": "si",
+   "combine": "yin",
+   "combineResult": "wood",
+   "destruction": "yin",
+   "hiddenCombineResult": "wood",
+   "balance": [
+    2.5,
+    9.5
+   ],
+   "harmonyCycle": "wood",
+   "relations": {
+    "yin": [
+     "6 combo",
+     "destruction"
+    ],
+    "si": [
+     "clash"
+    ],
+    "hai": [
+     "self penalty"
+    ],
+    "shen": [
+     "harm"
+    ],
+    "wu": [
+     "hidden combo"
+    ]
+   },
+   "_hiddenStemsArr": [
+    null,
+    "ren",
+    "jia"
+   ],
+   "_hiddenStemsDict": {
+    "storage": null,
+    "main": "ren",
+    "tomb": null,
+    "growth": "jia"
+   },
+   "_markers": [
+    "start-minor-winter",
+    "start-major-spring"
+   ]
+  }
+ },
+ "dms": {
+  "jia": {
+   "stemsToGods": {
+    "jia": "f",
+    "yi": "rw",
+    "bing": "eg",
+    "ding": "ho",
+    "wu": "iw",
+    "ji": "dw",
+    "geng": "7k",
+    "xin": "do",
+    "ren": "ir",
+    "gui": "dr"
+   },
+   "godsToStems": {
+    "f": "jia",
+    "rw": "yi",
+    "eg": "bing",
+    "ho": "ding",
+    "iw": "wu",
+    "dw": "ji",
+    "7k": "geng",
+    "do": "xin",
+    "ir": "ren",
+    "dr": "gui"
+   }
+  },
+  "yi": {
+   "stemsToGods": {
+    "yi": "f",
+    "jia": "rw",
+    "ding": "eg",
+    "bing": "ho",
+    "ji": "iw",
+    "wu": "dw",
+    "xin": "7k",
+    "geng": "do",
+    "gui": "ir",
+    "ren": "dr"
+   },
+   "godsToStems": {
+    "f": "yi",
+    "rw": "jia",
+    "eg": "ding",
+    "ho": "bing",
+    "iw": "ji",
+    "dw": "wu",
+    "7k": "xin",
+    "do": "geng",
+    "ir": "gui",
+    "dr": "ren"
+   }
+  },
+  "bing": {
+   "stemsToGods": {
+    "bing": "f",
+    "ding": "rw",
+    "wu": "eg",
+    "ji": "ho",
+    "geng": "iw",
+    "xin": "dw",
+    "ren": "7k",
+    "gui": "do",
+    "jia": "ir",
+    "yi": "dr"
+   },
+   "godsToStems": {
+    "f": "bing",
+    "rw": "ding",
+    "eg": "wu",
+    "ho": "ji",
+    "iw": "geng",
+    "dw": "xin",
+    "7k": "ren",
+    "do": "gui",
+    "ir": "jia",
+    "dr": "yi"
+   }
+  },
+  "ding": {
+   "stemsToGods": {
+    "ding": "f",
+    "bing": "rw",
+    "ji": "eg",
+    "wu": "ho",
+    "xin": "iw",
+    "geng": "dw",
+    "gui": "7k",
+    "ren": "do",
+    "yi": "ir",
+    "jia": "dr"
+   },
+   "godsToStems": {
+    "f": "ding",
+    "rw": "bing",
+    "eg": "ji",
+    "ho": "wu",
+    "iw": "xin",
+    "dw": "geng",
+    "7k": "gui",
+    "do": "ren",
+    "ir": "yi",
+    "dr": "jia"
+   }
+  },
+  "wu": {
+   "stemsToGods": {
+    "wu": "f",
+    "ji": "rw",
+    "geng": "eg",
+    "xin": "ho",
+    "ren": "iw",
+    "gui": "dw",
+    "jia": "7k",
+    "yi": "do",
+    "bing": "ir",
+    "ding": "dr"
+   },
+   "godsToStems": {
+    "f": "wu",
+    "rw": "ji",
+    "eg": "geng",
+    "ho": "xin",
+    "iw": "ren",
+    "dw": "gui",
+    "7k": "jia",
+    "do": "yi",
+    "ir": "bing",
+    "dr": "ding"
+   }
+  },
+  "ji": {
+   "stemsToGods": {
+    "ji": "f",
+    "wu": "rw",
+    "xin": "eg",
+    "geng": "ho",
+    "gui": "iw",
+    "ren": "dw",
+    "yi": "7k",
+    "jia": "do",
+    "ding": "ir",
+    "bing": "dr"
+   },
+   "godsToStems": {
+    "f": "ji",
+    "rw": "wu",
+    "eg": "xin",
+    "ho": "geng",
+    "iw": "gui",
+    "dw": "ren",
+    "7k": "yi",
+    "do": "jia",
+    "ir": "ding",
+    "dr": "bing"
+   }
+  },
+  "geng": {
+   "stemsToGods": {
+    "geng": "f",
+    "xin": "rw",
+    "ren": "eg",
+    "gui": "ho",
+    "jia": "iw",
+    "yi": "dw",
+    "bing": "7k",
+    "ding": "do",
+    "wu": "ir",
+    "ji": "dr"
+   },
+   "godsToStems": {
+    "f": "geng",
+    "rw": "xin",
+    "eg": "ren",
+    "ho": "gui",
+    "iw": "jia",
+    "dw": "yi",
+    "7k": "bing",
+    "do": "ding",
+    "ir": "wu",
+    "dr": "ji"
+   }
+  },
+  "xin": {
+   "stemsToGods": {
+    "xin": "f",
+    "geng": "rw",
+    "gui": "eg",
+    "ren": "ho",
+    "yi": "iw",
+    "jia": "dw",
+    "ding": "7k",
+    "bing": "do",
+    "ji": "ir",
+    "wu": "dr"
+   },
+   "godsToStems": {
+    "f": "xin",
+    "rw": "geng",
+    "eg": "gui",
+    "ho": "ren",
+    "iw": "yi",
+    "dw": "jia",
+    "7k": "ding",
+    "do": "bing",
+    "ir": "ji",
+    "dr": "wu"
+   }
+  },
+  "ren": {
+   "stemsToGods": {
+    "ren": "f",
+    "gui": "rw",
+    "jia": "eg",
+    "yi": "ho",
+    "bing": "iw",
+    "ding": "dw",
+    "wu": "7k",
+    "ji": "do",
+    "geng": "ir",
+    "xin": "dr"
+   },
+   "godsToStems": {
+    "f": "ren",
+    "rw": "gui",
+    "eg": "jia",
+    "ho": "yi",
+    "iw": "bing",
+    "dw": "ding",
+    "7k": "wu",
+    "do": "ji",
+    "ir": "geng",
+    "dr": "xin"
+   }
+  },
+  "gui": {
+   "stemsToGods": {
+    "gui": "f",
+    "ren": "rw",
+    "yi": "eg",
+    "jia": "ho",
+    "ding": "iw",
+    "bing": "dw",
+    "ji": "7k",
+    "wu": "do",
+    "xin": "ir",
+    "geng": "dr"
+   },
+   "godsToStems": {
+    "f": "gui",
+    "rw": "ren",
+    "eg": "yi",
+    "ho": "jia",
+    "iw": "ding",
+    "dw": "bing",
+    "7k": "ji",
+    "do": "wu",
+    "ir": "xin",
+    "dr": "geng"
+   }
+  }
+ },
+ "lifePalaceBranch": {
+  "yin": {
+   "zi": "mao",
+   "chou": "yin",
+   "yin": "chou",
+   "mao": "zi",
+   "chen": "hai",
+   "si": "xu",
+   "wu": "you",
+   "wei": "shen",
+   "shen": "wei",
+   "you": "wu",
+   "xu": "si",
+   "hai": "chen"
+  },
+  "mao": {
+   "zi": "yin",
+   "chou": "chou",
+   "yin": "zi",
+   "mao": "hai",
+   "chen": "xu",
+   "si": "you",
+   "wu": "shen",
+   "wei": "wei",
+   "shen": "wu",
+   "you": "si",
+   "xu": "chen",
+   "hai": "mao"
+  },
+  "chen": {
+   "zi": "chou",
+   "chou": "zi",
+   "yin": "hai",
+   "mao": "xu",
+   "chen": "you",
+   "si": "shen",
+   "wu": "wei",
+   "wei": "wu",
+   "shen": "si",
+   "you": "chen",
+   "xu": "mao",
+   "hai": "yin"
+  },
+  "si": {
+   "zi": "zi",
+   "chou": "hai",
+   "yin": "xu",
+   "mao": "you",
+   "chen": "shen",
+   "si": "wei",
+   "wu": "wu",
+   "wei": "si",
+   "shen": "chen",
+   "you": "mao",
+   "xu": "yin",
+   "hai": "chou"
+  },
+  "wu": {
+   "zi": "hai",
+   "chou": "xu",
+   "yin": "you",
+   "mao": "shen",
+   "chen": "wei",
+   "si": "wu",
+   "wu": "si",
+   "wei": "chen",
+   "shen": "mao",
+   "you": "yin",
+   "xu": "chou",
+   "hai": "zi"
+  },
+  "wei": {
+   "zi": "xu",
+   "chou": "you",
+   "yin": "shen",
+   "mao": "wei",
+   "chen": "wu",
+   "si": "si",
+   "wu": "chen",
+   "wei": "mao",
+   "shen": "yin",
+   "you": "chou",
+   "xu": "zi",
+   "hai": "hai"
+  },
+  "shen": {
+   "zi": "you",
+   "chou": "shen",
+   "yin": "wei",
+   "mao": "wu",
+   "chen": "si",
+   "si": "chen",
+   "wu": "mao",
+   "wei": "yin",
+   "shen": "chou",
+   "you": "zi",
+   "xu": "hai",
+   "hai": "xu"
+  },
+  "you": {
+   "zi": "shen",
+   "chou": "wei",
+   "yin": "wu",
+   "mao": "si",
+   "chen": "chen",
+   "si": "mao",
+   "wu": "yin",
+   "wei": "chou",
+   "shen": "zi",
+   "you": "hai",
+   "xu": "xu",
+   "hai": "you"
+  },
+  "xu": {
+   "zi": "wei",
+   "chou": "wu",
+   "yin": "si",
+   "mao": "chen",
+   "chen": "mao",
+   "si": "yin",
+   "wu": "chou",
+   "wei": "zi",
+   "shen": "hai",
+   "you": "xu",
+   "xu": "you",
+   "hai": "shen"
+  },
+  "hai": {
+   "zi": "wu",
+   "chou": "si",
+   "yin": "chen",
+   "mao": "mao",
+   "chen": "yin",
+   "si": "chou",
+   "wu": "zi",
+   "wei": "hai",
+   "shen": "xu",
+   "you": "you",
+   "xu": "shen",
+   "hai": "wei"
+  },
+  "zi": {
+   "zi": "si",
+   "chou": "chen",
+   "yin": "mao",
+   "mao": "yin",
+   "chen": "chou",
+   "si": "zi",
+   "wu": "hai",
+   "wei": "xu",
+   "shen": "you",
+   "you": "shen",
+   "xu": "wei",
+   "hai": "wu"
+  },
+  "chou": {
+   "zi": "chen",
+   "chou": "mao",
+   "yin": "yin",
+   "mao": "chou",
+   "chen": "zi",
+   "si": "hai",
+   "wu": "xu",
+   "wei": "you",
+   "shen": "shen",
+   "you": "wei",
+   "xu": "wu",
+   "hai": "si"
+  }
+ },
+ "lifePalaceStem": {
+  "jia": {
+   "yin": "bing",
+   "mao": "ding",
+   "chen": "wu",
+   "si": "ji",
+   "wu": "geng",
+   "wei": "xin",
+   "shen": "ren",
+   "you": "gui",
+   "xu": "jia",
+   "hai": "yi",
+   "zi": "bing",
+   "chou": "ding"
+  },
+  "ji": {
+   "yin": "bing",
+   "mao": "ding",
+   "chen": "wu",
+   "si": "ji",
+   "wu": "geng",
+   "wei": "xin",
+   "shen": "ren",
+   "you": "gui",
+   "xu": "jia",
+   "hai": "yi",
+   "zi": "bing",
+   "chou": "ding"
+  },
+  "yi": {
+   "yin": "wu",
+   "mao": "ji",
+   "chen": "geng",
+   "si": "xin",
+   "wu": "ren",
+   "wei": "gui",
+   "shen": "jia",
+   "you": "yi",
+   "xu": "bing",
+   "hai": "ding",
+   "zi": "wu",
+   "chou": "ji"
+  },
+  "geng": {
+   "yin": "wu",
+   "mao": "ji",
+   "chen": "geng",
+   "si": "xin",
+   "wu": "ren",
+   "wei": "gui",
+   "shen": "jia",
+   "you": "yi",
+   "xu": "bing",
+   "hai": "ding",
+   "zi": "wu",
+   "chou": "ji"
+  },
+  "bing": {
+   "yin": "geng",
+   "mao": "xin",
+   "chen": "ren",
+   "si": "gui",
+   "wu": "jia",
+   "wei": "yi",
+   "shen": "bing",
+   "you": "ding",
+   "xu": "wu",
+   "hai": "ji",
+   "zi": "geng",
+   "chou": "xin"
+  },
+  "xin": {
+   "yin": "geng",
+   "mao": "xin",
+   "chen": "ren",
+   "si": "gui",
+   "wu": "jia",
+   "wei": "yi",
+   "shen": "bing",
+   "you": "ding",
+   "xu": "wu",
+   "hai": "ji",
+   "zi": "geng",
+   "chou": "xin"
+  },
+  "ding": {
+   "yin": "ren",
+   "mao": "gui",
+   "chen": "jia",
+   "si": "yi",
+   "wu": "bing",
+   "wei": "ding",
+   "shen": "wu",
+   "you": "ji",
+   "xu": "geng",
+   "hai": "xin",
+   "zi": "ren",
+   "chou": "gui"
+  },
+  "ren": {
+   "yin": "ren",
+   "mao": "gui",
+   "chen": "jia",
+   "si": "yi",
+   "wu": "bing",
+   "wei": "ding",
+   "shen": "wu",
+   "you": "ji",
+   "xu": "geng",
+   "hai": "xin",
+   "zi": "ren",
+   "chou": "gui"
+  },
+  "wu": {
+   "yin": "jia",
+   "mao": "yi",
+   "chen": "bing",
+   "si": "ding",
+   "wu": "wu",
+   "wei": "ji",
+   "shen": "geng",
+   "you": "xin",
+   "xu": "ren",
+   "hai": "gui",
+   "zi": "jia",
+   "chou": "yi"
+  },
+  "gui": {
+   "yin": "jia",
+   "mao": "yi",
+   "chen": "bing",
+   "si": "ding",
+   "wu": "wu",
+   "wei": "ji",
+   "shen": "geng",
+   "you": "xin",
+   "xu": "ren",
+   "hai": "gui",
+   "zi": "jia",
+   "chou": "yi"
+  }
+ },
+ "scores": {
+  "multiplier": {
+   "stem": 0.6,
+   "main": 1,
+   "storage": 0.4,
+   "tomb": 0.4,
+   "growth": 0.4
+  },
+  "branchMultipliers": {
+   "zi": {
+    "gui": 1
+   },
+   "chou": {
+    "xin": 0.4,
+    "ji": 1,
+    "gui": 0.4
+   },
+   "yin": {
+    "wu": 0.4,
+    "jia": 1,
+    "bing": 0.4
+   },
+   "mao": {
+    "yi": 1
+   },
+   "chen": {
+    "gui": 0.4,
+    "wu": 1,
+    "yi": 0.4
+   },
+   "si": {
+    "geng": 0.4,
+    "bing": 1,
+    "wu": 0.4
+   },
+   "wu": {
+    "ding": 1,
+    "ji": 0.4
+   },
+   "wei": {
+    "yi": 0.4,
+    "ji": 1,
+    "ding": 0.4
+   },
+   "shen": {
+    "wu": 0.4,
+    "geng": 1,
+    "ren": 0.4
+   },
+   "you": {
+    "xin": 1
+   },
+   "xu": {
+    "ding": 0.4,
+    "wu": 1,
+    "xin": 0.4
+   },
+   "hai": {
+    "ren": 1,
+    "jia": 0.4
+   }
+  },
+  "comboMultiplier": {
+   "stem": 0.6,
+   "direction": 1.6,
+   "harmony": 1.6,
+   "halfHarmony": 1.3,
+   "branchCombo": 1
+  },
+  "stemWeights": {
+   "jia": {
+    "zi": 9,
+    "chou": 10,
+    "yin": 11,
+    "mao": 12,
+    "chen": 11,
+    "si": 10,
+    "wu": 9,
+    "wei": 8,
+    "shen": 7,
+    "you": 6,
+    "xu": 7,
+    "hai": 8
+   },
+   "yi": {
+    "zi": 10,
+    "chou": 11,
+    "yin": 12,
+    "mao": 11,
+    "chen": 10,
+    "si": 9,
+    "wu": 8,
+    "wei": 7,
+    "shen": 6,
+    "you": 7,
+    "xu": 8,
+    "hai": 9
+   },
+   "bing": {
+    "zi": 6,
+    "chou": 7,
+    "yin": 8,
+    "mao": 9,
+    "chen": 10,
+    "si": 11,
+    "wu": 12,
+    "wei": 11,
+    "shen": 10,
+    "you": 9,
+    "xu": 8,
+    "hai": 7
+   },
+   "ding": {
+    "zi": 7,
+    "chou": 8,
+    "yin": 9,
+    "mao": 10,
+    "chen": 11,
+    "si": 12,
+    "wu": 11,
+    "wei": 10,
+    "shen": 9,
+    "you": 8,
+    "xu": 7,
+    "hai": 6
+   },
+   "wu": {
+    "zi": 6,
+    "chou": 7,
+    "yin": 8,
+    "mao": 9,
+    "chen": 10,
+    "si": 11,
+    "wu": 12,
+    "wei": 11,
+    "shen": 10,
+    "you": 9,
+    "xu": 8,
+    "hai": 7
+   },
+   "ji": {
+    "zi": 7,
+    "chou": 8,
+    "yin": 9,
+    "mao": 10,
+    "chen": 11,
+    "si": 12,
+    "wu": 11,
+    "wei": 10,
+    "shen": 9,
+    "you": 8,
+    "xu": 7,
+    "hai": 6
+   },
+   "geng": {
+    "zi": 9,
+    "chou": 8,
+    "yin": 7,
+    "mao": 6,
+    "chen": 7,
+    "si": 8,
+    "wu": 9,
+    "wei": 10,
+    "shen": 11,
+    "you": 12,
+    "xu": 11,
+    "hai": 10
+   },
+   "xin": {
+    "zi": 8,
+    "chou": 7,
+    "yin": 6,
+    "mao": 7,
+    "chen": 8,
+    "si": 9,
+    "wu": 10,
+    "wei": 11,
+    "shen": 12,
+    "you": 11,
+    "xu": 10,
+    "hai": 9
+   },
+   "ren": {
+    "zi": 12,
+    "chou": 11,
+    "yin": 10,
+    "mao": 9,
+    "chen": 8,
+    "si": 7,
+    "wu": 6,
+    "wei": 7,
+    "shen": 8,
+    "you": 9,
+    "xu": 10,
+    "hai": 11
+   },
+   "gui": {
+    "zi": 11,
+    "chou": 10,
+    "yin": 9,
+    "mao": 8,
+    "chen": 7,
+    "si": 6,
+    "wu": 7,
+    "wei": 8,
+    "shen": 9,
+    "you": 10,
+    "xu": 11,
+    "hai": 12
+   }
+  }
+ },
+ "dayStemAux": {
+  "nobleman": [
+   [
+    "wei",
+    "chou"
+   ],
+   [
+    "shen",
+    "zi"
+   ],
+   [
+    "you",
+    "hai"
+   ],
+   [
+    "you",
+    "hai"
+   ],
+   [
+    "chou",
+    "wei"
+   ],
+   [
+    "zi",
+    "shen"
+   ],
+   [
+    "chou",
+    "wei"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "mao",
+    "si"
+   ],
+   [
+    "mao",
+    "si"
+   ]
+  ],
+  "saltPool": [
+   "zi",
+   "zi",
+   "mao",
+   "mao",
+   [
+    "mao",
+    "you"
+   ],
+   [
+    "mao",
+    "you"
+   ],
+   "wu",
+   "wu",
+   "you",
+   "you"
+  ],
+  "intelligence": [
+   "si",
+   "wu",
+   "shen",
+   "you",
+   "shen",
+   "you",
+   "hai",
+   "zi",
+   "yin",
+   "mao"
+  ],
+  "thriving": [
+   "yin",
+   "mao",
+   "si",
+   "wu",
+   "si",
+   "wu",
+   "shen",
+   "chou",
+   "hai",
+   "zi"
+  ],
+  "goatBlade": [
+   "mao",
+   "yin",
+   "wu",
+   "si",
+   "wu",
+   "si",
+   "you",
+   "shen",
+   "zi",
+   "hai"
+  ],
+  "redChamber": [
+   [
+    "shen",
+    "wu"
+   ],
+   [
+    "shen",
+    "wu"
+   ],
+   "yin",
+   "wei",
+   "chen",
+   "chen",
+   "xu",
+   "you",
+   "zi",
+   "shen"
+  ],
+  "studyRoom": [
+   "hai",
+   "wu",
+   "yin",
+   "you",
+   "yin",
+   "you",
+   "si",
+   "zi",
+   "shen",
+   "mao"
+  ],
+  "cascadeClouds": [
+   "you",
+   "xu",
+   "wei",
+   "shen",
+   "si",
+   "wu",
+   "chen",
+   "mao",
+   "yin",
+   "hai"
+  ],
+  "flyingSword": [
+   "you",
+   "xu",
+   "zi",
+   "chou",
+   "zi",
+   "chou",
+   "mao",
+   "chen",
+   "wu",
+   "wei"
+  ],
+  "goldCarriage": [
+   "chen",
+   "si",
+   "wei",
+   "shen",
+   "wei",
+   "shen",
+   "xu",
+   "hai",
+   "chou",
+   "yin"
+  ],
+  "rightMeasure": [
+   "si",
+   "wei",
+   "si",
+   "wei",
+   "si",
+   "wei",
+   "hai",
+   "chou",
+   "hai",
+   "chou"
+  ],
+  "wealthStorage": [
+   "chen",
+   "chen",
+   "chou",
+   "chou",
+   "chen",
+   "chen",
+   "wei",
+   "wei",
+   "xu",
+   "xu"
+  ],
+  "skyWealth": [
+   "wu",
+   "ji",
+   "geng",
+   "xin",
+   "ren",
+   "gui",
+   "jia",
+   "yi",
+   "bing",
+   "ding"
+  ]
+ },
+ "dayBranchAux": {
+  "redMatchmaker": [
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai",
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si",
+   "chen"
+  ],
+  "elegantSeal": [
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei"
+  ],
+  "general": [
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao"
+  ],
+  "skyHorse": [
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si"
+  ],
+  "peachBlossom": [
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi"
+  ],
+  "bloodBlade": [
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si",
+   "chen",
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai"
+  ],
+  "solitude": [
+   "yin",
+   "yin",
+   "si",
+   "si",
+   "si",
+   "shen",
+   "shen",
+   "shen",
+   "hai",
+   "hai",
+   "hai",
+   "yin"
+  ],
+  "lonely": [
+   "xu",
+   "xu",
+   "chou",
+   "chou",
+   "chou",
+   "chen",
+   "chen",
+   "chen",
+   "wei",
+   "wei",
+   "wei",
+   "xu"
+  ],
+  "funeralGate": [
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou"
+  ],
+  "robbery": [
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen"
+  ],
+  "separateEdge": [
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou"
+  ],
+  "deathGod": [
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin"
+  ]
+ },
+ "yearBranchAux": {
+  "skyHorse": [
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin",
+   "hai",
+   "shen",
+   "si",
+   "yin"
+  ],
+  "dragonVirtue": [
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu"
+  ],
+  "goldLock": [
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao"
+  ],
+  "skyDog": [
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you"
+  ],
+  "hook": [
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin"
+  ],
+  "bigDelight": [
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si"
+  ],
+  "fiveGhost": [
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao"
+  ],
+  "peachBlossom": [
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi"
+  ],
+  "bloodBlade": [
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si",
+   "chen",
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai"
+  ],
+  "skyDipper": [
+   "chen",
+   "mao",
+   "yin",
+   "chou",
+   "zi",
+   "hai",
+   "xu",
+   "you",
+   "shen",
+   "wei",
+   "wu",
+   "si"
+  ],
+  "yearPenalty": [
+   "mao",
+   "xu",
+   "si",
+   "zi",
+   "chen",
+   "shen",
+   "wu",
+   "chou",
+   "yin",
+   "you",
+   "wei",
+   "hai"
+  ],
+  "yearBreaker": [
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si"
+  ],
+  "disasterSha": [
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu",
+   "wei",
+   "chen",
+   "chou",
+   "xu"
+  ],
+  "calamitySha": [
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you",
+   "wu",
+   "mao",
+   "zi",
+   "you"
+  ],
+  "sickness": [
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu"
+  ],
+  "fortuneVirtue": [
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen"
+  ],
+  "whiteTiger": [
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei"
+  ],
+  "litigation": [
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin",
+   "mao"
+  ],
+  "moon": [
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi",
+   "chou",
+   "yin"
+  ],
+  "sun": [
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai",
+   "zi"
+  ],
+  "grandDuke": [
+   "zi",
+   "chou",
+   "yin",
+   "mao",
+   "chen",
+   "si",
+   "wu",
+   "wei",
+   "shen",
+   "you",
+   "xu",
+   "hai"
+  ]
+ },
+ "monthBranchAux": {
+  "heavenRelief": [
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "jia",
+    "zi"
+   ]
+  ],
+  "heavenHappiness": [
+   [
+    null,
+    "wei"
+   ],
+   [
+    null,
+    "wei"
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "wei"
+   ]
+  ],
+  "heavenVirtueNoble": [
+   [
+    null,
+    "si"
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "ding",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "xin",
+    null
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "gui",
+    null
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "yi",
+    null
+   ]
+  ],
+  "monthlyVirtueNoble": [
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ]
+  ],
+  "monthEmptiness": [
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ],
+   [
+    "bing",
+    null
+   ],
+   [
+    "jia",
+    null
+   ],
+   [
+    "ren",
+    null
+   ],
+   [
+    "geng",
+    null
+   ]
+  ],
+  "fiveProsperity": [
+   [
+    "ji",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    "ji",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    "ji",
+    null
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "yin"
+   ]
+  ],
+  "thrivingDay": [
+   [
+    null,
+    "chen"
+   ],
+   [
+    null,
+    "you"
+   ],
+   [
+    null,
+    "wu"
+   ],
+   [
+    null,
+    "hai"
+   ],
+   [
+    null,
+    "shen"
+   ],
+   [
+    null,
+    "chou"
+   ],
+   [
+    null,
+    ""
+   ],
+   [
+    null,
+    "xu"
+   ],
+   [
+    null,
+    "mao"
+   ],
+   [
+    null,
+    "zi"
+   ],
+   [
+    null,
+    "si"
+   ],
+   [
+    null,
+    "yin"
+   ],
+   [
+    null,
+    "wei"
+   ]
+  ]
+ },
+ "specialDayMasterAux": {
+  "intellect": [
+   [
+    "wu",
+    "zi"
+   ],
+   [
+    "ji",
+    "chou"
+   ],
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "ji",
+    "wei"
+   ]
+  ],
+  "strategist": [
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "wu",
+    "zi"
+   ]
+  ],
+  "smartTen": [
+   [
+    "jia",
+    "chen"
+   ],
+   [
+    "yi",
+    "hai"
+   ],
+   [
+    "bing",
+    "chen"
+   ],
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "wu",
+    "wu"
+   ],
+   [
+    "geng",
+    "xu"
+   ],
+   [
+    "geng",
+    "yin"
+   ],
+   [
+    "xin",
+    "hai"
+   ],
+   [
+    "ren",
+    "yin"
+   ],
+   [
+    "gui",
+    "wei"
+   ]
+  ],
+  "fortuneNoble": [
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "yi",
+    "chou"
+   ],
+   [
+    "yi",
+    "hai"
+   ],
+   [
+    "bing",
+    "zi"
+   ],
+   [
+    "bing",
+    "xu"
+   ],
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "ji",
+    "wei"
+   ],
+   [
+    "geng",
+    "wu"
+   ],
+   [
+    "xin",
+    "si"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "gui",
+    "mao"
+   ]
+  ],
+  "dayNoble": [
+   [
+    "ding",
+    "you"
+   ],
+   [
+    "ding",
+    "hai"
+   ],
+   [
+    "gui",
+    "mao"
+   ],
+   [
+    "gui",
+    "si"
+   ]
+  ],
+  "dayVirtue": [
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "bing",
+    "chen"
+   ],
+   [
+    "wu",
+    "chen"
+   ],
+   [
+    "geng",
+    "chen"
+   ],
+   [
+    "ren",
+    "xu"
+   ]
+  ],
+  "advancement": [
+   [
+    "jia",
+    "zi"
+   ],
+   [
+    "jia",
+    "wu"
+   ],
+   [
+    "ji",
+    "mao"
+   ],
+   [
+    "ji",
+    "you"
+   ]
+  ],
+  "retreat": [
+   [
+    "ding",
+    "chou"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "ren",
+    "xu"
+   ]
+  ],
+  "solitaryPhoenix": [
+   [
+    "jia",
+    "yin"
+   ],
+   [
+    "yi",
+    "si"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "ding",
+    "si"
+   ],
+   [
+    "wu",
+    "wu"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "xin",
+    "hai"
+   ],
+   [
+    "ren",
+    "zi"
+   ],
+   [
+    "gui",
+    "si"
+   ]
+  ]
+ },
+ "specialPillarAux": {
+  "redLight": [
+   [
+    "bing",
+    "yin"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "gui",
+    "wei"
+   ],
+   [
+    "xin",
+    "wei"
+   ],
+   [
+    "yi",
+    "wei"
+   ],
+   [
+    "jia",
+    "xu"
+   ],
+   [
+    "geng",
+    "xu"
+   ]
+  ],
+  "yinYangMismatch": [
+   [
+    "xin",
+    "mao"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "gui",
+    "si"
+   ],
+   [
+    "bing",
+    "wu"
+   ],
+   [
+    "ding",
+    "wei"
+   ],
+   [
+    "wu",
+    "shen"
+   ],
+   [
+    "xin",
+    "you"
+   ],
+   [
+    "ren",
+    "xu"
+   ],
+   [
+    "gui",
+    "hai"
+   ],
+   [
+    "bing",
+    "zi"
+   ],
+   [
+    "wu",
+    "yin"
+   ],
+   [
+    "ding",
+    "chou"
+   ]
+  ],
+  "commander": [
+   [
+    "wu",
+    "chen"
+   ],
+   [
+    "wu",
+    "xu"
+   ],
+   [
+    "geng",
+    "chen"
+   ],
+   [
+    "geng",
+    "xu"
+   ],
+   [
+    "ren",
+    "chen"
+   ],
+   [
+    "ren",
+    "xu"
+   ]
+  ]
+ },
+ "auxDetails": {
+  "specialDayMasterAux": {
+   "intellect": {
+    "$dict_noun": [
+     "excellence",
+     "progression",
+     "truth"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "intellect",
+    "chinese": "",
+    "icon": "format-italic",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "One born with this day pillar will excel in school and have high mental processing powers."
+   },
+   "strategist": {
+    "$dict_noun": [
+     "plan",
+     "execution",
+     "strategey"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "strategist",
+    "chinese": "",
+    "icon": "android-studio",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "One born with this day pillar will be masterminds in planning and execution."
+   },
+   "smartTen": {
+    "$dict_noun": [
+     "clarity",
+     "flexibility",
+     "wit"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "smartTen",
+    "chinese": "",
+    "icon": "format-color-highlight",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "One born with this day pillar will possess clear and flexible minds."
+   },
+   "fortuneNoble": {
+    "$dict_noun": [
+     "fortune",
+     "longevity",
+     "prosperity"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "fortuneNoble",
+    "chinese": "",
+    "icon": "face-profile",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Life will have fame and fortune. One will live long and prosperous."
+   },
+   "dayNoble": {
+    "$dict_noun": [
+     "kindness",
+     "ethics",
+     "justice"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "dayNoble",
+    "chinese": "",
+    "icon": "face-profile",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Kind and ethical. Follows the rules. [Ideal if Direct Wealth, Eating God, or Resource]"
+   },
+   "dayVirtue": {
+    "$dict_noun": [
+     "communication",
+     "relationships",
+     "others"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "dayVirtue",
+    "chinese": "",
+    "icon": "egg-easter",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Understands the problems of others. Good at commuincating emotions and connecting with friends."
+   },
+   "advancement": {
+    "$dict_noun": [
+     "results",
+     "action",
+     "direction"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "advancement",
+    "chinese": "",
+    "icon": "chart-line-variant",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Strives towards results and action.  Progresses with stability. Decisive and independent."
+   },
+   "retreat": {
+    "$dict_noun": [
+     "deceleration",
+     "setbacks",
+     "hindrance"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "retreat",
+    "chinese": "",
+    "icon": "ember",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to setbacks, career hindrance. Slow to progress. Requires more work than average."
+   },
+   "solitaryPhoenix": {
+    "$dict_noun": [
+     "solitude",
+     "depth",
+     "transformation"
+    ],
+    "ref": "specialDayMasterAux",
+    "name": "solitaryPhoenix",
+    "chinese": "",
+    "icon": "language-swift",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Difficulty with relationships, due to Companion star found in Day Branch."
+   }
+  },
+  "specialPillarAux": {
+   "redLight": {
+    "$dict_noun": [
+     "relationships",
+     "volatility"
+    ],
+    "ref": "specialPillarAux",
+    "name": "redLight",
+    "chinese": "",
+    "icon": "flare",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "One with red light pillars often have problems with stable relationships.  The effect is greatest if this pillar is found in the Day."
+   },
+   "yinYangMismatch": {
+    "$dict_noun": [
+     "relationships",
+     "mismatch"
+    ],
+    "ref": "specialPillarAux",
+    "name": "yinYangMismatch",
+    "chinese": "",
+    "icon": "yin-yang",
+    "isDefaultSelected": false,
+    "rating": 0,
+    "desc": "The effects are stronger if this pillar is found in the Day. In the old days, a chart with more than one such pillar tend towards arranged marriages."
+   },
+   "commander": {
+    "$dict_noun": [
+     "leadership",
+     "success",
+     "ambition"
+    ],
+    "ref": "specialPillarAux",
+    "name": "commander",
+    "chinese": "",
+    "icon": "chess-king",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "One who posesses this pillar has the ability to achieve enormous success due to their ambitious nature.  These people possess high degrees of drive and forward-looking motivations.  The effect is greatest if this pillar is found in the Day."
+   }
+  },
+  "dayStemAux": {
+   "nobleman": {
+    "$dict_noun": [
+     "helper",
+     "savior",
+     "mentor"
+    ],
+    "ref": "dayStemAux",
+    "name": "nobleman",
+    "chinese": "天乙貴人",
+    "icon": "face",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Helpful person in your life – one who will lift you out of troubles. The most auspicious star, especially if found in natal chart."
+   },
+   "saltPool": {
+    "$dict_noun": [
+     "lust",
+     "passion",
+     "romance"
+    ],
+    "ref": "dayStemAux",
+    "name": "saltPool",
+    "chinese": "咸池",
+    "icon": "pool",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Lust, attraction, charisma.  Internal romance if found in year/month.  External romance if found in day/hour."
+   },
+   "intelligence": {
+    "$dict_noun": [
+     "intuition",
+     "problem solving",
+     "abstraction"
+    ],
+    "ref": "dayStemAux",
+    "name": "intelligence",
+    "chinese": "文昌",
+    "icon": "school",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Intuition, pattern recognition, fast learning. Also known as Intelligence Star."
+   },
+   "thriving": {
+    "$dict_noun": [
+     "drive",
+     "willpower",
+     "determination",
+     "successs"
+    ],
+    "ref": "dayStemAux",
+    "name": "thriving",
+    "chinese": "祿神",
+    "icon": "hexagram",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Filled with energy, encouraged to succeed.  If Weak DM: success comes easily.  If Strong DM: easy to be lazy."
+   },
+   "goatBlade": {
+    "$dict_noun": [
+     "motivation",
+     "courage",
+     "volatility",
+     "aggression",
+     "injury"
+    ],
+    "ref": "dayStemAux",
+    "name": "goatBlade",
+    "chinese": "羊刃",
+    "icon": "knife",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Bravery and courage. Intense with strong motivations. This is a Companion star; therefore, brings confidence to ego. Works well with 7Killings to achieve greatness. Prone to injuries due to aggressive nature."
+   },
+   "redChamber": {
+    "$dict_noun": [
+     "romance",
+     "lust",
+     "infidelity"
+    ],
+    "ref": "dayStemAux",
+    "name": "redChamber",
+    "chinese": "红艳",
+    "icon": "heart-multiple",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Passion, lust, infidelity, affairs, romance. [Most relevant if in Day Branch]"
+   },
+   "studyRoom": {
+    "$dict_noun": [
+     "learning",
+     "persistence",
+     "knowledge"
+    ],
+    "ref": "dayStemAux",
+    "name": "studyRoom",
+    "chinese": "學堂",
+    "icon": "book-open",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Knowledge, studies, learning, persistence. Also known as Literacy."
+   },
+   "cascadeClouds": {
+    "$dict_noun": [
+     "revenge",
+     "vengeance",
+     "bitterness"
+    ],
+    "ref": "dayStemAux",
+    "name": "cascadeClouds",
+    "chinese": "流霞",
+    "icon": "cloud-outline",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Revenge, disasters, trauama, or miscarriage."
+   },
+   "flyingSword": {
+    "$dict_noun": [
+     "movement",
+     "speed",
+     "surprise",
+     "consequences"
+    ],
+    "ref": "dayStemAux",
+    "name": "flyingSword",
+    "chinese": "飛刃",
+    "icon": "pinwheel",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Things move fast. Prone to surprising consequences."
+   },
+   "goldCarriage": {
+    "$dict_noun": [
+     "partner",
+     "wealth",
+     "relationships",
+     "meetings"
+    ],
+    "ref": "dayStemAux",
+    "name": "goldCarriage",
+    "chinese": "金輿",
+    "icon": "caravan",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Easily meet a partner who brings wealth or support. Good, proper relationships with others. [Ideally a wealth star with Day Branch being Useful God]"
+   },
+   "rightMeasure": {
+    "$dict_noun": [
+     "respect",
+     "guidelines",
+     "laws"
+    ],
+    "ref": "dayStemAux",
+    "name": "rightMeasure",
+    "chinese": "节度",
+    "icon": "scale-balance",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Respect for others.  Follows guidelines and laws."
+   },
+   "wealthStorage": {
+    "$dict_noun": [
+     "savings",
+     "wealth",
+     "frugality"
+    ],
+    "ref": "dayStemAux",
+    "name": "wealthStorage",
+    "chinese": "财库",
+    "icon": "briefcase",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Able to keep and save money."
+   },
+   "skyWealth": {
+    "$dict_noun": [
+     "lottery",
+     "windfall",
+     "rewards"
+    ],
+    "ref": "dayStemAux",
+    "name": "skyWealth",
+    "chinese": "天财",
+    "icon": "cash",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Prosperity. Enhanced if found in Luck or Annual Pillar. Ideal if Strong DM."
+   }
+  },
+  "dayBranchAux": {
+   "redMatchmaker": {
+    "$dict_noun": [
+     "romance",
+     "joy",
+     "harmony",
+     "fortune"
+    ],
+    "ref": "dayBranchAux",
+    "name": "redMatchmaker",
+    "chinese": "紅鸞",
+    "icon": "account-multiple",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Bright future, enhances positive aura. Positive surroundings and happy events."
+   },
+   "elegantSeal": {
+    "$dict_noun": [
+     "artist",
+     "talent",
+     "creativity",
+     "learning"
+    ],
+    "ref": "dayBranchAux",
+    "name": "elegantSeal",
+    "chinese": "华盖",
+    "icon": "brush",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Artistic talents, creative productions. Enhanced learning capabilities, especially if it is a Resource."
+   },
+   "general": {
+    "$dict_noun": [
+     "leadership",
+     "organization",
+     "success",
+     "influence"
+    ],
+    "ref": "dayBranchAux",
+    "name": "general",
+    "chinese": "將星",
+    "icon": "chess-rook",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Capable of leading an organization to success. Can spread influence."
+   },
+   "skyHorse": {
+    "$dict_noun": [
+     "change",
+     "movement",
+     "travel",
+     "speed"
+    ],
+    "ref": "dayBranchAux",
+    "name": "skyHorse",
+    "chinese": "驛馬",
+    "icon": "donkey",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Change, movement, or travel."
+   },
+   "peachBlossom": {
+    "$dict_noun": [
+     "charisma",
+     "appearance",
+     "aura",
+     "attraction"
+    ],
+    "ref": "dayBranchAux",
+    "name": "peachBlossom",
+    "chinese": "桃花",
+    "icon": "heart",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Charisma, appearance, aura.  Easily attract others."
+   },
+   "bloodBlade": {
+    "$dict_noun": [
+     "accidents",
+     "mishaps",
+     "carelessness"
+    ],
+    "ref": "dayBranchAux",
+    "name": "bloodBlade",
+    "chinese": "血刃",
+    "icon": "needle",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to accidents, mishaps, falls, cuts, surgeries."
+   },
+   "solitude": {
+    "$dict_noun": [
+     "self-reflection",
+     "alone",
+     "internal"
+    ],
+    "ref": "dayBranchAux",
+    "name": "solitude",
+    "chinese": "孤辰",
+    "icon": "candle",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Preference to be alone. Can self-reflect. Good for pondering. Dislikes big groups of people."
+   },
+   "lonely": {
+    "$dict_noun": [
+     "awareness",
+     "spiritual",
+     "philosophy"
+    ],
+    "ref": "dayBranchAux",
+    "name": "lonely",
+    "chinese": "寡宿",
+    "icon": "feather",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Philosophical, spiritual, can gain enlightenment. Prefers to be alone."
+   },
+   "funeralGate": {
+    "$dict_noun": [
+     "yin",
+     "energies",
+     "spirits",
+     "hospitals",
+     "funerals"
+    ],
+    "ref": "dayBranchAux",
+    "name": "funeralGate",
+    "chinese": "喪門",
+    "icon": "gate",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to attracting energies from funerals, hospitals, and spirits."
+   },
+   "robbery": {
+    "$dict_noun": [
+     "impatience",
+     "intense",
+     "demand",
+     "take"
+    ],
+    "ref": "dayBranchAux",
+    "name": "robbery",
+    "chinese": "劫煞",
+    "icon": "account-arrow-right",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Impatient, difficult to deal with. Attracts others who are intense and demanding. Possible betrayal by friends."
+   },
+   "separateEdge": {
+    "$dict_noun": [
+     "disputes",
+     "entanglements",
+     "separation",
+     "society"
+    ],
+    "ref": "dayBranchAux",
+    "name": "separateEdge",
+    "chinese": "隔角",
+    "icon": "scissors-cutting",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Disputes and entanglements. Possible separation from society."
+   },
+   "deathGod": {
+    "$dict_noun": [
+     "attention",
+     "details",
+     "power",
+     "shallow",
+     "spendthrift",
+     "collateral damage"
+    ],
+    "ref": "dayBranchAux",
+    "name": "deathGod",
+    "chinese": "亡神",
+    "icon": "death-star",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Dedicated to work, attention to detail. If useful star: power and fame.  If not useful star: shallow, spendthrift. Possibly cause harm to others."
+   }
+  },
+  "monthBranchAux": {
+   "heavenRelief": {
+    "$dict_noun": [
+     "protection",
+     "get-out-of-jail",
+     "relief"
+    ],
+    "ref": "monthBranchAux",
+    "name": "heavenRelief",
+    "chinese": "天恕",
+    "icon": "beach",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Protection, even if one has done something wrong. \"Get out of jail\" card."
+   },
+   "heavenHappiness": {
+    "$dict_noun": [
+     "future",
+     "positivity",
+     "optimism",
+     "focused",
+     "joyful"
+    ],
+    "ref": "monthBranchAux",
+    "name": "heavenHappiness",
+    "chinese": "天喜",
+    "icon": "emoticon-excited-outline",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Forward-looking, positive outlook on life. Will not involve in trivial or petty disagreements. Will live a joyful life."
+   },
+   "heavenVirtueNoble": {
+    "$dict_noun": [
+     "strong",
+     "fatherly",
+     "protection",
+     "earnest",
+     "focused"
+    ],
+    "ref": "monthBranchAux",
+    "name": "heavenVirtueNoble",
+    "chinese": "天德贵人",
+    "icon": "face-profile",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Strong, fatherly figure of protection. One is earnest and focused."
+   },
+   "monthlyVirtueNoble": {
+    "$dict_noun": [
+     "soft",
+     "motherly",
+     "protection",
+     "generosity",
+     "compassion"
+    ],
+    "ref": "monthBranchAux",
+    "name": "monthlyVirtueNoble",
+    "chinese": "月德贵人",
+    "icon": "face-profile",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Soft, motherly figure of protection. One is considerate and generous."
+   },
+   "monthEmptiness": {
+    "$dict_noun": [
+     "wandering",
+     "uncertainty",
+     "path"
+    ],
+    "ref": "monthBranchAux",
+    "name": "monthEmptiness",
+    "chinese": "月空",
+    "icon": "battery-outline",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Wandering for direction in life, uncertain about one's future path."
+   },
+   "fiveProsperity": {
+    "$dict_noun": [
+     "career",
+     "fortune",
+     "relationships",
+     "politics",
+     "motivation"
+    ],
+    "ref": "monthBranchAux",
+    "name": "fiveProsperity",
+    "chinese": "五富",
+    "icon": "cash-usd",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Symbolizes wealth, fortune, and probability of a good political career."
+   },
+   "thrivingDay": {
+    "$dict_noun": [
+     "persistence",
+     "willpower",
+     "break",
+     "obstacles",
+     "energy"
+    ],
+    "ref": "monthBranchAux",
+    "name": "thrivingDay",
+    "chinese": "临日",
+    "icon": "hexagram-outline",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Energy and persistence to break through obstacles."
+   }
+  },
+  "yearBranchAux": {
+   "skyHorse": {
+    "$dict_noun": [
+     "change",
+     "movement",
+     "travel",
+     "speed"
+    ],
+    "ref": "yearBranchAux",
+    "name": "skyHorse",
+    "chinese": "驛馬",
+    "icon": "donkey",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Change, movement, or travel."
+   },
+   "dragonVirtue": {
+    "$dict_noun": [
+     "ethics",
+     "nobility",
+     "good omens"
+    ],
+    "ref": "yearBranchAux",
+    "name": "dragonVirtue",
+    "chinese": "龍德",
+    "icon": "chess-knight",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Ethical, noble, able to attract mentors and helpful people."
+   },
+   "goldLock": {
+    "$dict_noun": [
+     "expertise",
+     "decisions",
+     "career",
+     "industry"
+    ],
+    "ref": "yearBranchAux",
+    "name": "goldLock",
+    "chinese": "金匱",
+    "icon": "lock-open",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Expert in an industry. Brilliance in career aspects. Strong decision-making abilities."
+   },
+   "skyDog": {
+    "$dict_noun": [
+     "injuries",
+     "mishaps",
+     "carelessness",
+     "physical"
+    ],
+    "ref": "yearBranchAux",
+    "name": "skyDog",
+    "chinese": "天狗",
+    "icon": "dog",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Physical scars and injuries, easily gets hurt."
+   },
+   "hook": {
+    "$dict_noun": [
+     "gossip",
+     "social",
+     "lega",
+     "rumors",
+     "words"
+    ],
+    "ref": "yearBranchAux",
+    "name": "hook",
+    "chinese": "勾絞",
+    "icon": "hook",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to gossip, rumors, social, and legal troubles."
+   },
+   "bigDelight": {
+    "$dict_noun": [
+     "discord",
+     "pessimism",
+     "lack of harmony",
+     "fierce"
+    ],
+    "ref": "yearBranchAux",
+    "name": "bigDelight",
+    "chinese": "大耗",
+    "icon": "white-balance-sunny",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Inauspicious. Lack of harmony. Discord among people. Fierce negative energy."
+   },
+   "fiveGhost": {
+    "$dict_noun": [
+     "gossip",
+     "annoyance",
+     "negativity",
+     "others"
+    ],
+    "ref": "yearBranchAux",
+    "name": "fiveGhost",
+    "chinese": "五鬼",
+    "icon": "ghost",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to gossip, undesired annoyance from negative people."
+   },
+   "peachBlossom": {
+    "$dict_noun": [
+     "charisma",
+     "appearanace",
+     "aura",
+     "attraction"
+    ],
+    "ref": "yearBranchAux",
+    "name": "peachBlossom",
+    "chinese": "桃花",
+    "icon": "heart",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Charisma, appearance, aura.  Easily attract others."
+   },
+   "bloodBlade": {
+    "$dict_noun": [
+     "mishaps",
+     "injuries",
+     "accidents",
+     "cuts"
+    ],
+    "ref": "yearBranchAux",
+    "name": "bloodBlade",
+    "chinese": "血刃",
+    "icon": "needle",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to accidents, mishaps, falls, cuts, surgeries."
+   },
+   "skyDipper": {
+    "$dict_noun": [
+     "nature",
+     "order",
+     "alignment"
+    ],
+    "ref": "yearBranchAux",
+    "name": "skyDipper",
+    "chinese": "天罡",
+    "icon": "material-ui",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "One is aligned with the natural order of things."
+   },
+   "yearPenalty": {
+    "$dict_noun": [
+     "uncertainty",
+     "impediments",
+     "outcome"
+    ],
+    "ref": "yearBranchAux",
+    "name": "yearPenalty",
+    "chinese": "歲刑",
+    "icon": "wall",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Uncertain outcomes, possible impediments."
+   },
+   "yearBreaker": {
+    "$dict_noun": [
+     "spendthrift",
+     "wealth"
+    ],
+    "ref": "yearBranchAux",
+    "name": "yearBreaker",
+    "chinese": "歲破",
+    "icon": "pillar",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Money comes, money goes.  Finds it hard to save money."
+   },
+   "disasterSha": {
+    "$dict_noun": [
+     "accidents",
+     "problems",
+     "conflicts"
+    ],
+    "ref": "yearBranchAux",
+    "name": "disasterSha",
+    "chinese": "歳煞",
+    "icon": "hazard-lights",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Accidents, problems, and conflicts."
+   },
+   "calamitySha": {
+    "$dict_noun": [
+     "injuries",
+     "illness",
+     "problems"
+    ],
+    "ref": "yearBranchAux",
+    "name": "calamitySha",
+    "chinese": "災煞",
+    "icon": "meteor",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to bodily injuries, minor illness."
+   },
+   "sickness": {
+    "$dict_noun": [
+     "worry",
+     "anxiety",
+     "illness"
+    ],
+    "ref": "yearBranchAux",
+    "name": "sickness",
+    "chinese": "病符",
+    "icon": "pill",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to illness, worry, anxiety. Should take care of health and visit hospitals less often."
+   },
+   "fortuneVirtue": {
+    "$dict_noun": [
+     "positivity",
+     "protection",
+     "ethics",
+     "behavior"
+    ],
+    "ref": "yearBranchAux",
+    "name": "fortuneVirtue",
+    "chinese": "福德",
+    "icon": "cash-100",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Positivity and protection from the upper realm. Ethical and proper behavior."
+   },
+   "whiteTiger": {
+    "$dict_noun": [
+     "legal",
+     "volatility",
+     "uncertainty",
+     "catalyst",
+     "collision"
+    ],
+    "ref": "yearBranchAux",
+    "name": "whiteTiger",
+    "chinese": "白虎",
+    "icon": "cat",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Traffic accidents, legal troubles, body injury, volatile ups and downs."
+   },
+   "litigation": {
+    "$dict_noun": [
+     "disagreements",
+     "conflicts",
+     "relationships",
+     "others"
+    ],
+    "ref": "yearBranchAux",
+    "name": "litigation",
+    "chinese": "官符",
+    "icon": "gavel",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Prone to disagreements and conflicts."
+   },
+   "moon": {
+    "$dict_noun": [
+     "drive",
+     "energy",
+     "goals",
+     "plans",
+     "strategy"
+    ],
+    "ref": "yearBranchAux",
+    "name": "moon",
+    "chinese": "太陰",
+    "icon": "weather-night",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Powerful energy to drive forward and accomplish goals. Step-by-step support to gain wealth and success."
+   },
+   "sun": {
+    "$dict_noun": [
+     "sunlight",
+     "rising",
+     "darkness",
+     "change"
+    ],
+    "ref": "yearBranchAux",
+    "name": "sun",
+    "chinese": "太陽",
+    "icon": "brightness-5",
+    "isDefaultSelected": true,
+    "rating": 1,
+    "desc": "Inauspicious things turn auspicious. Negativity can be avoided."
+   },
+   "grandDuke": {
+    "$dict_noun": [
+     "dominance",
+     "year",
+     "jupiter"
+    ],
+    "ref": "yearBranchAux",
+    "name": "grandDuke",
+    "chinese": "太歳",
+    "icon": "crown",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": "Also know as the Tai Sui, this star is identical to the year pillar branch. Resonates strong energy and represents the planet of Jupiter."
+   },
+   "sittingSha": {
+    "$dict_noun": [
+     ""
+    ],
+    "ref": "yearBranchAux",
+    "name": "sittingSha",
+    "chinese": "坐煞",
+    "icon": "seat-legroom-normal",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": null
+   },
+   "facingSha": {
+    "$dict_noun": [
+     ""
+    ],
+    "ref": "yearBranchAux",
+    "name": "facingSha",
+    "chinese": "向煞",
+    "icon": "seat",
+    "isDefaultSelected": true,
+    "rating": 0,
+    "desc": null
+   }
+  }
+ },
+ "solarTerms": [
+  {
+   "num": 0,
+   "english": "start of spring",
+   "chinese": "立春",
+   "element": "wood",
+   "timing": "Feb 4 - Feb 18",
+   "branch": "yin",
+   "desc": "beginning of growth"
+  },
+  {
+   "num": 1,
+   "english": "spring showers",
+   "chinese": "雨水",
+   "element": "wood",
+   "timing": "Feb 19 - Mar 5",
+   "branch": "yin",
+   "desc": "drizzle from the skies"
+  },
+  {
+   "num": 2,
+   "english": "insects awaken",
+   "chinese": "惊蛰",
+   "element": "wood",
+   "timing": "Mar 6 - Mar 20",
+   "branch": "mao",
+   "desc": "coming to senses"
+  },
+  {
+   "num": 3,
+   "english": "spring equinox",
+   "chinese": "春分",
+   "element": "wood",
+   "timing": "Mar 21 - Apr 4",
+   "branch": "mao",
+   "desc": "equal day, equal night"
+  },
+  {
+   "num": 4,
+   "english": "bright and clear",
+   "chinese": "清明",
+   "element": "earth",
+   "timing": "Apr 5 - Apr 20",
+   "branch": "chen",
+   "desc": "warm and pure"
+  },
+  {
+   "num": 5,
+   "english": "grain rain",
+   "chinese": "谷雨",
+   "element": "earth",
+   "timing": "Apr 21 - May 5",
+   "branch": "chen",
+   "desc": "early crops show their shoots"
+  },
+  {
+   "num": 6,
+   "english": "start of summer",
+   "chinese": "立夏",
+   "element": "fire",
+   "timing": "May 6 - May 20",
+   "branch": "si",
+   "desc": "beginning of abundance"
+  },
+  {
+   "num": 7,
+   "english": "small grain",
+   "chinese": "小满",
+   "element": "fire",
+   "timing": "May 21 - Jun 5",
+   "branch": "si",
+   "desc": "seeds plump"
+  },
+  {
+   "num": 8,
+   "english": "mature grain",
+   "chinese": "芒种",
+   "element": "fire",
+   "timing": "Jun 6 - Jun 21",
+   "branch": "wu",
+   "desc": "wheat ripens"
+  },
+  {
+   "num": 9,
+   "english": "summer solstice",
+   "chinese": "夏至",
+   "element": "fire",
+   "timing": "Jun 22 - Jul 6",
+   "branch": "wu",
+   "desc": "longest day, shortest night"
+  },
+  {
+   "num": 10,
+   "english": "minor heat",
+   "chinese": "小暑",
+   "element": "earth",
+   "timing": "Jul 7 - Jul 22",
+   "branch": "wei",
+   "desc": "dry air comes"
+  },
+  {
+   "num": 11,
+   "english": "major heat",
+   "chinese": "大暑",
+   "element": "earth",
+   "timing": "Jul 23 - Aug 7",
+   "branch": "wei",
+   "desc": "hottest period of the year"
+  },
+  {
+   "num": 12,
+   "english": "start of autumn",
+   "chinese": "立秋",
+   "element": "metal",
+   "timing": "Aug 8 - Aug 23",
+   "branch": "shen",
+   "desc": "beginning of harvest"
+  },
+  {
+   "num": 13,
+   "english": "end of heat",
+   "chinese": "处暑",
+   "element": "metal",
+   "timing": "Aug 24 - Sep 7",
+   "branch": "shen",
+   "desc": "heat descends"
+  },
+  {
+   "num": 14,
+   "english": "white dew",
+   "chinese": "白露",
+   "element": "metal",
+   "timing": "Sep 8 - Sep 22",
+   "branch": "you",
+   "desc": "cooling winds"
+  },
+  {
+   "num": 15,
+   "english": "autumn equinox",
+   "chinese": "秋分",
+   "element": "metal",
+   "timing": "Sep 23 - Oct 7",
+   "branch": "you",
+   "desc": "equal day, equal night"
+  },
+  {
+   "num": 16,
+   "english": "cold dew",
+   "chinese": "寒露",
+   "element": "earth",
+   "timing": "Oct 8 - Oct 23",
+   "branch": "xu",
+   "desc": "chill in the air"
+  },
+  {
+   "num": 17,
+   "english": "frost's descent",
+   "chinese": "霜降",
+   "element": "earth",
+   "timing": "Oct 24 - Nov 6",
+   "branch": "xu",
+   "desc": "sprinkle from above"
+  },
+  {
+   "num": 18,
+   "english": "start of winter",
+   "chinese": "立冬",
+   "element": "water",
+   "timing": "Nov 7 - Nov 22",
+   "branch": "hai",
+   "desc": "beginning of rest"
+  },
+  {
+   "num": 19,
+   "english": "minor snow",
+   "chinese": "立冬",
+   "element": "water",
+   "timing": "Nov 23 - Dec 6",
+   "branch": "hai",
+   "desc": "snow begins to fall"
+  },
+  {
+   "num": 20,
+   "english": "major snow",
+   "chinese": "大雪",
+   "element": "water",
+   "timing": "Dec 7 - Dec 21",
+   "branch": "zi",
+   "desc": "heavy snow from above"
+  },
+  {
+   "num": 21,
+   "english": "winter solstice",
+   "chinese": "冬至",
+   "element": "water",
+   "timing": "Dec 22 - Jan 5",
+   "branch": "zi",
+   "desc": "shortest day, longest night"
+  },
+  {
+   "num": 22,
+   "english": "minor cold",
+   "chinese": "小寒",
+   "element": "earth",
+   "timing": "Jan 6 - Jan 20",
+   "branch": "chou",
+   "desc": "temperature descends"
+  },
+  {
+   "num": 23,
+   "english": "major cold",
+   "chinese": "大寒",
+   "element": "earth",
+   "timing": "Jan 21 - Feb 3",
+   "branch": "chou",
+   "desc": "coldest period of the year"
+  }
+ ],
+ "elements": {
+  "wood": {
+   "$def": "phase of beginning Yang",
+   "$dict_noun": [
+    "growth",
+    "initiation",
+    "development",
+    "commencement",
+    "ascent"
+   ],
+   "$dict_adj": [
+    "climbing",
+    "rising",
+    "initiating"
+   ],
+   "$dict_adj2": [
+    "ideal",
+    "curious",
+    "spontaneous",
+    "youthful",
+    "benevolent"
+   ],
+   "$body": "Feeds Fire. Parts Earth.",
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Wood_(wuxing)"
+   },
+   "_colors": {
+    "accent": "#00b834",
+    "dark": "#2e7d32",
+    "light": "#55EFC4"
+   },
+   "name": "wood",
+   "chinese": "木",
+   "pinyin": "mu",
+   "noun": "growth",
+   "polarity": "yang",
+   "color": "green",
+   "season": "spring",
+   "direction": "east",
+   "trigrams": "Zhen, Xun",
+   "iChing": "thunder, wind",
+   "yinOrgan": "liver",
+   "yangOrgan": "gallbladder",
+   "qualities": "initiation, growth, idealism, spontaneity, curiosity",
+   "industries": "fashion, education, artistic, nursing, publishing, religion, psychology, furniture",
+   "sense": "sight",
+   "sensoryOrgan": "eyes",
+   "bodyPart": "tendons",
+   "bodyFluid": "tears",
+   "finger": "index",
+   "emotion": "anger",
+   "periodOfLife": "birth",
+   "shape": "rectangle",
+   "smell": "rancid",
+   "taste": "sour",
+   "climate": "windy",
+   "animal": "scaly",
+   "hours": "3-9",
+   "planet": "jupiter",
+   "spirit": "azure dragon",
+   "degrees": "45-135",
+   "stems": [
+    "jia",
+    "yi"
+   ],
+   "aspects": {
+    "resource": "water",
+    "companion": "wood",
+    "output": "fire",
+    "wealth": "earth",
+    "power": "metal"
+   },
+   "elements": {
+    "water": "resource",
+    "wood": "companion",
+    "fire": "output",
+    "earth": "wealth",
+    "metal": "power"
+   },
+   "strength": {
+    "wood": "peak",
+    "fire": "weak",
+    "earth": "trap",
+    "metal": "dead",
+    "water": "strong"
+   }
+  },
+  "fire": {
+   "$def": "phase of ending Yang",
+   "$dict_noun": [
+    "expansion",
+    "abundance",
+    "intensity",
+    "maturity",
+    "extension"
+   ],
+   "$dict_adj": [
+    "intensifying",
+    "maturing",
+    "thriving"
+   ],
+   "$dict_adj2": [
+    "optimistic",
+    "passionate",
+    "confident",
+    "elegant",
+    "exuberant"
+   ],
+   "$body": "Creates Earth. Melts Metal.",
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Fire_(wuxing)"
+   },
+   "_colors": {
+    "accent": "#ff7754",
+    "dark": "#c62828",
+    "light": "#FFD2C8"
+   },
+   "name": "fire",
+   "pinyin": "huo",
+   "chinese": "火",
+   "noun": "abundance",
+   "polarity": "yang",
+   "color": "red",
+   "season": "summer",
+   "direction": "south",
+   "trigrams": "li",
+   "iChing": "fire",
+   "yinOrgan": "heart, pericardium",
+   "yangOrgan": "small intestine",
+   "qualities": "peak, passion, intensity, absolute growth",
+   "industries": "restaurant, computer, electronics, airline, cosmetics, oil, photography, service",
+   "sense": "taste",
+   "sensoryOrgan": "tongue",
+   "bodyPart": "pulse",
+   "bodyFluid": "sweat",
+   "finger": "middle",
+   "emotion": "happiness",
+   "periodOfLife": "youth",
+   "shape": "triangle",
+   "smell": "scorched",
+   "taste": "bitter",
+   "climate": "hot",
+   "animal": "feathered",
+   "hours": "9-15",
+   "planet": "mars",
+   "spirit": "vemillion bird",
+   "degrees": "135-225",
+   "stems": [
+    "bing",
+    "ding"
+   ],
+   "aspects": {
+    "power": "water",
+    "resource": "wood",
+    "companion": "fire",
+    "output": "earth",
+    "wealth": "metal"
+   },
+   "elements": {
+    "water": "power",
+    "wood": "resource",
+    "fire": "companion",
+    "earth": "output",
+    "metal": "wealth"
+   },
+   "strength": {
+    "fire": "peak",
+    "earth": "weak",
+    "metal": "trap",
+    "water": "dead",
+    "wood": "strong"
+   }
+  },
+  "earth": {
+   "$def": "phase of directional transition",
+   "$dict_noun": [
+    "transition",
+    "adjustment",
+    "change",
+    "rearrangement",
+    "transformation"
+   ],
+   "$dict_adj": [
+    "blending",
+    "transforming",
+    "shifting"
+   ],
+   "$dict_adj2": [
+    "enduring",
+    "secure",
+    "trustworthy",
+    "reliable",
+    "loyal"
+   ],
+   "$body": "Bears Metal. Dams Water.",
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Earth_(wuxing)"
+   },
+   "_colors": {
+    "accent": "#ffdc05",
+    "dark": "#fbc02d",
+    "light": "#FFECAF"
+   },
+   "name": "earth",
+   "pinyin": "tu",
+   "chinese": "土",
+   "noun": "transition",
+   "polarity": "",
+   "color": "yellow",
+   "season": "transition",
+   "direction": "center",
+   "trigrams": "Gen, Kun",
+   "iChing": "mountain, field",
+   "yinOrgan": "spleen, pancreas",
+   "yangOrgan": "stomach",
+   "qualities": "stability, trust, eternal, immovable, longevity",
+   "industries": "real estate, antiques, masonry, construction, farming, mining, recycling, civil engineering",
+   "sense": "touch",
+   "sensoryOrgan": "mouth",
+   "bodyPart": "muscles",
+   "bodyFluid": "saliva",
+   "finger": "thumb",
+   "emotion": "love",
+   "periodOfLife": "adult",
+   "shape": "square",
+   "smell": "fragrant",
+   "taste": "sweet",
+   "climate": "damp",
+   "animal": "human",
+   "hours": "–",
+   "planet": "saturn",
+   "spirit": "yellow dragon",
+   "degrees": "–",
+   "stems": [
+    "wu",
+    "ji"
+   ],
+   "aspects": {
+    "wealth": "water",
+    "power": "wood",
+    "resource": "fire",
+    "companion": "earth",
+    "output": "metal"
+   },
+   "elements": {
+    "water": "wealth",
+    "wood": "power",
+    "fire": "resource",
+    "earth": "companion",
+    "metal": "output"
+   },
+   "strength": {
+    "earth": "peak",
+    "metal": "weak",
+    "water": "trap",
+    "wood": "dead",
+    "fire": "strong"
+   }
+  },
+  "metal": {
+   "$def": "phase of beginning Yin",
+   "$dict_noun": [
+    "refinment",
+    "selection",
+    "organization",
+    "reform",
+    "justification"
+   ],
+   "$dict_adj": [
+    "filtering",
+    "reforming",
+    "justifying"
+   ],
+   "$dict_adj2": [
+    "polarizing",
+    "disruptive",
+    "conflicting",
+    "righteous",
+    "decisive"
+   ],
+   "$body": "Collects Water. Chops Wood.",
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Metal_(wuxing)"
+   },
+   "_colors": {
+    "accent": "#B2B2B2",
+    "dark": "#8F8F8F",
+    "light": "#F2F2F2"
+   },
+   "name": "metal",
+   "pinyin": "jin",
+   "chinese": "金",
+   "noun": "harvest",
+   "polarity": "yin",
+   "color": "white",
+   "season": "autumn",
+   "direction": "west",
+   "trigrams": "qian, dui",
+   "iChing": "heaven, lake",
+   "yinOrgan": "lung",
+   "yangOrgan": "large intestine",
+   "qualities": "refinement, utility, intuition, rationality, justice",
+   "industries": "finance, military, appliances, music, legal, automobiles",
+   "sense": "smell",
+   "sensoryOrgan": "nose",
+   "bodyPart": "skin",
+   "bodyFluid": "mucus",
+   "finger": "ring",
+   "emotion": "sadness",
+   "periodOfLife": "elderly",
+   "shape": "round",
+   "smell": "rotten",
+   "taste": "pungent",
+   "climate": "dry",
+   "animal": "furred",
+   "hours": "15-21",
+   "planet": "venus",
+   "spirit": "white tiger",
+   "degrees": "225-315",
+   "stems": [
+    "geng",
+    "xin"
+   ],
+   "aspects": {
+    "output": "water",
+    "wealth": "wood",
+    "power": "fire",
+    "resource": "earth",
+    "companion": "metal"
+   },
+   "elements": {
+    "water": "output",
+    "wood": "wealth",
+    "fire": "power",
+    "earth": "resource",
+    "metal": "companion"
+   },
+   "strength": {
+    "metal": "peak",
+    "water": "weak",
+    "wood": "trap",
+    "fire": "dead",
+    "earth": "strong"
+   }
+  },
+  "water": {
+   "$def": "phase of ending Yin",
+   "$dict_noun": [
+    "return",
+    "withdrawal",
+    "renewal",
+    "storage",
+    "reservation"
+   ],
+   "$dict_adj": [
+    "renewing",
+    "gathering",
+    "returning"
+   ],
+   "$dict_adj2": [
+    "wise",
+    "emotional",
+    "fluid",
+    "reserved",
+    "careful"
+   ],
+   "$body": "Nourishes Wood. Extinguishes Fire.",
+   "$link_wiki": {
+    "uri": "https://en.wikipedia.org/wiki/Water_(wuxing)"
+   },
+   "_colors": {
+    "accent": "#65a9f7",
+    "dark": "#1565c0",
+    "light": "#D0E7FF"
+   },
+   "name": "water",
+   "pinyin": "shui",
+   "chinese": "水",
+   "stems": [
+    "ren",
+    "gui"
+   ],
+   "noun": "rest",
+   "polarity": "yin",
+   "color": "black",
+   "season": "winter",
+   "direction": "north",
+   "trigrams": "kan",
+   "iChing": "water",
+   "yinOrgan": "kidney",
+   "yangOrgan": "urinary bladder",
+   "qualities": "moving, wisdom, descent, collection, erudition, resourcefulness",
+   "industries": "media, transportation, fishing, creativity, entertainment, import-export, sales, professional consulting",
+   "sense": "hearing",
+   "sensoryOrgan": "ears",
+   "bodyPart": "bones",
+   "bodyFluid": "urine",
+   "finger": "pinky",
+   "emotion": "fear",
+   "periodOfLife": "end, renewal",
+   "shape": "curve",
+   "smell": "putrid",
+   "taste": "salty",
+   "climate": "cold",
+   "animal": "shelled",
+   "hours": "21-3",
+   "planet": "mercury",
+   "spirit": "black tortoise",
+   "degrees": "315-45",
+   "aspects": {
+    "companion": "water",
+    "output": "wood",
+    "wealth": "fire",
+    "power": "earth",
+    "resource": "metal"
+   },
+   "elements": {
+    "water": "companion",
+    "wood": "output",
+    "fire": "wealth",
+    "earth": "power",
+    "metal": "resource"
+   },
+   "strength": {
+    "water": "peak",
+    "wood": "weak",
+    "fire": "trap",
+    "earth": "dead",
+    "metal": "strong"
+   }
+  }
+ },
+ "seasons": {
+  "spring": {
+   "name": "spring",
+   "noun": "growth",
+   "element": "wood"
+  },
+  "summer": {
+   "name": "summer",
+   "noun": "abundance",
+   "element": "fire"
+  },
+  "autumn": {
+   "name": "autumn",
+   "noun": "harvest",
+   "element": "metal"
+  },
+  "winter": {
+   "name": "winter",
+   "noun": "rest",
+   "element": "water"
+  }
+ },
+ "twelveStagesData": [
+  {
+   "number": 3,
+   "name": "growth",
+   "visual": "★★",
+   "rating": 2,
+   "strength": 11,
+   "chinese": "长生",
+   "desc": "As the first (or third, depending on interpretation) phase of the life cycle, this indicates an exception level of honesty, intelligence, and wholeness.  Excellence in creativity will help advance careers.  However, it is said that leadership position should be delayed until a later stage."
+  },
+  {
+   "number": 4,
+   "name": "bath",
+   "visual": "✕✕",
+   "rating": -2,
+   "strength": 4,
+   "chinese": "沐浴",
+   "desc": "The Bath phase indicates capricious nature, with one often bouncing from one idea to the next, resulting in volatile friendship and career changes.  At the same time, one is plagued with a stubborn sense of self which can cause conflicts in relationships."
+  },
+  {
+   "number": 5,
+   "name": "youth",
+   "visual": "★",
+   "rating": 1,
+   "strength": 9,
+   "chinese": "冠带",
+   "desc": "The beginning of the ascent. One sees potential on the horizon and will thrive to achieve success.  Stubborness persists as the climb continues."
+  },
+  {
+   "number": 6,
+   "name": "thriving",
+   "visual": "★",
+   "rating": 1,
+   "strength": 10,
+   "chinese": "临官",
+   "desc": "A positive phase -- one will stand with honor and sincerity.  Independence and authority will be sought-after as desires come through."
+  },
+  {
+   "number": 7,
+   "name": "peak",
+   "visual": "★★",
+   "rating": 2,
+   "strength": 12,
+   "chinese": "帝旺",
+   "desc": "A phase with the strongest, confident energy.  A most auspicious phase, one will be proud and attention seeking, perhaps overly competitive."
+  },
+  {
+   "number": 8,
+   "name": "aging",
+   "visual": "—",
+   "rating": 0,
+   "strength": 8,
+   "chinese": "衰",
+   "desc": "As climax has been reached, this is a neutral phase as one maintains stabiility and restrained impulsiveness.  Modesty and acceptance overrides aspirations."
+  },
+  {
+   "number": 9,
+   "name": "sickness",
+   "visual": "—",
+   "rating": 0,
+   "strength": 6,
+   "chinese": "病",
+   "desc": "The energy of body and mind are beginning decline. Social skills are refined as one is understanding of his or her place in the universe."
+  },
+  {
+   "number": 10,
+   "name": "death",
+   "visual": "✕",
+   "rating": -1,
+   "strength": 3,
+   "chinese": "死",
+   "desc": "One will be hesitant on important decisions and dwell on trivial matters.  Energy is on decline, and most find it difficult to stay in long term relationships."
+  },
+  {
+   "number": 11,
+   "name": "grave",
+   "visual": "✕✕",
+   "rating": -2,
+   "strength": 2,
+   "chinese": "墓",
+   "desc": "One will become a closed shell who prefers to collect memories and linger on the past.  Difficult to open to change and societal fluctuations.  Correlated to introvertedness."
+  },
+  {
+   "number": 12,
+   "name": "extinct",
+   "visual": "✕✕",
+   "rating": -2,
+   "strength": 1,
+   "chinese": "绝",
+   "desc": "Also known as the last stage before \"reborn\", this phase contains the weakest energy of all twelve stages.  Enthusiasm is at its lowest, and the soul is ready to begin anew."
+  },
+  {
+   "number": 1,
+   "name": "conceived",
+   "visual": "—",
+   "rating": 0,
+   "strength": 5,
+   "chinese": "胎",
+   "desc": "The womb is where it all begins.  A spark of curiosity and peculiarity light up the spirit.  Life becomes a playground, leading to a satisfying level of humbleness and humor."
+  },
+  {
+   "number": 2,
+   "name": "nourishing",
+   "visual": "—",
+   "rating": 0,
+   "strength": 7,
+   "chinese": "养",
+   "desc": "At this phase, one is content.  As the last (or second, depending on interpretation) phase of the life cycle, one will carefully seek opportunities to develop."
+  }
+ ],
+ "streams": {
+  "zi": {
+   "leadStem": "wu",
+   "void": [
+    "xu",
+    "hai"
+   ],
+   "pillars": [
+    [
+     "jia",
+     "zi"
+    ],
+    [
+     "yi",
+     "chou"
+    ],
+    [
+     "bing",
+     "yin"
+    ],
+    [
+     "ding",
+     "mao"
+    ],
+    [
+     "wu",
+     "chen"
+    ],
+    [
+     "ji",
+     "si"
+    ],
+    [
+     "geng",
+     "wu"
+    ],
+    [
+     "xin",
+     "",
+     "wei"
+    ],
+    [
+     "ren",
+     "shen"
+    ],
+    [
+     "gui",
+     "you"
+    ]
+   ]
+  },
+  "xu": {
+   "leadStem": "ji",
+   "void": [
+    "shen",
+    "you"
+   ],
+   "pillars": [
+    [
+     "jia",
+     "xu"
+    ],
+    [
+     "yi",
+     "hai"
+    ],
+    [
+     "bing",
+     "zi"
+    ],
+    [
+     "ding",
+     "chou"
+    ],
+    [
+     "wu",
+     "yin"
+    ],
+    [
+     "ji",
+     "mao"
+    ],
+    [
+     "geng",
+     "chen"
+    ],
+    [
+     "xin",
+     "si"
+    ],
+    [
+     "ren",
+     "wu"
+    ],
+    [
+     "gui",
+     "wei"
+    ]
+   ]
+  },
+  "shen": {
+   "leadStem": "geng",
+   "void": [
+    "wu",
+    "wei"
+   ],
+   "pillars": [
+    [
+     "jia",
+     "shen"
+    ],
+    [
+     "yi",
+     "you"
+    ],
+    [
+     "bing",
+     "xu"
+    ],
+    [
+     "ding",
+     "hai"
+    ],
+    [
+     "wu",
+     "zi"
+    ],
+    [
+     "ji",
+     "chou"
+    ],
+    [
+     "geng",
+     "yin"
+    ],
+    [
+     "xin",
+     "mao"
+    ],
+    [
+     "ren",
+     "chen"
+    ],
+    [
+     "gui",
+     "si"
+    ]
+   ]
+  },
+  "wu": {
+   "leadStem": "xin",
+   "void": [
+    "chen",
+    "si"
+   ],
+   "pillars": [
+    [
+     "jia",
+     "wu"
+    ],
+    [
+     "yi",
+     "wei"
+    ],
+    [
+     "bing",
+     "shen"
+    ],
+    [
+     "ding",
+     "you"
+    ],
+    [
+     "wu",
+     "xu"
+    ],
+    [
+     "ji",
+     "hai"
+    ],
+    [
+     "geng",
+     "zi"
+    ],
+    [
+     "xin",
+     "chou"
+    ],
+    [
+     "ren",
+     "yin"
+    ],
+    [
+     "gui",
+     "mao"
+    ]
+   ]
+  },
+  "chen": {
+   "leadStem": "ren",
+   "void": [
+    "yin",
+    "mao"
+   ],
+   "pillars": [
+    [
+     "jia",
+     "chen"
+    ],
+    [
+     "yi",
+     "si"
+    ],
+    [
+     "bing",
+     "wu"
+    ],
+    [
+     "ding",
+     "wei"
+    ],
+    [
+     "wu",
+     "shen"
+    ],
+    [
+     "ji",
+     "you"
+    ],
+    [
+     "geng",
+     "xu"
+    ],
+    [
+     "xin",
+     "hai"
+    ],
+    [
+     "ren",
+     "zi"
+    ],
+    [
+     "gui",
+     "chou"
+    ]
+   ]
+  },
+  "yin": {
+   "leadStem": "gui",
+   "void": [
+    "zi",
+    "chou"
+   ],
+   "pillars": [
+    [
+     "jia",
+     "yin"
+    ],
+    [
+     "yi",
+     "mao"
+    ],
+    [
+     "bing",
+     "chen"
+    ],
+    [
+     "ding",
+     "si"
+    ],
+    [
+     "wu",
+     "wu"
+    ],
+    [
+     "ji",
+     "wei"
+    ],
+    [
+     "geng",
+     "shen"
+    ],
+    [
+     "xin",
+     "you"
+    ],
+    [
+     "ren",
+     "xu"
+    ],
+    [
+     "gui",
+     "hai"
+    ]
+   ]
+  }
+ },
+ "guas": {
+  "center": {
+   "trigram": "    ",
+   "english": "center",
+   "pinyin": "zhong",
+   "element": "earth",
+   "direction": "—",
+   "chinese": "中"
+  },
+  "qian": {
+   "trigram": "☰",
+   "english": "heaven",
+   "pinyin": "qian",
+   "chinese": "乾",
+   "element": "metal",
+   "direction": "NW",
+   "group": "W",
+   "luoShu": 6,
+   "preHeaven": 1,
+   "binary": "111",
+   "laterHeavenSeason": "autumn",
+   "concept": "creation",
+   "personality": "initiative, active, brave",
+   "person": "father",
+   "place": "capital, headquarters, palace",
+   "thing": "pearl, diamond, ring, gold, jade",
+   "animal": "horse",
+   "weather": "snow",
+   "life": "mentorship, blessing, travel",
+   "body": "head, bones, lungs",
+   "color": "pink, bright",
+   "numbers": "1, 4, 9",
+   "taste": "hot, spicy"
+  },
+  "dui": {
+   "trigram": "☱",
+   "english": "lake",
+   "pinyin": "dui",
+   "chinese": "兌",
+   "element": "metal",
+   "direction": "W",
+   "group": "W",
+   "luoShu": 7,
+   "preHeaven": 2,
+   "binary": "011",
+   "laterHeavenSeason": "autumn",
+   "concept": "devotion",
+   "personality": "joyous, contentment, satisfaction, happy, stagnation",
+   "person": "youngest daughter",
+   "place": "pond, lake, well, pool",
+   "thing": "piano, fork, metal instruments, jewelry",
+   "animal": "sheep",
+   "weather": "rain",
+   "life": "future, children",
+   "body": "tongue, mouth, throat, lung, saliva",
+   "color": "white",
+   "numbers": "4, 2, 9",
+   "taste": "pungent"
+  },
+  "li": {
+   "trigram": "☲",
+   "english": "fire",
+   "pinyin": "li",
+   "chinese": "離",
+   "element": "fire",
+   "direction": "S",
+   "group": "E",
+   "luoShu": 9,
+   "preHeaven": 3,
+   "binary": "101",
+   "laterHeavenSeason": "summer",
+   "concept": "expansion",
+   "personality": "radiant, cultural, beautiful",
+   "person": "middle daughter",
+   "place": "desert, dry place",
+   "thing": "clothes, books, art,",
+   "animal": "pheasant",
+   "weather": "sunny",
+   "life": "fame",
+   "body": "eyes, heart",
+   "color": "red, purple",
+   "numbers": "3, 2, 7",
+   "taste": "bitter"
+  },
+  "zhen": {
+   "trigram": "☳",
+   "english": "thunder",
+   "pinyin": "zhen",
+   "chinese": "震",
+   "element": "wood",
+   "direction": "E",
+   "group": "E",
+   "luoShu": 3,
+   "preHeaven": 4,
+   "binary": "001",
+   "laterHeavenSeason": "spring",
+   "concept": "arousing",
+   "personality": "excitement, revolution, initiation, beginning",
+   "person": "eldest son",
+   "place": "forest, new town",
+   "thing": "furniture, books",
+   "animal": "dragon",
+   "weather": "thunder",
+   "life": "family, health, foundation",
+   "body": "legs, liver, hair",
+   "color": "green",
+   "numbers": "4, 8, 3",
+   "taste": "sweet"
+  },
+  "xun": {
+   "trigram": "☴",
+   "english": "wind",
+   "pinyin": "xun",
+   "chinese": "巽",
+   "element": "wood",
+   "direction": "SE",
+   "group": "E",
+   "luoShu": 4,
+   "preHeaven": 5,
+   "binary": "110",
+   "laterHeavenSeason": "spring",
+   "concept": "gentle",
+   "personality": "flexible, adaptable, soft, dancing",
+   "person": "eldest daughter",
+   "place": "graden, grassland",
+   "thing": "rope, feather, fan",
+   "animal": "fowl",
+   "weather": "windy",
+   "life": "abundance, abundance",
+   "body": "upper arm, thigh",
+   "color": "green, white",
+   "numbers": "5, 3, 8",
+   "taste": "sour"
+  },
+  "kan": {
+   "trigram": "☵",
+   "english": "water",
+   "pinyin": "kan",
+   "chinese": "坎",
+   "element": "water",
+   "direction": "N",
+   "group": "E",
+   "luoShu": 1,
+   "preHeaven": 6,
+   "binary": "010",
+   "laterHeavenSeason": "winter",
+   "concept": "motion",
+   "personality": "volatility, danger, risk, fast, hidden ability, abyss",
+   "person": "middle son",
+   "place": "river, waterfall, highways",
+   "thing": "bed, cloud, wine, milk, bowl",
+   "animal": "pig",
+   "weather": "rain, snow",
+   "life": "career",
+   "body": "ear, blood, kidney",
+   "color": "black",
+   "numbers": "1, 6",
+   "taste": "salty"
+  },
+  "gen": {
+   "trigram": "☶",
+   "english": "mountain",
+   "pinyin": "gen",
+   "chinese": "艮",
+   "element": "earth",
+   "direction": "NE",
+   "group": "W",
+   "luoShu": 8,
+   "preHeaven": 7,
+   "binary": "100",
+   "laterHeavenSeason": "winter",
+   "concept": "completion",
+   "personality": "stillness, immovability, trust, quiet",
+   "person": "youngest son",
+   "place": "mountains, plantations, farmlands",
+   "thing": "stones, antiques, pottery",
+   "animal": "dog, wolf",
+   "weather": "cloudy, haze",
+   "life": "wisdom, knowledge, experience",
+   "body": "fingers, bones, nose, back",
+   "color": "yellow",
+   "numbers": "5, 7  10",
+   "taste": "sweet"
+  },
+  "kun": {
+   "trigram": "☷",
+   "english": "earth",
+   "pinyin": "kun",
+   "chinese": "坤",
+   "element": "earth",
+   "direction": "SW",
+   "group": "W",
+   "luoShu": 2,
+   "preHeaven": 8,
+   "binary": "000",
+   "laterHeavenSeason": "summer",
+   "concept": "receptive",
+   "personality": "loving, yielding, adapting",
+   "person": "mother",
+   "place": "farm, countryside",
+   "thing": "wool, clay, cotton",
+   "animal": "cow",
+   "weather": "cloudy, haze",
+   "life": "love, relationship",
+   "body": "belly, stomach, abdomen, flesh",
+   "color": "yellow",
+   "numbers": "8, 5, 10",
+   "taste": "sweet"
+  }
+ },
+ "branchInteractionOrdering": [
+  "direction",
+  "harmony",
+  "bullying penalty",
+  "ungrateful penalty",
+  "uncivilized penalty",
+  "clash",
+  "⅔ harmony",
+  "6 combo",
+  "self penalty",
+  "harm",
+  "destruction",
+  "hidden combo"
+ ],
+ "stemInteractionOrdering": [],
+ "display": {
+  "aspects": {
+   "resource": {
+    "$def": "that which produces me",
+    "name": "resource",
+    "archetype": "thinker",
+    "chinese": "资源",
+    "$dict_verb": [
+     "consume",
+     "utilize"
+    ],
+    "$dict_verb2": [
+     "consumption",
+     "utilization"
+    ],
+    "$dict_noun": [
+     "time",
+     "supply",
+     "information"
+    ],
+    "$dict_noun2": [
+     "improvement",
+     "gratification",
+     "quality"
+    ],
+    "$dict_noun3": [
+     "comfort",
+     "help",
+     "pleasure"
+    ],
+    "$dict_nature": [
+     "idealistic",
+     "careful",
+     "comprehensive"
+    ]
+   },
+   "companion": {
+    "$def": "that which assists me",
+    "name": "companion",
+    "archetype": "leader",
+    "chinese": "伴侣",
+    "$dict_verb": [
+     "collect",
+     "accumulate"
+    ],
+    "$dict_verb2": [
+     "collection",
+     "accumulation"
+    ],
+    "$dict_noun": [
+     "strength",
+     "confidence",
+     "motivation"
+    ],
+    "$dict_noun2": [
+     "competition",
+     "alliance",
+     "collaboration"
+    ],
+    "$dict_noun3": [
+     "pride",
+     "relationships",
+     "social life"
+    ],
+    "$dict_nature": [
+     "strong",
+     "confident",
+     "self-aware"
+    ]
+   },
+   "output": {
+    "$def": "that which I produce",
+    "name": "output",
+    "archetype": "maker",
+    "chinese": "输出",
+    "$dict_verb": [
+     "create",
+     "produce",
+     "generate"
+    ],
+    "$dict_verb2": [
+     "creation",
+     "production",
+     "generation"
+    ],
+    "$dict_noun": [
+     "ideas",
+     "products",
+     "novelty"
+    ],
+    "$dict_noun2": [
+     "inspiration",
+     "achievement",
+     "contribution"
+    ],
+    "$dict_noun3": [
+     "aspirations",
+     "opinions",
+     "productivity"
+    ],
+    "$dict_nature": [
+     "authentic",
+     "original",
+     "imaginative"
+    ]
+   },
+   "wealth": {
+    "$def": "that which I control",
+    "name": "wealth",
+    "archetype": "executor",
+    "chinese": "财富",
+    "$dict_verb": [
+     "exchange",
+     "attain",
+     "control"
+    ],
+    "$dict_verb2": [
+     "exchange",
+     "attainment",
+     "control"
+    ],
+    "$dict_noun": [
+     "opportunity",
+     "ownership",
+     "profit"
+    ],
+    "$dict_noun2": [
+     "returns",
+     "value",
+     "gains"
+    ],
+    "$dict_noun3": [
+     "money",
+     "possessions",
+     "transactions"
+    ],
+    "$dict_nature": [
+     "pragmatic",
+     "effective",
+     "realistic"
+    ]
+   },
+   "power": {
+    "$def": "that which controls me",
+    "name": "power",
+    "archetype": "influencer",
+    "chinese": "功率",
+    "$dict_verb": [
+     "command",
+     "account",
+     "uphold"
+    ],
+    "$dict_verb2": [
+     "command",
+     "account",
+     "upholding"
+    ],
+    "$dict_noun": [
+     "authority",
+     "responsibility",
+     "respect"
+    ],
+    "$dict_noun2": [
+     "discipline",
+     "pressure",
+     "influence"
+    ],
+    "$dict_noun3": [
+     "fame",
+     "importance",
+     "duty"
+    ],
+    "$dict_nature": [
+     "reliable",
+     "influential",
+     "accountable"
+    ]
+   }
+  },
+  "gods": {
+   "ir": {
+    "$def": "that which produces me of same polarity",
+    "abbr": "ir",
+    "name": "indirect resource",
+    "archetype": "philosopher",
+    "aspect": "resource",
+    "chinese": "偏印",
+    "$dict_adverb": [
+     "unconventionally",
+     "intuitively",
+     "abstractly"
+    ],
+    "$dict_adj": [
+     "unconventional",
+     "abstract",
+     "intuitive"
+    ],
+    "$dict_adj_positive": [
+     "intuitive",
+     "mysterious",
+     "imaginative",
+     "instinctual",
+     "eccentric",
+     "curious",
+     "innovative",
+     "mystical",
+     "sensitive"
+    ],
+    "$dict_adj_negative": [
+     "impractical",
+     "slow",
+     "indecisive",
+     "secretive",
+     "guarded",
+     "emotional",
+     "eerie",
+     "superstitious",
+     "awkward"
+    ],
+    "$dict_abilities": [
+     "imagination",
+     "holistic thinking",
+     "visualization"
+    ],
+    "$dict_places": [
+     "temples",
+     "thinking spaces",
+     "museums"
+    ],
+    "$dict_people": [
+     "supporters",
+     "mentors",
+     "gurus"
+    ],
+    "$dict_things": [
+     "potions",
+     "abstractions",
+     "dreams"
+    ]
+   },
+   "dr": {
+    "$def": "that which produces me of opposite polarity",
+    "abbr": "dr",
+    "name": "direct resource",
+    "aspect": "resource",
+    "archetype": "analyzer",
+    "chinese": "正印",
+    "$dict_adverb": [
+     "conventionally",
+     "concretely",
+     "methodically"
+    ],
+    "$dict_adj": [
+     "conventional",
+     "concrete",
+     "methodical"
+    ],
+    "$dict_adj_positive": [
+     "cultured",
+     "comfortable",
+     "knowledgeable",
+     "relaxed",
+     "happy",
+     "informative",
+     "motivated",
+     "civil",
+     "courteous",
+     "enlightened",
+     "sophisticated",
+     "composed",
+     "reflective",
+     "introspective",
+     "experienced",
+     "resourceful",
+     "bright",
+     "confident",
+     "healthy",
+     "optimistic"
+    ],
+    "$dict_adj_negative": [
+     "impractical",
+     "slow",
+     "innocent",
+     "over-confident",
+     "needy",
+     "lethargic",
+     "lazy"
+    ],
+    "$dict_abilities": [
+     "logic",
+     "analysis",
+     "facts"
+    ],
+    "$dict_places": [
+     "hospitals",
+     "schools",
+     "resorts"
+    ],
+    "$dict_people": [
+     "supporters",
+     "mentors",
+     "teachers"
+    ],
+    "$dict_things": [
+     "books",
+     "food",
+     "documents"
+    ]
+   },
+   "f": {
+    "$def": "that which assists me of same polarity",
+    "abbr": "f",
+    "name": "friend",
+    "aspect": "companion",
+    "archetype": "friend",
+    "chinese": "比",
+    "$dict_adverb": [
+     "sincerely",
+     "deeply",
+     "profoundly"
+    ],
+    "$dict_adj": [
+     "sincere",
+     "earnest",
+     "altruistic"
+    ],
+    "$dict_adj_positive": [
+     "self-assured",
+     "optimistic",
+     "comfortable",
+     "strong-willed",
+     "determined",
+     "earnest",
+     "humble",
+     "loving",
+     "generous",
+     "true",
+     "genuine"
+    ],
+    "$dict_adj_negative": [
+     "self-admiring",
+     "insecure",
+     "egotistical",
+     "self-loathing",
+     "overly-confident",
+     "arrogant"
+    ],
+    "$dict_abilities": [
+     "awareness",
+     "empathy",
+     "willpower"
+    ],
+    "$dict_places": [
+     "cafes",
+     "parks",
+     "bars"
+    ],
+    "$dict_people": [
+     "myself",
+     "friends",
+     "buddies"
+    ],
+    "$dict_things": [
+     "memorabilia",
+     "identity",
+     "awareness"
+    ]
+   },
+   "rw": {
+    "$def": "that which assists me of opposite polarity",
+    "abbr": "rw",
+    "name": "rob wealth",
+    "aspect": "companion",
+    "archetype": "partner",
+    "chinese": "劫财",
+    "$dict_adverb": [
+     "incentively",
+     "persuasively",
+     "charismatically"
+    ],
+    "$dict_adj": [
+     "incentivized",
+     "transactional",
+     "charismatic"
+    ],
+    "$dict_adj_positive": [
+     "competitive",
+     "persuasive",
+     "social",
+     "likable",
+     "magnetic",
+     "alluring",
+     "influential"
+    ],
+    "$dict_adj_negative": [
+     "spendthrift",
+     "selfish",
+     "ruthless",
+     "shallow",
+     "arrogant"
+    ],
+    "$dict_abilities": [
+     "leadership",
+     "persuasion",
+     "certainty"
+    ],
+    "$dict_places": [
+     "stadiums",
+     "clubs",
+     "conferences"
+    ],
+    "$dict_people": [
+     "partners",
+     "rivals",
+     "acquaintances"
+    ],
+    "$dict_things": [
+     "exclusitivity",
+     "competition",
+     "incentives"
+    ]
+   },
+   "eg": {
+    "$def": "that which I produce of same polarity",
+    "abbr": "eg",
+    "name": "eating god",
+    "aspect": "output",
+    "archetype": "artist",
+    "chinese": "食神",
+    "$dict_adverb": [
+     "perceptively",
+     "gracefully",
+     "aesthetically"
+    ],
+    "$dict_adj": [
+     "perceptive",
+     "graceful",
+     "precise"
+    ],
+    "$dict_adj_positive": [
+     "conscientious",
+     "methodical",
+     "strategic",
+     "logical",
+     "patient",
+     "aesthetic",
+     "expressive",
+     "organized",
+     "beautiful",
+     "detailed"
+    ],
+    "$dict_adj_negative": [
+     "slow",
+     "calculative",
+     "stubborn",
+     "overly analytical",
+     "unrealistic",
+     "over-engineered"
+    ],
+    "$dict_abilities": [
+     "delicacy",
+     "precision",
+     "depth"
+    ],
+    "$dict_places": [
+     "kitchens",
+     "studios"
+    ],
+    "$dict_people": [
+     "subordinates",
+     "apprentices",
+     "designers",
+     "strategists"
+    ],
+    "$dict_things": [
+     "art",
+     "beauty",
+     "details"
+    ]
+   },
+   "ho": {
+    "$def": "that which I produce of opposite polarity",
+    "abbr": "ho",
+    "name": "hurting officer",
+    "aspect": "output",
+    "archetype": "innovator",
+    "chinese": "伤官",
+    "$dict_adverb": [
+     "innovatively",
+     "radically",
+     "flamboyantly"
+    ],
+    "$dict_adj": [
+     "innovative",
+     "radical",
+     "flamboyant"
+    ],
+    "$dict_adj_positive": [
+     "radical",
+     "innovative",
+     "imaginative",
+     "opinionated",
+     "direct",
+     "candid",
+     "vibrant",
+     "clever",
+     "quick-witted",
+     "expressive",
+     "individualistic",
+     "unorthodox"
+    ],
+    "$dict_adj_negative": [
+     "arrogant",
+     "conceited",
+     "forceful",
+     "stubborn",
+     "attention-seeking"
+    ],
+    "$dict_abilities": [
+     "innovation",
+     "originality",
+     "presentation"
+    ],
+    "$dict_places": [
+     "stages",
+     "innovation spaces"
+    ],
+    "$dict_people": [
+     "subordinates",
+     "apprentices",
+     "performers",
+     "inventors"
+    ],
+    "$dict_things": [
+     "performances",
+     "technologies",
+     "protests"
+    ]
+   },
+   "iw": {
+    "$def": "that which I control of same polarity",
+    "abbr": "iw",
+    "name": "indirect wealth",
+    "aspect": "wealth",
+    "archetype": "pioneer",
+    "chinese": "偏财",
+    "$dict_adverb": [
+     "spontaneously",
+     "opportunistically",
+     "unpredictably"
+    ],
+    "$dict_adj": [
+     "spontaneous",
+     "opportunistic",
+     "unpredictable"
+    ],
+    "$dict_adj_positive": [
+     "entrepreneurial",
+     "opportunistic",
+     "visionary",
+     "sharp",
+     "quick",
+     "grand",
+     "openhanded",
+     "vivacious",
+     "spontaneous",
+     "excited",
+     "optimistic"
+    ],
+    "$dict_adj_negative": [
+     "wasteful",
+     "risky",
+     "careless",
+     "unfocused"
+    ],
+    "$dict_abilities": [
+     "speculation",
+     "entrepreneurship",
+     "volatility"
+    ],
+    "$dict_places": [
+     "casinos",
+     "trading floors"
+    ],
+    "$dict_people": [
+     "entrepreneurs",
+     "investors",
+     "opportunists"
+    ],
+    "$dict_things": [
+     "intangibles",
+     "stocks",
+     "windfall"
+    ]
+   },
+   "dw": {
+    "$def": "that which I control of opposite polarity",
+    "abbr": "dw",
+    "name": "direct wealth",
+    "aspect": "wealth",
+    "archetype": "manager",
+    "chinese": "正财",
+    "$dict_adverb": [
+     "systematically",
+     "predictably",
+     "securely"
+    ],
+    "$dict_adj": [
+     "systematic",
+     "predictable",
+     "stable"
+    ],
+    "$dict_adj_positive": [
+     "practical",
+     "stable",
+     "reliable",
+     "careful",
+     "persistent",
+     "responsible",
+     "accountable",
+     "conservative",
+     "conventional",
+     "institutional",
+     "down-to-earth",
+     "present"
+    ],
+    "$dict_adj_negative": [
+     "dull",
+     "dominating",
+     "gluttonous",
+     "greedy",
+     "risk adverse",
+     "unfocused",
+     "incautious"
+    ],
+    "$dict_abilities": [
+     "practicality",
+     "diligence",
+     "realism"
+    ],
+    "$dict_places": [
+     "banks",
+     "shops"
+    ],
+    "$dict_people": [
+     "accountants",
+     "doers",
+     "businessmen"
+    ],
+    "$dict_things": [
+     "cash",
+     "real estate",
+     "assets"
+    ]
+   },
+   "7k": {
+    "$def": "that which controls me of same polarity",
+    "abbr": "7k",
+    "name": "7Killings",
+    "aspect": "power",
+    "archetype": "warrior",
+    "chinese": "七杀",
+    "$dict_adverb": [
+     "chaotically",
+     "forcefully",
+     "fearlessly"
+    ],
+    "$dict_adj": [
+     "chaotic",
+     "forceful",
+     "fearless"
+    ],
+    "$dict_adj_positive": [
+     "fearless",
+     "decisive",
+     "ambitious",
+     "commanding",
+     "Machiavellian",
+     "resolute",
+     "firm",
+     "thriving"
+    ],
+    "$dict_adj_negative": [
+     "impulsive",
+     "hasty",
+     "rash",
+     "autocratic",
+     "uncooperative",
+     "emotional",
+     "inconsiderate",
+     "tense",
+     "irritable"
+    ],
+    "$dict_abilities": [
+     "drive",
+     "courage",
+     "ambition"
+    ],
+    "$dict_places": [
+     "battlefields",
+     "gyms"
+    ],
+    "$dict_things": [
+     "courage",
+     "conflicts",
+     "coercion"
+    ],
+    "$dict_people": [
+     "superiors",
+     "bosses",
+     "heroes",
+     "adventurers"
+    ]
+   },
+   "do": {
+    "$def": "that which controls me of opposite polarity",
+    "abbr": "do",
+    "name": "direct officer",
+    "aspect": "power",
+    "archetype": "diplomat",
+    "chinese": "正官",
+    "$dict_adverb": [
+     "formally",
+     "strictly",
+     "officially"
+    ],
+    "$dict_adj": [
+     "orderly",
+     "principled",
+     "steady"
+    ],
+    "$dict_adj_positive": [
+     "righteous",
+     "strict",
+     "disciplined",
+     "responsible",
+     "just",
+     "upstanding",
+     "virtuous",
+     "routine",
+     "honest",
+     "ethical",
+     "honorable",
+     "amenable",
+     "respectful"
+    ],
+    "$dict_adj_negative": [
+     "binary",
+     "stiff",
+     "timid",
+     "conservative",
+     "uncertain"
+    ],
+    "$dict_abilities": [
+     "reason",
+     "honor",
+     "virtue"
+    ],
+    "$dict_places": [
+     "courtrooms",
+     "capitols",
+     "offices"
+    ],
+    "$dict_things": [
+     "law",
+     "credentials",
+     "importance"
+    ],
+    "$dict_people": [
+     "superiors",
+     "bosses",
+     "politicians",
+     "officials"
+    ]
+   }
+  },
+  "pillars": {
+   "$dict_syn": [
+    "pillar",
+    "sector",
+    "phase",
+    "space",
+    "period"
+   ],
+   "year": {
+    "$dict_syn": [
+     "public",
+     "external",
+     "childhood",
+     "grandparents"
+    ],
+    "space": "public",
+    "scope": "external",
+    "stage": "childhood",
+    "relationship": "grandparents",
+    "life": "roots",
+    "psyche": "macrocosm",
+    "age": "0-15"
+   },
+   "month": {
+    "$dict_syn": [
+     "society",
+     "community",
+     "growth",
+     "parents"
+    ],
+    "space": "society",
+    "scope": "community",
+    "stage": "growth",
+    "relationship": "parents",
+    "life": "sprout",
+    "psyche": "microcosm",
+    "age": "15-30"
+   },
+   "day": {
+    "$dict_syn": [
+     "identity",
+     "home",
+     "prime",
+     "spouse"
+    ],
+    "space": "identity",
+    "scope": "home",
+    "stage": "prime",
+    "relationship": "spouse",
+    "life": "flower",
+    "psyche": "ego",
+    "age": "30-45"
+   },
+   "hour": {
+    "$dict_syn": [
+     "private",
+     "internal",
+     "retirement",
+     "children"
+    ],
+    "space": "private",
+    "scope": "internal",
+    "stage": "retirement",
+    "relationship": "children",
+    "life": "fruit",
+    "psyche": "self",
+    "age": "45-60"
+   },
+   "luck": {
+    "$dict_syn": [
+     "big cycle"
+    ]
+   }
+  }
+ },
+ "annualAuxDetails": {
+  "surpassingPath": {
+   "$dict_noun": [
+    "anxiety",
+    "doubt",
+    "agitation",
+    "thinking",
+    "emotions"
+   ],
+   "ref": null,
+   "name": "surpassingPath",
+   "chinese": "陌越",
+   "icon": null,
+   "rating": 0,
+   "desc": "Anxiety, self-doubt, agitation, over-thinking, emotional troubles."
+  },
+  "swallowTrap": {
+   "$dict_noun": [
+    "pressure",
+    "finance",
+    "requests"
+   ],
+   "ref": null,
+   "name": "swallowTrap",
+   "chinese": "吞陷",
+   "icon": null,
+   "rating": 0,
+   "desc": "Pressure on finance and wealth. Others may seek favors from you."
+  },
+  "earthFuneral": {
+   "$dict_noun": [
+    "elders",
+    "parents",
+    "siblings",
+    "help",
+    "guidance",
+    "connection"
+   ],
+   "ref": null,
+   "name": "earthFuneral",
+   "chinese": "地喪",
+   "icon": null,
+   "rating": 0,
+   "desc": "Elders, parents, and sibligns may need your help and guidance."
+  },
+  "prosperityStar": {
+   "$dict_noun": [
+    "advancement",
+    "trajectory",
+    "climb",
+    "output",
+    "creation"
+   ],
+   "ref": null,
+   "name": "prosperityStar",
+   "chinese": "福星",
+   "icon": null,
+   "rating": 1,
+   "desc": "Advancement in career, upward trajectory in output and creation."
+  },
+  "annualSha": {
+   "$dict_noun": [
+    "conflicts",
+    "rumors",
+    "relationships",
+    "false",
+    "troubles"
+   ],
+   "ref": null,
+   "name": "annualSha",
+   "chinese": "年煞",
+   "icon": null,
+   "rating": 0,
+   "desc": "Conflicts, false rumors, relationship troubles."
+  },
+  "crossingSha": {
+   "$dict_noun": [
+    "jealousy",
+    "gossip",
+    "negativity",
+    "others"
+   ],
+   "ref": null,
+   "name": "crossingSha",
+   "chinese": "絞煞",
+   "icon": null,
+   "rating": 0,
+   "desc": "Negative energy from others, jealousy and gossip."
+  },
+  "curledTongue": {
+   "$dict_noun": [
+    "gossip",
+    "rumors",
+    "envy",
+    "workplace",
+    "social"
+   ],
+   "ref": null,
+   "name": "curledTongue",
+   "chinese": "卷舌",
+   "icon": null,
+   "rating": 0,
+   "desc": "Gossip, rumors, envy around workplace and friends."
+  },
+  "triplePunishment": {
+   "$dict_noun": [
+    "tension",
+    "family",
+    "peers"
+   ],
+   "ref": null,
+   "name": "triplePunishment",
+   "chinese": "卷舌",
+   "icon": null,
+   "rating": 0,
+   "desc": "Tension among family members and close peers."
+  },
+  "piercingRope": {
+   "$dict_noun": [
+    "inconvenience",
+    "pettiness",
+    "others",
+    "arrive",
+    "life"
+   ],
+   "ref": null,
+   "name": "piercingRope",
+   "chinese": "卷舌",
+   "icon": null,
+   "rating": 0,
+   "desc": "Minor inconveniences; petty people coming into your life."
+  },
+  "greatAssembly": {
+   "$dict_noun": [
+    "accidents",
+    "carelessness"
+   ],
+   "ref": null,
+   "name": "greatAssembly",
+   "chinese": "卷舌",
+   "icon": null,
+   "rating": 0,
+   "desc": "Minor accidents; easily bump into things."
+  },
+  "grandDukeCombination": {
+   "$dict_noun": [
+    "authority",
+    "society",
+    "influence",
+    "importance"
+   ],
+   "ref": null,
+   "name": "grandDukeCombination",
+   "chinese": "歲合",
+   "icon": null,
+   "rating": 1,
+   "desc": "Gain authority in workplace and social circles; becoming more influential; meeting important people."
+  },
+  "skyNoble": {
+   "$dict_noun": [
+    "helpful",
+    "mentor",
+    "support"
+   ],
+   "ref": null,
+   "name": "skyNoble",
+   "chinese": "天魁",
+   "icon": null,
+   "rating": 1,
+   "desc": "Helpful person will offer a hand."
+  },
+  "skyEmptiness": {
+   "$dict_noun": [
+    "hopes",
+    "dreams",
+    "empty",
+    "flat",
+    "failure"
+   ],
+   "ref": null,
+   "name": "skyEmptiness",
+   "chinese": "天空",
+   "icon": null,
+   "rating": 0,
+   "desc": "Hopes and dreams fall flat; friends and mentors fail your expectations; emotional contemplation."
+  },
+  "badQi": {
+   "$dict_noun": [
+    "weak",
+    "body",
+    "functions",
+    "health",
+    "attention"
+   ],
+   "ref": null,
+   "name": "badQi",
+   "chinese": "晦氣",
+   "icon": null,
+   "rating": 0,
+   "desc": "Weaker body function; health may not be at its peak."
+  },
+  "pullingSaddleStar": {
+   "$dict_noun": [
+    "opportunity",
+    "career",
+    "beginnings",
+    "neutral"
+   ],
+   "ref": null,
+   "name": "pullingSaddleStar",
+   "chinese": "扳鞍",
+   "icon": null,
+   "rating": 0,
+   "desc": "New opportunity for career beginnings, but may not be smooth. Neutral."
+  },
+  "eightSeats": {
+   "$dict_noun": [
+    "internal",
+    "determination",
+    "improvement",
+    "curiosity",
+    "answers"
+   ],
+   "ref": null,
+   "name": "eightSeats",
+   "chinese": "八座",
+   "icon": null,
+   "rating": 1,
+   "desc": "Inner determination to learn and improve; energy to seek new answers."
+  },
+  "relief": {
+   "$dict_noun": [
+    "emotions",
+    "clarity",
+    "stability",
+    "rejuvenation"
+   ],
+   "ref": null,
+   "name": "relief",
+   "chinese": "解神",
+   "icon": null,
+   "rating": 1,
+   "desc": "Greater emotional stability, allowing for a clear mind."
+  },
+  "instability": {
+   "$dict_noun": [
+    "volatility",
+    "accidents",
+    "movement"
+   ],
+   "ref": null,
+   "name": "instability",
+   "chinese": "浮沉",
+   "icon": null,
+   "rating": 0,
+   "desc": "Volatile movements; could have minor accidents; bumping into things."
+  },
+  "funeralGuest": {
+   "$dict_noun": [
+    "yin",
+    "energies",
+    "transfer",
+    "funerals",
+    "sick"
+   ],
+   "ref": null,
+   "name": "funeralGuest",
+   "chinese": "吊客",
+   "icon": null,
+   "rating": 0,
+   "desc": "Negative energy from funerals or sick places will easily be absorbed."
+  },
+  "leopardTail": {
+   "$dict_noun": [
+    "wreckless",
+    "spending",
+    "loss",
+    "risk",
+    "speed"
+   ],
+   "ref": null,
+   "name": "leopardTail",
+   "chinese": "豹尾",
+   "icon": null,
+   "rating": 0,
+   "desc": "Wreckless spending; possible loss in finance or assets; high risk activities."
+  },
+  "dukesArrival": {
+   "$dict_noun": [
+    "blessings",
+    "positivity",
+    "generosity"
+   ],
+   "ref": null,
+   "name": "dukesArrival",
+   "chinese": "歲駕",
+   "icon": null,
+   "rating": 1,
+   "desc": "General positive energy; blessings from the above."
+  },
+  "hiddenCorpse": {
+   "$dict_noun": [
+    "hidden",
+    "problems",
+    "surface",
+    "difficulty"
+   ],
+   "ref": null,
+   "name": "hiddenCorpse",
+   "chinese": "伏屍",
+   "icon": null,
+   "rating": 0,
+   "desc": "Hidden problems may surface; problems prove to be more difficult than meets the eye."
+  },
+  "swordEdge": {
+   "$dict_noun": [
+    "health",
+    "complications",
+    "emotions",
+    "worry",
+    "depression"
+   ],
+   "ref": null,
+   "name": "swordEdge",
+   "chinese": "劍鋒",
+   "icon": null,
+   "rating": 0,
+   "desc": "Health complications; emotional distress, worry; depression"
+  },
+  "obstacle": {
+   "$dict_noun": [
+    "hidden",
+    "challenges",
+    "revelations",
+    "surfaces"
+   ],
+   "ref": null,
+   "name": "obstacle",
+   "chinese": "闌干",
+   "icon": null,
+   "rating": 0,
+   "desc": "More hidden challenes will reveal themselves."
+  },
+  "skyCry": {
+   "$dict_noun": [
+    "indeterminant",
+    "change",
+    "fast",
+    "events"
+   ],
+   "ref": null,
+   "name": "skyCry",
+   "chinese": "天哭",
+   "icon": null,
+   "rating": 0,
+   "desc": "Events may turn into big, unexpected changes; volatile and fast."
+  },
+  "prisonInmates": {
+   "$dict_noun": [
+    "desires",
+    "constrained",
+    "hindrance",
+    "expression"
+   ],
+   "ref": null,
+   "name": "prisonInmates",
+   "chinese": "囚獄",
+   "icon": null,
+   "rating": 0,
+   "desc": "Desires may be locked and unable to fully be expressed."
+  },
+  "threeStages": {
+   "$dict_noun": [
+    "career",
+    "strategy",
+    "steps",
+    "progression",
+    "skills"
+   ],
+   "ref": null,
+   "name": "threeStages",
+   "chinese": "三台",
+   "icon": null,
+   "rating": 1,
+   "desc": "Step by step career advancement; progression in skills"
+  },
+  "nationalTreasure": {
+   "$dict_noun": [
+    "contentment",
+    "outlook",
+    "feeling",
+    "satisfaction"
+   ],
+   "ref": null,
+   "name": "nationalTreasure",
+   "chinese": "國印",
+   "icon": null,
+   "rating": 1,
+   "desc": "Internal feeling of contentment. Brings positive outlook on matters."
+  },
+  "flyingCharm": {
+   "$dict_noun": [
+    "disappointment",
+    "outcomess",
+    "conflicts",
+    "obstacles"
+   ],
+   "ref": null,
+   "name": "flyingCharm",
+   "chinese": "飛符",
+   "icon": null,
+   "rating": 0,
+   "desc": "Disappointment; matters may not conclude as you wish. Possible conflicts."
+  },
+  "yearCharm": {
+   "$dict_noun": [
+    "disappointment",
+    "slow",
+    "arguments",
+    "chaos",
+    "unexpected"
+   ],
+   "ref": null,
+   "name": "yearCharm",
+   "chinese": "年符",
+   "icon": null,
+   "rating": 0,
+   "desc": "Disappointment; matters may not advanced as expected. Arguments; chaotic situations."
+  },
+  "yellowFlag": {
+   "$dict_noun": [
+    "health",
+    "fatigue",
+    "attention"
+   ],
+   "ref": null,
+   "name": "yellowFlag",
+   "chinese": "黃幡",
+   "icon": null,
+   "rating": 0,
+   "desc": "Health needs to be taken care; possible fatigue."
+  },
+  "peelingHead": {
+   "$dict_noun": [
+    "gloomy",
+    "feelings",
+    "fatigue",
+    "grey"
+   ],
+   "ref": null,
+   "name": "peelingHead",
+   "chinese": "披頭",
+   "icon": null,
+   "rating": 0,
+   "desc": "Overall gloomy feeling; fatigue"
+  },
+  "deathCharm": {
+   "$dict_noun": [
+    "attention",
+    "neglect",
+    "regret"
+   ],
+   "ref": null,
+   "name": "deathCharm",
+   "chinese": "死符",
+   "icon": null,
+   "rating": 0,
+   "desc": "Those you neglect will require more of your attention."
+  },
+  "solidKilling": {
+   "$dict_noun": [
+    "theft",
+    "pettiness",
+    "behavior",
+    "negativity"
+   ],
+   "ref": null,
+   "name": "solidKilling",
+   "chinese": "的煞",
+   "icon": null,
+   "rating": 0,
+   "desc": "Minor possibilities of theft and petty behavior."
+  },
+  "lesserConsumer": {
+   "$dict_noun": [
+    "indulgence",
+    "spending",
+    "release"
+   ],
+   "ref": null,
+   "name": "lesserConsumer",
+   "chinese": "小耗",
+   "icon": null,
+   "rating": 0,
+   "desc": "Minor extra spending on self indulgences."
+  },
+  "brokenStar": {
+   "$dict_noun": [
+    "transmission",
+    "broken",
+    "ideas",
+    "difficulty"
+   ],
+   "ref": null,
+   "name": "brokenStar",
+   "chinese": "破碎",
+   "icon": null,
+   "rating": 0,
+   "desc": "Getting your ideas across will be difficult."
+  },
+  "jadeHall": {
+   "$dict_noun": [
+    "optimism",
+    "energy",
+    "growth",
+    "assets",
+    "belongings"
+   ],
+   "ref": null,
+   "name": "jadeHall",
+   "chinese": "玉堂",
+   "icon": null,
+   "rating": 1,
+   "desc": "Positive energy for asset growth and investments."
+  },
+  "emperorStar": {
+   "$dict_noun": [
+    "aid",
+    "blossom",
+    "timing",
+    "mentors",
+    "help"
+   ],
+   "ref": null,
+   "name": "emperorStar",
+   "chinese": "紫微",
+   "icon": null,
+   "rating": 1,
+   "desc": "Strong mentors will come to aid. Relationships will blossom at the right time."
+  },
+  "earthRelief": {
+   "$dict_noun": [
+    "support",
+    "ease",
+    "solution"
+   ],
+   "ref": null,
+   "name": "earthRelief",
+   "chinese": "地解",
+   "icon": null,
+   "rating": 1,
+   "desc": "Overcoming obstacles become easier; noble people may lend a hand."
+  },
+  "skyGracious": {
+   "$dict_noun": [
+    "gentleness",
+    "blessing",
+    "family"
+   ],
+   "ref": null,
+   "name": "skyGracious",
+   "chinese": "天鉞",
+   "icon": null,
+   "rating": 1,
+   "desc": "Gentle blessings fall upon you and family."
+  },
+  "darkSky": {
+   "$dict_noun": [
+    "blurry",
+    "confusion"
+   ],
+   "ref": null,
+   "name": "darkSky",
+   "chinese": "天厄",
+   "icon": null,
+   "rating": 0,
+   "desc": "Minor accidents; blurry situations"
+  },
+  "brutalDefeat": {
+   "$dict_noun": [
+    "uncertainty",
+    "obstacles",
+    "revelations",
+    "changes"
+   ],
+   "ref": null,
+   "name": "brutalDefeat",
+   "chinese": "暴敗",
+   "icon": null,
+   "rating": 0,
+   "desc": "Unexpected changes to events. Obstacles may appear out of nowhere."
+  },
+  "sixHarms": {
+   "$dict_noun": [
+    "emotion",
+    "worry",
+    "anxiety",
+    "over thinking"
+   ],
+   "ref": null,
+   "name": "sixHarms",
+   "chinese": "六害",
+   "icon": null,
+   "rating": 0,
+   "desc": "Emotional worries; unnecessary over thinking."
+  },
+  "yearSha": {
+   "$dict_noun": [
+    "disconnect",
+    "quarrels",
+    "problems",
+    "arguments"
+   ],
+   "ref": null,
+   "name": "yearSha",
+   "chinese": "歲煞",
+   "icon": null,
+   "rating": 0,
+   "desc": "Problems connecting with others; quarrels and arguments."
+  },
+  "skySha": {
+   "$dict_noun": [
+    "barriers",
+    "delays",
+    "disappointment",
+    "setbacks"
+   ],
+   "ref": null,
+   "name": "skySha",
+   "chinese": "天煞",
+   "icon": null,
+   "rating": 0,
+   "desc": "Unforseen barriers arise; delays; disappoint in setbacks"
+  },
+  "backPoking": {
+   "$dict_noun": [
+    "arguments",
+    "loss",
+    "trust",
+    "tested"
+   ],
+   "ref": null,
+   "name": "backPoking",
+   "chinese": "指背",
+   "icon": null,
+   "rating": 0,
+   "desc": "Arguments; lost of trust among peers."
+  },
+  "skyWarrior": {
+   "$dict_noun": [
+    "congestion",
+    "disconnect",
+    "hindrance"
+   ],
+   "ref": null,
+   "name": "skyWarrior",
+   "chinese": "天雄",
+   "icon": null,
+   "rating": 0,
+   "desc": "Expressiveness hindered; communication broken; difficult to connect with others"
+  },
+  "greatSha": {
+   "$dict_noun": [
+    "rashness",
+    "decisions",
+    "loss",
+    "assets"
+   ],
+   "ref": null,
+   "name": "greatSha",
+   "chinese": "大煞",
+   "icon": null,
+   "rating": 0,
+   "desc": "Rash decision making; loss of assets and finances"
+  },
+  "flyingChaste": {
+   "$dict_noun": [
+    "injury",
+    "accidents",
+    "limbs"
+   ],
+   "ref": null,
+   "name": "flyingChaste",
+   "chinese": "飛廉",
+   "icon": null,
+   "rating": 0,
+   "desc": "Prone to injuries; minor injuries with limbs."
+  }
+ },
+ "annualStarAux": {
+  "zi": {
+   "zi": [
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "general"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "goldLock"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "dukesArrival"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "grandDuke"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "hiddenCorpse"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "swordEdge"
+    }
+   ],
+   "chou": [
+    {
+     "table": "annualAuxDetails",
+     "name": "grandDukeCombination"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "sun"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayStemAux",
+     "name": "nobleman"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "skyNoble"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "skyEmptiness"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "badQi"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "pullingSaddleStar"
+    }
+   ],
+   "yin": [
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "skyHorse"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "solitude"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "funeralGate"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "earthFuneral"
+    }
+   ],
+   "mao": [
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "redMatchmaker"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "moon"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "triplePunishment"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "piercingRope"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "greatAssembly"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "hook"
+    }
+   ],
+   "chen": [
+    {
+     "table": "annualAuxDetails",
+     "name": "threeStages"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "elegantSeal"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "nationalTreasure"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "fiveGhost"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "litigation"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "flyingCharm"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "yearCharm"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "yellowFlag"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "peelingHead"
+    }
+   ],
+   "si": [
+    {
+     "table": "auxDetails",
+     "group": "monthBranchAux",
+     "name": "monthlyVirtueNoble"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "deathCharm"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "robbery"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "solidKilling"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "lesserConsumer"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "brokenStar"
+    }
+   ],
+   "wu": [
+    {
+     "table": "auxDetails",
+     "group": "monthBranchAux",
+     "name": "monthEmptiness"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "yearBreaker"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "calamitySha"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "obstacle"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "skyCry"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "bigDelight"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "prisonInmates"
+    }
+   ],
+   "wei": [
+    {
+     "table": "annualAuxDetails",
+     "name": "jadeHall"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayStemAux",
+     "name": "nobleman"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "dragonVirtue"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "emperorStar"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "earthRelief"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "skyGracious"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "darkSky"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "brutalDefeat"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "sixHarms"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "yearSha"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "skySha"
+    }
+   ],
+   "shen": [
+    {
+     "table": "annualAuxDetails",
+     "name": "backPoking"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "whiteTiger"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "skyWarrior"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "bigDelight"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "greatSha"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "flyingChaste"
+    }
+   ],
+   "you": [
+    {
+     "table": "auxDetails",
+     "group": "monthBranchAux",
+     "name": "heavenVirtueNoble"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "fortuneVirtue"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "prosperityStar"
+    },
+    {
+     "table": "auxDetails",
+     "group": "monthBranchAux",
+     "name": "heavenHappiness"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayStemAux",
+     "name": "saltPool"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "crossingSha"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "curledTongue"
+    }
+   ],
+   "xu": [
+    {
+     "table": "annualAuxDetails",
+     "name": "eightSeats"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "relief"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "bloodBlade"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "instability"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "funeralGuest"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "skyDog"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "lonely"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "leopardTail"
+    }
+   ],
+   "hai": [
+    {
+     "table": "auxDetails",
+     "group": "dayStemAux",
+     "name": "intelligence"
+    },
+    {
+     "table": "auxDetails",
+     "group": "dayBranchAux",
+     "name": "deathGod"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "surpassingPath"
+    },
+    {
+     "table": "auxDetails",
+     "group": "yearBranchAux",
+     "name": "sickness"
+    },
+    {
+     "table": "annualAuxDetails",
+     "name": "swallowTrap"
+    }
+   ]
+  }
+ }
+}

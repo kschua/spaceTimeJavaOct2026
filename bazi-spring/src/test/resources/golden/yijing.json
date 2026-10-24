@@ -1,0 +1,8179 @@
+{
+ "meta": {
+  "source": "C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools",
+  "generated": "2026-10-19T03:03:46.409Z",
+  "description": "Yi Jing data + derived line info + Li Shee Yee outputs rendered by the original RN code"
+ },
+ "order": [
+  {
+   "englishName": "initiating",
+   "English Name 2": "heaven",
+   "element": "metal",
+   "number": 1,
+   "chineseShort": "乾",
+   "chineseLong": "乾为天",
+   "stem": "jia",
+   "branch": "wu",
+   "pillar": "jia-wu",
+   "guaQi": 9,
+   "guaYun": 1,
+   "group": "qian",
+   "hexagram": "䷀",
+   "binary": "111111",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "responding",
+   "English Name 2": "earth",
+   "element": "earth",
+   "number": 2,
+   "chineseShort": "坤",
+   "chineseLong": "坤为地",
+   "stem": "jia",
+   "branch": "zi",
+   "pillar": "jia-zi",
+   "guaQi": 1,
+   "guaYun": 1,
+   "group": "kun",
+   "hexagram": "䷁",
+   "binary": "000000",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "beginning",
+   "English Name 2": "beginning",
+   "element": "water",
+   "number": 3,
+   "chineseShort": "屯",
+   "chineseLong": "水雷屯",
+   "stem": "wu",
+   "branch": "zi",
+   "pillar": "wu-zi",
+   "guaQi": 7,
+   "guaYun": 4,
+   "group": "zhen",
+   "hexagram": "䷂",
+   "binary": "010001",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "childhood",
+   "English Name 2": "bliss",
+   "element": "fire",
+   "number": 4,
+   "chineseShort": "蒙",
+   "chineseLong": "山水蒙",
+   "stem": "geng",
+   "branch": "shen",
+   "pillar": "geng-shen",
+   "guaQi": 6,
+   "guaYun": 2,
+   "group": "kan",
+   "hexagram": "䷃",
+   "binary": "100010",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "needing",
+   "English Name 2": "waiting",
+   "element": "earth",
+   "number": 5,
+   "chineseShort": "需",
+   "chineseLong": "水天需",
+   "stem": "yi",
+   "branch": "si",
+   "pillar": "yi-si",
+   "guaQi": 7,
+   "guaYun": 3,
+   "group": "qian",
+   "hexagram": "䷄",
+   "binary": "010111",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "contention",
+   "English Name 2": "litigation",
+   "element": "fire",
+   "number": 6,
+   "chineseShort": "讼",
+   "chineseLong": "天水讼",
+   "stem": "xin",
+   "branch": "wei",
+   "pillar": "xin-wei",
+   "guaQi": 9,
+   "guaYun": 3,
+   "group": "kan",
+   "hexagram": "䷅",
+   "binary": "111010",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "multitude",
+   "English Name 2": "officer",
+   "element": "water",
+   "number": 7,
+   "chineseShort": "师",
+   "chineseLong": "地水师",
+   "stem": "ren",
+   "branch": "shen",
+   "pillar": "ren-shen",
+   "guaQi": 1,
+   "guaYun": 7,
+   "group": "kan",
+   "hexagram": "䷆",
+   "binary": "000010",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "union",
+   "English Name 2": "alliance",
+   "element": "earth",
+   "number": 8,
+   "chineseShort": "比",
+   "chineseLong": "水地比",
+   "stem": "xin",
+   "branch": "hai",
+   "pillar": "xin-hai",
+   "guaQi": 7,
+   "guaYun": 7,
+   "group": "kun",
+   "hexagram": "䷇",
+   "binary": "010000",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "little accumulation",
+   "English Name 2": "small livestock",
+   "element": "wood",
+   "number": 9,
+   "chineseShort": "小畜",
+   "chineseLong": "风天小畜",
+   "stem": "ding",
+   "branch": "si",
+   "pillar": "ding-si",
+   "guaQi": 2,
+   "guaYun": 8,
+   "group": "qian",
+   "hexagram": "䷈",
+   "binary": "110111",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "fulfillment",
+   "English Name 2": "tread",
+   "element": "earth",
+   "number": 10,
+   "chineseShort": "履",
+   "chineseLong": "天泽履",
+   "stem": "wu",
+   "branch": "chen",
+   "pillar": "wu-chen",
+   "guaQi": 9,
+   "guaYun": 6,
+   "group": "dui",
+   "hexagram": "䷉",
+   "binary": "111011",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "advance",
+   "English Name 2": "unity",
+   "element": "earth",
+   "number": 11,
+   "chineseShort": "泰",
+   "chineseLong": "地天泰",
+   "stem": "geng",
+   "branch": "chen",
+   "pillar": "geng-chen",
+   "guaQi": 1,
+   "guaYun": 9,
+   "group": "qian",
+   "hexagram": "䷊",
+   "binary": "000111",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "hindrance",
+   "English Name 2": "stagnation",
+   "element": "metal",
+   "number": 12,
+   "chineseShort": "否",
+   "chineseLong": "天地否",
+   "stem": "geng",
+   "branch": "xu",
+   "pillar": "geng-xu",
+   "guaQi": 9,
+   "guaYun": 9,
+   "group": "kun",
+   "hexagram": "䷋",
+   "binary": "111000",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "seeking harmony",
+   "English Name 2": "fellowship",
+   "element": "fire",
+   "number": 13,
+   "chineseShort": "同人",
+   "chineseLong": "天火同人",
+   "stem": "ren",
+   "branch": "yin",
+   "pillar": "ren-yin",
+   "guaQi": 9,
+   "guaYun": 7,
+   "group": "li",
+   "hexagram": "䷌",
+   "binary": "111101",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "great harvest",
+   "English Name 2": "great reward",
+   "element": "metal",
+   "number": 14,
+   "chineseShort": "大有",
+   "chineseLong": "火天大有",
+   "stem": "xin",
+   "branch": "si",
+   "pillar": "xin-si",
+   "guaQi": 3,
+   "guaYun": 7,
+   "group": "qian",
+   "hexagram": "䷍",
+   "binary": "101111",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "humbleness",
+   "English Name 2": "humility",
+   "element": "metal",
+   "number": 15,
+   "chineseShort": "谦",
+   "chineseLong": "地山谦",
+   "stem": "wu",
+   "branch": "xu",
+   "pillar": "wu-xu",
+   "guaQi": 1,
+   "guaYun": 6,
+   "group": "gen",
+   "hexagram": "䷎",
+   "binary": "000100",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "delight",
+   "English Name 2": "delight",
+   "element": "wood",
+   "number": 16,
+   "chineseShort": "豫",
+   "chineseLong": "雷地豫",
+   "stem": "ding",
+   "branch": "hai",
+   "pillar": "ding-hai",
+   "guaQi": 8,
+   "guaYun": 8,
+   "group": "kun",
+   "hexagram": "䷏",
+   "binary": "001000",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "following",
+   "English Name 2": "following",
+   "element": "wood",
+   "number": 17,
+   "chineseShort": "随",
+   "chineseLong": "泽雷随",
+   "stem": "ding",
+   "branch": "chou",
+   "pillar": "ding-chou",
+   "guaQi": 4,
+   "guaYun": 7,
+   "group": "zhen",
+   "hexagram": "䷐",
+   "binary": "011001",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "remedying",
+   "English Name 2": "poison",
+   "element": "wood",
+   "number": 18,
+   "chineseShort": "蛊",
+   "chineseLong": "山风蛊",
+   "stem": "ding",
+   "branch": "wei",
+   "pillar": "ding-wei",
+   "guaQi": 6,
+   "guaYun": 7,
+   "group": "xun",
+   "hexagram": "䷑",
+   "binary": "100110",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "approaching",
+   "English Name 2": "arriving",
+   "element": "earth",
+   "number": 19,
+   "chineseShort": "临",
+   "chineseLong": "地泽临",
+   "stem": "yi",
+   "branch": "mao",
+   "pillar": "yi-mao",
+   "guaQi": 1,
+   "guaYun": 4,
+   "group": "dui",
+   "hexagram": "䷒",
+   "binary": "000011",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "watching",
+   "English Name 2": "observation",
+   "element": "metal",
+   "number": 20,
+   "chineseShort": "观",
+   "chineseLong": "风地观",
+   "stem": "ji",
+   "branch": "hai",
+   "pillar": "ji-hai",
+   "guaQi": 2,
+   "guaYun": 2,
+   "group": "kun",
+   "hexagram": "䷓",
+   "binary": "110000",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "eradicating",
+   "English Name 2": "biting",
+   "element": "wood",
+   "number": 21,
+   "chineseShort": "噬嗑",
+   "chineseLong": "火雷噬嗑",
+   "stem": "yi",
+   "branch": "chou",
+   "pillar": "yi-chou",
+   "guaQi": 3,
+   "guaYun": 6,
+   "group": "zhen",
+   "hexagram": "䷔",
+   "binary": "101001",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "adorning",
+   "English Name 2": "beauty",
+   "element": "earth",
+   "number": 22,
+   "chineseShort": "贲",
+   "chineseLong": "山火贲",
+   "stem": "gui",
+   "branch": "chou",
+   "pillar": "gui-chou",
+   "guaQi": 6,
+   "guaYun": 8,
+   "group": "li",
+   "hexagram": "䷕",
+   "binary": "100101",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "falling away",
+   "English Name 2": "peel",
+   "element": "metal",
+   "number": 23,
+   "chineseShort": "剥",
+   "chineseLong": "山地剥",
+   "stem": "gui",
+   "branch": "hai",
+   "pillar": "gui-hai",
+   "guaQi": 6,
+   "guaYun": 6,
+   "group": "kun",
+   "hexagram": "䷖",
+   "binary": "100000",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "turning back",
+   "English Name 2": "returning",
+   "element": "earth",
+   "number": 24,
+   "chineseShort": "复",
+   "chineseLong": "地雷复",
+   "stem": "jia",
+   "branch": "zi",
+   "pillar": "jia-zi",
+   "guaQi": 1,
+   "guaYun": 8,
+   "group": "zhen",
+   "hexagram": "䷗",
+   "binary": "000001",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "without falsehood",
+   "English Name 2": "without wrongdoing",
+   "element": "wood",
+   "number": 25,
+   "chineseShort": "无妄",
+   "chineseLong": "天雷无妄",
+   "stem": "ji",
+   "branch": "chou",
+   "pillar": "ji-chou",
+   "guaQi": 9,
+   "guaYun": 2,
+   "group": "zhen",
+   "hexagram": "䷘",
+   "binary": "111001",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "great accumulation",
+   "English Name 2": "big livestock",
+   "element": "earth",
+   "number": 26,
+   "chineseShort": "大畜",
+   "chineseLong": "山天大畜",
+   "stem": "ren",
+   "branch": "chen",
+   "pillar": "ren-chen",
+   "guaQi": 6,
+   "guaYun": 4,
+   "group": "qian",
+   "hexagram": "䷙",
+   "binary": "100111",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "nourishing",
+   "English Name 2": "nourish",
+   "element": "wood",
+   "number": 27,
+   "chineseShort": "颐",
+   "chineseLong": "山雷颐",
+   "stem": "bing",
+   "branch": "zi",
+   "pillar": "bing-zi",
+   "guaQi": 6,
+   "guaYun": 3,
+   "group": "zhen",
+   "hexagram": "䷚",
+   "binary": "100001",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "great exceeding",
+   "English Name 2": "great exceeding",
+   "element": "wood",
+   "number": 28,
+   "chineseShort": "大过",
+   "chineseLong": "泽风大过",
+   "stem": "bing",
+   "branch": "wu",
+   "pillar": "bing-wu",
+   "guaQi": 4,
+   "guaYun": 3,
+   "group": "xun",
+   "hexagram": "䷛",
+   "binary": "011110",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "darkness",
+   "English Name 2": "water",
+   "element": "water",
+   "number": 29,
+   "chineseShort": "坎",
+   "chineseLong": "坎为水",
+   "stem": "geng",
+   "branch": "shen",
+   "pillar": "geng-shen",
+   "guaQi": 7,
+   "guaYun": 1,
+   "group": "kan",
+   "hexagram": "䷜",
+   "binary": "010010",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "brightness",
+   "English Name 2": "fire",
+   "element": "fire",
+   "number": 30,
+   "chineseShort": "离",
+   "chineseLong": "离为火",
+   "stem": "geng",
+   "branch": "yin",
+   "pillar": "geng-yin",
+   "guaQi": 3,
+   "guaYun": 1,
+   "group": "li",
+   "hexagram": "䷝",
+   "binary": "101101",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "mutual influence",
+   "English Name 2": "influence",
+   "element": "metal",
+   "number": 31,
+   "chineseShort": "咸",
+   "chineseLong": "泽山咸",
+   "stem": "ding",
+   "branch": "you",
+   "pillar": "ding-you",
+   "guaQi": 4,
+   "guaYun": 9,
+   "group": "gen",
+   "hexagram": "䷞",
+   "binary": "011100",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "long lasting",
+   "English Name 2": "consistency",
+   "element": "wood",
+   "number": 32,
+   "chineseShort": "恒",
+   "chineseLong": "雷风恒",
+   "stem": "geng",
+   "branch": "wu",
+   "pillar": "geng-wu",
+   "guaQi": 8,
+   "guaYun": 9,
+   "group": "xun",
+   "hexagram": "䷟",
+   "binary": "001110",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "retreat",
+   "English Name 2": "retreat",
+   "element": "metal",
+   "number": 33,
+   "chineseShort": "遯",
+   "chineseLong": "天山遯",
+   "stem": "yi",
+   "branch": "you",
+   "pillar": "yi-you",
+   "guaQi": 9,
+   "guaYun": 4,
+   "group": "gen",
+   "hexagram": "䷠",
+   "binary": "111100",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "great strength",
+   "English Name 2": "great strength",
+   "element": "earth",
+   "number": 34,
+   "chineseShort": "大壮",
+   "chineseLong": "雷天大壮",
+   "stem": "ji",
+   "branch": "si",
+   "pillar": "ji-si",
+   "guaQi": 8,
+   "guaYun": 2,
+   "group": "qian",
+   "hexagram": "䷡",
+   "binary": "001111",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "proceeding forward",
+   "English Name 2": "advancement",
+   "element": "metal",
+   "number": 35,
+   "chineseShort": "晋",
+   "chineseLong": "火地晋",
+   "stem": "yi",
+   "branch": "hai",
+   "pillar": "yi-hai",
+   "guaQi": 3,
+   "guaYun": 3,
+   "group": "kun",
+   "hexagram": "䷢",
+   "binary": "101000",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "brilliance injured",
+   "English Name 2": "dimming light",
+   "element": "water",
+   "number": 36,
+   "chineseShort": "明夷",
+   "chineseLong": "地火明夷",
+   "stem": "xin",
+   "branch": "chou",
+   "pillar": "xin-chou",
+   "guaQi": 1,
+   "guaYun": 3,
+   "group": "li",
+   "hexagram": "䷣",
+   "binary": "000101",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "household",
+   "English Name 2": "family",
+   "element": "wood",
+   "number": 37,
+   "chineseShort": "家人",
+   "chineseLong": "风火家人",
+   "stem": "bing",
+   "branch": "yin",
+   "pillar": "bing-yin",
+   "guaQi": 2,
+   "guaYun": 4,
+   "group": "li",
+   "hexagram": "䷤",
+   "binary": "110101",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "diversity",
+   "English Name 2": "opposition",
+   "element": "earth",
+   "number": 38,
+   "chineseShort": "睽",
+   "chineseLong": "火泽睽",
+   "stem": "jia",
+   "branch": "chen",
+   "pillar": "jia-chen",
+   "guaQi": 3,
+   "guaYun": 2,
+   "group": "dui",
+   "hexagram": "䷥",
+   "binary": "101011",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "hardship",
+   "English Name 2": "obstruction",
+   "element": "metal",
+   "number": 39,
+   "chineseShort": "蹇",
+   "chineseLong": "水山蹇",
+   "stem": "jia",
+   "branch": "xu",
+   "pillar": "jia-xu",
+   "guaQi": 7,
+   "guaYun": 2,
+   "group": "gen",
+   "hexagram": "䷦",
+   "binary": "010100",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "relief",
+   "English Name 2": "relief",
+   "element": "wood",
+   "number": 40,
+   "chineseShort": "解",
+   "chineseLong": "雷水解",
+   "stem": "bing",
+   "branch": "shen",
+   "pillar": "bing-shen",
+   "guaQi": 8,
+   "guaYun": 4,
+   "group": "kan",
+   "hexagram": "䷧",
+   "binary": "001010",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "decreasing",
+   "English Name 2": "decreasing",
+   "element": "earth",
+   "number": 41,
+   "chineseShort": "损",
+   "chineseLong": "山泽损",
+   "stem": "ding",
+   "branch": "mao",
+   "pillar": "ding-mao",
+   "guaQi": 6,
+   "guaYun": 9,
+   "group": "dui",
+   "hexagram": "䷨",
+   "binary": "100011",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "increasing",
+   "English Name 2": "increasing",
+   "element": "wood",
+   "number": 42,
+   "chineseShort": "益",
+   "chineseLong": "风雷益",
+   "stem": "geng",
+   "branch": "zi",
+   "pillar": "geng-zi",
+   "guaQi": 2,
+   "guaYun": 9,
+   "group": "zhen",
+   "hexagram": "䷩",
+   "binary": "110001",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "eliminating",
+   "English Name 2": "eliminating",
+   "element": "earth",
+   "number": 43,
+   "chineseShort": "夬",
+   "chineseLong": "风天夬",
+   "stem": "gui",
+   "branch": "si",
+   "pillar": "gui-si",
+   "guaQi": 4,
+   "guaYun": 6,
+   "group": "qian",
+   "hexagram": "䷪",
+   "binary": "011111",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "encountering",
+   "English Name 2": "meeting",
+   "element": "metal",
+   "number": 44,
+   "chineseShort": "姤",
+   "chineseLong": "天风姤",
+   "stem": "jia",
+   "branch": "wu",
+   "pillar": "jia-wu",
+   "guaQi": 9,
+   "guaYun": 8,
+   "group": "xun",
+   "hexagram": "䷫",
+   "binary": "111110",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "bringing together",
+   "English Name 2": "gathering",
+   "element": "metal",
+   "number": 45,
+   "chineseShort": "萃",
+   "chineseLong": "泽地萃",
+   "stem": "ren",
+   "branch": "xu",
+   "pillar": "ren-xu",
+   "guaQi": 4,
+   "guaYun": 4,
+   "group": "kun",
+   "hexagram": "䷬",
+   "binary": "011000",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "growing upward",
+   "English Name 2": "rising",
+   "element": "wood",
+   "number": 46,
+   "chineseShort": "升",
+   "chineseLong": "地风升",
+   "stem": "ji",
+   "branch": "wei",
+   "pillar": "ji-wei",
+   "guaQi": 1,
+   "guaYun": 2,
+   "group": "xun",
+   "hexagram": "䷭",
+   "binary": "000110",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "exhausting",
+   "English Name 2": "trap",
+   "element": "metal",
+   "number": 47,
+   "chineseShort": "困",
+   "chineseLong": "泽水困",
+   "stem": "gui",
+   "branch": "wei",
+   "pillar": "gui-wei",
+   "guaQi": 4,
+   "guaYun": 8,
+   "group": "kan",
+   "hexagram": "䷮",
+   "binary": "011010",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "replenishing",
+   "English Name 2": "well",
+   "element": "wood",
+   "number": 48,
+   "chineseShort": "井",
+   "chineseLong": "水风井",
+   "stem": "yi",
+   "branch": "wei",
+   "pillar": "yi-wei",
+   "guaQi": 7,
+   "guaYun": 6,
+   "group": "xun",
+   "hexagram": "䷯",
+   "binary": "010110",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "abolishing the old",
+   "English Name 2": "reform",
+   "element": "water",
+   "number": 49,
+   "chineseShort": "革",
+   "chineseLong": "泽火革",
+   "stem": "geng",
+   "branch": "yin",
+   "pillar": "geng-yin",
+   "guaQi": 4,
+   "guaYun": 2,
+   "group": "li",
+   "hexagram": "䷝",
+   "binary": "011101",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "establishing the new",
+   "English Name 2": "the cauldron",
+   "element": "fire",
+   "number": 50,
+   "chineseShort": "鼎",
+   "chineseLong": "火风鼎",
+   "stem": "wu",
+   "branch": "wu",
+   "pillar": "wu-wu",
+   "guaQi": 3,
+   "guaYun": 4,
+   "group": "xun",
+   "hexagram": "䷱",
+   "binary": "101110",
+   "subjectLine": 2
+  },
+  {
+   "englishName": "taking action",
+   "English Name 2": "thunder",
+   "element": "wood",
+   "number": 51,
+   "chineseShort": "震",
+   "chineseLong": "震为雷",
+   "stem": "ren",
+   "branch": "zi",
+   "pillar": "ren-zi",
+   "guaQi": 8,
+   "guaYun": 1,
+   "group": "zhen",
+   "hexagram": "䷲",
+   "binary": "001001",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "keeping still",
+   "English Name 2": "mountain",
+   "element": "earth",
+   "number": 52,
+   "chineseShort": "艮",
+   "chineseLong": "艮为山",
+   "stem": "bing",
+   "branch": "xu",
+   "pillar": "bing-xu",
+   "guaQi": 6,
+   "guaYun": 1,
+   "group": "gen",
+   "hexagram": "䷳",
+   "binary": "100100",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "developing gradually",
+   "English Name 2": "gradual progress",
+   "element": "earth",
+   "number": 53,
+   "chineseShort": "渐",
+   "chineseLong": "风山渐",
+   "stem": "gui",
+   "branch": "you",
+   "pillar": "gui-you",
+   "guaQi": 2,
+   "guaYun": 7,
+   "group": "gen",
+   "hexagram": "䷴",
+   "binary": "110100",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "marrying maiden",
+   "English Name 2": "marrying maiden",
+   "element": "metal",
+   "number": 54,
+   "chineseShort": "归妹",
+   "chineseLong": "雷泽归妹",
+   "stem": "gui",
+   "branch": "mao",
+   "pillar": "gui-mao",
+   "guaQi": 8,
+   "guaYun": 7,
+   "group": "dui",
+   "hexagram": "䷵",
+   "binary": "001011",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "abundance",
+   "English Name 2": "abundance",
+   "element": "water",
+   "number": 55,
+   "chineseShort": "丰",
+   "chineseLong": "雷火丰",
+   "stem": "wu",
+   "branch": "yin",
+   "pillar": "wu-yin",
+   "guaQi": 8,
+   "guaYun": 6,
+   "group": "li",
+   "hexagram": "䷶",
+   "binary": "001101",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "travelling",
+   "English Name 2": "travelling",
+   "element": "fire",
+   "number": 56,
+   "chineseShort": "旅",
+   "chineseLong": "火山旅",
+   "stem": "ji",
+   "branch": "you",
+   "pillar": "ji-you",
+   "guaQi": 3,
+   "guaYun": 8,
+   "group": "gen",
+   "hexagram": "䷷",
+   "binary": "101100",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "proceeding humbly",
+   "English Name 2": "wind",
+   "element": "wood",
+   "number": 57,
+   "chineseShort": "巽",
+   "chineseLong": "巽为风",
+   "stem": "ren",
+   "branch": "wu",
+   "pillar": "ren-wu",
+   "guaQi": 2,
+   "guaYun": 1,
+   "group": "xun",
+   "hexagram": "䷸",
+   "binary": "110110",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "joyful",
+   "English Name 2": "marsh",
+   "element": "metal",
+   "number": 58,
+   "chineseShort": "兑",
+   "chineseLong": "兑为泽",
+   "stem": "bing",
+   "branch": "chen",
+   "pillar": "bing-chen",
+   "guaQi": 4,
+   "guaYun": 1,
+   "group": "dui",
+   "hexagram": "䷹",
+   "binary": "011011",
+   "subjectLine": 6
+  },
+  {
+   "englishName": "dispersing",
+   "English Name 2": "dispersing",
+   "element": "fire",
+   "number": 59,
+   "chineseShort": "涣",
+   "chineseLong": "风水涣",
+   "stem": "wu",
+   "branch": "shen",
+   "pillar": "wu-shen",
+   "guaQi": 2,
+   "guaYun": 6,
+   "group": "kan",
+   "hexagram": "䷺",
+   "binary": "110010",
+   "subjectLine": 5
+  },
+  {
+   "englishName": "restricting",
+   "English Name 2": "regulate",
+   "element": "water",
+   "number": 60,
+   "chineseShort": "节",
+   "chineseLong": "水泽节",
+   "stem": "ji",
+   "branch": "mao",
+   "pillar": "ji-mao",
+   "guaQi": 7,
+   "guaYun": 8,
+   "group": "dui",
+   "hexagram": "䷻",
+   "binary": "010011",
+   "subjectLine": 1
+  },
+  {
+   "englishName": "innermost sincerity",
+   "English Name 2": "sincerity",
+   "element": "earth",
+   "number": 61,
+   "chineseShort": "中孚",
+   "chineseLong": "风泽中孚",
+   "stem": "xin",
+   "branch": "mao",
+   "pillar": "xin-mao",
+   "guaQi": 2,
+   "guaYun": 3,
+   "group": "dui",
+   "hexagram": "䷼",
+   "binary": "110011",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "little exceeding",
+   "English Name 2": "lesser exceeding",
+   "element": "metal",
+   "number": 62,
+   "chineseShort": "小过",
+   "chineseLong": "雷山小过",
+   "stem": "xin",
+   "branch": "you",
+   "pillar": "xin-you",
+   "guaQi": 8,
+   "guaYun": 3,
+   "group": "gen",
+   "hexagram": "䷽",
+   "binary": "001100",
+   "subjectLine": 4
+  },
+  {
+   "englishName": "already fullfilled",
+   "English Name 2": "accomplished",
+   "element": "water",
+   "number": 63,
+   "chineseShort": "既济",
+   "chineseLong": "水火既济",
+   "stem": "jia",
+   "branch": "yin",
+   "pillar": "jia-yin",
+   "guaQi": 7,
+   "guaYun": 9,
+   "group": "li",
+   "hexagram": "䷾",
+   "binary": "010101",
+   "subjectLine": 3
+  },
+  {
+   "englishName": "not yet fulfilled",
+   "English Name 2": "not yet accomplished",
+   "element": "fire",
+   "number": 64,
+   "chineseShort": "未济",
+   "chineseLong": "水火未济",
+   "stem": "jia",
+   "branch": "shen",
+   "pillar": "jia-shen",
+   "guaQi": 3,
+   "guaYun": 9,
+   "group": "kan",
+   "hexagram": "䷿",
+   "binary": "101010",
+   "subjectLine": 3
+  }
+ ],
+ "lineData": [
+  {
+   "number": 1,
+   "binary": "111111",
+   "topTrigram": "qian",
+   "bottomTrigram": "qian",
+   "mutualBinary": "111111",
+   "mutualNumber": 1,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "resource",
+     "wealth",
+     "output"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "resource",
+     "wealth",
+     "output"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 2,
+   "binary": "000000",
+   "topTrigram": "kun",
+   "bottomTrigram": "kun",
+   "mutualBinary": "000000",
+   "mutualNumber": 2,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "power",
+     "resource",
+     "companion"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "power",
+     "resource",
+     "companion"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 3,
+   "binary": "010001",
+   "topTrigram": "kan",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "100000",
+   "mutualNumber": 23,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "power",
+     "output",
+     "companion"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "power",
+     "output",
+     "companion"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 4,
+   "binary": "100010",
+   "topTrigram": "gen",
+   "bottomTrigram": "kan",
+   "mutualBinary": "000001",
+   "mutualNumber": 24,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "power",
+     "output",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "power",
+     "output",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 5,
+   "binary": "010111",
+   "topTrigram": "kan",
+   "bottomTrigram": "qian",
+   "mutualBinary": "101011",
+   "mutualNumber": 38,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "companion",
+     "output",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "companion",
+     "output",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 6,
+   "binary": "111010",
+   "topTrigram": "qian",
+   "bottomTrigram": "kan",
+   "mutualBinary": "110101",
+   "mutualNumber": 37,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 7,
+   "binary": "000010",
+   "topTrigram": "kun",
+   "bottomTrigram": "kan",
+   "mutualBinary": "000001",
+   "mutualNumber": 24,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "wealth",
+     "power",
+     "output"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "wealth",
+     "power",
+     "output"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 8,
+   "binary": "010000",
+   "topTrigram": "kan",
+   "bottomTrigram": "kun",
+   "mutualBinary": "100000",
+   "mutualNumber": 23,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "companion",
+     "output",
+     "power",
+     "resource",
+     "companion"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "companion",
+     "output",
+     "power",
+     "resource",
+     "companion"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 9,
+   "binary": "110111",
+   "topTrigram": "xun",
+   "bottomTrigram": "qian",
+   "mutualBinary": "101011",
+   "mutualNumber": 38,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 10,
+   "binary": "111011",
+   "topTrigram": "qian",
+   "bottomTrigram": "dui",
+   "mutualBinary": "110101",
+   "mutualNumber": 37,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "resource",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "resource",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 11,
+   "binary": "000111",
+   "topTrigram": "kun",
+   "bottomTrigram": "qian",
+   "mutualBinary": "001011",
+   "mutualNumber": 54,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 12,
+   "binary": "111000",
+   "topTrigram": "qian",
+   "bottomTrigram": "kun",
+   "mutualBinary": "110100",
+   "mutualNumber": 53,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 13,
+   "binary": "111101",
+   "topTrigram": "qian",
+   "bottomTrigram": "li",
+   "mutualBinary": "111110",
+   "mutualNumber": 44,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "power",
+     "output",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "power",
+     "output",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 14,
+   "binary": "101111",
+   "topTrigram": "li",
+   "bottomTrigram": "qian",
+   "mutualBinary": "011111",
+   "mutualNumber": 43,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "resource",
+     "wealth",
+     "output"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "resource",
+     "wealth",
+     "output"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 15,
+   "binary": "000100",
+   "topTrigram": "kun",
+   "bottomTrigram": "gen",
+   "mutualBinary": "001010",
+   "mutualNumber": 40,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "resource",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "resource",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 16,
+   "binary": "001000",
+   "topTrigram": "zhen",
+   "bottomTrigram": "kun",
+   "mutualBinary": "010100",
+   "mutualNumber": 39,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "companion",
+     "output",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "companion",
+     "output",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 17,
+   "binary": "011001",
+   "topTrigram": "dui",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "110100",
+   "mutualNumber": 53,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "resource",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "resource",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 18,
+   "binary": "100110",
+   "topTrigram": "gen",
+   "bottomTrigram": "xun",
+   "mutualBinary": "001011",
+   "mutualNumber": 54,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "resource",
+     "wealth",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "resource",
+     "wealth",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 19,
+   "binary": "000011",
+   "topTrigram": "kun",
+   "bottomTrigram": "dui",
+   "mutualBinary": "000001",
+   "mutualNumber": 24,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 20,
+   "binary": "110000",
+   "topTrigram": "xun",
+   "bottomTrigram": "kun",
+   "mutualBinary": "100000",
+   "mutualNumber": 23,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "resource",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "resource",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 21,
+   "binary": "101001",
+   "topTrigram": "li",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "010100",
+   "mutualNumber": 39,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "power",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "power",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 22,
+   "binary": "100101",
+   "topTrigram": "gen",
+   "bottomTrigram": "li",
+   "mutualBinary": "001010",
+   "mutualNumber": 40,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "wealth",
+     "companion",
+     "power"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "wealth",
+     "companion",
+     "power"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 23,
+   "binary": "100000",
+   "topTrigram": "gen",
+   "bottomTrigram": "kun",
+   "mutualBinary": "000000",
+   "mutualNumber": 2,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "output",
+     "resource",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "output",
+     "resource",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 24,
+   "binary": "000001",
+   "topTrigram": "kun",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "000000",
+   "mutualNumber": 2,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "output",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 25,
+   "binary": "111001",
+   "topTrigram": "qian",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "110100",
+   "mutualNumber": 53,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 26,
+   "binary": "100111",
+   "topTrigram": "gen",
+   "bottomTrigram": "qian",
+   "mutualBinary": "001011",
+   "mutualNumber": 54,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 27,
+   "binary": "100001",
+   "topTrigram": "gen",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "000000",
+   "mutualNumber": 2,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "resource",
+     "wealth",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "resource",
+     "wealth",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 28,
+   "binary": "011110",
+   "topTrigram": "dui",
+   "bottomTrigram": "xun",
+   "mutualBinary": "111111",
+   "mutualNumber": 1,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "resource",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "resource",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 29,
+   "binary": "010010",
+   "topTrigram": "kan",
+   "bottomTrigram": "kan",
+   "mutualBinary": "100001",
+   "mutualNumber": 27,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "wealth",
+     "power",
+     "output"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "wealth",
+     "power",
+     "output"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 30,
+   "binary": "101101",
+   "topTrigram": "li",
+   "bottomTrigram": "li",
+   "mutualBinary": "011110",
+   "mutualNumber": 28,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "power",
+     "output",
+     "resource"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "power",
+     "output",
+     "resource"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 31,
+   "binary": "011100",
+   "topTrigram": "dui",
+   "bottomTrigram": "gen",
+   "mutualBinary": "111110",
+   "mutualNumber": 44,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 32,
+   "binary": "001110",
+   "topTrigram": "zhen",
+   "bottomTrigram": "xun",
+   "mutualBinary": "011111",
+   "mutualNumber": 43,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 33,
+   "binary": "111100",
+   "topTrigram": "qian",
+   "bottomTrigram": "gen",
+   "mutualBinary": "111110",
+   "mutualNumber": 44,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 34,
+   "binary": "001111",
+   "topTrigram": "zhen",
+   "bottomTrigram": "qian",
+   "mutualBinary": "011111",
+   "mutualNumber": 43,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "resource",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "resource",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 35,
+   "binary": "101000",
+   "topTrigram": "li",
+   "bottomTrigram": "kun",
+   "mutualBinary": "010100",
+   "mutualNumber": 39,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 36,
+   "binary": "000101",
+   "topTrigram": "kun",
+   "bottomTrigram": "li",
+   "mutualBinary": "001010",
+   "mutualNumber": 40,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 37,
+   "binary": "110101",
+   "topTrigram": "xun",
+   "bottomTrigram": "li",
+   "mutualBinary": "101010",
+   "mutualNumber": 64,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "resource",
+     "wealth",
+     "companion"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "resource",
+     "wealth",
+     "companion"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 38,
+   "binary": "101011",
+   "topTrigram": "li",
+   "bottomTrigram": "dui",
+   "mutualBinary": "010101",
+   "mutualNumber": 63,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 39,
+   "binary": "010100",
+   "topTrigram": "kan",
+   "bottomTrigram": "gen",
+   "mutualBinary": "101010",
+   "mutualNumber": 64,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "output",
+     "resource",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "output",
+     "resource",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 40,
+   "binary": "001010",
+   "topTrigram": "zhen",
+   "bottomTrigram": "kan",
+   "mutualBinary": "010101",
+   "mutualNumber": 63,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "output",
+     "wealth",
+     "companion"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "output",
+     "wealth",
+     "companion"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 41,
+   "binary": "100011",
+   "topTrigram": "gen",
+   "bottomTrigram": "dui",
+   "mutualBinary": "000001",
+   "mutualNumber": 24,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 42,
+   "binary": "110001",
+   "topTrigram": "xun",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "100000",
+   "mutualNumber": 23,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 43,
+   "binary": "011111",
+   "topTrigram": "dui",
+   "bottomTrigram": "qian",
+   "mutualBinary": "111111",
+   "mutualNumber": 1,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "companion",
+     "power",
+     "wealth"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 44,
+   "binary": "111110",
+   "topTrigram": "qian",
+   "bottomTrigram": "xun",
+   "mutualBinary": "111111",
+   "mutualNumber": 1,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 45,
+   "binary": "011000",
+   "topTrigram": "dui",
+   "bottomTrigram": "kun",
+   "mutualBinary": "110100",
+   "mutualNumber": 53,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "mao",
+     "si",
+     "wei"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "wood",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "wealth",
+     "power",
+     "resource"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 46,
+   "binary": "000110",
+   "topTrigram": "kun",
+   "bottomTrigram": "xun",
+   "mutualBinary": "001011",
+   "mutualNumber": 54,
+   "noDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "wealth",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "you",
+     "hai",
+     "chou",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "metal",
+     "water",
+     "earth",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "wealth",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 47,
+   "binary": "011010",
+   "topTrigram": "dui",
+   "bottomTrigram": "kan",
+   "mutualBinary": "110101",
+   "mutualNumber": 37,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 48,
+   "binary": "010110",
+   "topTrigram": "kan",
+   "bottomTrigram": "xun",
+   "mutualBinary": "101011",
+   "mutualNumber": 38,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "wealth",
+     "power",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "wealth",
+     "power",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 49,
+   "binary": "011101",
+   "topTrigram": "dui",
+   "bottomTrigram": "li",
+   "mutualBinary": "111110",
+   "mutualNumber": 44,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 50,
+   "binary": "101110",
+   "topTrigram": "li",
+   "bottomTrigram": "xun",
+   "mutualBinary": "011111",
+   "mutualNumber": 43,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "power",
+     "output"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "power",
+     "output"
+    ],
+    "subject": 4,
+    "object": 1,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 51,
+   "binary": "001001",
+   "topTrigram": "zhen",
+   "bottomTrigram": "zhen",
+   "mutualBinary": "010100",
+   "mutualNumber": 39,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chen",
+     "yin",
+     "zi"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "water"
+    ],
+    "aspects": [
+     "wealth",
+     "power",
+     "output",
+     "wealth",
+     "companion",
+     "resource"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 52,
+   "binary": "100100",
+   "topTrigram": "gen",
+   "bottomTrigram": "gen",
+   "mutualBinary": "001010",
+   "mutualNumber": 40,
+   "noDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "output",
+     "resource",
+     "companion"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "yin",
+     "zi",
+     "xu",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "wood",
+     "water",
+     "earth",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "wealth",
+     "companion",
+     "output",
+     "resource",
+     "companion"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 53,
+   "binary": "110100",
+   "topTrigram": "xun",
+   "bottomTrigram": "gen",
+   "mutualBinary": "101010",
+   "mutualNumber": 64,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "output",
+     "resource",
+     "companion"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "output",
+     "resource",
+     "companion"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 54,
+   "binary": "001011",
+   "topTrigram": "zhen",
+   "bottomTrigram": "dui",
+   "mutualBinary": "010101",
+   "mutualNumber": 63,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "resource",
+     "wealth",
+     "power"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "resource",
+     "wealth",
+     "power"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 55,
+   "binary": "001101",
+   "topTrigram": "zhen",
+   "bottomTrigram": "li",
+   "mutualBinary": "011110",
+   "mutualNumber": 28,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "wealth",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "wealth",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 56,
+   "binary": "101100",
+   "topTrigram": "li",
+   "bottomTrigram": "gen",
+   "mutualBinary": "011110",
+   "mutualNumber": 28,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "companion",
+     "output"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "wealth",
+     "companion",
+     "output"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 57,
+   "binary": "110110",
+   "topTrigram": "xun",
+   "bottomTrigram": "xun",
+   "mutualBinary": "101011",
+   "mutualNumber": 38,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "wood"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "you",
+     "hai",
+     "chou"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "metal",
+     "water",
+     "earth"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "power",
+     "resource",
+     "wealth"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "wood"
+   }
+  },
+  {
+   "number": 58,
+   "binary": "011011",
+   "topTrigram": "dui",
+   "bottomTrigram": "dui",
+   "mutualBinary": "110101",
+   "mutualNumber": 37,
+   "noDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "resource",
+     "wealth",
+     "power"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "wei",
+     "you",
+     "hai",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "resource",
+     "wealth",
+     "power"
+    ],
+    "subject": 0,
+    "object": 3,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 59,
+   "binary": "110010",
+   "topTrigram": "xun",
+   "bottomTrigram": "kan",
+   "mutualBinary": "100001",
+   "mutualNumber": 27,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "output",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 1,
+    "object": 4,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  },
+  {
+   "number": 60,
+   "binary": "010011",
+   "topTrigram": "kan",
+   "bottomTrigram": "dui",
+   "mutualBinary": "100001",
+   "mutualNumber": 27,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "power",
+     "output",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "power",
+     "output",
+     "wealth"
+    ],
+    "subject": 5,
+    "object": 2,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 61,
+   "binary": "110011",
+   "topTrigram": "xun",
+   "bottomTrigram": "dui",
+   "mutualBinary": "100001",
+   "mutualNumber": 27,
+   "noDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "earth"
+   },
+   "withDm": {
+    "branches": [
+     "mao",
+     "si",
+     "wei",
+     "chou",
+     "mao",
+     "si"
+    ],
+    "elements": [
+     "wood",
+     "fire",
+     "earth",
+     "earth",
+     "wood",
+     "fire"
+    ],
+    "aspects": [
+     "power",
+     "resource",
+     "companion",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "earth"
+   }
+  },
+  {
+   "number": 62,
+   "binary": "001100",
+   "topTrigram": "zhen",
+   "bottomTrigram": "gen",
+   "mutualBinary": "011110",
+   "mutualNumber": 28,
+   "noDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [],
+    "element": "metal"
+   },
+   "withDm": {
+    "branches": [
+     "xu",
+     "shen",
+     "wu",
+     "shen",
+     "wu",
+     "chen"
+    ],
+    "elements": [
+     "earth",
+     "metal",
+     "fire",
+     "metal",
+     "fire",
+     "earth"
+    ],
+    "aspects": [
+     "resource",
+     "companion",
+     "power",
+     "companion",
+     "power",
+     "resource"
+    ],
+    "subject": 2,
+    "object": 5,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "metal"
+   }
+  },
+  {
+   "number": 63,
+   "binary": "010101",
+   "topTrigram": "kan",
+   "bottomTrigram": "li",
+   "mutualBinary": "101010",
+   "mutualNumber": 64,
+   "noDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "water"
+   },
+   "withDm": {
+    "branches": [
+     "zi",
+     "xu",
+     "shen",
+     "hai",
+     "chou",
+     "mao"
+    ],
+    "elements": [
+     "water",
+     "earth",
+     "metal",
+     "water",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "power",
+     "resource",
+     "companion",
+     "power",
+     "output"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "water"
+   }
+  },
+  {
+   "number": 64,
+   "binary": "101010",
+   "topTrigram": "li",
+   "bottomTrigram": "kan",
+   "mutualBinary": "010101",
+   "mutualNumber": 63,
+   "noDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [],
+    "element": "fire"
+   },
+   "withDm": {
+    "branches": [
+     "si",
+     "wei",
+     "you",
+     "wu",
+     "chen",
+     "yin"
+    ],
+    "elements": [
+     "fire",
+     "earth",
+     "metal",
+     "fire",
+     "earth",
+     "wood"
+    ],
+    "aspects": [
+     "companion",
+     "output",
+     "wealth",
+     "companion",
+     "output",
+     "resource"
+    ],
+    "subject": 3,
+    "object": 0,
+    "animals": [
+     "snake",
+     "worm",
+     "bird",
+     "dragon",
+     "tortoise",
+     "tiger"
+    ],
+    "element": "fire"
+   }
+  }
+ ],
+ "pillars": [
+  {
+   "stem": "jia",
+   "branch": "wu",
+   "numbers": [
+    1,
+    44
+   ],
+   "hexagrams": [
+    {
+     "number": 1,
+     "binary": "111111",
+     "chineseLong": "乾为天",
+     "englishName": "initiating",
+     "hexagram": "䷀"
+    },
+    {
+     "number": 44,
+     "binary": "111110",
+     "chineseLong": "天风姤",
+     "englishName": "encountering",
+     "hexagram": "䷫"
+    }
+   ]
+  },
+  {
+   "stem": "jia",
+   "branch": "chen",
+   "numbers": [
+    38
+   ],
+   "hexagrams": [
+    {
+     "number": 38,
+     "binary": "101011",
+     "chineseLong": "火泽睽",
+     "englishName": "diversity",
+     "hexagram": "䷥"
+    }
+   ]
+  },
+  {
+   "stem": "jia",
+   "branch": "yin",
+   "numbers": [
+    63
+   ],
+   "hexagrams": [
+    {
+     "number": 63,
+     "binary": "010101",
+     "chineseLong": "水火既济",
+     "englishName": "already fullfilled",
+     "hexagram": "䷾"
+    }
+   ]
+  },
+  {
+   "stem": "jia",
+   "branch": "zi",
+   "numbers": [
+    2,
+    24
+   ],
+   "hexagrams": [
+    {
+     "number": 2,
+     "binary": "000000",
+     "chineseLong": "坤为地",
+     "englishName": "responding",
+     "hexagram": "䷁"
+    },
+    {
+     "number": 24,
+     "binary": "000001",
+     "chineseLong": "地雷复",
+     "englishName": "turning back",
+     "hexagram": "䷗"
+    }
+   ]
+  },
+  {
+   "stem": "jia",
+   "branch": "xu",
+   "numbers": [
+    39
+   ],
+   "hexagrams": [
+    {
+     "number": 39,
+     "binary": "010100",
+     "chineseLong": "水山蹇",
+     "englishName": "hardship",
+     "hexagram": "䷦"
+    }
+   ]
+  },
+  {
+   "stem": "jia",
+   "branch": "shen",
+   "numbers": [
+    64
+   ],
+   "hexagrams": [
+    {
+     "number": 64,
+     "binary": "101010",
+     "chineseLong": "水火未济",
+     "englishName": "not yet fulfilled",
+     "hexagram": "䷿"
+    }
+   ]
+  },
+  {
+   "stem": "yi",
+   "branch": "wei",
+   "numbers": [
+    48
+   ],
+   "hexagrams": [
+    {
+     "number": 48,
+     "binary": "010110",
+     "chineseLong": "水风井",
+     "englishName": "replenishing",
+     "hexagram": "䷯"
+    }
+   ]
+  },
+  {
+   "stem": "yi",
+   "branch": "si",
+   "numbers": [
+    5
+   ],
+   "hexagrams": [
+    {
+     "number": 5,
+     "binary": "010111",
+     "chineseLong": "水天需",
+     "englishName": "needing",
+     "hexagram": "䷄"
+    }
+   ]
+  },
+  {
+   "stem": "yi",
+   "branch": "mao",
+   "numbers": [
+    19
+   ],
+   "hexagrams": [
+    {
+     "number": 19,
+     "binary": "000011",
+     "chineseLong": "地泽临",
+     "englishName": "approaching",
+     "hexagram": "䷒"
+    }
+   ]
+  },
+  {
+   "stem": "yi",
+   "branch": "chou",
+   "numbers": [
+    21
+   ],
+   "hexagrams": [
+    {
+     "number": 21,
+     "binary": "101001",
+     "chineseLong": "火雷噬嗑",
+     "englishName": "eradicating",
+     "hexagram": "䷔"
+    }
+   ]
+  },
+  {
+   "stem": "yi",
+   "branch": "hai",
+   "numbers": [
+    35
+   ],
+   "hexagrams": [
+    {
+     "number": 35,
+     "binary": "101000",
+     "chineseLong": "火地晋",
+     "englishName": "proceeding forward",
+     "hexagram": "䷢"
+    }
+   ]
+  },
+  {
+   "stem": "yi",
+   "branch": "you",
+   "numbers": [
+    33
+   ],
+   "hexagrams": [
+    {
+     "number": 33,
+     "binary": "111100",
+     "chineseLong": "天山遯",
+     "englishName": "retreat",
+     "hexagram": "䷠"
+    }
+   ]
+  },
+  {
+   "stem": "bing",
+   "branch": "shen",
+   "numbers": [
+    40
+   ],
+   "hexagrams": [
+    {
+     "number": 40,
+     "binary": "001010",
+     "chineseLong": "雷水解",
+     "englishName": "relief",
+     "hexagram": "䷧"
+    }
+   ]
+  },
+  {
+   "stem": "bing",
+   "branch": "wu",
+   "numbers": [
+    28
+   ],
+   "hexagrams": [
+    {
+     "number": 28,
+     "binary": "011110",
+     "chineseLong": "泽风大过",
+     "englishName": "great exceeding",
+     "hexagram": "䷛"
+    }
+   ]
+  },
+  {
+   "stem": "bing",
+   "branch": "chen",
+   "numbers": [
+    58
+   ],
+   "hexagrams": [
+    {
+     "number": 58,
+     "binary": "011011",
+     "chineseLong": "兑为泽",
+     "englishName": "joyful",
+     "hexagram": "䷹"
+    }
+   ]
+  },
+  {
+   "stem": "bing",
+   "branch": "yin",
+   "numbers": [
+    37
+   ],
+   "hexagrams": [
+    {
+     "number": 37,
+     "binary": "110101",
+     "chineseLong": "风火家人",
+     "englishName": "household",
+     "hexagram": "䷤"
+    }
+   ]
+  },
+  {
+   "stem": "bing",
+   "branch": "zi",
+   "numbers": [
+    27
+   ],
+   "hexagrams": [
+    {
+     "number": 27,
+     "binary": "100001",
+     "chineseLong": "山雷颐",
+     "englishName": "nourishing",
+     "hexagram": "䷚"
+    }
+   ]
+  },
+  {
+   "stem": "bing",
+   "branch": "xu",
+   "numbers": [
+    52
+   ],
+   "hexagrams": [
+    {
+     "number": 52,
+     "binary": "100100",
+     "chineseLong": "艮为山",
+     "englishName": "keeping still",
+     "hexagram": "䷳"
+    }
+   ]
+  },
+  {
+   "stem": "ding",
+   "branch": "you",
+   "numbers": [
+    31
+   ],
+   "hexagrams": [
+    {
+     "number": 31,
+     "binary": "011100",
+     "chineseLong": "泽山咸",
+     "englishName": "mutual influence",
+     "hexagram": "䷞"
+    }
+   ]
+  },
+  {
+   "stem": "ding",
+   "branch": "wei",
+   "numbers": [
+    18
+   ],
+   "hexagrams": [
+    {
+     "number": 18,
+     "binary": "100110",
+     "chineseLong": "山风蛊",
+     "englishName": "remedying",
+     "hexagram": "䷑"
+    }
+   ]
+  },
+  {
+   "stem": "ding",
+   "branch": "si",
+   "numbers": [
+    9
+   ],
+   "hexagrams": [
+    {
+     "number": 9,
+     "binary": "110111",
+     "chineseLong": "风天小畜",
+     "englishName": "little accumulation",
+     "hexagram": "䷈"
+    }
+   ]
+  },
+  {
+   "stem": "ding",
+   "branch": "mao",
+   "numbers": [
+    41
+   ],
+   "hexagrams": [
+    {
+     "number": 41,
+     "binary": "100011",
+     "chineseLong": "山泽损",
+     "englishName": "decreasing",
+     "hexagram": "䷨"
+    }
+   ]
+  },
+  {
+   "stem": "ding",
+   "branch": "chou",
+   "numbers": [
+    17
+   ],
+   "hexagrams": [
+    {
+     "number": 17,
+     "binary": "011001",
+     "chineseLong": "泽雷随",
+     "englishName": "following",
+     "hexagram": "䷐"
+    }
+   ]
+  },
+  {
+   "stem": "ding",
+   "branch": "hai",
+   "numbers": [
+    16
+   ],
+   "hexagrams": [
+    {
+     "number": 16,
+     "binary": "001000",
+     "chineseLong": "雷地豫",
+     "englishName": "delight",
+     "hexagram": "䷏"
+    }
+   ]
+  },
+  {
+   "stem": "wu",
+   "branch": "xu",
+   "numbers": [
+    15
+   ],
+   "hexagrams": [
+    {
+     "number": 15,
+     "binary": "000100",
+     "chineseLong": "地山谦",
+     "englishName": "humbleness",
+     "hexagram": "䷎"
+    }
+   ]
+  },
+  {
+   "stem": "wu",
+   "branch": "shen",
+   "numbers": [
+    59
+   ],
+   "hexagrams": [
+    {
+     "number": 59,
+     "binary": "110010",
+     "chineseLong": "风水涣",
+     "englishName": "dispersing",
+     "hexagram": "䷺"
+    }
+   ]
+  },
+  {
+   "stem": "wu",
+   "branch": "wu",
+   "numbers": [
+    50
+   ],
+   "hexagrams": [
+    {
+     "number": 50,
+     "binary": "101110",
+     "chineseLong": "火风鼎",
+     "englishName": "establishing the new",
+     "hexagram": "䷱"
+    }
+   ]
+  },
+  {
+   "stem": "wu",
+   "branch": "chen",
+   "numbers": [
+    10
+   ],
+   "hexagrams": [
+    {
+     "number": 10,
+     "binary": "111011",
+     "chineseLong": "天泽履",
+     "englishName": "fulfillment",
+     "hexagram": "䷉"
+    }
+   ]
+  },
+  {
+   "stem": "wu",
+   "branch": "yin",
+   "numbers": [
+    55
+   ],
+   "hexagrams": [
+    {
+     "number": 55,
+     "binary": "001101",
+     "chineseLong": "雷火丰",
+     "englishName": "abundance",
+     "hexagram": "䷶"
+    }
+   ]
+  },
+  {
+   "stem": "wu",
+   "branch": "zi",
+   "numbers": [
+    3
+   ],
+   "hexagrams": [
+    {
+     "number": 3,
+     "binary": "010001",
+     "chineseLong": "水雷屯",
+     "englishName": "beginning",
+     "hexagram": "䷂"
+    }
+   ]
+  },
+  {
+   "stem": "ji",
+   "branch": "hai",
+   "numbers": [
+    20
+   ],
+   "hexagrams": [
+    {
+     "number": 20,
+     "binary": "110000",
+     "chineseLong": "风地观",
+     "englishName": "watching",
+     "hexagram": "䷓"
+    }
+   ]
+  },
+  {
+   "stem": "ji",
+   "branch": "you",
+   "numbers": [
+    56
+   ],
+   "hexagrams": [
+    {
+     "number": 56,
+     "binary": "101100",
+     "chineseLong": "火山旅",
+     "englishName": "travelling",
+     "hexagram": "䷷"
+    }
+   ]
+  },
+  {
+   "stem": "ji",
+   "branch": "wei",
+   "numbers": [
+    46
+   ],
+   "hexagrams": [
+    {
+     "number": 46,
+     "binary": "000110",
+     "chineseLong": "地风升",
+     "englishName": "growing upward",
+     "hexagram": "䷭"
+    }
+   ]
+  },
+  {
+   "stem": "ji",
+   "branch": "si",
+   "numbers": [
+    34
+   ],
+   "hexagrams": [
+    {
+     "number": 34,
+     "binary": "001111",
+     "chineseLong": "雷天大壮",
+     "englishName": "great strength",
+     "hexagram": "䷡"
+    }
+   ]
+  },
+  {
+   "stem": "ji",
+   "branch": "mao",
+   "numbers": [
+    60
+   ],
+   "hexagrams": [
+    {
+     "number": 60,
+     "binary": "010011",
+     "chineseLong": "水泽节",
+     "englishName": "restricting",
+     "hexagram": "䷻"
+    }
+   ]
+  },
+  {
+   "stem": "ji",
+   "branch": "chou",
+   "numbers": [
+    25
+   ],
+   "hexagrams": [
+    {
+     "number": 25,
+     "binary": "111001",
+     "chineseLong": "天雷无妄",
+     "englishName": "without falsehood",
+     "hexagram": "䷘"
+    }
+   ]
+  },
+  {
+   "stem": "geng",
+   "branch": "zi",
+   "numbers": [
+    42
+   ],
+   "hexagrams": [
+    {
+     "number": 42,
+     "binary": "110001",
+     "chineseLong": "风雷益",
+     "englishName": "increasing",
+     "hexagram": "䷩"
+    }
+   ]
+  },
+  {
+   "stem": "geng",
+   "branch": "xu",
+   "numbers": [
+    12
+   ],
+   "hexagrams": [
+    {
+     "number": 12,
+     "binary": "111000",
+     "chineseLong": "天地否",
+     "englishName": "hindrance",
+     "hexagram": "䷋"
+    }
+   ]
+  },
+  {
+   "stem": "geng",
+   "branch": "shen",
+   "numbers": [
+    4,
+    29
+   ],
+   "hexagrams": [
+    {
+     "number": 4,
+     "binary": "100010",
+     "chineseLong": "山水蒙",
+     "englishName": "childhood",
+     "hexagram": "䷃"
+    },
+    {
+     "number": 29,
+     "binary": "010010",
+     "chineseLong": "坎为水",
+     "englishName": "darkness",
+     "hexagram": "䷜"
+    }
+   ]
+  },
+  {
+   "stem": "geng",
+   "branch": "wu",
+   "numbers": [
+    32
+   ],
+   "hexagrams": [
+    {
+     "number": 32,
+     "binary": "001110",
+     "chineseLong": "雷风恒",
+     "englishName": "long lasting",
+     "hexagram": "䷟"
+    }
+   ]
+  },
+  {
+   "stem": "geng",
+   "branch": "chen",
+   "numbers": [
+    11
+   ],
+   "hexagrams": [
+    {
+     "number": 11,
+     "binary": "000111",
+     "chineseLong": "地天泰",
+     "englishName": "advance",
+     "hexagram": "䷊"
+    }
+   ]
+  },
+  {
+   "stem": "geng",
+   "branch": "yin",
+   "numbers": [
+    30,
+    49
+   ],
+   "hexagrams": [
+    {
+     "number": 30,
+     "binary": "101101",
+     "chineseLong": "离为火",
+     "englishName": "brightness",
+     "hexagram": "䷝"
+    },
+    {
+     "number": 49,
+     "binary": "011101",
+     "chineseLong": "泽火革",
+     "englishName": "abolishing the old",
+     "hexagram": "䷝"
+    }
+   ]
+  },
+  {
+   "stem": "xin",
+   "branch": "chou",
+   "numbers": [
+    36
+   ],
+   "hexagrams": [
+    {
+     "number": 36,
+     "binary": "000101",
+     "chineseLong": "地火明夷",
+     "englishName": "brilliance injured",
+     "hexagram": "䷣"
+    }
+   ]
+  },
+  {
+   "stem": "xin",
+   "branch": "hai",
+   "numbers": [
+    8
+   ],
+   "hexagrams": [
+    {
+     "number": 8,
+     "binary": "010000",
+     "chineseLong": "水地比",
+     "englishName": "union",
+     "hexagram": "䷇"
+    }
+   ]
+  },
+  {
+   "stem": "xin",
+   "branch": "you",
+   "numbers": [
+    62
+   ],
+   "hexagrams": [
+    {
+     "number": 62,
+     "binary": "001100",
+     "chineseLong": "雷山小过",
+     "englishName": "little exceeding",
+     "hexagram": "䷽"
+    }
+   ]
+  },
+  {
+   "stem": "xin",
+   "branch": "wei",
+   "numbers": [
+    6
+   ],
+   "hexagrams": [
+    {
+     "number": 6,
+     "binary": "111010",
+     "chineseLong": "天水讼",
+     "englishName": "contention",
+     "hexagram": "䷅"
+    }
+   ]
+  },
+  {
+   "stem": "xin",
+   "branch": "si",
+   "numbers": [
+    14
+   ],
+   "hexagrams": [
+    {
+     "number": 14,
+     "binary": "101111",
+     "chineseLong": "火天大有",
+     "englishName": "great harvest",
+     "hexagram": "䷍"
+    }
+   ]
+  },
+  {
+   "stem": "xin",
+   "branch": "mao",
+   "numbers": [
+    61
+   ],
+   "hexagrams": [
+    {
+     "number": 61,
+     "binary": "110011",
+     "chineseLong": "风泽中孚",
+     "englishName": "innermost sincerity",
+     "hexagram": "䷼"
+    }
+   ]
+  },
+  {
+   "stem": "ren",
+   "branch": "yin",
+   "numbers": [
+    13
+   ],
+   "hexagrams": [
+    {
+     "number": 13,
+     "binary": "111101",
+     "chineseLong": "天火同人",
+     "englishName": "seeking harmony",
+     "hexagram": "䷌"
+    }
+   ]
+  },
+  {
+   "stem": "ren",
+   "branch": "zi",
+   "numbers": [
+    51
+   ],
+   "hexagrams": [
+    {
+     "number": 51,
+     "binary": "001001",
+     "chineseLong": "震为雷",
+     "englishName": "taking action",
+     "hexagram": "䷲"
+    }
+   ]
+  },
+  {
+   "stem": "ren",
+   "branch": "xu",
+   "numbers": [
+    45
+   ],
+   "hexagrams": [
+    {
+     "number": 45,
+     "binary": "011000",
+     "chineseLong": "泽地萃",
+     "englishName": "bringing together",
+     "hexagram": "䷬"
+    }
+   ]
+  },
+  {
+   "stem": "ren",
+   "branch": "shen",
+   "numbers": [
+    7
+   ],
+   "hexagrams": [
+    {
+     "number": 7,
+     "binary": "000010",
+     "chineseLong": "地水师",
+     "englishName": "multitude",
+     "hexagram": "䷆"
+    }
+   ]
+  },
+  {
+   "stem": "ren",
+   "branch": "wu",
+   "numbers": [
+    57
+   ],
+   "hexagrams": [
+    {
+     "number": 57,
+     "binary": "110110",
+     "chineseLong": "巽为风",
+     "englishName": "proceeding humbly",
+     "hexagram": "䷸"
+    }
+   ]
+  },
+  {
+   "stem": "ren",
+   "branch": "chen",
+   "numbers": [
+    26
+   ],
+   "hexagrams": [
+    {
+     "number": 26,
+     "binary": "100111",
+     "chineseLong": "山天大畜",
+     "englishName": "great accumulation",
+     "hexagram": "䷙"
+    }
+   ]
+  },
+  {
+   "stem": "gui",
+   "branch": "mao",
+   "numbers": [
+    54
+   ],
+   "hexagrams": [
+    {
+     "number": 54,
+     "binary": "001011",
+     "chineseLong": "雷泽归妹",
+     "englishName": "marrying maiden",
+     "hexagram": "䷵"
+    }
+   ]
+  },
+  {
+   "stem": "gui",
+   "branch": "chou",
+   "numbers": [
+    22
+   ],
+   "hexagrams": [
+    {
+     "number": 22,
+     "binary": "100101",
+     "chineseLong": "山火贲",
+     "englishName": "adorning",
+     "hexagram": "䷕"
+    }
+   ]
+  },
+  {
+   "stem": "gui",
+   "branch": "hai",
+   "numbers": [
+    23
+   ],
+   "hexagrams": [
+    {
+     "number": 23,
+     "binary": "100000",
+     "chineseLong": "山地剥",
+     "englishName": "falling away",
+     "hexagram": "䷖"
+    }
+   ]
+  },
+  {
+   "stem": "gui",
+   "branch": "you",
+   "numbers": [
+    53
+   ],
+   "hexagrams": [
+    {
+     "number": 53,
+     "binary": "110100",
+     "chineseLong": "风山渐",
+     "englishName": "developing gradually",
+     "hexagram": "䷴"
+    }
+   ]
+  },
+  {
+   "stem": "gui",
+   "branch": "wei",
+   "numbers": [
+    47
+   ],
+   "hexagrams": [
+    {
+     "number": 47,
+     "binary": "011010",
+     "chineseLong": "泽水困",
+     "englishName": "exhausting",
+     "hexagram": "䷮"
+    }
+   ]
+  },
+  {
+   "stem": "gui",
+   "branch": "si",
+   "numbers": [
+    43
+   ],
+   "hexagrams": [
+    {
+     "number": 43,
+     "binary": "011111",
+     "chineseLong": "风天夬",
+     "englishName": "eliminating",
+     "hexagram": "䷪"
+    }
+   ]
+  }
+ ],
+ "horary": [
+  {
+   "pillar": "gui-si",
+   "binary": "000111",
+   "number": 11,
+   "hexagram": {
+    "number": 11,
+    "binary": "000111",
+    "chineseLong": "地天泰",
+    "englishName": "advance",
+    "hexagram": "䷊"
+   }
+  },
+  {
+   "pillar": "ding-chou",
+   "binary": "000011",
+   "number": 19,
+   "hexagram": {
+    "number": 19,
+    "binary": "000011",
+    "chineseLong": "地泽临",
+    "englishName": "approaching",
+    "hexagram": "䷒"
+   }
+  },
+  {
+   "pillar": "bing-xu",
+   "binary": "000101",
+   "number": 36,
+   "hexagram": {
+    "number": 36,
+    "binary": "000101",
+    "chineseLong": "地火明夷",
+    "englishName": "brilliance injured",
+    "hexagram": "䷣"
+   }
+  },
+  {
+   "pillar": "ji-mao",
+   "binary": "000001",
+   "number": 24,
+   "hexagram": {
+    "number": 24,
+    "binary": "000001",
+    "chineseLong": "地雷复",
+    "englishName": "turning back",
+    "hexagram": "䷗"
+   }
+  },
+  {
+   "pillar": "ji-si",
+   "binary": "000110",
+   "number": 46,
+   "hexagram": {
+    "number": 46,
+    "binary": "000110",
+    "chineseLong": "地风升",
+    "englishName": "growing upward",
+    "hexagram": "䷭"
+   }
+  },
+  {
+   "pillar": "ji-hai",
+   "binary": "000010",
+   "number": 7,
+   "hexagram": {
+    "number": 7,
+    "binary": "000010",
+    "chineseLong": "地水师",
+    "englishName": "multitude",
+    "hexagram": "䷆"
+   }
+  },
+  {
+   "pillar": "ji-chou",
+   "binary": "000100",
+   "number": 15,
+   "hexagram": {
+    "number": 15,
+    "binary": "000100",
+    "chineseLong": "地山谦",
+    "englishName": "humbleness",
+    "hexagram": "䷎"
+   }
+  },
+  {
+   "pillar": "ji-wei",
+   "binary": "000000",
+   "number": 2,
+   "hexagram": {
+    "number": 2,
+    "binary": "000000",
+    "chineseLong": "坤为地",
+    "englishName": "responding",
+    "hexagram": "䷁"
+   }
+  },
+  {
+   "pillar": "wu-shen",
+   "binary": "010110",
+   "number": 48,
+   "hexagram": {
+    "number": 48,
+    "binary": "010110",
+    "chineseLong": "水风井",
+    "englishName": "replenishing",
+    "hexagram": "䷯"
+   }
+  },
+  {
+   "pillar": "gui-chou",
+   "binary": "100011",
+   "number": 41,
+   "hexagram": {
+    "number": 41,
+    "binary": "100011",
+    "chineseLong": "山泽损",
+    "englishName": "decreasing",
+    "hexagram": "䷨"
+   }
+  },
+  {
+   "pillar": "wu-wu",
+   "binary": "100101",
+   "number": 22,
+   "hexagram": {
+    "number": 22,
+    "binary": "100101",
+    "chineseLong": "山火贲",
+    "englishName": "adorning",
+    "hexagram": "䷕"
+   }
+  },
+  {
+   "pillar": "wu-yin",
+   "binary": "100001",
+   "number": 27,
+   "hexagram": {
+    "number": 27,
+    "binary": "100001",
+    "chineseLong": "山雷颐",
+    "englishName": "nourishing",
+    "hexagram": "䷚"
+   }
+  },
+  {
+   "pillar": "wu-chen",
+   "binary": "100110",
+   "number": 18,
+   "hexagram": {
+    "number": 18,
+    "binary": "100110",
+    "chineseLong": "山风蛊",
+    "englishName": "remedying",
+    "hexagram": "䷑"
+   }
+  },
+  {
+   "pillar": "wu-zi",
+   "binary": "100010",
+   "number": 4,
+   "hexagram": {
+    "number": 4,
+    "binary": "100010",
+    "chineseLong": "山水蒙",
+    "englishName": "childhood",
+    "hexagram": "䷃"
+   }
+  },
+  {
+   "pillar": "wu-xu",
+   "binary": "100100",
+   "number": 52,
+   "hexagram": {
+    "number": 52,
+    "binary": "100100",
+    "chineseLong": "艮为山",
+    "englishName": "keeping still",
+    "hexagram": "䷳"
+   }
+  },
+  {
+   "pillar": "ji-you",
+   "binary": "100000",
+   "number": 23,
+   "hexagram": {
+    "number": 23,
+    "binary": "100000",
+    "chineseLong": "山地剥",
+    "englishName": "falling away",
+    "hexagram": "䷖"
+   }
+  },
+  {
+   "pillar": "ren-shen",
+   "binary": "010111",
+   "number": 5,
+   "hexagram": {
+    "number": 5,
+    "binary": "010111",
+    "chineseLong": "水天需",
+    "englishName": "needing",
+    "hexagram": "䷄"
+   }
+  },
+  {
+   "pillar": "ren-chen",
+   "binary": "010011",
+   "number": 60,
+   "hexagram": {
+    "number": 60,
+    "binary": "010011",
+    "chineseLong": "水泽节",
+    "englishName": "restricting",
+    "hexagram": "䷻"
+   }
+  },
+  {
+   "pillar": "ren-wu",
+   "binary": "010101",
+   "number": 63,
+   "hexagram": {
+    "number": 63,
+    "binary": "010101",
+    "chineseLong": "水火既济",
+    "englishName": "already fullfilled",
+    "hexagram": "䷾"
+   }
+  },
+  {
+   "pillar": "ren-yin",
+   "binary": "010001",
+   "number": 3,
+   "hexagram": {
+    "number": 3,
+    "binary": "010001",
+    "chineseLong": "水雷屯",
+    "englishName": "beginning",
+    "hexagram": "䷂"
+   }
+  },
+  {
+   "pillar": "ren-zi",
+   "binary": "010010",
+   "number": 29,
+   "hexagram": {
+    "number": 29,
+    "binary": "010010",
+    "chineseLong": "坎为水",
+    "englishName": "darkness",
+    "hexagram": "䷜"
+   }
+  },
+  {
+   "pillar": "ren-xu",
+   "binary": "010100",
+   "number": 39,
+   "hexagram": {
+    "number": 39,
+    "binary": "010100",
+    "chineseLong": "水山蹇",
+    "englishName": "hardship",
+    "hexagram": "䷦"
+   }
+  },
+  {
+   "pillar": "gui-wei",
+   "binary": "010000",
+   "number": 8,
+   "hexagram": {
+    "number": 8,
+    "binary": "010000",
+    "chineseLong": "水地比",
+    "englishName": "union",
+    "hexagram": "䷇"
+   }
+  },
+  {
+   "pillar": "xin-you",
+   "binary": "011011",
+   "number": 58,
+   "hexagram": {
+    "number": 58,
+    "binary": "011011",
+    "chineseLong": "兑为泽",
+    "englishName": "joyful",
+    "hexagram": "䷹"
+   }
+  },
+  {
+   "pillar": "gui-mao",
+   "binary": "110011",
+   "number": 61,
+   "hexagram": {
+    "number": 61,
+    "binary": "110011",
+    "chineseLong": "风泽中孚",
+    "englishName": "innermost sincerity",
+    "hexagram": "䷼"
+   }
+  },
+  {
+   "pillar": "bing-zi",
+   "binary": "110101",
+   "number": 37,
+   "hexagram": {
+    "number": 37,
+    "binary": "110101",
+    "chineseLong": "风火家人",
+    "englishName": "household",
+    "hexagram": "䷤"
+   }
+  },
+  {
+   "pillar": "yi-mao",
+   "binary": "110001",
+   "number": 42,
+   "hexagram": {
+    "number": 42,
+    "binary": "110001",
+    "chineseLong": "风雷益",
+    "englishName": "increasing",
+    "hexagram": "䷩"
+   }
+  },
+  {
+   "pillar": "geng-chen",
+   "binary": "111110",
+   "number": 44,
+   "hexagram": {
+    "number": 44,
+    "binary": "111110",
+    "chineseLong": "天风姤",
+    "englishName": "encountering",
+    "hexagram": "䷫"
+   }
+  },
+  {
+   "pillar": "yi-hai",
+   "binary": "110010",
+   "number": 59,
+   "hexagram": {
+    "number": 59,
+    "binary": "110010",
+    "chineseLong": "风水涣",
+    "englishName": "dispersing",
+    "hexagram": "䷺"
+   }
+  },
+  {
+   "pillar": "jia-xu",
+   "binary": "110100",
+   "number": 53,
+   "hexagram": {
+    "number": 53,
+    "binary": "110100",
+    "chineseLong": "风山渐",
+    "englishName": "developing gradually",
+    "hexagram": "䷴"
+   }
+  },
+  {
+   "pillar": "jia-chen",
+   "binary": "001110",
+   "number": 32,
+   "hexagram": {
+    "number": 32,
+    "binary": "001110",
+    "chineseLong": "雷风恒",
+    "englishName": "long lasting",
+    "hexagram": "䷟"
+   }
+  },
+  {
+   "pillar": "yi-si",
+   "binary": "001111",
+   "number": 34,
+   "hexagram": {
+    "number": 34,
+    "binary": "001111",
+    "chineseLong": "雷天大壮",
+    "englishName": "great strength",
+    "hexagram": "䷡"
+   }
+  },
+  {
+   "pillar": "yi-you",
+   "binary": "001011",
+   "number": 54,
+   "hexagram": {
+    "number": 54,
+    "binary": "001011",
+    "chineseLong": "雷泽归妹",
+    "englishName": "marrying maiden",
+    "hexagram": "䷵"
+   }
+  },
+  {
+   "pillar": "jia-wu",
+   "binary": "001101",
+   "number": 55,
+   "hexagram": {
+    "number": 55,
+    "binary": "001101",
+    "chineseLong": "雷火丰",
+    "englishName": "abundance",
+    "hexagram": "䷶"
+   }
+  },
+  {
+   "pillar": "jia-yin",
+   "binary": "001001",
+   "number": 51,
+   "hexagram": {
+    "number": 51,
+    "binary": "001001",
+    "chineseLong": "震为雷",
+    "englishName": "taking action",
+    "hexagram": "䷲"
+   }
+  },
+  {
+   "pillar": "jia-zi",
+   "binary": "001010",
+   "number": 40,
+   "hexagram": {
+    "number": 40,
+    "binary": "001010",
+    "chineseLong": "雷水解",
+    "englishName": "relief",
+    "hexagram": "䷧"
+   }
+  },
+  {
+   "pillar": "ding-hai",
+   "binary": "001100",
+   "number": 62,
+   "hexagram": {
+    "number": 62,
+    "binary": "001100",
+    "chineseLong": "雷山小过",
+    "englishName": "little exceeding",
+    "hexagram": "䷽"
+   }
+  },
+  {
+   "pillar": "yi-wei",
+   "binary": "001000",
+   "number": 16,
+   "hexagram": {
+    "number": 16,
+    "binary": "001000",
+    "chineseLong": "雷地豫",
+    "englishName": "delight",
+    "hexagram": "䷏"
+   }
+  },
+  {
+   "pillar": "ding-si",
+   "binary": "101111",
+   "number": 14,
+   "hexagram": {
+    "number": 14,
+    "binary": "101111",
+    "chineseLong": "火天大有",
+    "englishName": "great harvest",
+    "hexagram": "䷍"
+   }
+  },
+  {
+   "pillar": "ding-you",
+   "binary": "101011",
+   "number": 38,
+   "hexagram": {
+    "number": 38,
+    "binary": "101011",
+    "chineseLong": "火泽睽",
+    "englishName": "diversity",
+    "hexagram": "䷥"
+   }
+  },
+  {
+   "pillar": "bing-wu",
+   "binary": "101101",
+   "number": 30,
+   "hexagram": {
+    "number": 30,
+    "binary": "101101",
+    "chineseLong": "离为火",
+    "englishName": "brightness",
+    "hexagram": "䷝"
+   }
+  },
+  {
+   "pillar": "ding-mao",
+   "binary": "101001",
+   "number": 21,
+   "hexagram": {
+    "number": 21,
+    "binary": "101001",
+    "chineseLong": "火雷噬嗑",
+    "englishName": "eradicating",
+    "hexagram": "䷔"
+   }
+  },
+  {
+   "pillar": "bing-chen",
+   "binary": "101110",
+   "number": 50,
+   "hexagram": {
+    "number": 50,
+    "binary": "101110",
+    "chineseLong": "火风鼎",
+    "englishName": "establishing the new",
+    "hexagram": "䷱"
+   }
+  },
+  {
+   "pillar": "gui-hai",
+   "binary": "101010",
+   "number": 64,
+   "hexagram": {
+    "number": 64,
+    "binary": "101010",
+    "chineseLong": "水火未济",
+    "englishName": "not yet fulfilled",
+    "hexagram": "䷿"
+   }
+  },
+  {
+   "pillar": "ding-wei",
+   "binary": "101100",
+   "number": 56,
+   "hexagram": {
+    "number": 56,
+    "binary": "101100",
+    "chineseLong": "火山旅",
+    "englishName": "travelling",
+    "hexagram": "䷷"
+   }
+  },
+  {
+   "pillar": "bing-yin",
+   "binary": "101000",
+   "number": 35,
+   "hexagram": {
+    "number": 35,
+    "binary": "101000",
+    "chineseLong": "火地晋",
+    "englishName": "proceeding forward",
+    "hexagram": "䷢"
+   }
+  },
+  {
+   "pillar": "xin-hai",
+   "binary": "011111",
+   "number": 43,
+   "hexagram": {
+    "number": 43,
+    "binary": "011111",
+    "chineseLong": "风天夬",
+    "englishName": "eliminating",
+    "hexagram": "䷪"
+   }
+  },
+  {
+   "pillar": "xin-si",
+   "binary": "011101",
+   "number": 49,
+   "hexagram": {
+    "number": 49,
+    "binary": "011101",
+    "chineseLong": "泽火革",
+    "englishName": "abolishing the old",
+    "hexagram": "䷝"
+   }
+  },
+  {
+   "pillar": "xin-mao",
+   "binary": "011001",
+   "number": 17,
+   "hexagram": {
+    "number": 17,
+    "binary": "011001",
+    "chineseLong": "泽雷随",
+    "englishName": "following",
+    "hexagram": "䷐"
+   }
+  },
+  {
+   "pillar": "jia-shen",
+   "binary": "011110",
+   "number": 28,
+   "hexagram": {
+    "number": 28,
+    "binary": "011110",
+    "chineseLong": "泽风大过",
+    "englishName": "great exceeding",
+    "hexagram": "䷛"
+   }
+  },
+  {
+   "pillar": "yi-chou",
+   "binary": "011010",
+   "number": 47,
+   "hexagram": {
+    "number": 47,
+    "binary": "011010",
+    "chineseLong": "泽水困",
+    "englishName": "exhausting",
+    "hexagram": "䷮"
+   }
+  },
+  {
+   "pillar": "xin-chou",
+   "binary": "011100",
+   "number": 31,
+   "hexagram": {
+    "number": 31,
+    "binary": "011100",
+    "chineseLong": "泽山咸",
+    "englishName": "mutual influence",
+    "hexagram": "䷞"
+   }
+  },
+  {
+   "pillar": "xin-wei",
+   "binary": "011000",
+   "number": 45,
+   "hexagram": {
+    "number": 45,
+    "binary": "011000",
+    "chineseLong": "泽地萃",
+    "englishName": "bringing together",
+    "hexagram": "䷬"
+   }
+  },
+  {
+   "pillar": "geng-shen",
+   "binary": "111111",
+   "number": 1,
+   "hexagram": {
+    "number": 1,
+    "binary": "111111",
+    "chineseLong": "乾为天",
+    "englishName": "initiating",
+    "hexagram": "䷀"
+   }
+  },
+  {
+   "pillar": "geng-xu",
+   "binary": "111100",
+   "number": 33,
+   "hexagram": {
+    "number": 33,
+    "binary": "111100",
+    "chineseLong": "天山遯",
+    "englishName": "retreat",
+    "hexagram": "䷠"
+   }
+  },
+  {
+   "pillar": "geng-wu",
+   "binary": "111101",
+   "number": 13,
+   "hexagram": {
+    "number": 13,
+    "binary": "111101",
+    "chineseLong": "天火同人",
+    "englishName": "seeking harmony",
+    "hexagram": "䷌"
+   }
+  },
+  {
+   "pillar": "geng-yin",
+   "binary": "111001",
+   "number": 25,
+   "hexagram": {
+    "number": 25,
+    "binary": "111001",
+    "chineseLong": "天雷无妄",
+    "englishName": "without falsehood",
+    "hexagram": "䷘"
+   }
+  },
+  {
+   "pillar": "geng-zi",
+   "binary": "111010",
+   "number": 6,
+   "hexagram": {
+    "number": 6,
+    "binary": "111010",
+    "chineseLong": "天水讼",
+    "englishName": "contention",
+    "hexagram": "䷅"
+   }
+  },
+  {
+   "pillar": "bing-shen",
+   "binary": "111000",
+   "number": 12,
+   "hexagram": {
+    "number": 12,
+    "binary": "111000",
+    "chineseLong": "天地否",
+    "englishName": "hindrance",
+    "hexagram": "䷋"
+   }
+  }
+ ],
+ "lisheeyee": [
+  {
+   "q": "",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "",
+   "result": null
+  },
+  {
+   "q": "a",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "1",
+   "result": null
+  },
+  {
+   "q": "12",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "12",
+   "h1": "1",
+   "h2": "2",
+   "extra": "",
+   "firstTrigram": "qian",
+   "secondTrigram": "dui",
+   "numTotal": 3,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 5,
+   "binary": "111011",
+   "number": 10,
+   "hexagram": {
+    "number": 10,
+    "binary": "111011",
+    "chineseLong": "天泽履",
+    "englishName": "fulfillment",
+    "hexagram": "䷉"
+   },
+   "changedBinary": "101011",
+   "changedNumber": 38,
+   "changedHexagram": {
+    "number": 38,
+    "binary": "101011",
+    "chineseLong": "火泽睽",
+    "englishName": "diversity",
+    "hexagram": "䷥"
+   }
+  },
+  {
+   "q": "ab",
+   "time": "2024-06-15T00:30:00+08:00",
+   "converted": "12",
+   "h1": "1",
+   "h2": "2",
+   "extra": "",
+   "firstTrigram": "qian",
+   "secondTrigram": "dui",
+   "numTotal": 3,
+   "hourBranch": "zi",
+   "whichHour": 1,
+   "movingLine": 4,
+   "binary": "111011",
+   "number": 10,
+   "hexagram": {
+    "number": 10,
+    "binary": "111011",
+    "chineseLong": "天泽履",
+    "englishName": "fulfillment",
+    "hexagram": "䷉"
+   },
+   "changedBinary": "110011",
+   "changedNumber": 61,
+   "changedHexagram": {
+    "number": 61,
+    "binary": "110011",
+    "chineseLong": "风泽中孚",
+    "englishName": "innermost sincerity",
+    "hexagram": "䷼"
+   }
+  },
+  {
+   "q": "abc",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "123",
+   "h1": "1",
+   "h2": "2",
+   "extra": "3",
+   "firstTrigram": "qian",
+   "secondTrigram": "xun",
+   "numTotal": 6,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 2,
+   "binary": "111110",
+   "number": 44,
+   "hexagram": {
+    "number": 44,
+    "binary": "111110",
+    "chineseLong": "天风姤",
+    "englishName": "encountering",
+    "hexagram": "䷫"
+   },
+   "changedBinary": "111100",
+   "changedNumber": 33,
+   "changedHexagram": {
+    "number": 33,
+    "binary": "111100",
+    "chineseLong": "天山遯",
+    "englishName": "retreat",
+    "hexagram": "䷠"
+   }
+  },
+  {
+   "q": "abcd",
+   "time": "2024-06-15T00:30:00+08:00",
+   "converted": "1234",
+   "h1": "12",
+   "h2": "34",
+   "extra": "",
+   "firstTrigram": "li",
+   "secondTrigram": "gen",
+   "numTotal": 10,
+   "hourBranch": "zi",
+   "whichHour": 1,
+   "movingLine": 5,
+   "binary": "101100",
+   "number": 56,
+   "hexagram": {
+    "number": 56,
+    "binary": "101100",
+    "chineseLong": "火山旅",
+    "englishName": "travelling",
+    "hexagram": "䷷"
+   },
+   "changedBinary": "111100",
+   "changedNumber": 33,
+   "changedHexagram": {
+    "number": 33,
+    "binary": "111100",
+    "chineseLong": "天山遯",
+    "englishName": "retreat",
+    "hexagram": "䷠"
+   }
+  },
+  {
+   "q": "abcde",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "12345",
+   "h1": "12",
+   "h2": "34",
+   "extra": "5",
+   "firstTrigram": "li",
+   "secondTrigram": "zhen",
+   "numTotal": 15,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 5,
+   "binary": "101001",
+   "number": 21,
+   "hexagram": {
+    "number": 21,
+    "binary": "101001",
+    "chineseLong": "火雷噬嗑",
+    "englishName": "eradicating",
+    "hexagram": "䷔"
+   },
+   "changedBinary": "111001",
+   "changedNumber": 25,
+   "changedHexagram": {
+    "number": 25,
+    "binary": "111001",
+    "chineseLong": "天雷无妄",
+    "englishName": "without falsehood",
+    "hexagram": "䷘"
+   }
+  },
+  {
+   "q": "abcdef",
+   "time": "2024-06-15T23:30:00+08:00",
+   "converted": "123456",
+   "h1": "123",
+   "h2": "456",
+   "extra": "",
+   "firstTrigram": "kan",
+   "secondTrigram": "gen",
+   "numTotal": 21,
+   "hourBranch": "zi",
+   "whichHour": 1,
+   "movingLine": 4,
+   "binary": "010100",
+   "number": 39,
+   "hexagram": {
+    "number": 39,
+    "binary": "010100",
+    "chineseLong": "水山蹇",
+    "englishName": "hardship",
+    "hexagram": "䷦"
+   },
+   "changedBinary": "011100",
+   "changedNumber": 31,
+   "changedHexagram": {
+    "number": 31,
+    "binary": "011100",
+    "chineseLong": "泽山咸",
+    "englishName": "mutual influence",
+    "hexagram": "䷞"
+   }
+  },
+  {
+   "q": "a j s 1 2 3",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "111123",
+   "h1": "111",
+   "h2": "123",
+   "extra": "",
+   "firstTrigram": "li",
+   "secondTrigram": "kan",
+   "numTotal": 9,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 5,
+   "binary": "101010",
+   "number": 64,
+   "hexagram": {
+    "number": 64,
+    "binary": "101010",
+    "chineseLong": "水火未济",
+    "englishName": "not yet fulfilled",
+    "hexagram": "䷿"
+   },
+   "changedBinary": "111010",
+   "changedNumber": 6,
+   "changedHexagram": {
+    "number": 6,
+    "binary": "111010",
+    "chineseLong": "天水讼",
+    "englishName": "contention",
+    "hexagram": "䷅"
+   }
+  },
+  {
+   "q": "AJ S",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "111",
+   "h1": "1",
+   "h2": "1",
+   "extra": "1",
+   "firstTrigram": "qian",
+   "secondTrigram": "dui",
+   "numTotal": 3,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 5,
+   "binary": "111011",
+   "number": 10,
+   "hexagram": {
+    "number": 10,
+    "binary": "111011",
+    "chineseLong": "天泽履",
+    "englishName": "fulfillment",
+    "hexagram": "䷉"
+   },
+   "changedBinary": "101011",
+   "changedNumber": 38,
+   "changedHexagram": {
+    "number": 38,
+    "binary": "101011",
+    "chineseLong": "火泽睽",
+    "englishName": "diversity",
+    "hexagram": "䷥"
+   }
+  },
+  {
+   "q": "z9",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "89",
+   "h1": "8",
+   "h2": "9",
+   "extra": "",
+   "firstTrigram": "kun",
+   "secondTrigram": "qian",
+   "numTotal": 17,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 1,
+   "binary": "000111",
+   "number": 11,
+   "hexagram": {
+    "number": 11,
+    "binary": "000111",
+    "chineseLong": "地天泰",
+    "englishName": "advance",
+    "hexagram": "䷊"
+   },
+   "changedBinary": "000110",
+   "changedNumber": 46,
+   "changedHexagram": {
+    "number": 46,
+    "binary": "000110",
+    "chineseLong": "地风升",
+    "englishName": "growing upward",
+    "hexagram": "䷭"
+   }
+  },
+  {
+   "q": "01",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "01",
+   "h1": "0",
+   "h2": "1",
+   "extra": "",
+   "firstTrigram": "kun",
+   "secondTrigram": "qian",
+   "numTotal": 1,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 3,
+   "binary": "000111",
+   "number": 11,
+   "hexagram": {
+    "number": 11,
+    "binary": "000111",
+    "chineseLong": "地天泰",
+    "englishName": "advance",
+    "hexagram": "䷊"
+   },
+   "changedBinary": "000011",
+   "changedNumber": 19,
+   "changedHexagram": {
+    "number": 19,
+    "binary": "000011",
+    "chineseLong": "地泽临",
+    "englishName": "approaching",
+    "hexagram": "䷒"
+   }
+  },
+  {
+   "q": "hello world",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "8533656934",
+   "h1": "85336",
+   "h2": "56934",
+   "extra": "",
+   "firstTrigram": "qian",
+   "secondTrigram": "li",
+   "numTotal": 52,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 6,
+   "binary": "111101",
+   "number": 13,
+   "hexagram": {
+    "number": 13,
+    "binary": "111101",
+    "chineseLong": "天火同人",
+    "englishName": "seeking harmony",
+    "hexagram": "䷌"
+   },
+   "changedBinary": "011101",
+   "changedNumber": 49,
+   "changedHexagram": {
+    "number": 49,
+    "binary": "011101",
+    "chineseLong": "泽火革",
+    "englishName": "abolishing the old",
+    "hexagram": "䷝"
+   }
+  },
+  {
+   "q": "1234567890",
+   "time": "2024-06-15T00:30:00+08:00",
+   "converted": "1234567890",
+   "h1": "12345",
+   "h2": "67890",
+   "extra": "",
+   "firstTrigram": "gen",
+   "secondTrigram": "kan",
+   "numTotal": 45,
+   "hourBranch": "zi",
+   "whichHour": 1,
+   "movingLine": 4,
+   "binary": "100010",
+   "number": 4,
+   "hexagram": {
+    "number": 4,
+    "binary": "100010",
+    "chineseLong": "山水蒙",
+    "englishName": "childhood",
+    "hexagram": "䷃"
+   },
+   "changedBinary": "101010",
+   "changedNumber": 64,
+   "changedHexagram": {
+    "number": 64,
+    "binary": "101010",
+    "chineseLong": "水火未济",
+    "englishName": "not yet fulfilled",
+    "hexagram": "䷿"
+   }
+  },
+  {
+   "q": "a-b_c!",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "123",
+   "h1": "1",
+   "h2": "2",
+   "extra": "3",
+   "firstTrigram": "qian",
+   "secondTrigram": "xun",
+   "numTotal": 6,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 2,
+   "binary": "111110",
+   "number": 44,
+   "hexagram": {
+    "number": 44,
+    "binary": "111110",
+    "chineseLong": "天风姤",
+    "englishName": "encountering",
+    "hexagram": "䷫"
+   },
+   "changedBinary": "111100",
+   "changedNumber": 33,
+   "changedHexagram": {
+    "number": 33,
+    "binary": "111100",
+    "chineseLong": "天山遯",
+    "englishName": "retreat",
+    "hexagram": "䷠"
+   }
+  },
+  {
+   "q": "１２",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "",
+   "result": null
+  },
+  {
+   "q": "123456789012345678901234567890",
+   "time": "2024-06-15T23:30:00+08:00",
+   "converted": "123456789012345678901234567890",
+   "h1": "123456789012345",
+   "h2": "678901234567890",
+   "extra": "",
+   "firstTrigram": "zhen",
+   "secondTrigram": "li",
+   "numTotal": 135,
+   "hourBranch": "zi",
+   "whichHour": 1,
+   "movingLine": 4,
+   "binary": "001101",
+   "number": 55,
+   "hexagram": {
+    "number": 55,
+    "binary": "001101",
+    "chineseLong": "雷火丰",
+    "englishName": "abundance",
+    "hexagram": "䷶"
+   },
+   "changedBinary": "000101",
+   "changedNumber": 36,
+   "changedHexagram": {
+    "number": 36,
+    "binary": "000101",
+    "chineseLong": "地火明夷",
+    "englishName": "brilliance injured",
+    "hexagram": "䷣"
+   }
+  },
+  {
+   "q": "0",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "0",
+   "result": null
+  },
+  {
+   "q": "00",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "00",
+   "h1": "0",
+   "h2": "0",
+   "extra": "",
+   "firstTrigram": "kun",
+   "secondTrigram": "kun",
+   "numTotal": 0,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 2,
+   "binary": "000000",
+   "number": 2,
+   "hexagram": {
+    "number": 2,
+    "binary": "000000",
+    "chineseLong": "坤为地",
+    "englishName": "responding",
+    "hexagram": "䷁"
+   },
+   "changedBinary": "000010",
+   "changedNumber": 7,
+   "changedHexagram": {
+    "number": 7,
+    "binary": "000010",
+    "chineseLong": "地水师",
+    "englishName": "multitude",
+    "hexagram": "䷆"
+   }
+  },
+  {
+   "q": "9",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "9",
+   "result": null
+  },
+  {
+   "q": "99",
+   "time": "2024-06-15T14:30:00+08:00",
+   "converted": "99",
+   "h1": "9",
+   "h2": "9",
+   "extra": "",
+   "firstTrigram": "qian",
+   "secondTrigram": "qian",
+   "numTotal": 18,
+   "hourBranch": "wei",
+   "whichHour": 8,
+   "movingLine": 2,
+   "binary": "111111",
+   "number": 1,
+   "hexagram": {
+    "number": 1,
+    "binary": "111111",
+    "chineseLong": "乾为天",
+    "englishName": "initiating",
+    "hexagram": "䷀"
+   },
+   "changedBinary": "111101",
+   "changedNumber": 13,
+   "changedHexagram": {
+    "number": 13,
+    "binary": "111101",
+    "chineseLong": "天火同人",
+    "englishName": "seeking harmony",
+    "hexagram": "䷌"
+   }
+  },
+  {
+   "q": "888",
+   "time": "2024-06-15T00:30:00+08:00",
+   "converted": "888",
+   "h1": "8",
+   "h2": "8",
+   "extra": "8",
+   "firstTrigram": "kun",
+   "secondTrigram": "kun",
+   "numTotal": 24,
+   "hourBranch": "zi",
+   "whichHour": 1,
+   "movingLine": 1,
+   "binary": "000000",
+   "number": 2,
+   "hexagram": {
+    "number": 2,
+    "binary": "000000",
+    "chineseLong": "坤为地",
+    "englishName": "responding",
+    "hexagram": "䷁"
+   },
+   "changedBinary": "000001",
+   "changedNumber": 24,
+   "changedHexagram": {
+    "number": 24,
+    "binary": "000001",
+    "chineseLong": "地雷复",
+    "englishName": "turning back",
+    "hexagram": "䷗"
+   }
+  }
+ ]
+}

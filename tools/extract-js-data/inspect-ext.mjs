@@ -1,0 +1,14 @@
+import { pathToFileURL } from 'node:url';
+import { DateTime } from 'luxon';
+const ROOT = 'C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools';
+const FourPillars = await import(pathToFileURL(ROOT + '/Plotters/FourPillars/index.js').href);
+const EightWords = await import(pathToFileURL(ROOT + '/EightWords.js').href);
+const chart = FourPillars.plot({ time: DateTime.fromISO('1990-05-15T14:30:00+08:00', { setZone: true }), showLuck: true, showWeights: true });
+console.log('before:', Object.keys(chart.pillars.year));
+EightWords.extendAuxDataChart(chart);
+console.log('after:', Object.keys(chart.pillars.year));
+console.log('naYin:', JSON.stringify(chart.pillars.year.naYin));
+console.log('stage:', JSON.stringify(chart.pillars.year.stage));
+console.log('stars:', JSON.stringify(chart.pillars.year.stars));
+console.log('annualStars:', JSON.stringify(chart.pillars.year.annualStars));
+console.log('stem keys:', Object.keys(chart.pillars.year.stem).slice(0, 30));

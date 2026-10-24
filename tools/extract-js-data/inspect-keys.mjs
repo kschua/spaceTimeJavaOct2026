@@ -1,0 +1,16 @@
+import { pathToFileURL } from 'node:url';
+import { DateTime } from 'luxon';
+const ROOT = 'C:/Temp/myTmp/bundle-sources/src/src/lib/cmtools';
+const FourPillars = await import(pathToFileURL(ROOT + '/Plotters/FourPillars/index.js').href);
+const EightWords = await import(pathToFileURL(ROOT + '/EightWords.js').href);
+const chart = FourPillars.plot({ time: DateTime.fromISO('1990-05-15T14:30:00+08:00', { setZone: true }), showLuck: true, showWeights: true });
+console.log('branch keys (pre-extend):', Object.keys(chart.pillars.year.branch));
+EightWords.extendAuxDataChart(chart);
+console.log('branch keys (post):', Object.keys(chart.pillars.year.branch));
+console.log('branch.stems:', JSON.stringify(chart.pillars.year.branch.stems));
+console.log('stem keys (post):', Object.keys(chart.pillars.year.stem));
+const j = JSON.parse(JSON.stringify(chart));
+console.log('serialized branch keys:', Object.keys(j.pillars.year.branch));
+console.log('serialized stem has interactions:', 'interactions' in j.pillars.year.stem);
+console.log('serialized luck[1] keys:', Object.keys(j.luck[1].pillar));
+console.log('serialized info keys:', Object.keys(j.info));
